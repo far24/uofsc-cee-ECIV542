@@ -17,15 +17,13 @@ website:
     logo: "images/traffic_light_006.jpg"
     pinned: true
     align: center
-    tools:
-      - icon: link
-        href: https://blackboard.sc.edu/webapps/login/
-        text: "Login to Blackboard"
-    
+
     style: "docked"
     search: true
     collapse-level: 1
     contents:
+      - href: https://blackboard.sc.edu/webapps/login/
+        text: "Login to Blackboard"
       - section: "Course information"
         contents:
           - href: index.qmd
@@ -101,7 +99,7 @@ format:
   html:
     theme:
       light: [cosmo]
-      dark: [cosmo]
+      # dark: [cosmo]
     mainfont: "Atkinson Hyperlegible"
     code-copy: true
     code-overflow: wrap
