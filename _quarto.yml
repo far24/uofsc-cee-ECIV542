@@ -14,7 +14,7 @@ website:
 
   sidebar:
     background: "#D9E3E4"
-    logo: "images/logo.png"
+    logo: "images/traffic_light_006.jpg"
     pinned: true
     align: center
     tools:
@@ -28,6 +28,8 @@ website:
     contents:
       - section: "Course information"
         contents:
+          - href: index.qmd
+            text: Home
           - href: course-overview.qmd
             text: Overview
           - href: course-syllabus.qmd
@@ -36,8 +38,7 @@ website:
             text: Support
           - href: course-team.qmd
             text: Teaching team
-          - href: index.qmd
-            text: Schedule
+
           - href: course-links.qmd
             text: Useful links
           - href: course-faq.qmd
