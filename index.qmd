@@ -1,7 +1,18 @@
 ---
-title: "uofsc-cee-ECIV542"
+title: "ECIV 542: Traffic Engineering at UofSC, Fall 2026."
+image: images/traffic_light_006.jpg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/samanthacsik/
+    - text: GitHub
+      href: https://github.com/samanthacsik
+    - text: Email
+      href: mailto:scsik@ucsb.edu
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# page content excluded for brevity \~
