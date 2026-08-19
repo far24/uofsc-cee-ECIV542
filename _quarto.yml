@@ -8,8 +8,8 @@ website:
   description: "Homepage for ECIV 542: Traffic Engineering at UofSC, Fall 2026."
 
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2022, Mine Çetinkaya-Rundel"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2026, Fahim Ahmed; Inspired from Mine Çetinkaya-Rundel"
     background: "#D9E3E4"
 
   sidebar:
@@ -22,25 +22,22 @@ website:
     search: true
     collapse-level: 1
     contents:
+      - href: index.qmd
+        text: Home/Announcement
       - href: https://blackboard.sc.edu/webapps/login/
-        text: "Login to Blackboard"
-      - section: "Course information"
-        contents:
-          - href: index.qmd
-            text: Home
-          - href: course-overview.qmd
-            text: Overview
-          - href: course-syllabus.qmd
-            text: Syllabus
-          - href: course-support.qmd
-            text: Support
-          - href: course-team.qmd
-            text: Teaching team
-
-          - href: course-links.qmd
-            text: Useful links
-          - href: course-faq.qmd
-            text: FAQ
+        text: Login to Blackboard
+      - href: course-schedule.qmd
+        text: Fall 2026 Schedule
+      - href: https://blackboard.sc.edu/webapps/login/
+        text: Syllabus (Blackboard)
+      # - href: course-support.qmd
+      #   text: Support
+      - href: course-team.qmd
+        text: Teaching team
+      - href: course-links.qmd
+        text: Useful links
+      - href: course-faq.qmd
+        text: FAQ
       - section: "Project"
         # contents:
         #   - href: project-description.qmd
@@ -50,9 +47,9 @@ website:
         #   - href: project-tips-resources.qmd
         #     text: Lab Software/Manual
       - section: "Learning materials"
-        # contents:
-        #   - href: weeks/week-1.qmd
-        #     text: "Week 1"
+        contents:
+          - href: lecture/eciv542syllabusFall26.qmd
+            text: "Class 01: Intro & Syllabus"
         #   - href: weeks/week-2.qmd
         #     text: "Week 2"
         #   - href: weeks/week-3.qmd

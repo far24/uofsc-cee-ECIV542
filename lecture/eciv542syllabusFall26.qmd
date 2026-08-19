@@ -1,0 +1,93 @@
+---
+title: "Traffic Engineering </br> Fall 2026"
+#author: "Fahim Ahmed"
+format: 
+  revealjs:
+    theme: serif
+---
+
+## Welcome to Traffic Engineering
+- ECIV 542, Fall 2026
+- MW 11 AM - 12:15PM, Swearingen 2A07
+
+## Meet Your Instructor
+Dr. FAHIM AHMED    
+Adjuct Faculty, UofSC   
+Engineer, SCDOT
+
+- BACKGROUND:  
+    - PhD in Transportation (Logistics)  
+    - M.S. , M.A.S, EIT  
+
+- WHAT I WORK ON:  
+    - Highway Design/Traffic Safety  
+    - Logistic Modeling
+
+## Meet Your Instructor
+- MY APPROACH:  
+    - Understand {{< fa arrow-right >}} Apply {{< fa arrow-right >}} Interpret
+
+- OUTSIDE ENGR.:  
+    - Soccer (ManU fan)  
+    - Travel
+
+::: {.notes}
+We'll certainly do calculations in this class, but I don't want you to just know which equation to use. I want you to understand what you're calculating, why an engineer needs it, and what the result tells us about the transportation system.
+:::
+
+## 
+::: {.r-fit-text}
+Getting to Know You
+:::
+
+- Name
+- Undergraduate or Graduate student
+- Major/year
+- Why are you taking this course?
+- What comes to mind when you hear “Traffic Engineering”?
+
+## Syllabus: Course Description
+- This course (ECIV 542) is designed to teach students the fundamentals of traffic engineering. 
+- This course will enable students to solve transportation problems that are likely to appear in FE/PE exam and professional practice. 
+- Serve as a foundation for graduate coursework at USC or other academic institutions.
+
+
+## Syllabus: Pre-requisite
+- ECIV 340 (Introduction to Transportation Engineering)
+
+## Syllabus: Textbook
+- Traffic Engineering, 5th edition, by Roger P. Roess, Elena S.
+Prassas, and William R. McShane. Pearson Higher
+Education, Inc., 2019; ISBN-13: 978-0134599717
+
+## Syllabus: Performance Evaluation
+- Homework assignments: 6-8
+- Exams: 02
+- Project: 01 (Divided into 4 Tasks)
+
+
+
+## Syllabus: Grade Distribution
+|     Grading   Rubric                    |     Undergraduate    |     Graduate    |
+|-----------------------------------------|----------------------|-----------------|
+|     Exam 1                              |     35%              |     30%         |
+|     Exam 2                              |     35%              |     30%         |
+|     Homework                            |     10%              |     10%         |
+|     Class Project   (Standard Scope)    |     20%              |     20%         |
+|<mark>Class Project   (Advanced Scope)</mark>|     0%               |     10%         |
+
+## Syllabus: Class Attendance
+- You are expected to attend all lectures and labs and contribute to the team’s class project.
+
+## Syllabus: Class Documents
+All class documents will be made available on Blackboard. The instructor will provide supplemental notes. It is the <mark>student’s responsibility</mark> to check Blackboard and print the provided documents.
+
+## Syllabus: Class Project
+- Students will work in groups of 3-6 to conduct traffic analyses of intersections near campus.
+- Each team will be assigned to one intersection (randomly).
+- Each team will be responsible for collecting its own data, performing appropriate analyses, and making recommendations.  
+- There will be a final report, and if time permits, each team will make a presentation to the class describing their work.
+
+
+## Schedule
+

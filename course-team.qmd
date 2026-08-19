@@ -1,0 +1,17 @@
+---
+title: ""
+image: "images/FA_UofSC_headshot.png"
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 10em
+  links:
+  - text: Email Instructor
+    href: mailto:ahmedf@email.sc.edu
+
+---
+
+## Dr. Fahim Ahmed
+- Phd in Transportation (Logistics)    
+- MS, MAS, EIT    
+- Email: ahmedf@email.sc.edu    

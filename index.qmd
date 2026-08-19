@@ -1,19 +1,22 @@
 ---
-title: "ECIV 542: Traffic Engineering at UofSC, Fall 2026."
-toc: false
+title: "ECIV 542: Traffic Engineering (Fall 2026)"
+image: ""
 about: 
-  template: jolla
+  template: trestles
   image-shape: round
-  image-width: 17em
+  image-width: 10em
+  links:
+  - text: Blackboard
+    href: https://blackboard.sc.edu/webapps/login/s
+  - text: Email Instructor
+    href: mailto:ahmedf@email.sc.edu
+  - text: SDRC
+    href: https://sc.edu/about/offices_and_divisions/student_disability_resource_center/
 
+    
 ---
-  <!-- links: -->
-  <!--   - text: LinkedIn -->
-  <!--     href: https://www.linkedin.com/in/samanthacsik/ -->
-  <!--   - text: GitHub -->
-  <!--     href: https://github.com/samanthacsik -->
-  <!--   - text: Email -->
-  <!--     href: mailto:scsik@ucsb.edu -->
+
+## Updates
+- 08/18/2026: Class begin tomorrow 
 
 
-# page content excluded for brevity \~

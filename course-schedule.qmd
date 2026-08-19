@@ -1,0 +1,24 @@
+---
+title: "ECIV542: Schedule (Tentative)"
+format: html
+execute:
+  warning: false
+  message: false
+  echo: false
+---
+
+
+```{r}
+
+# Load the package
+library(readr)
+library(knitr)
+
+# Import the CSV file
+my_data <- read_csv("eciv542Schedule.csv", na = c("", "NA"))
+
+
+# View the first few rows
+kable(my_data)
+```
+

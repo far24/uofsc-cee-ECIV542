@@ -1,13 +1,165 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ECIV 542: Traffic Engineering at UofSC, Fall 2026.",
+    "objectID": "course-team.html",
+    "href": "course-team.html",
+    "title": "ECIV542: Traffic Engineering",
     "section": "",
-    "text": "page content excluded for brevity ~",
+    "text": "Phd in Transportation (Logistics)\n\nMS, MAS, EIT\n\nEmail: ahmedf@email.sc.edu",
     "crumbs": [
-      "Course information",
-      "Home"
+      "Teaching team"
+    ]
+  },
+  {
+    "objectID": "course-team.html#dr.-fahim-ahmed",
+    "href": "course-team.html#dr.-fahim-ahmed",
+    "title": "ECIV542: Traffic Engineering",
+    "section": "",
+    "text": "Phd in Transportation (Logistics)\n\nMS, MAS, EIT\n\nEmail: ahmedf@email.sc.edu",
+    "crumbs": [
+      "Teaching team"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
+    "href": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Welcome to Traffic Engineering",
+    "text": "Welcome to Traffic Engineering\n\nECIV 542, Fall 2026\nMW 11 AM - 12:15PM, Swearingen 2A07",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
+    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\nDr. FAHIM AHMED\nAdjuct Faculty, UofSC\nEngineer, SCDOT\n\nBACKGROUND:\n\nPhD in Transportation (Logistics)\n\nM.S. , M.A.S, EIT\n\nWHAT I WORK ON:\n\nHighway Design/Traffic Safety\n\nLogistic Modeling",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
+    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\n\nMY APPROACH:\n\nUnderstand  Apply  Interpret\n\nOUTSIDE ENGR.:\n\nSoccer (ManU fan)\n\nTravel\n\n\n\nWe’ll certainly do calculations in this class, but I don’t want you to just know which equation to use. I want you to understand what you’re calculating, why an engineer needs it, and what the result tells us about the transportation system.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#section",
+    "href": "lecture/eciv542syllabusFall26.html#section",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "",
+    "text": "Getting to Know You\n\n\nName\nUndergraduate or Graduate student\nMajor/year\nWhy are you taking this course?\nWhat comes to mind when you hear “Traffic Engineering”?",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Course Description",
+    "text": "Syllabus: Course Description\n\nThis course (ECIV 542) is designed to teach students the fundamentals of traffic engineering.\nThis course will enable students to solve transportation problems that are likely to appear in FE/PE exam and professional practice.\nServe as a foundation for graduate coursework at USC or other academic institutions.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Pre-requisite",
+    "text": "Syllabus: Pre-requisite\n\nECIV 340 (Introduction to Transportation Engineering)",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Textbook",
+    "text": "Syllabus: Textbook\n\nTraffic Engineering, 5th edition, by Roger P. Roess, Elena S. Prassas, and William R. McShane. Pearson Higher Education, Inc., 2019; ISBN-13: 978-0134599717",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Performance Evaluation",
+    "text": "Syllabus: Performance Evaluation\n\nHomework assignments: 6-8\nExams: 02\nProject: 01 (Divided into 4 Tasks)",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Grade Distribution",
+    "text": "Syllabus: Grade Distribution\n\n\n\n\n\n\n\n\nGrading Rubric\nUndergraduate\nGraduate\n\n\n\n\nExam 1\n35%\n30%\n\n\nExam 2\n35%\n30%\n\n\nHomework\n10%\n10%\n\n\nClass Project (Standard Scope)\n20%\n20%\n\n\nClass Project (Advanced Scope)\n0%\n10%",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Attendance",
+    "text": "Syllabus: Class Attendance\n\nYou are expected to attend all lectures and labs and contribute to the team’s class project.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Documents",
+    "text": "Syllabus: Class Documents\nAll class documents will be made available on Blackboard. The instructor will provide supplemental notes. It is the student’s responsibility to check Blackboard and print the provided documents.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Project",
+    "text": "Syllabus: Class Project\n\nStudents will work in groups of 3-6 to conduct traffic analyses of intersections near campus.\nEach team will be assigned to one intersection (randomly).\nEach team will be responsible for collecting its own data, performing appropriate analyses, and making recommendations.\n\nThere will be a final report, and if time permits, each team will make a presentation to the class describing their work.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#schedule",
+    "href": "lecture/eciv542syllabusFall26.html#schedule",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Schedule",
+    "text": "Schedule",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
     ]
   },
   {
@@ -16,5 +168,35 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow",
+    "crumbs": [
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow",
+    "crumbs": [
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "course-schedule.html",
+    "href": "course-schedule.html",
+    "title": "ECIV542: Schedule (Tentative)",
+    "section": "",
+    "text": "Class #\nDate\nDay\nTopics (Tentative)\nReference\n\n\n\n\nNA\n18-Aug-26\nT\nFall 2026 Classes Begin\nNA\n\n\n1\n19-Aug-26\nW\nSyllabus / Road user and vehicle characteristics\nCh. 1 & 2\n\n\n2\n24-Aug-26\nM\nRoadways and their geometric characteristics\nCh. 3\n\n\n3\n26-Aug-26\nW\nRoadways and their geometric characteristics\nCh. 3\n\n\n4\n31-Aug-26\nM\nTraffic Control Devices\nCh. 4\n\n\n5\n2-Sep-26\nW\nTraffic stream characteristics\nCh. 5\n\n\nNA\n7-Sep-26\nM\nLabor Day (No Class)\nNA\n\n\n6\n9-Sep-26\nW\nIntroduction to traffic flow theory\nCh. 6\n\n\n7\n14-Sep-26\nM\nIntroduction to traffic flow theory (cont.)\nCh. 7\n\n\n8\n16-Sep-26\nW\nStatistical applications in traffic engineering & data\nCh. 9\n\n\n9\n21-Sep-26\nM\nFreeways and Multi-Lane Highways\nCh. 28\n\n\n10\n23-Sep-26\nW\nWeaving Movements\nCh. 29\n\n\n11\n28-Sep-26\nM\nMerging and Diverging Movements\nCh. 30\n\n\n12\n30-Sep-26\nW\nHierarchy of intersection control\nCh. 15\n\n\n13\n5-Oct-26\nM\nIntersection design and layout\nCh. 17\n\n\n14\n7-Oct-26\nW\nIntersection design and layout (cont.)\nCh. 17\n\n\n15\n12-Oct-26\nM\nExam 1\nNA\n\n\n16\n14-Oct-26\nW\nPrinciples of Signal Timing and Design\nCh. 18, 19\n\n\n17\n19-Oct-26\nM\nFundamentals of actuated signal design\nCh. 20\n\n\n18\n21-Oct-26\nW\nSignal coordination for arterials and networks\nCh. 21\n\n\n19\n26-Oct-26\nM\nHCM/HCS Workshop\nLab\n\n\n20\n28-Oct-26\nW\nAnalysis of Signalized Intersections\nCh. 23\n\n\n21\n2-Nov-26\nM\nAnalysis of Urban Streets\nCh. 24\n\n\n22\n4-Nov-26\nW\nSynchro 10 Workshop\nLab\n\n\n23\n9-Nov-26\nM\nAnalysis of Urban Streets\nCh. 24\n\n\n24\n11-Nov-26\nW\nSynchro 10 Workshop\nLab\n\n\n25\n16-Nov-26\nM\nAnalysis of Unsignalized Intersections\nCh. 25\n\n\n26\n18-Nov-26\nW\nAnalysis of Unsignalized Intersections\nCh. 25\n\n\nNA\n23-Nov-26\nM\nThanksgiving Recess (no classes)\nNA\n\n\nNA\n25-Nov-26\nW\nThanksgiving Recess (no classes)\nNA\n\n\n27\n30-Nov-26\nM\nTBD\nNA\n\n\n28\n2-Dec-26\nW\nTBD\nNA\n\n\n29\nTBD\nNA\nExam 2\nNA",
+    "crumbs": [
+      "Fall 2026 Schedule"
+    ]
   }
 ]
