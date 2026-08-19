@@ -174,6 +174,94 @@
     ]
   },
   {
+    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "What is Traffic Engineering?",
+    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Primary Objective: SAFETY",
+    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Mobility vs. Accessibility",
+    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
+    "href": "lecture/introTrafficEngr.html#transportation-modes",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Transportation Modes",
+    "text": "Transportation Modes",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#section",
+    "href": "lecture/introTrafficEngr.html#section",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "",
+    "text": "What’s Missing?",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Elements of Traffic Engineering",
+    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Modern Problems for the Traffic Engineer",
+    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Key Manuals and References",
+    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro to Traffic Engr."
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

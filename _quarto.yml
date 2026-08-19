@@ -48,6 +48,8 @@ website:
         contents:
           - href: lecture/eciv542syllabusFall26.qmd
             text: "Class 01: Intro & Syllabus"
+          - href: lecture/introTrafficEngr.qmd
+            text: "Class 01: Intro to Traffic Engr."
         #   - href: weeks/week-2.qmd
         #     text: "Week 2"
         #   - href: weeks/week-3.qmd
