@@ -46,6 +46,13 @@ Getting to Know You
 - Why are you taking this course?
 - What comes to mind when you hear “Traffic Engineering”?
 
+
+## Course Content
+- Blackboard
+- Website: [Link](https://far24.github.io/uofsc-cee-ECIV542/)
+
+
+
 ## Syllabus: Course Description
 - This course (ECIV 542) is designed to teach students the fundamentals of traffic engineering. 
 - This course will enable students to solve transportation problems that are likely to appear in FE/PE exam and professional practice. 
@@ -64,7 +71,6 @@ Education, Inc., 2019; ISBN-13: 978-0134599717
 - Homework assignments: 6-8
 - Exams: 02
 - Project: 01 (Divided into 4 Tasks)
-
 
 
 ## Syllabus: Grade Distribution
@@ -90,4 +96,4 @@ All class documents will be made available on Blackboard. The instructor will pr
 
 
 ## Schedule
-
+[ECIV 542 Fall 2026 Schedule](https://far24.github.io/uofsc-cee-ECIV542/course-schedule.html)

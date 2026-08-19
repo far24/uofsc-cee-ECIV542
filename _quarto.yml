@@ -24,8 +24,6 @@ website:
     contents:
       - href: index.qmd
         text: Home/Announcement
-      - href: https://blackboard.sc.edu/webapps/login/
-        text: Login to Blackboard
       - href: course-schedule.qmd
         text: Fall 2026 Schedule
       - href: https://blackboard.sc.edu/webapps/login/
@@ -34,10 +32,10 @@ website:
       #   text: Support
       - href: course-team.qmd
         text: Teaching team
-      - href: course-links.qmd
-        text: Useful links
-      - href: course-faq.qmd
-        text: FAQ
+      # - href: course-links.qmd
+      #   text: Useful links
+      # - href: course-faq.qmd
+      #   text: FAQ
       - section: "Project"
         # contents:
         #   - href: project-description.qmd
