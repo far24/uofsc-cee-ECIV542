@@ -7,8 +7,10 @@ format:
 ---
 
 ## PROBLEM 01
-
 1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?  
+
+![](images/chap2/ch2prob1.png){fig-align="center"}
+
 
 ## PROBLEM 02
 2. Given the roadway scenario, how long should the yellow interval of the signal?
@@ -58,6 +60,10 @@ Where:
 ::: {.r-fit-text .text-center .fragment}
 $$1 mph = \frac{5280}{3600}  fps = 1.47 fps$$
 :::
+
+## Stopping SD: SSD
+
+![](images/chap2/ch2signal1.PNG){fig-align="center"}
 
 ## Stopping SD: SSD
 
@@ -142,15 +148,16 @@ flowchart LR
 * Design Stds:
   - $a = 11.2 fps$ -->  $F=\frac{a}{g}=\frac{11.2 f/s^2}{32.2 f/s^2}=0.348$
 
-![](images/chap2/ch2Table2-5_DSD.png){fig-align="center"}
+![](images/chap2/ch2Table2-5_acc.png){fig-align="center"}
 
 ## PROBLEM 01
-
 1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?  
 
+![](images/chap2/ch2prob1.png){fig-align="center"}
 
 ## PROB 01: UNDERSTAND (Part 1)
 1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?
+![](images/chap2/ch2prob1-sol.png){fig-align="center"}
 
 
 ## PROB 01: APPLY  (Part 1)
@@ -169,11 +176,11 @@ flowchart LR
 
 . . . 
 
-- Since $d_{ssd}$ = $726.6 ft$ is higher that $500 ft$, the provided SSD is NOT safe 
+- Since $d_{ssd}$ = $726.6 ft$ is higher that $500 ft$, the provided SSD is **NOT** safe 
 
 ## PROB 01: UNDERSTAND (Part 2)
 1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? **If not, what could be the <mark>implications</mark> of the provided sight distance?**
-![](images/chap2/ch2signal5.PNG){fig-align="center"}
+
 
 
 ## PROB 01: APPLY  (Part 2)
@@ -198,9 +205,10 @@ flowchart LR
 ## PROBLEM 02
 2. Given the roadway scenario, how long should the yellow interval of the signal?
 
-
 ## PROB 02: UNDERSTAND
 2. Given the roadway scenario, how long should the yellow interval of the signal?
+
+![](images/chap2/ch2signal5.PNG){fig-align="center"}
 
 ## PROB 02: APPLY
 2. Given the roadway scenario, how long should the yellow interval of the signal?

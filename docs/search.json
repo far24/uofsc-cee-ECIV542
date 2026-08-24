@@ -273,7 +273,7 @@
     "href": "index.html",
     "title": "ECIV 542: Traffic Engineering (Fall 2026)",
     "section": "",
-    "text": "08/18/2026: Class begin tomorrow",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard",
     "crumbs": [
       "Home/Announcement"
     ]
@@ -283,7 +283,7 @@
     "href": "index.html#updates",
     "title": "ECIV 542: Traffic Engineering (Fall 2026)",
     "section": "",
-    "text": "08/18/2026: Class begin tomorrow",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard",
     "crumbs": [
       "Home/Announcement"
     ]
@@ -379,6 +379,17 @@
   {
     "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
     "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-3",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-3",
     "title": "Ch. 2: Road user and vehicle characteristics",
     "section": "Stopping SD: SSD",
     "text": "Stopping SD: SSD\n\nSSD = Reaction Distance (\\(d_r\\)) + Braking Distance (\\(d_b\\))\n\n\n\n\n\n\nflowchart LR\n  A[SSD] --&gt; B(\"$$d_r$$\")\n  A --&gt; C(\"$$d_b$$\")\n  B --&gt; B1(PRT)\n  C --&gt; C1(Acceleration)",
