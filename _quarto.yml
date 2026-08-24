@@ -49,9 +49,9 @@ website:
           - href: lecture/eciv542syllabusFall26.qmd
             text: "Class 01: Intro & Syllabus"
           - href: lecture/introTrafficEngr.qmd
-            text: "Class 01: Intro to Traffic Engr."
-        #   - href: weeks/week-2.qmd
-        #     text: "Week 2"
+            text: "Class 01: Ch1- Intro to Traffic Engr."
+          - href: lecture/rdUserVehCharacteristics.qmd
+            text: "Class 02: Ch2 - Road User and Veh. Characteristics"
         #   - href: weeks/week-3.qmd
         #     text: "Week 3"
         #   - href: weeks/week-4.qmd

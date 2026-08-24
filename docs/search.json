@@ -181,7 +181,7 @@
     "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -192,7 +192,7 @@
     "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year.",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -203,7 +203,7 @@
     "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways.",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -214,7 +214,7 @@
     "text": "Transportation Modes",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -225,7 +225,7 @@
     "text": "What’s Missing?",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -236,7 +236,7 @@
     "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -247,7 +247,7 @@
     "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -258,7 +258,7 @@
     "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro to Traffic Engr."
+      "Class 01: Ch1- Intro to Traffic Engr."
     ]
   },
   {
@@ -286,6 +286,325 @@
     "text": "08/18/2026: Class begin tomorrow",
     "crumbs": [
       "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-01",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 01",
+    "text": "PROBLEM 01\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-02",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-02",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 02",
+    "text": "PROBLEM 02\n\nGiven the roadway scenario, how long should the yellow interval of the signal?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#concepts",
+    "href": "lecture/rdUserVehCharacteristics.html#concepts",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "CONCEPTS",
+    "text": "CONCEPTS\n\nSight Distance (SD)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#sight-distance-sd",
+    "href": "lecture/rdUserVehCharacteristics.html#sight-distance-sd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SIGHT DISTANCE (SD)",
+    "text": "SIGHT DISTANCE (SD)\n\nSD: How much of the roadway drivers’ able to see (perceive)\nTypes of SD:\n\nStopping SD (SSD)\nDecision SD (DSD)\nPassing SD (PSD)\nIntersection SD (ISD)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#basic-equations",
+    "href": "lecture/rdUserVehCharacteristics.html#basic-equations",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "BASIC EQUATIONS",
+    "text": "BASIC EQUATIONS\n\n\n\n\\(d = St\\)\n\\(S_f^2 = S_i^2 + 2ad\\)\n\n\nWhere:\n\n\\(S_f\\)= final speed, \\(ft/s\\) or \\(mph\\)\n\\(S_i\\)= initial speed, \\(ft/s\\) or \\(mph\\)\n\n\\(a\\)= acceleration/deceleration, \\(ft/s^2\\)\n\\(t\\)= time/duration, seconds (\\(s\\)) or hours (\\(h\\))\n\\(d\\)= distance traveled, feet (\\(ft\\))",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#unit-convertion",
+    "href": "lecture/rdUserVehCharacteristics.html#unit-convertion",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "UNIT CONVERTION",
+    "text": "UNIT CONVERTION\n\n1 mile = 5280 feet\n1 hour = 3600 sec\n\nConvert mph to ft/sec (fps)\n\n\\[1 mph = \\frac{5280}{3600}  fps = 1.47 fps\\]",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-1",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD\n\nSSD = Reaction Distance (\\(d_r\\)) + Braking Distance (\\(d_b\\))\n\n\n\n\n\n\nflowchart LR\n  A[SSD] --&gt; B(\"$$d_r$$\")\n  A --&gt; C(\"$$d_b$$\")\n  B --&gt; B1(PRT)\n  C --&gt; C1(Acceleration)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-reaction-distance",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-reaction-distance",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Reaction Distance",
+    "text": "SSD: Reaction Distance\nPRT (\\(t_r\\)) ~ Perception-Reaction Time\nPRT (\\(t_r\\)) ~ f(age, fatigue, complexity of roadway, DUI)\n\n\\[d = St\\] \\[d_r (ft) = S (fps) \\times t_r(sec)\\] \\[d_r (ft) = 1.47 \\times S (mph) \\times t_r(sec)\\]\n\n\n\nAASHTO Design value: 2.5 sec\nITE Signal Design value: 1 sec (Expectancy)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-braking-distance",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-braking-distance",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Braking Distance",
+    "text": "SSD: Braking Distance\n\n\n\n\\(S_f^2 = S_i^2 + 2ad_b\\)\n\\[d_b=\\frac{S_i^2 - S_f^2}{2a}\\]\n\\[d_b=\\frac{S_i^2 - S_f^2}{2(Fg)}\\]\n\\[d_b=\\frac{(1.47)^2 \\times S_i^2 - S_f^2}{2(F \\times 32.2)}\\]\n\\[d_b= \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\]\n\n\n\n\\(S_i\\) or \\(S_f\\): speed\n\\(d_b\\): Braking Distance\n\n\\(G\\): Grade (%)\n\\(F=\\frac{a}{g}\\): Coefficient of friction,\n\\(a\\): deceleration rate",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-full-equation",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-full-equation",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Full Equation",
+    "text": "SSD: Full Equation\n\nSSD = Reaction Distance (\\(d_r\\)) + Braking Distance (\\(d_b\\))\n\n\n\n\n\n\nflowchart LR\n  A[SSD] --&gt; B(\"$$d_r$$\")\n  A --&gt; C(\"$$d_b$$\")\n  B --&gt; B1(PRT)\n  C --&gt; C1(Acceleration)\n\n\n\n\n\n\n\n\\(d_{ssd}=d_r + d_b\\)\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-full-equation-1",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-full-equation-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Full Equation",
+    "text": "SSD: Full Equation\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(a = 11.2 fps\\) –&gt; \\(F=\\frac{a}{g}=\\frac{11.2 f/s^2}{32.2 f/s^2}=0.348\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-01-1",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-01-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 01",
+    "text": "PROBLEM 01\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-1",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: UNDERSTAND (Part 1)",
+    "text": "PROB 01: UNDERSTAND (Part 1)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-1",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: APPLY (Part 1)",
+    "text": "PROB 01: APPLY (Part 1)\n1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5  + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd} = 257.3 + 469.3 = 726.6 ft\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-1",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: INTERPRET (Part 1)",
+    "text": "PROB 01: INTERPRET (Part 1)\n1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?\n\n\nSince \\(d_{ssd}\\) = \\(726.6 ft\\) is higher that \\(500 ft\\), the provided SSD is NOT safe",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-2",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: UNDERSTAND (Part 2)",
+    "text": "PROB 01: UNDERSTAND (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-2",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: APPLY (Part 2)",
+    "text": "PROB 01: APPLY (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(500=1.47 \\times 70 \\times 2.5  + \\frac{70^2 - S_f^2}{30(0.348 \\pm 0)}\\)\n\\(S_f = 48.6 mph\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-2",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: INTERPRET (Part 2)",
+    "text": "PROB 01: INTERPRET (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?\n\n\n\nIf \\(500 ft\\) is provided, the speed of the collision would be at a speed of \\(48.6mph\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-02-1",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-02-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 02",
+    "text": "PROBLEM 02\n\nGiven the roadway scenario, how long should the yellow interval of the signal?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-understand",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-02-understand",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 02: UNDERSTAND",
+    "text": "PROB 02: UNDERSTAND\n\nGiven the roadway scenario, how long should the yellow interval of the signal?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-apply",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-02-apply",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 02: APPLY",
+    "text": "PROB 02: APPLY\n\nGiven the roadway scenario, how long should the yellow interval of the signal?\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(d_{ssd}=1.47 \\times 50 \\times 1  + \\frac{50^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd} = 73.5 + 293.46 = 312.96 ft\\)\n\n\n\nyellow interval = Time it takes a veh to travel 312.96 ft at a speed of 50mph\n\nyellow interval, \\(y = \\frac{312.96}{50} = 6.25 sec\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-interpret",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-02-interpret",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 02: INTERPRET",
+    "text": "PROB 02: INTERPRET\n\nGiven the roadway scenario, how long should the yellow interval of the signal?\n\n\n\nYellow interval = 6.25 sec",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd",
+    "href": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "COMPLEX SCENARIOS for SD",
+    "text": "COMPLEX SCENARIOS for SD",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd-1",
+    "href": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "COMPLEX SCENARIOS for SD",
+    "text": "COMPLEX SCENARIOS for SD\n\nInterchange / Intersection\nChange in XS (e.g. lane drop)\nToll Plaza",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd",
+    "href": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Decision SD: DSD",
+    "text": "Decision SD: DSD\n\nDSD: Sight distance based on collision-avoidance decision reaction time\nStop Maneuver (A or B)\n\n\\(d_{dsd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\nSpeed/path/direction change Maneuver (C/D/E)\n\n\\(d_{dsd}=1.47 S_i (t_r + t_m)\\)\n\\(t_r\\): reaction time for appropriate avoidance maneuver, s\n\\(t_m\\): maneuver time, s",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd-1",
+    "href": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Decision SD: DSD",
+    "text": "Decision SD: DSD\n\n\n\n\\(t_m\\)\n\n\n\\(t_r\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ch.-2-road-user-and-vehicle-characteristics",
+    "href": "lecture/rdUserVehCharacteristics.html#ch.-2-road-user-and-vehicle-characteristics",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Ch. 2: Road user and vehicle characteristics",
+    "text": "Ch. 2: Road user and vehicle characteristics\nEND",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch2 - Road User and Veh. Characteristics"
     ]
   },
   {
