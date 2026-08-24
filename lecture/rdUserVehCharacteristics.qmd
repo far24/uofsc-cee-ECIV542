@@ -3,6 +3,7 @@ title: "Ch. 2: Road user and vehicle characteristics"
 format: 
   revealjs:
     theme: serif
+    slide-number: true
     scrollable: true
 ---
 

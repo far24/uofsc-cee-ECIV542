@@ -1,0 +1,181 @@
+---
+title: "Ch. 3: Horizontal Design of Roadway"
+format: 
+  revealjs:
+    theme: serif
+    slide-number: true
+    scrollable: true
+---
+
+## TOPICS
+
+* **Horizontal Curve**
+  - Hor. Curve Alignments
+  - Hor. Curve Equations
+  - Superelevation
+  - Min. Radius of Curve
+  - Stopping Sight Distance (SSD) on the curve
+
+## Arc and Chord Definition
+
+![](images/chap3/arcDefn.png){fig-align="center"}
+
+
+* *Degree of curvature*: the central angle (D) to the ends of an agreed length (i.e. 100 ft) of either an arc or a chord.
+
+## Stationing
+
+![](images/chap3/ch3horDgn_us378.png){fig-align="center"}
+
+## Horizontal Curve Alignments
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* Objectives:
+  - Provide a transition between two straight (tangent) sections.
+* Things to consider
+  - speed, side friction, superelevation, etc.
+  - Severity (tight/gentle) measured by the degree of curvature
+:::
+
+::: {.column width="50%"}
+![](images/chap3/ch3horDgn_us378.png)
+:::
+
+::::
+
+## Hor. Curve Equations
+![](images/chap3/ch3horDgn_curvePtsSketch.png){fig-align="center"}
+
+## Hor. Curve Equations
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](images/chap3/ch3horDgn_us378.png)
+:::
+
+::: {.column width="40%"}
+![](images/chap3/ch3horDgn_curvePtsSketch.png)
+:::
+
+::::
+
+## Hor. Curve Equations
+![](images/chap3/ch3horDgn_curvePts.png){fig-align="center"}
+
+## Hor. Curve Equations
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](images/chap3/ch3horDgn_curveEq.png)
+:::
+
+::: {.column width="70%"}
+![](images/chap3/ch3horDgn_curvePtsSketch.png)
+:::
+
+::::
+
+## Hor. Curve Eq. : Problem
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Two tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the
+angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E).
+:::
+
+::: {.column width="60%"}
+![](images/chap3/ch3horDgn_curveProb.png)
+:::
+
+::::
+
+
+## SSD on Curve
+![](images/chap3/ch3horDgn_curveSSDtunnel.png)
+
+## SSD on Curve
+
+* Sight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.
+* A minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway.
+
+## SSD on Curve
+:::: {.columns}
+
+::: {.column width="40%"}
+* When such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes).
+:::
+
+::: {.column width="60%"}
+![](images/chap3/ch3horDgn_curveSSDSketch.png)
+:::
+
+::::
+
+## SSD on Curve
+:::: {.columns}
+
+::: {.column width="40%"}
+* for a specified stopping distance, some distance, Ms (the middle ordinate of a curve that
+has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available.
+:::
+
+::: {.column width="60%"}
+![](images/chap3/ch3horDgn_curveSSDSketch.png)
+:::
+
+::::
+
+
+## SSD on Curve
+:::: {.columns}
+
+::: {.column width="60%"}
+* $d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}$
+* Design Stds:
+  - $F=0.348$
+* $M_{s}=R_v(1- cos \frac{90d_{ssd}}{\pi R_v})$
+  - $R_v = \frac{5729.58}{D_v}$
+
+:::
+
+::: {.column width="40%"}
+![](images/chap3/ch3horDgn_curveSSDSketch.png)
+:::
+
+::::
+
+## SSD on Curve: Problem
+
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+A 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?
+:::
+
+::: {.column width="40%"}
+![](images/chap3/ch3horDgn_curveSSDSketch.png)
+:::
+
+::::
+
+. . . 
+
+* $d_{ssd}=1.47 \times 70 \times 2.5 + \frac{70^2 - 0^2}{30(0.348 \pm 0)}$
+* $d_{ssd}=726.6 ft$
+
+For a SSD of $726.6ft$, the min clearance at roadside:
+
+* $M_{s}= R_v(1- cos \frac{90d_{ssd}}{\pi R_v})$
+* $M_{s}= \frac{5729.58}{6} \times (1- cos \frac{90 \times 726.26}{\pi \frac{5729.58}{6}})$
+* $M_{s}= 68.3 ft$
+
+## Superelevation
+
+

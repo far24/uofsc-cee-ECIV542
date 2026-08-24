@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>ECIV542: Traffic Engineering – Ch. 2: Road user and vehicle characteristics</title>
+  <title>ECIV542: Traffic Engineering – Ch. 3: Horizontal Design of Roadway</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -121,347 +121,171 @@
       margin-right: 0; 
     }
   </style>
-  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Ch. 2: Road user and vehicle characteristics</h1>
+  <h1 class="title">Ch. 3: Horizontal Design of Roadway</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="problem-01" class="slide level2 scrollable">
-<h2>PROBLEM 01</h2>
-<ol type="1">
-<li>A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?</li>
-</ol>
-
-<img data-src="images/chap2/ch2prob1.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="problem-02" class="slide level2 scrollable">
-<h2>PROBLEM 02</h2>
-<ol start="2" type="1">
-<li>Given the roadway scenario, how long should the yellow interval of the signal?</li>
-</ol>
-
-<img data-src="images/chap2/ch2signal1.PNG" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="concepts" class="slide level2">
-<h2>CONCEPTS</h2>
+<section id="topics" class="slide level2">
+<h2>TOPICS</h2>
 <ul>
-<li>Sight Distance (SD)</li>
-</ul>
-</section>
-<section id="sight-distance-sd" class="slide level2">
-<h2>SIGHT DISTANCE (SD)</h2>
+<li><strong>Horizontal Curve</strong>
 <ul>
-<li>SD: How much of the roadway drivers’ able to see (perceive)</li>
-<li>Types of SD:
-<ul>
-<li><mark>Stopping SD (SSD)</mark></li>
-<li><mark>Decision SD (DSD)</mark></li>
-<li>Passing SD (PSD)</li>
-<li>Intersection SD (ISD)</li>
+<li>Hor. Curve Alignments</li>
+<li>Hor. Curve Equations</li>
+<li>Superelevation</li>
+<li>Min. Radius of Curve</li>
+<li>Stopping Sight Distance (SSD) on the curve</li>
 </ul></li>
 </ul>
 </section>
-<section id="basic-equations" class="slide level2">
-<h2>BASIC EQUATIONS</h2>
+<section id="arc-and-chord-definition" class="slide level2">
+<h2>Arc and Chord Definition</h2>
+
+<img data-src="images/chap3/arcDefn.png" class="quarto-figure quarto-figure-center r-stretch"><ul>
+<li><em>Degree of curvature</em>: the central angle (D) to the ends of an agreed length (i.e.&nbsp;100 ft) of either an arc or a chord.</li>
+</ul>
+</section>
+<section id="stationing" class="slide level2">
+<h2>Stationing</h2>
+
+<img data-src="images/chap3/ch3horDgn_us378.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="horizontal-curve-alignments" class="slide level2">
+<h2>Horizontal Curve Alignments</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Objectives:
+<ul>
+<li>Provide a transition between two straight (tangent) sections.</li>
+</ul></li>
+<li>Things to consider
+<ul>
+<li>speed, side friction, superelevation, etc.</li>
+<li>Severity (tight/gentle) measured by the degree of curvature</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap3/ch3horDgn_us378.png"></p>
+</div></div>
+</section>
+<section id="hor.-curve-equations" class="slide level2">
+<h2>Hor. Curve Equations</h2>
+
+<img data-src="images/chap3/ch3horDgn_curvePtsSketch.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="hor.-curve-equations-1" class="slide level2">
+<h2>Hor. Curve Equations</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/chap3/ch3horDgn_us378.png"></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/chap3/ch3horDgn_curvePtsSketch.png"></p>
+</div></div>
+</section>
+<section id="hor.-curve-equations-2" class="slide level2">
+<h2>Hor. Curve Equations</h2>
+
+<img data-src="images/chap3/ch3horDgn_curvePts.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="hor.-curve-equations-3" class="slide level2">
+<h2>Hor. Curve Equations</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="images/chap3/ch3horDgn_curveEq.png"></p>
+</div><div class="column" style="width:70%;">
+<p><img data-src="images/chap3/ch3horDgn_curvePtsSketch.png"></p>
+</div></div>
+</section>
+<section id="hor.-curve-eq.-problem" class="slide level2">
+<h2>Hor. Curve Eq. : Problem</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Two tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E).</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap3/ch3horDgn_curveProb.png"></p>
+</div></div>
+</section>
+<section id="ssd-on-curve" class="slide level2">
+<h2>SSD on Curve</h2>
+
+<img data-src="images/chap3/ch3horDgn_curveSSDtunnel.png" class="r-stretch"></section>
+<section id="ssd-on-curve-1" class="slide level2">
+<h2>SSD on Curve</h2>
+<ul>
+<li>Sight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.</li>
+<li>A minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway.</li>
+</ul>
+</section>
+<section id="ssd-on-curve-2" class="slide level2">
+<h2>SSD on Curve</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <ul>
-<li><p><span class="math inline">\(d = St\)</span></p></li>
-<li><p><span class="math inline">\(S_f^2 = S_i^2 + 2ad\)</span></p></li>
+<li>When such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes).</li>
 </ul>
 </div><div class="column" style="width:60%;">
-<p>Where:</p>
-<ul>
-<li><span class="math inline">\(S_f\)</span>= final speed,<mark> <span class="math inline">\(ft/s\)</span> or <span class="math inline">\(mph\)</span></mark></li>
-<li><span class="math inline">\(S_i\)</span>= initial speed, <span class="math inline">\(ft/s\)</span> or <span class="math inline">\(mph\)</span><br>
-</li>
-<li><span class="math inline">\(a\)</span>= acceleration/deceleration, <span class="math inline">\(ft/s^2\)</span></li>
-<li><span class="math inline">\(t\)</span>= time/duration, seconds (<span class="math inline">\(s\)</span>) or hours (<span class="math inline">\(h\)</span>)</li>
-<li><span class="math inline">\(d\)</span>= distance traveled, feet (<span class="math inline">\(ft\)</span>)</li>
-</ul>
+<p><img data-src="images/chap3/ch3horDgn_curveSSDSketch.png"></p>
 </div></div>
 </section>
-<section id="unit-convertion" class="slide level2">
-<h2>UNIT CONVERTION</h2>
+<section id="ssd-on-curve-3" class="slide level2">
+<h2>SSD on Curve</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
 <ul>
-<li>1 mile = 5280 feet</li>
-<li>1 hour = 3600 sec</li>
+<li>for a specified stopping distance, some distance, Ms (the middle ordinate of a curve that has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available.</li>
 </ul>
-<h3 id="convert-mph-to-ftsec-fps">Convert mph to ft/sec (fps)</h3>
-<div class="r-fit-text text-center fragment">
-<p><span class="math display">\[1 mph = \frac{5280}{3600}  fps = 1.47 fps\]</span></p>
-</div>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap3/ch3horDgn_curveSSDSketch.png"></p>
+</div></div>
 </section>
-<section id="stopping-sd-ssd" class="slide level2">
-<h2>Stopping SD: SSD</h2>
-
-<img data-src="images/chap2/ch2signal1.PNG" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="stopping-sd-ssd-1" class="slide level2">
-<h2>Stopping SD: SSD</h2>
-
-<img data-src="images/chap2/ch2signal2.PNG" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="stopping-sd-ssd-2" class="slide level2">
-<h2>Stopping SD: SSD</h2>
-
-<img data-src="images/chap2/ch2signal4.PNG" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="stopping-sd-ssd-3" class="slide level2">
-<h2>Stopping SD: SSD</h2>
-<ul>
-<li>SSD = Reaction Distance (<span class="math inline">\(d_r\)</span>) + Braking Distance (<span class="math inline">\(d_b\)</span>)</li>
-</ul>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[SSD] --&gt; B("$$d_r$$")
-  A --&gt; C("$$d_b$$")
-  B --&gt; B1(PRT)
-  C --&gt; C1(Acceleration)
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="ssd-reaction-distance" class="slide level2">
-<h2>SSD: Reaction Distance</h2>
-<p><strong>PRT (<span class="math inline">\(t_r\)</span>) ~ Perception-Reaction Time</strong><br>
-<strong>PRT (<span class="math inline">\(t_r\)</span>) ~ f(age, fatigue, complexity of roadway, DUI)</strong></p>
-<div class="fragment">
-<p><span class="math display">\[d = St\]</span> <span class="math display">\[d_r (ft) = S (fps) \times t_r(sec)\]</span> <span class="math display">\[d_r (ft) = 1.47 \times S (mph) \times t_r(sec)\]</span></p>
-</div>
-<div class="fragment">
-<ul>
-<li>AASHTO Design value: <mark>2.5 sec</mark></li>
-<li>ITE Signal Design value: <mark>1 sec (Expectancy)</mark></li>
-</ul>
-</div>
-</section>
-<section id="ssd-braking-distance" class="slide level2 scrollable">
-<h2>SSD: Braking Distance</h2>
+<section id="ssd-on-curve-4" class="slide level2">
+<h2>SSD on Curve</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<ul>
-<li><span class="math inline">\(S_f^2 = S_i^2 + 2ad_b\)</span></li>
-<li><span class="math display">\[d_b=\frac{S_i^2 - S_f^2}{2a}\]</span></li>
-<li><span class="math display">\[d_b=\frac{S_i^2 - S_f^2}{2(Fg)}\]</span></li>
-<li><span class="math display">\[d_b=\frac{(1.47)^2 \times S_i^2 - S_f^2}{2(F \times 32.2)}\]</span></li>
-<li><span class="math display">\[d_b= \frac{S_i^2 - S_f^2}{30(F \pm G)}\]</span></li>
-</ul>
-</div><div class="column" style="width:40%;">
-<ul>
-<li><span class="math inline">\(S_i\)</span> or <span class="math inline">\(S_f\)</span>: speed</li>
-<li><span class="math inline">\(d_b\)</span>: Braking Distance<br>
-</li>
-<li><span class="math inline">\(G\)</span>: Grade (%)</li>
-<li><span class="math inline">\(F=\frac{a}{g}\)</span>: Coefficient of friction,</li>
-<li><span class="math inline">\(a\)</span>: deceleration rate</li>
-</ul>
-</div></div>
-</section>
-<section id="ssd-full-equation" class="slide level2">
-<h2>SSD: Full Equation</h2>
-<ul>
-<li>SSD = Reaction Distance (<span class="math inline">\(d_r\)</span>) + Braking Distance (<span class="math inline">\(d_b\)</span>)</li>
-</ul>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[SSD] --&gt; B("$$d_r$$")
-  A --&gt; C("$$d_b$$")
-  B --&gt; B1(PRT)
-  C --&gt; C1(Acceleration)
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<ul>
-<li><span class="math inline">\(d_{ssd}=d_r + d_b\)</span></li>
-<li><span class="math inline">\(d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}\)</span></li>
-</ul>
-</section>
-<section id="ssd-full-equation-1" class="slide level2">
-<h2>SSD: Full Equation</h2>
 <ul>
 <li><span class="math inline">\(d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}\)</span></li>
 <li>Design Stds:
 <ul>
-<li><span class="math inline">\(a = 11.2 fps\)</span> –&gt; <span class="math inline">\(F=\frac{a}{g}=\frac{11.2 f/s^2}{32.2 f/s^2}=0.348\)</span></li>
+<li><span class="math inline">\(F=0.348\)</span></li>
+</ul></li>
+<li><span class="math inline">\(M_{s}=R_v(1- cos \frac{90d_{ssd}}{\pi R_v})\)</span>
+<ul>
+<li><span class="math inline">\(R_v = \frac{5729.58}{D_v}\)</span></li>
 </ul></li>
 </ul>
-
-<img data-src="images/chap2/ch2Table2-5_acc.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="problem-01-1" class="slide level2 scrollable">
-<h2>PROBLEM 01</h2>
-<ol type="1">
-<li>A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?</li>
-</ol>
-
-<img data-src="images/chap2/ch2prob1.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="prob-01-understand-part-1" class="slide level2 scrollable">
-<h2>PROB 01: UNDERSTAND (Part 1)</h2>
-<ol type="1">
-<li>A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight? <img data-src="images/chap2/ch2prob1-sol.png" class="quarto-figure quarto-figure-center"></li>
-</ol>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/chap3/ch3horDgn_curveSSDSketch.png"></p>
+</div></div>
 </section>
-<section id="prob-01-apply-part-1" class="slide level2">
-<h2>PROB 01: APPLY (Part 1)</h2>
-<p><strong>1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe?</strong> If not, what could be the implications of this sight?</p>
-<ul>
-<li><span class="math inline">\(d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}\)</span></li>
-</ul>
+<section id="ssd-on-curve-problem" class="slide level2">
+<h2>SSD on Curve: Problem</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>A 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/chap3/ch3horDgn_curveSSDSketch.png"></p>
+</div></div>
 <div class="fragment">
 <ul>
-<li><span class="math inline">\(d_{ssd}=1.47 \times 70 \times 2.5  + \frac{70^2 - 0^2}{30(0.348 \pm 0)}\)</span></li>
-<li><span class="math inline">\(d_{ssd} = 257.3 + 469.3 = 726.6 ft\)</span></li>
+<li><span class="math inline">\(d_{ssd}=1.47 \times 70 \times 2.5 + \frac{70^2 - 0^2}{30(0.348 \pm 0)}\)</span></li>
+<li><span class="math inline">\(d_{ssd}=726.6 ft\)</span></li>
+</ul>
+<p>For a SSD of <span class="math inline">\(726.6ft\)</span>, the min clearance at roadside:</p>
+<ul>
+<li><span class="math inline">\(M_{s}= R_v(1- cos \frac{90d_{ssd}}{\pi R_v})\)</span></li>
+<li><span class="math inline">\(M_{s}= \frac{5729.58}{6} \times (1- cos \frac{90 \times 726.26}{\pi \frac{5729.58}{6}})\)</span></li>
+<li><span class="math inline">\(M_{s}= 68.3 ft\)</span></li>
 </ul>
 </div>
 </section>
-<section id="prob-01-interpret-part-1" class="slide level2">
-<h2>PROB 01: INTERPRET (Part 1)</h2>
-<p><strong>1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe?</strong> If not, what could be the implications of this sight?</p>
-<div class="fragment">
-<ul>
-<li>Since <span class="math inline">\(d_{ssd}\)</span> = <span class="math inline">\(726.6 ft\)</span> is higher that <span class="math inline">\(500 ft\)</span>, the provided SSD is <strong>NOT</strong> safe</li>
-</ul>
-</div>
-</section>
-<section id="prob-01-understand-part-2" class="slide level2 scrollable">
-<h2>PROB 01: UNDERSTAND (Part 2)</h2>
-<ol type="1">
-<li>A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? <strong>If not, what could be the <mark>implications</mark> of the provided sight distance?</strong></li>
-</ol>
-</section>
-<section id="prob-01-apply-part-2" class="slide level2 scrollable">
-<h2>PROB 01: APPLY (Part 2)</h2>
-<ol type="1">
-<li>A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? <strong>If not, what could be the <mark>implications</mark> of the provided sight distance?</strong></li>
-</ol>
-<ul>
-<li><span class="math inline">\(d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}\)</span></li>
-</ul>
-<div class="fragment">
-<ul>
-<li><span class="math inline">\(500=1.47 \times 70 \times 2.5  + \frac{70^2 - S_f^2}{30(0.348 \pm 0)}\)</span></li>
-<li><span class="math inline">\(S_f = 48.6 mph\)</span></li>
-</ul>
-</div>
-</section>
-<section id="prob-01-interpret-part-2" class="slide level2 scrollable">
-<h2>PROB 01: INTERPRET (Part 2)</h2>
-<ol type="1">
-<li>A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? <strong>If not, what could be the <mark>implications</mark> of the provided sight distance?</strong></li>
-</ol>
-<div class="fragment">
-<ul>
-<li>If <span class="math inline">\(500 ft\)</span> is provided, the speed of the collision would be at a speed of <span class="math inline">\(48.6mph\)</span></li>
-</ul>
-</div>
-</section>
-<section id="problem-02-1" class="slide level2 scrollable">
-<h2>PROBLEM 02</h2>
-<ol start="2" type="1">
-<li>Given the roadway scenario, how long should the yellow interval of the signal?</li>
-</ol>
-</section>
-<section id="prob-02-understand" class="slide level2 scrollable">
-<h2>PROB 02: UNDERSTAND</h2>
-<ol start="2" type="1">
-<li>Given the roadway scenario, how long should the yellow interval of the signal?</li>
-</ol>
-
-<img data-src="images/chap2/ch2signal5.PNG" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="prob-02-apply" class="slide level2 scrollable">
-<h2>PROB 02: APPLY</h2>
-<ol start="2" type="1">
-<li>Given the roadway scenario, how long should the yellow interval of the signal?</li>
-</ol>
-<ul>
-<li><span class="math inline">\(d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}\)</span></li>
-</ul>
-<div class="fragment">
-<ul>
-<li><span class="math inline">\(d_{ssd}=1.47 \times 50 \times 1  + \frac{50^2 - 0^2}{30(0.348 \pm 0)}\)</span></li>
-<li><span class="math inline">\(d_{ssd} = 73.5 + 293.46 = 312.96 ft\)</span></li>
-</ul>
-</div>
-<div class="fragment">
-<p>yellow interval = Time it takes a veh to travel 312.96 ft at a speed of 50mph</p>
-<ul>
-<li>yellow interval, <span class="math inline">\(y = \frac{312.96}{50} = 6.25 sec\)</span></li>
-</ul>
-</div>
-</section>
-<section id="prob-02-interpret" class="slide level2 scrollable">
-<h2>PROB 02: INTERPRET</h2>
-<ol start="2" type="1">
-<li>Given the roadway scenario, how long should the yellow interval of the signal?</li>
-</ol>
-<div class="fragment">
-<ul>
-<li>Yellow interval = 6.25 sec</li>
-</ul>
-</div>
-</section>
-<section id="complex-scenarios-for-sd" class="slide level2">
-<h2>COMPLEX SCENARIOS for SD</h2>
-
-<img data-src="images/chap2/ch2wz.PNG" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="complex-scenarios-for-sd-1" class="slide level2">
-<h2>COMPLEX SCENARIOS for SD</h2>
-<ul>
-<li>Interchange / Intersection</li>
-<li>Change in XS (e.g.&nbsp;lane drop)</li>
-<li>Toll Plaza</li>
-</ul>
-</section>
-<section id="decision-sd-dsd" class="slide level2">
-<h2>Decision SD: DSD</h2>
-<ul>
-<li>DSD: Sight distance based on collision-avoidance decision reaction time</li>
-<li>Stop Maneuver (A or B)
-<ul>
-<li><span class="math inline">\(d_{dsd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}\)</span></li>
-</ul></li>
-<li>Speed/path/direction change Maneuver (C/D/E)
-<ul>
-<li><span class="math inline">\(d_{dsd}=1.47 S_i (t_r + t_m)\)</span></li>
-<li><span class="math inline">\(t_r\)</span>: reaction time for appropriate avoidance maneuver, s</li>
-<li><span class="math inline">\(t_m\)</span>: maneuver time, s</li>
-</ul></li>
-</ul>
-</section>
-<section id="decision-sd-dsd-1" class="slide level2">
-<h2>Decision SD: DSD</h2>
-<div style="position: relative;  margin: auto;">
-<p><img data-src="images/chap2/ch2Table2-6_DSD.png"></p>
-<div class="absolute" style="width: 150px; height: 175px; border: 8px solid #007bff;top: 210px; left: 180px; ">
-<p><span class="math inline">\(t_m\)</span></p>
-</div>
-<div class="absolute" style="width: 620px; height: 30px; border: 8px solid #007bff;top: 170px; left: 360px; ">
-<p><span class="math inline">\(t_r\)</span></p>
-</div>
-</div>
-</section>
-<section id="ch.-2-road-user-and-vehicle-characteristics" class="slide level2">
-<h2>Ch. 2: Road user and vehicle characteristics</h2>
-<p>END</p>
+<section id="superelevation" class="slide level2">
+<h2>Superelevation</h2>
 
 
 </section>

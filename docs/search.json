@@ -20,157 +20,179 @@
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
-    "href": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Welcome to Traffic Engineering",
-    "text": "Welcome to Traffic Engineering\n\nECIV 542, Fall 2026\nMW 11 AM - 12:15PM, Swearingen 2A07",
+    "objectID": "lecture/ch3HorDgn.html#topics",
+    "href": "lecture/ch3HorDgn.html#topics",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "TOPICS",
+    "text": "TOPICS\n\nHorizontal Curve\n\nHor. Curve Alignments\nHor. Curve Equations\nSuperelevation\nMin. Radius of Curve\nStopping Sight Distance (SSD) on the curve",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
-    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Meet Your Instructor",
-    "text": "Meet Your Instructor\nDr. FAHIM AHMED\nAdjuct Faculty, UofSC\nEngineer, SCDOT\n\nBACKGROUND:\n\nPhD in Transportation (Logistics)\n\nM.S. , M.A.S, EIT\n\nWHAT I WORK ON:\n\nHighway Design/Traffic Safety\n\nLogistic Modeling",
+    "objectID": "lecture/ch3HorDgn.html#arc-and-chord-definition",
+    "href": "lecture/ch3HorDgn.html#arc-and-chord-definition",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Arc and Chord Definition",
+    "text": "Arc and Chord Definition\n\n\nDegree of curvature: the central angle (D) to the ends of an agreed length (i.e. 100 ft) of either an arc or a chord.",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
-    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Meet Your Instructor",
-    "text": "Meet Your Instructor\n\nMY APPROACH:\n\nUnderstand  Apply  Interpret\n\nOUTSIDE ENGR.:\n\nSoccer (ManU fan)\n\nTravel\n\n\n\nWe’ll certainly do calculations in this class, but I don’t want you to just know which equation to use. I want you to understand what you’re calculating, why an engineer needs it, and what the result tells us about the transportation system.",
+    "objectID": "lecture/ch3HorDgn.html#stationing",
+    "href": "lecture/ch3HorDgn.html#stationing",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Stationing",
+    "text": "Stationing",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#section",
-    "href": "lecture/eciv542syllabusFall26.html#section",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "",
-    "text": "Getting to Know You\n\n\nName\nUndergraduate or Graduate student\nMajor/year\nWhy are you taking this course?\nWhat comes to mind when you hear “Traffic Engineering”?",
+    "objectID": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
+    "href": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Horizontal Curve Alignments",
+    "text": "Horizontal Curve Alignments\n\n\n\nObjectives:\n\nProvide a transition between two straight (tangent) sections.\n\nThings to consider\n\nspeed, side friction, superelevation, etc.\nSeverity (tight/gentle) measured by the degree of curvature",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#course-content",
-    "href": "lecture/eciv542syllabusFall26.html#course-content",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Course Content",
-    "text": "Course Content\n\nBlackboard\nWebsite: Link",
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Course Description",
-    "text": "Syllabus: Course Description\n\nThis course (ECIV 542) is designed to teach students the fundamentals of traffic engineering.\nThis course will enable students to solve transportation problems that are likely to appear in FE/PE exam and professional practice.\nServe as a foundation for graduate coursework at USC or other academic institutions.",
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Pre-requisite",
-    "text": "Syllabus: Pre-requisite\n\nECIV 340 (Introduction to Transportation Engineering)",
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Textbook",
-    "text": "Syllabus: Textbook\n\nTraffic Engineering, 5th edition, by Roger P. Roess, Elena S. Prassas, and William R. McShane. Pearson Higher Education, Inc., 2019; ISBN-13: 978-0134599717",
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Performance Evaluation",
-    "text": "Syllabus: Performance Evaluation\n\nHomework assignments: 6-8\nExams: 02\nProject: 01 (Divided into 4 Tasks)",
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Hor. Curve Eq. : Problem",
+    "text": "Hor. Curve Eq. : Problem\n\n\nTwo tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E).",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Grade Distribution",
-    "text": "Syllabus: Grade Distribution\n\n\n\n\n\n\n\n\nGrading Rubric\nUndergraduate\nGraduate\n\n\n\n\nExam 1\n35%\n30%\n\n\nExam 2\n35%\n30%\n\n\nHomework\n10%\n10%\n\n\nClass Project (Standard Scope)\n20%\n20%\n\n\nClass Project (Advanced Scope)\n0%\n10%",
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Class Attendance",
-    "text": "Syllabus: Class Attendance\n\nYou are expected to attend all lectures and labs and contribute to the team’s class project.",
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-1",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-1",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\nSight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.\nA minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway.",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Class Documents",
-    "text": "Syllabus: Class Documents\nAll class documents will be made available on Blackboard. The instructor will provide supplemental notes. It is the student’s responsibility to check Blackboard and print the provided documents.",
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-2",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-2",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\nWhen such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes).",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Class Project",
-    "text": "Syllabus: Class Project\n\nStudents will work in groups of 3-6 to conduct traffic analyses of intersections near campus.\nEach team will be assigned to one intersection (randomly).\nEach team will be responsible for collecting its own data, performing appropriate analyses, and making recommendations.\n\nThere will be a final report, and if time permits, each team will make a presentation to the class describing their work.",
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-3",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-3",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\nfor a specified stopping distance, some distance, Ms (the middle ordinate of a curve that has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available.",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
-    "objectID": "lecture/eciv542syllabusFall26.html#schedule",
-    "href": "lecture/eciv542syllabusFall26.html#schedule",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Schedule",
-    "text": "Schedule\nECIV 542 Fall 2026 Schedule",
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-4",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-4",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(F=0.348\\)\n\n\\(M_{s}=R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\n\\(R_v = \\frac{5729.58}{D_v}\\)",
     "crumbs": [
       "Learning materials",
-      "Class 01: Intro & Syllabus"
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "SSD on Curve: Problem",
+    "text": "SSD on Curve: Problem\n\n\nA 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?\n\n\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5 + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd}=726.6 ft\\)\n\nFor a SSD of \\(726.6ft\\), the min clearance at roadside:\n\n\\(M_{s}= R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\\(M_{s}= \\frac{5729.58}{6} \\times (1- cos \\frac{90 \\times 726.26}{\\pi \\frac{5729.58}{6}})\\)\n\\(M_{s}= 68.3 ft\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation",
+    "href": "lecture/ch3HorDgn.html#superelevation",
+    "title": "Ch. 3: Horizontal Design of Roadway",
+    "section": "Superelevation",
+    "text": "Superelevation",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
     ]
   },
   {
@@ -616,6 +638,160 @@
     "crumbs": [
       "Learning materials",
       "Class 02: Ch2 - Road User and Veh. Characteristics"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
+    "href": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Welcome to Traffic Engineering",
+    "text": "Welcome to Traffic Engineering\n\nECIV 542, Fall 2026\nMW 11 AM - 12:15PM, Swearingen 2A07",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
+    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\nDr. FAHIM AHMED\nAdjuct Faculty, UofSC\nEngineer, SCDOT\n\nBACKGROUND:\n\nPhD in Transportation (Logistics)\n\nM.S. , M.A.S, EIT\n\nWHAT I WORK ON:\n\nHighway Design/Traffic Safety\n\nLogistic Modeling",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
+    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\n\nMY APPROACH:\n\nUnderstand  Apply  Interpret\n\nOUTSIDE ENGR.:\n\nSoccer (ManU fan)\n\nTravel\n\n\n\nWe’ll certainly do calculations in this class, but I don’t want you to just know which equation to use. I want you to understand what you’re calculating, why an engineer needs it, and what the result tells us about the transportation system.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#section",
+    "href": "lecture/eciv542syllabusFall26.html#section",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "",
+    "text": "Getting to Know You\n\n\nName\nUndergraduate or Graduate student\nMajor/year\nWhy are you taking this course?\nWhat comes to mind when you hear “Traffic Engineering”?",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#course-content",
+    "href": "lecture/eciv542syllabusFall26.html#course-content",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Course Content",
+    "text": "Course Content\n\nBlackboard\nWebsite: Link",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Course Description",
+    "text": "Syllabus: Course Description\n\nThis course (ECIV 542) is designed to teach students the fundamentals of traffic engineering.\nThis course will enable students to solve transportation problems that are likely to appear in FE/PE exam and professional practice.\nServe as a foundation for graduate coursework at USC or other academic institutions.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Pre-requisite",
+    "text": "Syllabus: Pre-requisite\n\nECIV 340 (Introduction to Transportation Engineering)",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Textbook",
+    "text": "Syllabus: Textbook\n\nTraffic Engineering, 5th edition, by Roger P. Roess, Elena S. Prassas, and William R. McShane. Pearson Higher Education, Inc., 2019; ISBN-13: 978-0134599717",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Performance Evaluation",
+    "text": "Syllabus: Performance Evaluation\n\nHomework assignments: 6-8\nExams: 02\nProject: 01 (Divided into 4 Tasks)",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Grade Distribution",
+    "text": "Syllabus: Grade Distribution\n\n\n\n\n\n\n\n\nGrading Rubric\nUndergraduate\nGraduate\n\n\n\n\nExam 1\n35%\n30%\n\n\nExam 2\n35%\n30%\n\n\nHomework\n10%\n10%\n\n\nClass Project (Standard Scope)\n20%\n20%\n\n\nClass Project (Advanced Scope)\n0%\n10%",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Attendance",
+    "text": "Syllabus: Class Attendance\n\nYou are expected to attend all lectures and labs and contribute to the team’s class project.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Documents",
+    "text": "Syllabus: Class Documents\nAll class documents will be made available on Blackboard. The instructor will provide supplemental notes. It is the student’s responsibility to check Blackboard and print the provided documents.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Project",
+    "text": "Syllabus: Class Project\n\nStudents will work in groups of 3-6 to conduct traffic analyses of intersections near campus.\nEach team will be assigned to one intersection (randomly).\nEach team will be responsible for collecting its own data, performing appropriate analyses, and making recommendations.\n\nThere will be a final report, and if time permits, each team will make a presentation to the class describing their work.",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
+    ]
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#schedule",
+    "href": "lecture/eciv542syllabusFall26.html#schedule",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Schedule",
+    "text": "Schedule\nECIV 542 Fall 2026 Schedule",
+    "crumbs": [
+      "Learning materials",
+      "Class 01: Intro & Syllabus"
     ]
   },
   {
