@@ -12,6 +12,7 @@ format:
 ![](images/chap2/ch2prob1.png){fig-align="center"}
 
 
+
 ## PROBLEM 02
 2. Given the roadway scenario, how long should the yellow interval of the signal?
 
