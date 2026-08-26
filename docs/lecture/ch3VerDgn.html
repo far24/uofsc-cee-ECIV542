@@ -6,10 +6,12 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>ECIV542: Traffic Engineering – Ch. 3: Vertical Design of Roadway</title>
+  <title>ECIV542: Traffic Engineering – Class 03 08/26/2026  Chapter 3 (Ver. Curve)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-99eeafcedac04850354b682963cedae3.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,14 +129,155 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Ch. 3: Vertical Design of Roadway</h1>
+  <h1 class="title">Class 03 08/26/2026 <br> Chapter 3 (Ver. Curve)</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section class="slide level2">
+<section id="topics" class="slide level2">
+<h2>TOPICS</h2>
+<ul>
+<li><strong>“Ch. 3: Vertical Design of Roadway”</strong>
+<ul>
+<li>Ver. Curve Alignments / Types</li>
+<li>Ver. Curve Equations</li>
+<li>Stopping Sight Distance (SSD) on the curve</li>
+<li>Min. Length of Curve</li>
+</ul></li>
+</ul>
+</section>
+<section id="vertical-alignment-of-highways" class="slide level2">
+<h2>Vertical Alignment of Highways</h2>
 
+<img data-src="images/chap3/ch3VerDgn_01.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="ver.-curve-types" class="slide level2">
+<h2>Ver. Curve: Types</h2>
+<ul>
+<li>Crest Ver. curve
+<ul>
+<li>Entry tangent greater than Exit tangent(<span class="math inline">\(G_1 &gt; G_2\)</span>)</li>
+</ul></li>
+<li>Sag Ver curve
+<ul>
+<li>Entry tangent less than Exit tangent(<span class="math inline">\(G_1 &lt; G_2\)</span>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="ver.-curve-types-1" class="slide level2">
+<h2>Ver. Curve: Types</h2>
+<p>Identify the the type of vertical curve in A, B, and C?</p>
+
+<img data-src="images/chap3/ch3VerDgn_types.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="ver.-curve-equation" class="slide level2">
+<h2>Ver. Curve: Equation</h2>
+<ul>
+<li>Symmetrical parabolic curve is used for vertical curves</li>
+<li><span class="math inline">\(y=ax^2+bx+c\)</span></li>
+</ul>
+
+<img data-src="images/chap3/ch3VerDgn_parabola.png" class="quarto-figure quarto-figure-center r-stretch"><div style="font-size: 0.30em;">
+<p><a href="https://www.youtube.com/watch?v=qZVZyf_9r2k">Daniel Findley Youtube Channel</a></p>
+</div>
+</section>
+<section id="ver.-curve-equation-1" class="slide level2">
+<h2>Ver. Curve: Equation</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/chap3/ch3VerDgn_curvePts.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap3/ch3VerDgn_parabola.png"></p>
+</div></div>
+<div style="font-size: 0.30em;">
+<p><a href="https://www.youtube.com/watch?v=qZVZyf_9r2k">Daniel Findley Youtube Channel</a></p>
+</div>
+</section>
+<section id="ver.-curve-equation-2" class="slide level2">
+<h2>Ver. Curve: Equation</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><span class="math inline">\(Y=ax^2+bx+c\)</span>
+<ul>
+<li><span class="math inline">\(Y\)</span> = elev. of any point on the curve</li>
+<li><span class="math inline">\(x\)</span> = distance along stationing from PVC (VPC)</li>
+<li><span class="math inline">\(a = \frac{g_2-g_1}{2L}\)</span></li>
+<li><span class="math inline">\(b = g_1\)</span> = entrance grade</li>
+<li><span class="math inline">\(c\)</span> = elev. of PVC (VPC) = elev. of PVI (VPI) - <span class="math inline">\(g_1 - \frac{L}{2}\)</span></li>
+<li><span class="math inline">\(L\)</span> = length of curve</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/chap3/ch3VerDgn_curvePts.png"></p>
+</div></div>
+</section>
+<section id="ver.-curve-special-points" class="slide level2">
+<h2>Ver. Curve: Special Points</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><span class="math inline">\(y\)</span> (lowercase) = <span class="math inline">\(ax^2\)</span> = tangent offset</li>
+<li>External Distance (e): between PVI and vertical curve
+<ul>
+<li><span class="math inline">\(x=\frac{L}{2}\)</span></li>
+<li><span class="math inline">\(y=ax^2 = a (\frac{L}{2})^2\)</span></li>
+<li><span class="math inline">\(y=ax^2 = \frac{g_2-g_1}{2L}(\frac{L}{2})^2\)</span></li>
+<li><span class="math inline">\(y=ax^2 = \frac{g_2-g_1}{2L}(\frac{L^2}{4})\)</span></li>
+<li><span class="math inline">\(y=ax^2 = \frac{g_2-g_1}{8}(L)\)</span></li>
+<li><span class="math inline">\(y=ax^2 = \frac{AL}{8}\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/chap3/ch3VerDgn_extDist.png"></p>
+</div></div>
+</section>
+<section id="ver.-curve-special-points-1" class="slide level2">
+<h2>Ver. Curve: Special Points</h2>
+<ul>
+<li><span class="math inline">\(Y=ax^2+bx+c\)</span></li>
+<li>For High/Low point on the curve <span class="math inline">\(\frac{dY}{dx} = 0\)</span>
+<ul>
+<li><span class="math inline">\(\frac{d}{dx}(ax^2+bx+c) = 0\)</span></li>
+<li><span class="math inline">\(2ax+b = 0\)</span></li>
+<li><span class="math inline">\(x_{high/low} = \frac{-b}{2a}\)</span></li>
+<li><span class="math inline">\(x_{high/low} = \frac{-g_1}{2 \frac{g_2-g_1}{2L}}\)</span></li>
+<li><span class="math inline">\(x_{high/low} = \frac{-g_1L}{g_2-g_1}\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="ver.-curve-problem" class="slide level2">
+<h2>Ver. Curve: Problem</h2>
+<p>A vertical curve of 600 feet connects a +4% grade to a -2% grade. The elevation of the PVC is 1250 ft. Find the elevation of the PVI, the PVT and the high point?</p>
+</section>
+<section id="ver.-curve-ssd" class="slide level2">
+<h2>Ver. Curve: SSD</h2>
+<ul>
+<li>available sight distance ≥ required stopping sight distance S</li>
+<li>driver’s sight line just “grazes” the parabolic curve. <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> CREST curve</li>
+<li>Sight distance limited by headlamp range. <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> SAG curve</li>
+</ul>
+</section>
+<section id="ver.-curve-ssd-1" class="slide level2">
+<h2>Ver. Curve: SSD</h2>
+<div style="color: blue;">
+<p><strong>Min. Length (<span class="math inline">\(L_{min}\)</span>)</strong></p>
+</div>
+<ul>
+<li><u>Driver and object both on the ver curve</u> (<span class="math inline">\(d_{ssd} &lt; L\)</span>)
+<ul>
+<li><span class="math inline">\(L_{min} = \frac{|g_2 - g_1| \times d_{ssd}^2}{2158}\)</span> <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> CREST curve</li>
+<li><span class="math inline">\(L_{min} = \frac{|g_2 - g_1| \times d_{ssd}^2}{400+3.5d_{ssd}}\)</span> <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> SAG curve</li>
+</ul></li>
+<li><u>sight distance extends beyond the curve onto a tangent</u> <span class="math inline">\(d_{ssd} &gt; L\)</span>
+<ul>
+<li><span class="math inline">\(L_{min} = 2d_{ssd} - \frac{2158}{|g_2 - g_1|}\)</span> <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> CREST curve</li>
+<li><span class="math inline">\(L_{min} = 2d_{ssd} - (\frac{400+3.5d_{ssd}}{|g_2 - g_1|})\)</span> <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> SAG curve</li>
+</ul></li>
+</ul>
+</section>
+<section id="ver.-curve-ssd-problem" class="slide level2">
+<h2>Ver. Curve: SSD Problem</h2>
+<p>What is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?</p>
 
 
 </section>

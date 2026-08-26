@@ -1,15 +1,21 @@
 ---
-title: "Ch. 3: Horizontal Design of Roadway"
+title: "Class 03 08/26/2026 </br> Chapter 3 (Hor. Curve)"
 format: 
   revealjs:
-    theme: serif
+    theme: black
     slide-number: true
     scrollable: true
 ---
 
+## Class Logistics
+
+* HW1 will assigned next week
+* Groups and Project will be assigned next week
+* 
+
 ## TOPICS
 
-* **Horizontal Curve**
+* **Ch. 3: Horizontal Design of Roadway**
   - Hor. Curve Alignments
   - Hor. Curve Equations
   - Superelevation
@@ -177,5 +183,94 @@ For a SSD of $726.6ft$, the min clearance at roadside:
 * $M_{s}= 68.3 ft$
 
 ## Superelevation
+Amount by which the outer edge of a curve on a road or railroad is banked above the inner edge.
+![](images/chap3/ch3horDgn_super0.png)
+
+## Superelevation: Why?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/chap3/ch3horDgn_super1.png)
+:::
+
+::: {.column width="50%"}
+![](images/chap3/ch3horDgn_super2.png)
+:::
+
+::::
+
+::: {style="font-size: 0.30em;"}
+https://www.bigrentz.com/blog/superelevation
+:::
 
 
+## Superelevation: Components
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/chap3/ch3horDgn_super4.png)
+:::
+
+::: {.column width="50%"}
+![](images/chap3/ch3horDgn_super5.png)
+:::
+
+::::
+
+## Superelevation: Change of XS
+
+![](images/chap3/ch3horDgn_superXS.png)
+
+
+## Superelevation: Eq. for Runoff length
+:::: {.columns}
+
+::: {.column width="60%"}
+$L_r = \frac{w \times n \times e_d \times b_w}{\Delta}$    
+
+
+* $L_r$ = minimum length of superelevation runoff, ft
+* $w$ = width of lane, ft
+* $n$ = number of lanes being rotated (i.e. lanes in one direction)
+* $e_d$ = design superelevation rate, expressed as a decimal
+* $b_w$ = adjustment factor for number of lanes rotated 
+* - 1: for one lane, 0.75 for two, 0.67 for three
+* $\Delta$ = maximum relative gradient, (Table 27.3) expressed as a decimal
+
+:::
+
+::: {.column width="40%"}
+![](images/chap3/ch3horDgn_super4.png)
+:::
+
+::::
+
+## Superelevation: Eq. for Runoff length
+
+![](images/chap3/ch3horDgn_superMaxGradTab.png)
+
+## Superelevation: Eq. for Tangent Runoff
+
+:::: {.columns}
+
+::: {.column width="60%"}
+$L_t = \frac{e_{NC}}{e_d} \times L_r$    
+
+
+* $L_t$ = length of tangent runoff, ft
+* $L_r$ = length of superelevation runoff, ft
+* $e_{NC}$ = normal cross-slope, % (for drainage)
+* $e_d$ = design superelevation rate, %
+
+:::
+
+::: {.column width="40%"}
+![](images/chap3/ch3horDgn_super4.png)
+:::
+::::
+
+## Superelevation: Sample Problem
+
+A four-lane highway with a superelvation rate of 0.04 achieved by rotating two 12 ft lanes around the centerline. The normal drainage cross-slope is 0.01. The design speed of the highway is 60 mi/h. What is the appropriate minimum length of superelevation runoff and what is the tangent runoff length.

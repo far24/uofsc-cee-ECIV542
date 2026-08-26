@@ -20,11 +20,165 @@
     ]
   },
   {
+    "objectID": "lecture/ch3VerDgn.html#topics",
+    "href": "lecture/ch3VerDgn.html#topics",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "TOPICS",
+    "text": "TOPICS\n\n“Ch. 3: Vertical Design of Roadway”\n\nVer. Curve Alignments / Types\nVer. Curve Equations\nStopping Sight Distance (SSD) on the curve\nMin. Length of Curve",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#vertical-alignment-of-highways",
+    "href": "lecture/ch3VerDgn.html#vertical-alignment-of-highways",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Vertical Alignment of Highways",
+    "text": "Vertical Alignment of Highways",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-types",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-types",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Types",
+    "text": "Ver. Curve: Types\n\nCrest Ver. curve\n\nEntry tangent greater than Exit tangent(\\(G_1 &gt; G_2\\))\n\nSag Ver curve\n\nEntry tangent less than Exit tangent(\\(G_1 &lt; G_2\\))",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-types-1",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-types-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Types",
+    "text": "Ver. Curve: Types\nIdentify the the type of vertical curve in A, B, and C?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-equation",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-equation",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Equation",
+    "text": "Ver. Curve: Equation\n\nSymmetrical parabolic curve is used for vertical curves\n\\(y=ax^2+bx+c\\)\n\n\n\nDaniel Findley Youtube Channel",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-equation-1",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-equation-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Equation",
+    "text": "Ver. Curve: Equation\n\n\n\n\n\n\n\nDaniel Findley Youtube Channel",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-equation-2",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-equation-2",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Equation",
+    "text": "Ver. Curve: Equation\n\n\n\n\\(Y=ax^2+bx+c\\)\n\n\\(Y\\) = elev. of any point on the curve\n\\(x\\) = distance along stationing from PVC (VPC)\n\\(a = \\frac{g_2-g_1}{2L}\\)\n\\(b = g_1\\) = entrance grade\n\\(c\\) = elev. of PVC (VPC) = elev. of PVI (VPI) - \\(g_1 - \\frac{L}{2}\\)\n\\(L\\) = length of curve",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-special-points",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-special-points",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Special Points",
+    "text": "Ver. Curve: Special Points\n\n\n\n\\(y\\) (lowercase) = \\(ax^2\\) = tangent offset\nExternal Distance (e): between PVI and vertical curve\n\n\\(x=\\frac{L}{2}\\)\n\\(y=ax^2 = a (\\frac{L}{2})^2\\)\n\\(y=ax^2 = \\frac{g_2-g_1}{2L}(\\frac{L}{2})^2\\)\n\\(y=ax^2 = \\frac{g_2-g_1}{2L}(\\frac{L^2}{4})\\)\n\\(y=ax^2 = \\frac{g_2-g_1}{8}(L)\\)\n\\(y=ax^2 = \\frac{AL}{8}\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-special-points-1",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-special-points-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Special Points",
+    "text": "Ver. Curve: Special Points\n\n\\(Y=ax^2+bx+c\\)\nFor High/Low point on the curve \\(\\frac{dY}{dx} = 0\\)\n\n\\(\\frac{d}{dx}(ax^2+bx+c) = 0\\)\n\\(2ax+b = 0\\)\n\\(x_{high/low} = \\frac{-b}{2a}\\)\n\\(x_{high/low} = \\frac{-g_1}{2 \\frac{g_2-g_1}{2L}}\\)\n\\(x_{high/low} = \\frac{-g_1L}{g_2-g_1}\\)",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-problem",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-problem",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: Problem",
+    "text": "Ver. Curve: Problem\nA vertical curve of 600 feet connects a +4% grade to a -2% grade. The elevation of the PVC is 1250 ft. Find the elevation of the PVI, the PVT and the high point?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-ssd",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-ssd",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: SSD",
+    "text": "Ver. Curve: SSD\n\navailable sight distance ≥ required stopping sight distance S\ndriver’s sight line just “grazes” the parabolic curve.  CREST curve\nSight distance limited by headlamp range.  SAG curve",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-ssd-1",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-ssd-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: SSD",
+    "text": "Ver. Curve: SSD\n\nMin. Length (\\(L_{min}\\))\n\n\nDriver and object both on the ver curve (\\(d_{ssd} &lt; L\\))\n\n\\(L_{min} = \\frac{|g_2 - g_1| \\times d_{ssd}^2}{2158}\\)  CREST curve\n\\(L_{min} = \\frac{|g_2 - g_1| \\times d_{ssd}^2}{400+3.5d_{ssd}}\\)  SAG curve\n\nsight distance extends beyond the curve onto a tangent \\(d_{ssd} &gt; L\\)\n\n\\(L_{min} = 2d_{ssd} - \\frac{2158}{|g_2 - g_1|}\\)  CREST curve\n\\(L_{min} = 2d_{ssd} - (\\frac{400+3.5d_{ssd}}{|g_2 - g_1|})\\)  SAG curve",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3VerDgn.html#ver.-curve-ssd-problem",
+    "href": "lecture/ch3VerDgn.html#ver.-curve-ssd-problem",
+    "title": "Class 03 08/26/2026  Chapter 3 (Ver. Curve)",
+    "section": "Ver. Curve: SSD Problem",
+    "text": "Ver. Curve: SSD Problem\nWhat is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Vertical Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#class-logistics",
+    "href": "lecture/ch3HorDgn.html#class-logistics",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Class Logistics",
+    "text": "Class Logistics\n\nHW1 will assigned next week\nGroups and Project will be assigned next week",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
     "objectID": "lecture/ch3HorDgn.html#topics",
     "href": "lecture/ch3HorDgn.html#topics",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "TOPICS",
-    "text": "TOPICS\n\nHorizontal Curve\n\nHor. Curve Alignments\nHor. Curve Equations\nSuperelevation\nMin. Radius of Curve\nStopping Sight Distance (SSD) on the curve",
+    "text": "TOPICS\n\nCh. 3: Horizontal Design of Roadway\n\nHor. Curve Alignments\nHor. Curve Equations\nSuperelevation\nMin. Radius of Curve\nStopping Sight Distance (SSD) on the curve",
     "crumbs": [
       "Learning materials",
       "Class 02: Ch3 - Horizontal Design"
@@ -33,7 +187,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#arc-and-chord-definition",
     "href": "lecture/ch3HorDgn.html#arc-and-chord-definition",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Arc and Chord Definition",
     "text": "Arc and Chord Definition\n\n\nDegree of curvature: the central angle (D) to the ends of an agreed length (i.e. 100 ft) of either an arc or a chord.",
     "crumbs": [
@@ -44,7 +198,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#stationing",
     "href": "lecture/ch3HorDgn.html#stationing",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Stationing",
     "text": "Stationing",
     "crumbs": [
@@ -55,7 +209,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
     "href": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Horizontal Curve Alignments",
     "text": "Horizontal Curve Alignments\n\n\n\nObjectives:\n\nProvide a transition between two straight (tangent) sections.\n\nThings to consider\n\nspeed, side friction, superelevation, etc.\nSeverity (tight/gentle) measured by the degree of curvature",
     "crumbs": [
@@ -66,7 +220,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations",
     "href": "lecture/ch3HorDgn.html#hor.-curve-equations",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Hor. Curve Equations",
     "text": "Hor. Curve Equations",
     "crumbs": [
@@ -77,7 +231,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
     "href": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Hor. Curve Equations",
     "text": "Hor. Curve Equations",
     "crumbs": [
@@ -88,7 +242,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
     "href": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Hor. Curve Equations",
     "text": "Hor. Curve Equations",
     "crumbs": [
@@ -99,7 +253,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
     "href": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Hor. Curve Equations",
     "text": "Hor. Curve Equations",
     "crumbs": [
@@ -110,7 +264,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
     "href": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Hor. Curve Eq. : Problem",
     "text": "Hor. Curve Eq. : Problem\n\n\nTwo tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E).",
     "crumbs": [
@@ -121,7 +275,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#ssd-on-curve",
     "href": "lecture/ch3HorDgn.html#ssd-on-curve",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "SSD on Curve",
     "text": "SSD on Curve",
     "crumbs": [
@@ -132,7 +286,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-1",
     "href": "lecture/ch3HorDgn.html#ssd-on-curve-1",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "SSD on Curve",
     "text": "SSD on Curve\n\nSight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.\nA minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway.",
     "crumbs": [
@@ -143,7 +297,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-2",
     "href": "lecture/ch3HorDgn.html#ssd-on-curve-2",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "SSD on Curve",
     "text": "SSD on Curve\n\n\n\nWhen such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes).",
     "crumbs": [
@@ -154,7 +308,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-3",
     "href": "lecture/ch3HorDgn.html#ssd-on-curve-3",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "SSD on Curve",
     "text": "SSD on Curve\n\n\n\nfor a specified stopping distance, some distance, Ms (the middle ordinate of a curve that has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available.",
     "crumbs": [
@@ -165,7 +319,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-4",
     "href": "lecture/ch3HorDgn.html#ssd-on-curve-4",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "SSD on Curve",
     "text": "SSD on Curve\n\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(F=0.348\\)\n\n\\(M_{s}=R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\n\\(R_v = \\frac{5729.58}{D_v}\\)",
     "crumbs": [
@@ -176,7 +330,7 @@
   {
     "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
     "href": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "SSD on Curve: Problem",
     "text": "SSD on Curve: Problem\n\n\nA 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?\n\n\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5 + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd}=726.6 ft\\)\n\nFor a SSD of \\(726.6ft\\), the min clearance at roadside:\n\n\\(M_{s}= R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\\(M_{s}= \\frac{5729.58}{6} \\times (1- cos \\frac{90 \\times 726.26}{\\pi \\frac{5729.58}{6}})\\)\n\\(M_{s}= 68.3 ft\\)",
     "crumbs": [
@@ -187,9 +341,86 @@
   {
     "objectID": "lecture/ch3HorDgn.html#superelevation",
     "href": "lecture/ch3HorDgn.html#superelevation",
-    "title": "Ch. 3: Horizontal Design of Roadway",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
     "section": "Superelevation",
-    "text": "Superelevation",
+    "text": "Superelevation\nAmount by which the outer edge of a curve on a road or railroad is banked above the inner edge.",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-why",
+    "href": "lecture/ch3HorDgn.html#superelevation-why",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Why?",
+    "text": "Superelevation: Why?\n\n\n\n\n\n\n\nhttps://www.bigrentz.com/blog/superelevation",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-components",
+    "href": "lecture/ch3HorDgn.html#superelevation-components",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Components",
+    "text": "Superelevation: Components",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
+    "href": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Change of XS",
+    "text": "Superelevation: Change of XS",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Runoff length",
+    "text": "Superelevation: Eq. for Runoff length\n\n\n\\(L_r = \\frac{w \\times n \\times e_d \\times b_w}{\\Delta}\\)\n\n\\(L_r\\) = minimum length of superelevation runoff, ft\n\\(w\\) = width of lane, ft\n\\(n\\) = number of lanes being rotated (i.e. lanes in one direction)\n\\(e_d\\) = design superelevation rate, expressed as a decimal\n\\(b_w\\) = adjustment factor for number of lanes rotated\n\n1: for one lane, 0.75 for two, 0.67 for three\n\n\\(\\Delta\\) = maximum relative gradient, (Table 27.3) expressed as a decimal",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Runoff length",
+    "text": "Superelevation: Eq. for Runoff length",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Tangent Runoff",
+    "text": "Superelevation: Eq. for Tangent Runoff\n\n\n\\(L_t = \\frac{e_{NC}}{e_d} \\times L_r\\)\n\n\\(L_t\\) = length of tangent runoff, ft\n\\(L_r\\) = length of superelevation runoff, ft\n\\(e_{NC}\\) = normal cross-slope, % (for drainage)\n\\(e_d\\) = design superelevation rate, %",
+    "crumbs": [
+      "Learning materials",
+      "Class 02: Ch3 - Horizontal Design"
+    ]
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-sample-problem",
+    "href": "lecture/ch3HorDgn.html#superelevation-sample-problem",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Sample Problem",
+    "text": "Superelevation: Sample Problem\nA four-lane highway with a superelvation rate of 0.04 achieved by rotating two 12 ft lanes around the centerline. The normal drainage cross-slope is 0.01. The design speed of the highway is 60 mi/h. What is the appropriate minimum length of superelevation runoff and what is the tangent runoff length.",
     "crumbs": [
       "Learning materials",
       "Class 02: Ch3 - Horizontal Design"
@@ -295,7 +526,7 @@
     "href": "index.html",
     "title": "ECIV 542: Traffic Engineering (Fall 2026)",
     "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard",
     "crumbs": [
       "Home/Announcement"
     ]
@@ -305,7 +536,7 @@
     "href": "index.html#updates",
     "title": "ECIV 542: Traffic Engineering (Fall 2026)",
     "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard",
     "crumbs": [
       "Home/Announcement"
     ]
