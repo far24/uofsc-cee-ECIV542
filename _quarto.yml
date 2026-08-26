@@ -17,7 +17,6 @@ website:
     logo: "images/traffic_light_006.jpg"
     pinned: true
     align: center
-
     style: "docked"
     search: true
     collapse-level: 1
@@ -28,24 +27,15 @@ website:
         text: Fall 2026 Schedule
       - href: https://blackboard.sc.edu/webapps/login/
         text: Syllabus (Blackboard)
-      # - href: course-support.qmd
-      #   text: Support
       - href: course-team.qmd
-        text: Teaching team
-      # - href: course-links.qmd
-      #   text: Useful links
-      # - href: course-faq.qmd
-      #   text: FAQ
-      - section: "Project"
-        # contents:
-        #   - href: project-description.qmd
-        #     text: Description
-        #   - href: project-tips-resources.qmd
-        #     text: Tips + resources
-        #   - href: project-tips-resources.qmd
-        #     text: Lab Software/Manual
-      - section: "Learning materials"
-        contents:
+        text: Teaching team & Support
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Lectures"
+        menu:
           - href: lecture/eciv542syllabusFall26.qmd
             text: "Class 01: Intro & Syllabus"
           - href: lecture/introTrafficEngr.qmd
@@ -56,18 +46,55 @@ website:
             text: "Class 03: Ch3 - Horizontal Design"
           - href: lecture/ch3VerDgn.qmd
             text: "Class 03: Ch3 - Vertical Design"
-      - section: "Supplemental notes"
-        # contents:
-        #   - href: supplemental/slr-derivations.qmd
-        #     text: SLR derivations
-        #   - href: supplemental/model-diagnostics-matrix.qmd
-        #     text: Model diagnostics
-        #   - href: supplemental/mlr-matrix.qmd
-        #     text: MLR matrix notation
-        #   - href: supplemental/log-transformations.qmd
-        #     text: Log transformations
-        #   - href: supplemental/model-selection-criteria.qmd
-        #     text: Model selection criteria
+      - text: "Homeworks"
+        menu:
+          - href: templates/hwTemplate.pdf
+            text: HW Submission Template
+          - href: supplemental/model-diagnostics-matrix.qmd
+            text: HW 1
+      - text: "Project"
+        menu:
+          - href: project-description.qmd
+            text: Equipment
+          - href: project-description.qmd
+            text: Tech Memo 1
+          - href: project-description.qmd
+            text: Tech Memo 1
+
+      
+      # - section: "Lectures"
+      #   contents:
+      #     - href: lecture/eciv542syllabusFall26.qmd
+      #       text: "Class 01: Intro & Syllabus"
+      #     - href: lecture/introTrafficEngr.qmd
+      #       text: "Class 01: Ch1- Intro to Traffic Engr."
+      #     - href: lecture/rdUserVehCharacteristics.qmd
+      #       text: "Class 02: Ch2 - Road User and Veh. Characteristics"
+      #     - href: lecture/ch3HorDgn.qmd
+      #       text: "Class 03: Ch3 - Horizontal Design"
+      #     - href: lecture/ch3VerDgn.qmd
+      #       text: "Class 03: Ch3 - Vertical Design"
+      # - section: "Homeworks (HW)"
+      #   contents:
+      #     - href: templates/hwTemplate.pdf
+      #       text: HW Submission Template
+      #     - href: supplemental/model-diagnostics-matrix.qmd
+      #       text: HW 1
+      # - section: "Project"
+      #   contents:
+      #     - href: project-description.qmd
+      #       text: Equipment
+      #     - href: project-description.qmd
+      #       text: Tech Memo 1
+      #     - href: project-description.qmd
+      #       text: Tech Memo 1
+      # - section: "Lab"
+      #   contents:
+      #     - href: project-description.qmd
+      #       text: Lab Loc B123 Main
+      #     - href: project-description.qmd
+      #       text: Tech Memo 1
+
 
 
 format:

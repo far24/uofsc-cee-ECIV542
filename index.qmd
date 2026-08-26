@@ -13,12 +13,19 @@ about:
   - text: SDRC
     href: https://sc.edu/about/offices_and_divisions/student_disability_resource_center/
 
-    
 ---
 
 ## Updates
 - 08/18/2026: Class begin tomorrow 
 - 08/19/2026: Class 01 Lectures/notes uploaded to Blackboard 
 - 08/24/2026: Class 02 Lectures/notes uploaded to Blackboard 
+
+## Due Dates
+* **Homework(s)**: [HW Submisstion Template](templates/hwTemplate.pdf){.btn .btn-success download="hwTemplate.pdf"}
+  - HW #1: 
+* **Exam(s)**:
+  - Exam 1: Oct 12, 2026
+  - Exam 2 (Final): Dec 11, 2026
+* **Project**:
 
 
