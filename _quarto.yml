@@ -53,9 +53,9 @@ website:
           - href: lecture/rdUserVehCharacteristics.qmd
             text: "Class 02: Ch2 - Road User and Veh. Characteristics"
           - href: lecture/ch3HorDgn.qmd
-            text: "Class 02: Ch3 - Horizontal Design"
+            text: "Class 03: Ch3 - Horizontal Design"
           - href: lecture/ch3VerDgn.qmd
-            text: "Class 02: Ch3 - Vertical Design"
+            text: "Class 03: Ch3 - Vertical Design"
       - section: "Supplemental notes"
         # contents:
         #   - href: supplemental/slr-derivations.qmd

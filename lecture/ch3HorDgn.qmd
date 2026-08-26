@@ -2,7 +2,7 @@
 title: "Class 03 08/26/2026 </br> Chapter 3 (Hor. Curve)"
 format: 
   revealjs:
-    theme: black
+    theme: white
     slide-number: true
     scrollable: true
 ---
