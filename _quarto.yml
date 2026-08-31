@@ -46,6 +46,8 @@ website:
             text: "Class 03: Ch3 - Horizontal Design"
           - href: lecture/ch3VerDgn.qmd
             text: "Class 03: Ch3 - Vertical Design"
+          - href: lecture/ch5TrafficStreamCharacter.qmd
+            text: "Class 04: Ch5 - Traffic Stream Characteristics"
       - text: "Homeworks"
         menu:
           - href: templates/hwTemplate.pdf

@@ -19,13 +19,15 @@ about:
 - 08/18/2026: Class begin tomorrow 
 - 08/19/2026: Class 01 Lectures/notes uploaded to Blackboard 
 - 08/24/2026: Class 02 Lectures/notes uploaded to Blackboard 
+- 08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard 
 
 ## Due Dates
-* **Homework(s)**: [HW Submisstion Template](templates/hwTemplate.pdf){.btn .btn-success download="hwTemplate.pdf"}
-  - HW #1: 
+* **Homework(s)**: 
+  - [HW Submisstion Template](templates/hwTemplate.pdf){.btn .btn-success download="hwTemplate.pdf"}
+  - HW #1([see Blackboard](https://blackboard.sc.edu/webapps/login/s)): Sep 09, 2026 (Wed), 10:59AM
 * **Exam(s)**:
-  - Exam 1: Oct 12, 2026
-  - Exam 2 (Final): Dec 11, 2026
+  - Exam 1: Oct 12, 2026, 11:00AM, 2A07
+  - Exam 2 (Final): Dec 11, 2026 (FR), 07:30PM, 2A07
 * **Project**:
 
 

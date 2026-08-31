@@ -1,0 +1,248 @@
+---
+title: "Class 04 08/31/2026 </br> Chapter 5: Traffic Stream Characteristics"
+format: 
+  revealjs:
+    theme: white
+    slide-number: true
+    scrollable: true
+---
+
+
+## Class Logistics (08/31/2026)
+
+- HW 1 posted on BlackBoard
+
+## Topics 
+
+### Traffic Stream Characteristics 
+
+* Traffic Stream Parameters
+  - Volume and Rate of Flow
+  - Speed and Travel Time
+  - Density and Occupancy
+* Relationship among Flow rate, Speed, Density
+
+## Volume and Rate of Flow
+
+* **Purpose**:
+  - trends over time
+  - general planning purposes
+  - 
+* **Volume**: 
+  - number of vehicles passing a point on a highway, or a given lane or direction of a highway, during a specified time interval.
+* **Unit**: 
+  - vehicles or **vehicles per unit time (veh/hour): Rate of Flow**
+
+## Volume and Rate of Flow...
+
+* Daily Volumes
+  - Average Annual Daily (AADT)
+  - Average Annual Weekday (AAWT)
+  - Average Daily Traffic (ADT)
+  - Average Weekly Traffic (AWT)
+* Hourly Volumes
+  - Peak-hour volume
+  - Directional Design Hour Volume
+* Subhourly Volumes
+  - 
+
+## Daily Volumes
+
+| Defn                        | Space          | Count Period                            | Formula                               |
+|-----------------------------|----------------|-----------------------------------------|---------------------------------------|
+| **AADT**: Avg. 24-hour volume   | Given location | 365-day year                            | # days / 356 day                      |
+| **AAWT**: Avg. 24-hour volume   | Given location | weekdays over a full 365-year           | # days / # of weekdays (260 days)     |
+| **ADT**: Avg. 24-hour volume    | Given location | less than one year                      | # of veh / # of counting days (< 365) |
+| **AWT**: Average 24-hour volume | Given location | weekdays and less than one year (month) | # of veh / # of counting days         |
+
+## Time Interval for Volume {background-color="black" auto-animate=true}
+
+::: {#gantt-darkmode}
+```{mermaid}
+%%{init: {
+  'theme': 'dark', 
+  'gantt': {
+    'titlePadding': 20,
+    'barHeight': 45,
+    'barGap': 22,
+    'topPadding': 50,
+    'sidePadding': 50
+  },
+  'themeVariables': { 
+    'fontSize': '22px', 
+    'sectionFontSize': '24px',
+    'titleFontSize': '26px',
+    'background': '#000000',
+    'titleColor': '#ffffff',
+    'sectionBkgColor': '#111111',
+    'sectionColor': '#ffffff',
+    'gridLineColor': '#333333',
+    'taskTextColor': '#ffffff'
+  }
+}}%%
+gantt
+    title Visualizing Nested Measurement Windows Across Scales
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b
+    
+    %% Clear automatic red timeline marker
+    todayMarker off
+    
+    section 1. Year
+    Annual Scope (365 Days)               :active, y1, 2026-01-01, 2026-12-31
+    
+    section 2. Season
+    Summer Scope (92 Days)                :s1, 2026-06-20, 2026-09-21
+    
+    section 3. Week
+    Full Calendar Week (7 Days)           :w1, 2026-07-12, 2026-07-19
+    
+    section 4. Working Week
+    Working Week Frame (M-F)              :crit, d1, 2026-07-13, 2026-07-18
+```
+:::
+
+
+## Daily Volumes: Problem
+
+![](images/chap5/ch5TSC_tab5_1_part1.png){fig-align="center"}
+
+## Daily Volumes: AWT
+
+![](images/chap5/ch5TSC_tab5_1_part2AWTq.png){fig-align="center"}
+
+## Daily Volumes: AWT
+
+![](images/chap5/ch5TSC_tab5_1_part2AWT.png){fig-align="center"}
+
+## Daily Volumes: ADT
+
+![](images/chap5/ch5TSC_tab5_1_part3ADTq.png){fig-align="center"}
+
+## Daily Volumes: ADT
+
+![](images/chap5/ch5TSC_tab5_1_part3ADT.png){fig-align="center"}
+
+## Daily Volumes: AADT
+
+![](images/chap5/ch5TSC_tab5_1_part4AADTq.png){fig-align="center"}
+
+
+## Daily Volumes: AADT
+
+![](images/chap5/ch5TSC_tab5_1_part4AADTsol.png){fig-align="center"}
+
+
+## Hourly Volumes
+* Volume varies considerably over the 24 hours of the day, with periods of maximum flow occurring during the morning and evening commuter **"rush hours."**
+* **Peak hour**: The single hour of the day that has the highest hourly volume is referred to as the peak hour.
+* **Peak-hour Traffic Volume**: Traffic Volume in the peak hour
+  - peak-hour traffic volume depends on direction of flow: "Morning Peak" and "Evening Peak" 
+
+
+## Hourly Volumes: Peak-hour volumes
+
+* AADTs are converted to a peak-hour volume in the peak direction of flow.
+* Directional Design Peak Hour (DDHV)
+  - $DDHV= AADT \times K \times D$
+  - $K$ = proportion of daily traffic occurring during the peak hour
+  - $D$ = proportion of peak hour trafic traveling in the peak direction of flow.
+  
+## Peak-hour volumes ...
+![](images/chap5/ch5TSC_tab5_2_K_D.png){fig-align="center"}
+
+
+## Peak-hour volumes: Problem
+Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,000 veh/day. Based on the data of Table 5.2, what range of directional design hour volumes might be expected for this situation?
+
+## Peak-hour volumes: Problem
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,000 veh/day. Based on the data of Table 5.2, what range of directional design hour volumes might be expected for this situation?
+:::
+
+::: {.column width="40%"}
+![](images/chap5/ch5TSC_tab5_2_K_D.png){fig-align="center"}
+:::
+
+::::
+
+## Peak-hour volumes: Solution
+
+* $K = (0.15 -0.25)$
+* $D = (0.65-0.80)$
+ 
+* $DDHV_{low} = AADT \times K \times D$
+* $DDHV_{low} = 30,000 \times 0.15 \times 0.65 = 2,2925$ veh/hour
+* $DDHV_{low} = 2,2925 veh/hour$
+ 
+ 
+* $DDHV_{low} = AADT \times K \times D$
+* $DDHV_{low} = 30,000 \times 0.25 \times 0.85$
+* $DDHV_{low} = 6,000$ veh/hour
+
+
+## Sub-Hourly Volumes
+- Volumes observed for periods of less than one hour
+- **Hourly Volume**: Volume in one-hour
+- **Hourly Rates of Flow**: Volumes observed for periods of less than one hour and expressed as equivalent hourly volume
+- **Peak Hour Factor**
+
+## Sub-Hourly Volumes: Problem
+![](images/chap5/ch5TSC_tab5_3_prob.png){fig-align="center"}
+
+## Sub-Hourly Volumes: Hourly Volume
+![](images/chap5/ch5TSC_tab5_3_hourlyVol.png){fig-align="center"}
+
+## Sub-Hourly Volumes: Hourly Volume
+![](images/chap5/ch5TSC_tab5_3_hourlyVolSol.png){fig-align="center"}
+
+## Sub-Hourly Volumes: Hourly Flow Rate
+![](images/chap5/ch5TSC_tab5_3_hourlyFlowRate.png){fig-align="center"}
+
+## Sub-Hourly Volumes: Hourly Flow Rate
+![](images/chap5/ch5TSC_tab5_3_hourlyFlowRateSol.png){fig-align="center"}
+
+## Sub-Hourly Volumes: Max. rate of Flow
+- Max. rate of Flow:  The max. flow rate within the peak hour
+- $Peak Hour Factor (PHF) = \frac{Hourly Volume}{max. rate of flow}$
+- $PHF = \frac{V}{4*V_{m15}}$
+
+## Sub-Hourly Volumes: Max. rate of Flow
+:::: {.columns}
+
+::: {.column width="50%"}
+* $PHF = \frac{V}{4*V_{m15}}$
+* $PHF = \frac{4200}{4*1200}$
+* $PHF = 0.875$
+
+
+:::
+
+::: {.column width="40%"}
+![](images/chap5/ch5TSC_tab5_3_hourlyFlowRateSol.png){fig-align="center"}
+
+:::
+
+::::
+
+
+## Speed and Travel Time
+* distance traversed = speed x time to traverse distance
+* $d=S \times t$
+
+## Speed and Travel Time
+* **Time mean speed (TMS)**
+  - The average speed of all vehicles passing a **point** on a highway or lane over some specified time peiod.
+* **Space mean speed (SMS)**
+  - The average speed of all vehicles occupying a **given section of highway** or lane over some specified time period.
+  
+  
+## Speed and Travel Time: Problem
+![](images/chap5/ch5TSC_tab5_5_tms_sms.png){fig-align="center"}
+
+
+## Speed and Travel Time: Solution
+![](images/chap5/ch5TSC_tab5_5_tms_sms_sol.png){fig-align="center"}

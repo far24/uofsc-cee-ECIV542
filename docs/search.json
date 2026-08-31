@@ -113,268 +113,221 @@
     "text": "Ver. Curve: SSD Problem\nWhat is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#class-logistics",
-    "href": "lecture/ch3HorDgn.html#class-logistics",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Class Logistics",
-    "text": "Class Logistics\n\nExam 2 (Final Exam): December 11th (FRI) at 7:30 PM SWGN 2A07\nHW1 will assigned next week\nGroups and Project will be assigned next week"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#class-logistics-08312026",
+    "href": "lecture/ch5TrafficStreamCharacter.html#class-logistics-08312026",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Class Logistics (08/31/2026)",
+    "text": "Class Logistics (08/31/2026)\n\nHW 1 posted on BlackBoard"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#topics",
-    "href": "lecture/ch3HorDgn.html#topics",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "TOPICS",
-    "text": "TOPICS\n\nCh. 3: Horizontal Design of Roadway\n\nHor. Curve Alignments\nHor. Curve Equations\nSuperelevation\nMin. Radius of Curve\nStopping Sight Distance (SSD) on the curve"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#topics",
+    "href": "lecture/ch5TrafficStreamCharacter.html#topics",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Topics",
+    "text": "Topics\nTraffic Stream Characteristics\n\nTraffic Stream Parameters\n\nVolume and Rate of Flow\nSpeed and Travel Time\nDensity and Occupancy\n\nRelationship among Flow rate, Speed, Density"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#arc-and-chord-definition",
-    "href": "lecture/ch3HorDgn.html#arc-and-chord-definition",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Arc and Chord Definition",
-    "text": "Arc and Chord Definition\n\n\nDegree of curvature: the central angle (D) to the ends of an agreed length (i.e. 100 ft) of either an arc or a chord."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#volume-and-rate-of-flow",
+    "href": "lecture/ch5TrafficStreamCharacter.html#volume-and-rate-of-flow",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Volume and Rate of Flow",
+    "text": "Volume and Rate of Flow\n\nPurpose:\n\ntrends over time\ngeneral planning purposes\n\n\nVolume:\n\nnumber of vehicles passing a point on a highway, or a given lane or direction of a highway, during a specified time interval.\n\nUnit:\n\nvehicles or vehicles per unit time (veh/hour): Rate of Flow"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#stationing",
-    "href": "lecture/ch3HorDgn.html#stationing",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Stationing",
-    "text": "Stationing"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#volume-and-rate-of-flow-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#volume-and-rate-of-flow-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Volume and Rate of Flow…",
+    "text": "Volume and Rate of Flow…\n\nDaily Volumes\n\nAverage Annual Daily (AADT)\nAverage Annual Weekday (AAWT)\nAverage Daily Traffic (ADT)\nAverage Weekly Traffic (AWT)\n\nHourly Volumes\n\nPeak-hour volume\nDirectional Design Hour Volume\n\nSubhourly Volumes"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
-    "href": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Horizontal Curve Alignments",
-    "text": "Horizontal Curve Alignments\n\n\n\nObjectives:\n\nProvide a transition between two straight (tangent) sections.\n\nThings to consider\n\nspeed, side friction, superelevation, etc.\nSeverity (tight/gentle) measured by the degree of curvature"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes",
+    "text": "Daily Volumes\n\n\n\n\n\n\n\n\n\nDefn\nSpace\nCount Period\nFormula\n\n\n\n\nAADT: Avg. 24-hour volume\nGiven location\n365-day year\n# days / 356 day\n\n\nAAWT: Avg. 24-hour volume\nGiven location\nweekdays over a full 365-year\n# days / # of weekdays (260 days)\n\n\nADT: Avg. 24-hour volume\nGiven location\nless than one year\n# of veh / # of counting days (&lt; 365)\n\n\nAWT: Average 24-hour volume\nGiven location\nweekdays and less than one year (month)\n# of veh / # of counting days"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#time-interval-for-volume",
+    "href": "lecture/ch5TrafficStreamCharacter.html#time-interval-for-volume",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Time Interval for Volume",
+    "text": "Time Interval for Volume\n\n\n\n\n\n\n%%{init: {\n  'theme': 'dark', \n  'gantt': {\n    'titlePadding': 20,\n    'barHeight': 45,\n    'barGap': 22,\n    'topPadding': 50,\n    'sidePadding': 50\n  },\n  'themeVariables': { \n    'fontSize': '22px', \n    'sectionFontSize': '24px',\n    'titleFontSize': '26px',\n    'background': '#000000',\n    'titleColor': '#ffffff',\n    'sectionBkgColor': '#111111',\n    'sectionColor': '#ffffff',\n    'gridLineColor': '#333333',\n    'taskTextColor': '#ffffff'\n  }\n}}%%\ngantt\n    title Visualizing Nested Measurement Windows Across Scales\n    dateFormat  YYYY-MM-DD\n    axisFormat  %b\n    \n    %% Clear automatic red timeline marker\n    todayMarker off\n    \n    section 1. Year\n    Annual Scope (365 Days)               :active, y1, 2026-01-01, 2026-12-31\n    \n    section 2. Season\n    Summer Scope (92 Days)                :s1, 2026-06-20, 2026-09-21\n    \n    section 3. Week\n    Full Calendar Week (7 Days)           :w1, 2026-07-12, 2026-07-19\n    \n    section 4. Working Week\n    Working Week Frame (M-F)              :crit, d1, 2026-07-13, 2026-07-18"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-problem",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-problem",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes: Problem",
+    "text": "Daily Volumes: Problem"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-awt",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-awt",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes: AWT",
+    "text": "Daily Volumes: AWT"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-awt-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-awt-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes: AWT",
+    "text": "Daily Volumes: AWT"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Hor. Curve Eq. : Problem",
-    "text": "Hor. Curve Eq. : Problem\n\n\nTwo tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E)."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-adt",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-adt",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes: ADT",
+    "text": "Daily Volumes: ADT"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-adt-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-adt-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes: ADT",
+    "text": "Daily Volumes: ADT"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-1",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-1",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\nSight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.\nA minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-aadt",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-aadt",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes: AADT",
+    "text": "Daily Volumes: AADT"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-2",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-2",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\n\n\nWhen such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes)."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-aadt-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes-aadt-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Daily Volumes: AADT",
+    "text": "Daily Volumes: AADT"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-3",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-3",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\n\n\nfor a specified stopping distance, some distance, Ms (the middle ordinate of a curve that has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#hourly-volumes",
+    "href": "lecture/ch5TrafficStreamCharacter.html#hourly-volumes",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Hourly Volumes",
+    "text": "Hourly Volumes\n\nVolume varies considerably over the 24 hours of the day, with periods of maximum flow occurring during the morning and evening commuter “rush hours.”\nPeak hour: The single hour of the day that has the highest hourly volume is referred to as the peak hour.\nPeak-hour Traffic Volume: Traffic Volume in the peak hour\n\npeak-hour traffic volume depends on direction of flow: “Morning Peak” and “Evening Peak”"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-4",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-4",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(F=0.348\\)\n\n\\(M_{s}=R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\n\\(R_v = \\frac{5729.58}{D_v}\\)"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#hourly-volumes-peak-hour-volumes",
+    "href": "lecture/ch5TrafficStreamCharacter.html#hourly-volumes-peak-hour-volumes",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Hourly Volumes: Peak-hour volumes",
+    "text": "Hourly Volumes: Peak-hour volumes\n\nAADTs are converted to a peak-hour volume in the peak direction of flow.\nDirectional Design Peak Hour (DDHV)\n\n\\(DDHV= AADT \\times K \\times D\\)\n\\(K\\) = proportion of daily traffic occurring during the peak hour\n\\(D\\) = proportion of peak hour trafic traveling in the peak direction of flow."
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "SSD on Curve: Problem",
-    "text": "SSD on Curve: Problem\n\n\nA 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?\n\n\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5 + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd}=726.6 ft\\)\n\nFor a SSD of \\(726.6ft\\), the min clearance at roadside:\n\n\\(M_{s}= R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\\(M_{s}= \\frac{5729.58}{6} \\times (1- cos \\frac{90 \\times 726.26}{\\pi \\frac{5729.58}{6}})\\)\n\\(M_{s}= 68.3 ft\\)"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes",
+    "href": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Peak-hour volumes …",
+    "text": "Peak-hour volumes …"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation",
-    "href": "lecture/ch3HorDgn.html#superelevation",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation",
-    "text": "Superelevation\nAmount by which the outer edge of a curve on a road or railroad is banked above the inner edge."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes-problem",
+    "href": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes-problem",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Peak-hour volumes: Problem",
+    "text": "Peak-hour volumes: Problem\nConsider the case of a rural highway that has a 20-year’ forecast of AADT of 30,000 veh/day. Based on the data of Table 5.2, what range of directional design hour volumes might be expected for this situation?"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-why",
-    "href": "lecture/ch3HorDgn.html#superelevation-why",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation: Why?",
-    "text": "Superelevation: Why?\n\n\n\n\n\n\n\nhttps://www.bigrentz.com/blog/superelevation"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes-problem-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes-problem-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Peak-hour volumes: Problem",
+    "text": "Peak-hour volumes: Problem\n\n\nConsider the case of a rural highway that has a 20-year’ forecast of AADT of 30,000 veh/day. Based on the data of Table 5.2, what range of directional design hour volumes might be expected for this situation?"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-components",
-    "href": "lecture/ch3HorDgn.html#superelevation-components",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation: Components",
-    "text": "Superelevation: Components"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes-solution",
+    "href": "lecture/ch5TrafficStreamCharacter.html#peak-hour-volumes-solution",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Peak-hour volumes: Solution",
+    "text": "Peak-hour volumes: Solution\n\n\\(K = (0.15 -0.25)\\)\n\\(D = (0.65-0.80)\\)\n\\(DDHV_{low} = AADT \\times K \\times D\\)\n\\(DDHV_{low} = 30,000 \\times 0.15 \\times 0.65 = 2,2925\\) veh/hour\n\\(DDHV_{low} = 2,2925 veh/hour\\)\n\\(DDHV_{low} = AADT \\times K \\times D\\)\n\\(DDHV_{low} = 30,000 \\times 0.25 \\times 0.85\\)\n\\(DDHV_{low} = 6,000\\) veh/hour"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
-    "href": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation: Change of XS",
-    "text": "Superelevation: Change of XS"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes",
+    "text": "Sub-Hourly Volumes\n\nVolumes observed for periods of less than one hour\nHourly Volume: Volume in one-hour\nHourly Rates of Flow: Volumes observed for periods of less than one hour and expressed as equivalent hourly volume\nPeak Hour Factor"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
-    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation: Eq. for Runoff length",
-    "text": "Superelevation: Eq. for Runoff length\n\n\n\\(L_r = \\frac{w \\times n \\times e_d \\times b_w}{\\Delta}\\)\n\n\\(L_r\\) = minimum length of superelevation runoff, ft\n\\(w\\) = width of lane, ft\n\\(n\\) = number of lanes being rotated (i.e. lanes in one direction)\n\\(e_d\\) = design superelevation rate, expressed as a decimal\n\\(b_w\\) = adjustment factor for number of lanes rotated\n\n1: for one lane, 0.75 for two, 0.67 for three\n\n\\(\\Delta\\) = maximum relative gradient, (Table 27.3) expressed as a decimal"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-problem",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-problem",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes: Problem",
+    "text": "Sub-Hourly Volumes: Problem"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
-    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation: Eq. for Runoff length",
-    "text": "Superelevation: Eq. for Runoff length"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-volume",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-volume",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes: Hourly Volume",
+    "text": "Sub-Hourly Volumes: Hourly Volume"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
-    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation: Eq. for Tangent Runoff",
-    "text": "Superelevation: Eq. for Tangent Runoff\n\n\n\\(L_t = \\frac{e_{NC}}{e_d} \\times L_r\\)\n\n\\(L_t\\) = length of tangent runoff, ft\n\\(L_r\\) = length of superelevation runoff, ft\n\\(e_{NC}\\) = normal cross-slope, % (for drainage)\n\\(e_d\\) = design superelevation rate, %"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-volume-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-volume-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes: Hourly Volume",
+    "text": "Sub-Hourly Volumes: Hourly Volume"
   },
   {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-sample-problem",
-    "href": "lecture/ch3HorDgn.html#superelevation-sample-problem",
-    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
-    "section": "Superelevation: Sample Problem",
-    "text": "Superelevation: Sample Problem\nA four-lane highway with a superelvation rate of 0.04 achieved by rotating two 12 ft lanes around the centerline. The normal drainage cross-slope is 0.01. The design speed of the highway is 60 mi/h. What is the appropriate minimum length of superelevation runoff and what is the tangent runoff length."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-flow-rate",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-flow-rate",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes: Hourly Flow Rate",
+    "text": "Sub-Hourly Volumes: Hourly Flow Rate"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "What is Traffic Engineering?",
-    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-flow-rate-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-hourly-flow-rate-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes: Hourly Flow Rate",
+    "text": "Sub-Hourly Volumes: Hourly Flow Rate"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Primary Objective: SAFETY",
-    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-max.-rate-of-flow",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-max.-rate-of-flow",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes: Max. rate of Flow",
+    "text": "Sub-Hourly Volumes: Max. rate of Flow\n\nMax. rate of Flow: The max. flow rate within the peak hour\n\\(Peak Hour Factor (PHF) = \\frac{Hourly Volume}{max. rate of flow}\\)\n\\(PHF = \\frac{V}{4*V_{m15}}\\)"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Mobility vs. Accessibility",
-    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-max.-rate-of-flow-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#sub-hourly-volumes-max.-rate-of-flow-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Sub-Hourly Volumes: Max. rate of Flow",
+    "text": "Sub-Hourly Volumes: Max. rate of Flow\n\n\n\n\\(PHF = \\frac{V}{4*V_{m15}}\\)\n\\(PHF = \\frac{4200}{4*1200}\\)\n\\(PHF = 0.875\\)"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
-    "href": "lecture/introTrafficEngr.html#transportation-modes",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Transportation Modes",
-    "text": "Transportation Modes"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time",
+    "href": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Speed and Travel Time",
+    "text": "Speed and Travel Time\n\ndistance traversed = speed x time to traverse distance\n\\(d=S \\times t\\)"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#section",
-    "href": "lecture/introTrafficEngr.html#section",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "",
-    "text": "What’s Missing?"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time-1",
+    "href": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time-1",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Speed and Travel Time",
+    "text": "Speed and Travel Time\n\nTime mean speed (TMS)\n\nThe average speed of all vehicles passing a point on a highway or lane over some specified time peiod.\n\nSpace mean speed (SMS)\n\nThe average speed of all vehicles occupying a given section of highway or lane over some specified time period."
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Elements of Traffic Engineering",
-    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time-problem",
+    "href": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time-problem",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Speed and Travel Time: Problem",
+    "text": "Speed and Travel Time: Problem"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Modern Problems for the Traffic Engineer",
-    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Key Manuals and References",
-    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#updates",
-    "href": "index.html#updates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#due-dates",
-    "href": "index.html#due-dates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "Due Dates",
-    "text": "Due Dates\n\nHomework(s): HW Submisstion Template\n\nHW #1:\n\nExam(s):\n\nExam 1: Oct 12, 2026\nExam 2 (Final): Dec 11, 2026\n\nProject:",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time-solution",
+    "href": "lecture/ch5TrafficStreamCharacter.html#speed-and-travel-time-solution",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Speed and Travel Time: Solution",
+    "text": "Speed and Travel Time: Solution"
   },
   {
     "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",
@@ -585,6 +538,270 @@
     "title": "Ch. 2: Road user and vehicle characteristics",
     "section": "Ch. 2: Road user and vehicle characteristics",
     "text": "Ch. 2: Road user and vehicle characteristics\nEND"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#due-dates",
+    "href": "index.html#due-dates",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "Due Dates",
+    "text": "Due Dates\n\nHomework(s):\n\nHW Submisstion Template\nHW #1(see Blackboard): Sep 09, 2026 (Wed), 10:59AM\n\nExam(s):\n\nExam 1: Oct 12, 2026, 11:00AM, 2A07\nExam 2 (Final): Dec 11, 2026 (FR), 07:30PM, 2A07\n\nProject:",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "What is Traffic Engineering?",
+    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Primary Objective: SAFETY",
+    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Mobility vs. Accessibility",
+    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
+    "href": "lecture/introTrafficEngr.html#transportation-modes",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Transportation Modes",
+    "text": "Transportation Modes"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#section",
+    "href": "lecture/introTrafficEngr.html#section",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "",
+    "text": "What’s Missing?"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Elements of Traffic Engineering",
+    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Modern Problems for the Traffic Engineer",
+    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Key Manuals and References",
+    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#class-logistics",
+    "href": "lecture/ch3HorDgn.html#class-logistics",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Class Logistics",
+    "text": "Class Logistics\n\nExam 2 (Final Exam): December 11th (FRI) at 7:30 PM SWGN 2A07\nHW1 will assigned next week\nGroups and Project will be assigned next week"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#topics",
+    "href": "lecture/ch3HorDgn.html#topics",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "TOPICS",
+    "text": "TOPICS\n\nCh. 3: Horizontal Design of Roadway\n\nHor. Curve Alignments\nHor. Curve Equations\nSuperelevation\nMin. Radius of Curve\nStopping Sight Distance (SSD) on the curve"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#arc-and-chord-definition",
+    "href": "lecture/ch3HorDgn.html#arc-and-chord-definition",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Arc and Chord Definition",
+    "text": "Arc and Chord Definition\n\n\nDegree of curvature: the central angle (D) to the ends of an agreed length (i.e. 100 ft) of either an arc or a chord."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#stationing",
+    "href": "lecture/ch3HorDgn.html#stationing",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Stationing",
+    "text": "Stationing"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
+    "href": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Horizontal Curve Alignments",
+    "text": "Horizontal Curve Alignments\n\n\n\nObjectives:\n\nProvide a transition between two straight (tangent) sections.\n\nThings to consider\n\nspeed, side friction, superelevation, etc.\nSeverity (tight/gentle) measured by the degree of curvature"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Hor. Curve Eq. : Problem",
+    "text": "Hor. Curve Eq. : Problem\n\n\nTwo tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E)."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-1",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\nSight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.\nA minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-2",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-2",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\nWhen such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes)."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-3",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-3",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\nfor a specified stopping distance, some distance, Ms (the middle ordinate of a curve that has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-4",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-4",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(F=0.348\\)\n\n\\(M_{s}=R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\n\\(R_v = \\frac{5729.58}{D_v}\\)"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "SSD on Curve: Problem",
+    "text": "SSD on Curve: Problem\n\n\nA 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?\n\n\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5 + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd}=726.6 ft\\)\n\nFor a SSD of \\(726.6ft\\), the min clearance at roadside:\n\n\\(M_{s}= R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\\(M_{s}= \\frac{5729.58}{6} \\times (1- cos \\frac{90 \\times 726.26}{\\pi \\frac{5729.58}{6}})\\)\n\\(M_{s}= 68.3 ft\\)"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation",
+    "href": "lecture/ch3HorDgn.html#superelevation",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation",
+    "text": "Superelevation\nAmount by which the outer edge of a curve on a road or railroad is banked above the inner edge."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-why",
+    "href": "lecture/ch3HorDgn.html#superelevation-why",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Why?",
+    "text": "Superelevation: Why?\n\n\n\n\n\n\n\nhttps://www.bigrentz.com/blog/superelevation"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-components",
+    "href": "lecture/ch3HorDgn.html#superelevation-components",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Components",
+    "text": "Superelevation: Components"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
+    "href": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Change of XS",
+    "text": "Superelevation: Change of XS"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Runoff length",
+    "text": "Superelevation: Eq. for Runoff length\n\n\n\\(L_r = \\frac{w \\times n \\times e_d \\times b_w}{\\Delta}\\)\n\n\\(L_r\\) = minimum length of superelevation runoff, ft\n\\(w\\) = width of lane, ft\n\\(n\\) = number of lanes being rotated (i.e. lanes in one direction)\n\\(e_d\\) = design superelevation rate, expressed as a decimal\n\\(b_w\\) = adjustment factor for number of lanes rotated\n\n1: for one lane, 0.75 for two, 0.67 for three\n\n\\(\\Delta\\) = maximum relative gradient, (Table 27.3) expressed as a decimal"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Runoff length",
+    "text": "Superelevation: Eq. for Runoff length"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Tangent Runoff",
+    "text": "Superelevation: Eq. for Tangent Runoff\n\n\n\\(L_t = \\frac{e_{NC}}{e_d} \\times L_r\\)\n\n\\(L_t\\) = length of tangent runoff, ft\n\\(L_r\\) = length of superelevation runoff, ft\n\\(e_{NC}\\) = normal cross-slope, % (for drainage)\n\\(e_d\\) = design superelevation rate, %"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-sample-problem",
+    "href": "lecture/ch3HorDgn.html#superelevation-sample-problem",
+    "title": "Class 03 08/26/2026  Chapter 3 (Hor. Curve)",
+    "section": "Superelevation: Sample Problem",
+    "text": "Superelevation: Sample Problem\nA four-lane highway with a superelvation rate of 0.04 achieved by rotating two 12 ft lanes around the centerline. The normal drainage cross-slope is 0.01. The design speed of the highway is 60 mi/h. What is the appropriate minimum length of superelevation runoff and what is the tangent runoff length."
   },
   {
     "objectID": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
