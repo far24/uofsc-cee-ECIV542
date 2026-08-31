@@ -50,8 +50,8 @@ format:
 
 | Defn                        | Space          | Count Period                            | Formula                               |
 |-----------------------------|----------------|-----------------------------------------|---------------------------------------|
-| **AADT**: Avg. 24-hour volume   | Given location | 365-day year                            | # days / 356 day                      |
-| **AAWT**: Avg. 24-hour volume   | Given location | weekdays over a full 365-year           | # days / # of weekdays (260 days)     |
+| **AADT**: Avg. 24-hour volume   | Given location | 365-day year                            | # of veh / 356 day                      |
+| **AAWT**: Avg. 24-hour volume   | Given location | weekdays over a full 365-year           | # of veh / # of weekdays (260 days)     |
 | **ADT**: Avg. 24-hour volume    | Given location | less than one year                      | # of veh / # of counting days (< 365) |
 | **AWT**: Average 24-hour volume | Given location | weekdays and less than one year (month) | # of veh / # of counting days         |
 
@@ -246,3 +246,18 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
 
 ## Speed and Travel Time: Solution
 ![](images/chap5/ch5TSC_tab5_5_tms_sms_sol.png){fig-align="center"}
+
+## Density and Occupancy
+* **Density**
+  - the number of vehicles occupying a given length of highway or lane (veh/mile)
+* **Occupancy**
+  - of time that a detector is "occupied"
+
+## Relationship: Flow Rate, Speed, and Density
+
+* Rate of Flow = space mean speed x Density
+* $v= SMS \times D$
+
+## Relationship: Problem
+
+Consider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln.

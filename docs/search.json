@@ -145,7 +145,7 @@
     "href": "lecture/ch5TrafficStreamCharacter.html#daily-volumes",
     "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
     "section": "Daily Volumes",
-    "text": "Daily Volumes\n\n\n\n\n\n\n\n\n\nDefn\nSpace\nCount Period\nFormula\n\n\n\n\nAADT: Avg. 24-hour volume\nGiven location\n365-day year\n# days / 356 day\n\n\nAAWT: Avg. 24-hour volume\nGiven location\nweekdays over a full 365-year\n# days / # of weekdays (260 days)\n\n\nADT: Avg. 24-hour volume\nGiven location\nless than one year\n# of veh / # of counting days (&lt; 365)\n\n\nAWT: Average 24-hour volume\nGiven location\nweekdays and less than one year (month)\n# of veh / # of counting days"
+    "text": "Daily Volumes\n\n\n\n\n\n\n\n\n\nDefn\nSpace\nCount Period\nFormula\n\n\n\n\nAADT: Avg. 24-hour volume\nGiven location\n365-day year\n# of veh / 356 day\n\n\nAAWT: Avg. 24-hour volume\nGiven location\nweekdays over a full 365-year\n# of veh / # of weekdays (260 days)\n\n\nADT: Avg. 24-hour volume\nGiven location\nless than one year\n# of veh / # of counting days (&lt; 365)\n\n\nAWT: Average 24-hour volume\nGiven location\nweekdays and less than one year (month)\n# of veh / # of counting days"
   },
   {
     "objectID": "lecture/ch5TrafficStreamCharacter.html#time-interval-for-volume",
@@ -328,6 +328,27 @@
     "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
     "section": "Speed and Travel Time: Solution",
     "text": "Speed and Travel Time: Solution"
+  },
+  {
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#density-and-occupancy",
+    "href": "lecture/ch5TrafficStreamCharacter.html#density-and-occupancy",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Density and Occupancy",
+    "text": "Density and Occupancy\n\nDensity\n\nthe number of vehicles occupying a given length of highway or lane (veh/mile)\n\nOccupancy\n\nof time that a detector is “occupied”"
+  },
+  {
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#relationship-flow-rate-speed-and-density",
+    "href": "lecture/ch5TrafficStreamCharacter.html#relationship-flow-rate-speed-and-density",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Relationship: Flow Rate, Speed, and Density",
+    "text": "Relationship: Flow Rate, Speed, and Density\n\nRate of Flow = space mean speed x Density\n\\(v= SMS \\times D\\)"
+  },
+  {
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#relationship-problem",
+    "href": "lecture/ch5TrafficStreamCharacter.html#relationship-problem",
+    "title": "Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Relationship: Problem",
+    "text": "Relationship: Problem\nConsider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln."
   },
   {
     "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",
