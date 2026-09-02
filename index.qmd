@@ -13,6 +13,8 @@ about:
   - text: SDRC
     href: https://sc.edu/about/offices_and_divisions/student_disability_resource_center/
 
+
+
 ---
 
 ## Updates
@@ -23,13 +25,15 @@ about:
 - 09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned 
 
 ## Due Dates
-* **Homework(s)**: 
-  - [HW Submisstion Template](templates/hwTemplate.pdf){.btn .btn-success download="hwTemplate.pdf"}
-  - HW #1([see Blackboard](https://blackboard.sc.edu/webapps/login/s)): Sep 09, 2026 (Wed), 10:59AM
-* **Exam(s)**:
-  - Exam 1: Oct 12, 2026, 11:00AM, 2A07
-  - Exam 2 (Final): Dec 11, 2026 (FR), 07:30PM, 2A07
-* **Project**:
-  - Tech Memo #1([see Blackboard](https://blackboard.sc.edu/webapps/login/s)): Sep 23, 2026 (Wed)
+
+|       Due Date       |   Type  |     Desc    |       Ref      |
+|:--------------------:|:-------:|:-----------:|:--------------:|
+| Sep 09, 2026 10:59AM | HW      | #1          | See BlackBoard |
+| Sep 23, 2026 10:59AM | Project | Tech Memo 1 | See Blackboard |
+| Oct 12, 2026 11:00AM | Exam    | #1          | In-class       |
+| Dec 11, 2026 07:30PM | Exam    | #2          | In-class       |
+
+## Resources  
+- [HW Submisstion Template](templates/hwTemplate.pdf){.btn .btn-success download="hwTemplate.pdf"}
 
 
