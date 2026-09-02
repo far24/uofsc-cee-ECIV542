@@ -348,7 +348,21 @@
     "href": "lecture/ch5TrafficStreamCharacter.html#headway-and-spacing",
     "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
     "section": "Headway and Spacing",
-    "text": "Headway and Spacing\n\nHeadway: time interval between successive vehicles as they pass a point along the lane (measured between common reference points on the vehicles).\n\n\\(q = \\frac{3600}{\\bar{h}}\\)\n\n\\(q\\) = flow rate, veh/hr/ln and \\(\\bar{h}\\) = avg. headway in the lane, s\n\n\n\n\n\nSpacing: distance between successive vehicles as they pass a point along the lane (measured between common reference points on the vehicles).\n\n\\(k = \\frac{5280}{\\bar{s}}\\)\n\n\\(k\\) = density, veh/mile and \\(\\bar{s}\\) = avg. spacing in the lane, ft"
+    "text": "Headway and Spacing\nIllustration: Headway and Spacing\n\nHeadway: time interval between successive vehicles as they pass a point along the lane (measured between common reference points on the vehicles).\n\n\\(q = \\frac{3600}{\\bar{h}}\\)\n\n\\(q\\) = flow rate, veh/hr/ln and \\(\\bar{h}\\) = avg. headway in the lane, s\n\n\n\n\n\nSpacing: distance between successive vehicles as they pass a point along the lane (measured between common reference points on the vehicles).\n\n\\(k = \\frac{5280}{\\bar{s}}\\)\n\n\\(k\\) = density, veh/mile and \\(\\bar{s}\\) = avg. spacing in the lane, ft"
+  },
+  {
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#headway-and-spacing-notes",
+    "href": "lecture/ch5TrafficStreamCharacter.html#headway-and-spacing-notes",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Headway and Spacing: Notes",
+    "text": "Headway and Spacing: Notes\nWhat if headway becomes smaller?\n- Vehicles are arriving closer together in time, so flow increases—up to the point where congestion or instability develops.\nWhat if spacing becomes smaller?\n- More vehicles occupy the same roadway length, so density increases. Drivers have less room to maneuver and less recovery space."
+  },
+  {
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#headway-and-spacing-summary",
+    "href": "lecture/ch5TrafficStreamCharacter.html#headway-and-spacing-summary",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Headway and Spacing: Summary",
+    "text": "Headway and Spacing: Summary\n\n\n\n\n\n\n\n\n\n\nParam\nMeasured at\nWhat it represents\nTypical unit\nConnects to\n\n\n\n\n\\(h\\)\nOne location, over time\nTime between consecutive vehicles\ns/veh\nFlow\n\n\n\\(s\\)\nOne instant, over distance\nDistance between consecutive vehicles\nft/veh or m/veh\nDensity"
   },
   {
     "objectID": "lecture/ch5TrafficStreamCharacter.html#fundamental-identity",
@@ -369,21 +383,21 @@
     "href": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models",
     "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
     "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\n\n\nSpeed and Density\n\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\n\\(u\\): SMS, mph\n\\(u_f\\): Free-flow speed, mph\n\\(k\\): density, veh/mi\n\\(k_j\\): Jam density, veh/mi"
+    "text": "Traffic Stream Models\n\n\nSpeed and Density: Greenshield’s Linear model\n\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\n\\(u\\): SMS, mph\n\\(u_f\\): Free-flow speed, mph\n\\(k\\): density, veh/mi\n\\(k_j\\): Jam density, veh/mi\n\nObservations\n\nAt \\(k \\approx 0\\), \\(u=u_f\\), no/few vehicles on the road, more speed\nAt \\(k=k_j\\), \\(u=0\\), more vehicles on the road, less speed"
   },
   {
     "objectID": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-1",
     "href": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-1",
     "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
     "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\n\n\nFlow and Density\nUsing the assumption of a linear speed-density relationship, a parabolicflow-density model can be obtained by using the given u-k relation and fundamental identity.\n\n\\(q = k \\times u_s\\)\n\\(q = k \\times u_f(1 - \\frac{k}{k_j})\\)\n\\(q = u_f(k - \\frac{k^2}{k_j})\\)"
+    "text": "Traffic Stream Models\n\n\nFlow and Density\nUsing the assumption of a linear speed-density relationship, a parabolicflow-density model can be obtained by using the given u-k relation and fundamental identity.\n\n\\(q = k \\times u_s\\)\n\\(q = k \\times u_f(1 - \\frac{k}{k_j})\\)\n\\(q = u_f(k - \\frac{k^2}{k_j})\\)\n\n\n\n\nObservations\n\nAt \\(k \\approx 0\\), \\(q=0\\), no vehicle, no flow\nAt \\(q=q_{max}\\) at capacity, \\(k=k_c\\), maximum flow\nAfter \\(k&gt;k_c\\), flow drops\nAt \\(k&gt;k_j\\), no flow"
   },
   {
     "objectID": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-2",
     "href": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-2",
     "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
     "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\n\n\nSpeed and Flow\nRearranging speed-density and using fundamental equation to find speed-flow relation\n\n\\(q = k_j(u - \\frac{u^2}{u_f})\\)"
+    "text": "Traffic Stream Models\n\n\nSpeed and Flow\nRearranging speed-density and using fundamental equation to find speed-flow relation\n\n\\(q = k_j(u - \\frac{u^2}{u_f})\\)\n\n\n\n\nObservations:\n\nsame flow can occur under two very different traffic conditions (stable free flow and congested)"
   },
   {
     "objectID": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-3",
@@ -391,6 +405,13 @@
     "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
     "section": "Traffic Stream Models",
     "text": "Traffic Stream Models\nFunctional Diagram of Traffic Flow"
+  },
+  {
+    "objectID": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-4",
+    "href": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-4",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\nInteractive Traffic Stream Model"
   },
   {
     "objectID": "lecture/ch5TrafficStreamCharacter.html#traffic-stream-models-problem",

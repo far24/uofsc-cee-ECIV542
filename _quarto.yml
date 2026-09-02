@@ -47,7 +47,10 @@ website:
           - href: lecture/ch3VerDgn.qmd
             text: "31AUG26-Class 03: Ch27 - Vertical Design"
           - href: lecture/ch5TrafficStreamCharacter.qmd
-            text: "31AUG26 02SEP26-Class 04&05: Ch5 - Traffic Stream Characteristics"
+            text: "31AUG26-Class 04: Ch5 - Traffic Stream Characteristics"
+          - href: lecture/ch5TrafficStreamCharacter.qmd
+            text: "02SEP26-Class 04: Ch5 - Traffic Stream Characteristics (Cont.)"
+
       - text: "Homeworks"
         menu: 
           - href: https://blackboard.sc.edu/webapps/login/

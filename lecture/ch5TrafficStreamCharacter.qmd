@@ -245,6 +245,8 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
 
 ## Headway and Spacing
 
+[Illustration: Headway and Spacing](https://homo-deus.com/lab/transportation/traffic-flow/?density=15&free_speed=120)
+
 * **Headway**: time interval between successive vehicles as they pass a point along the lane
 (measured between common reference points on the vehicles).
   - $q = \frac{3600}{\bar{h}}$
@@ -256,7 +258,21 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
 (measured between common reference points on the vehicles).
   - $k = \frac{5280}{\bar{s}}$
     - $k$ = density, veh/mile and $\bar{s}$ = avg. spacing in the lane, ft
+
+## Headway and Spacing: Notes
+
+**What if headway becomes smaller?**   
+- Vehicles are arriving closer together in time, so flow increases—up to the point where congestion or instability develops.
+
+**What if spacing becomes smaller?**    
+- More vehicles occupy the same roadway length, so density increases. Drivers have less room to maneuver and less recovery space.
+
+## Headway and Spacing: Summary    
     
+| Param |         Measured at        |           What it represents          |   Typical unit  | Connects to |
+|:-----:|:--------------------------:|:-------------------------------------:|:---------------:|:-----------:|
+| $h$   | One location, over time    | Time between consecutive vehicles     | s/veh           | Flow        |
+| $s$   | One instant, over distance | Distance between consecutive vehicles | ft/veh or m/veh | Density     |
 
 ## Fundamental Identity
 
@@ -265,6 +281,8 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
   - $q$ = Flow, veh/h or veh/h/ln
   - $k$ = density, veh/mi or veh/mi/ln
   - $u_s$ = SMS, mph
+
+
 
 ## Relationship: Problem
 **Consider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln. What is the Density of the roadway segment?**
@@ -275,12 +293,15 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
 * $k= \frac{q}{u_s}$
 * $k= \frac{1000}{60} = 16.7 veh/mi/ln$
 
+
+
+
 ## Traffic Stream Models
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-### Speed and Density
+### Speed and Density: Greenshield's Linear model
 
 * $u_s = u_f(1 - \frac{k}{k_j})$
   - $u$: SMS, mph
@@ -288,6 +309,10 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
   - $k$: density, veh/mi
   - $k_j$: Jam density, veh/mi
   
+* Observations
+  - At $k \approx 0$, $u=u_f$, no/few vehicles on the road, more speed
+  - At $k=k_j$, $u=0$, more vehicles on the road, less speed
+
 
 :::
 
@@ -314,6 +339,13 @@ Using the assumption of a linear speed-density relationship, a parabolicflow-den
 
 ::: {.column width="50%"}
 ![](images/chap6/chap6_greenshield_q.png)
+
+* Observations
+  - At $k \approx 0$, $q=0$, no vehicle, no flow
+  - At $q=q_{max}$ at capacity, $k=k_c$, maximum flow
+  - After $k>k_c$, flow drops
+  - At $k>k_j$, no flow
+
 :::
 
 ::::
@@ -333,6 +365,9 @@ Rearranging speed-density and using fundamental equation to find speed-flow rela
 
 ::: {.column width="50%"}
 ![](images/chap6/chap6_greenshield_q_u.png)
+
+* Observations:
+  - same flow can occur under two very different traffic conditions (stable free flow and congested)
 :::
 
 ::::
@@ -342,6 +377,10 @@ Rearranging speed-density and using fundamental equation to find speed-flow rela
 **Functional Diagram of Traffic Flow**
 ![](images/chap6/chap6_funcDiag.png)
 
+
+## Traffic Stream Models
+
+[Interactive Traffic Stream Model](https://novasolver.jp/en/tools/traffic-flow.html?utm_source=chatgpt.com&sModel=greenshields&vkj=110&skj=110&skjNum=110&vuf=65&suf=65&sufNum=65&vk=1&sk=1#sModel=greenshields&vuf=65&suf=65&sufNum=65&vkj=110&skj=110&skNum=40&skjNum=110&vk=1&sk=1)
 
 ## Traffic Stream Models: Problem
 
