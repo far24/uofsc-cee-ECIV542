@@ -20,6 +20,7 @@ about:
 - 08/19/2026: Class 01 Lectures/notes uploaded to Blackboard 
 - 08/24/2026: Class 02 Lectures/notes uploaded to Blackboard 
 - 08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard 
+- 09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned 
 
 ## Due Dates
 * **Homework(s)**: 
@@ -29,5 +30,6 @@ about:
   - Exam 1: Oct 12, 2026, 11:00AM, 2A07
   - Exam 2 (Final): Dec 11, 2026 (FR), 07:30PM, 2A07
 * **Project**:
+  - Tech Memo #1([see Blackboard](https://blackboard.sc.edu/webapps/login/s)): Sep 23, 2026 (Wed)
 
 

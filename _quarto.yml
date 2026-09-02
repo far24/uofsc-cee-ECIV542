@@ -37,23 +37,21 @@ website:
       - text: "Lectures"
         menu:
           - href: lecture/eciv542syllabusFall26.qmd
-            text: "Class 01: Intro & Syllabus"
+            text: "19AUG26-Class 01: Intro & Syllabus"
           - href: lecture/introTrafficEngr.qmd
-            text: "Class 01: Ch1- Intro to Traffic Engr."
+            text: "19AUG26-Class 01: Ch1- Intro to Traffic Engr."
           - href: lecture/rdUserVehCharacteristics.qmd
-            text: "Class 02: Ch2 - Road User and Veh. Characteristics"
+            text: "24AUG26-Class 02: Ch2 - Road User and Veh. Characteristics"
           - href: lecture/ch3HorDgn.qmd
-            text: "Class 03: Ch3 - Horizontal Design"
+            text: "26AUG26-Class 03: Ch27 - Horizontal Design"
           - href: lecture/ch3VerDgn.qmd
-            text: "Class 03: Ch3 - Vertical Design"
+            text: "31AUG26-Class 03: Ch27 - Vertical Design"
           - href: lecture/ch5TrafficStreamCharacter.qmd
-            text: "Class 04: Ch5 - Traffic Stream Characteristics"
+            text: "31AUG26 02SEP26-Class 04&05: Ch5 - Traffic Stream Characteristics"
       - text: "Homeworks"
-        menu:
-          - href: templates/hwTemplate.pdf
-            text: HW Submission Template
-          - href: supplemental/model-diagnostics-matrix.qmd
-            text: HW 1
+        menu: 
+          - href: https://blackboard.sc.edu/webapps/login/
+            text: "HW #1"
       - text: "Project"
         menu:
           - href: project-description.qmd

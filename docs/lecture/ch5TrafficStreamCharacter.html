@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>ECIV542: Traffic Engineering – Class 04 08/31/2026  Chapter 5: Traffic Stream Characteristics</title>
+  <title>ECIV542: Traffic Engineering – Class 04 &amp; 05 09/02/2026  Chapter 5: Traffic Stream Characteristics</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -121,38 +121,49 @@
       margin-right: 0; 
     }
   </style>
-  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Class 04 08/31/2026 <br> Chapter 5: Traffic Stream Characteristics</h1>
+  <h1 class="title">Class 04 &amp; 05 09/02/2026 <br> Chapter 5: Traffic Stream Characteristics</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="class-logistics-08312026" class="slide level2">
-<h2>Class Logistics (08/31/2026)</h2>
+<section id="class-logistics-09022026" class="slide level2">
+<h2>Class Logistics (09/02/2026)</h2>
 <ul>
-<li>HW 1 posted on BlackBoard</li>
+<li>Update Chapter Number in lecture slides
+<ul>
+<li>5th Edition: Chapter 27 Geometric Design</li>
+</ul></li>
+<li>Revised HW 1 posted on BlackBoard</li>
+<li>Course Project
+<ul>
+<li>Team members assigned</li>
+<li>Tech Memo #1 uploaded</li>
+</ul></li>
 </ul>
 </section>
-<section id="topics" class="slide level2">
-<h2>Topics</h2>
-<h3 id="traffic-stream-characteristics">Traffic Stream Characteristics</h3>
+<section id="traffic-stream-characteristics" class="slide level2">
+<h2>Traffic Stream Characteristics</h2>
 <ul>
-<li>Traffic Stream Parameters
+<li>To analyze, evaluate, and plan improvementprojects, traffic engineers need a set of variables to describe traffic streams in quantitative terms.</li>
+<li><u>Macroscopic variables</u>:
 <ul>
-<li>Volume and Rate of Flow</li>
-<li>Speed and Travel Time</li>
+<li>Volume</li>
+<li>Flow</li>
+<li>Speed</li>
 <li>Density and Occupancy</li>
 </ul></li>
-<li>Relationship among Flow rate, Speed, Density</li>
+<li><u>Microscopic variables</u>:
+<ul>
+<li>Headway</li>
+<li>Spacing</li>
+</ul></li>
 </ul>
 </section>
 <section id="volume-and-rate-of-flow" class="slide level2">
@@ -162,11 +173,15 @@
 <ul>
 <li>trends over time</li>
 <li>general planning purposes</li>
-<li></li>
 </ul></li>
-<li><strong>Volume</strong>:
+<li><strong>Traffic Volume, <span class="math inline">\(V\)</span></strong>:
 <ul>
 <li>number of vehicles passing a point on a highway, or a given lane or direction of a highway, during a specified time interval.</li>
+</ul></li>
+<li><strong>Traffic Flow, <span class="math inline">\(q\)</span></strong>:
+<ul>
+<li>number of vehicles passing a point on a highway, or a given lane or direction of a highway, during a specified time interval.</li>
+<li><span class="math inline">\(q = \frac{n}{t}\)</span></li>
 </ul></li>
 <li><strong>Unit</strong>:
 <ul>
@@ -189,109 +204,59 @@
 <li>Peak-hour volume</li>
 <li>Directional Design Hour Volume</li>
 </ul></li>
-<li><h2 id="subhourly-volumes">Subhourly Volumes</h2></li>
+<li>Sub-hourly Volumes
+<ul>
+<li>PHF</li>
+</ul></li>
 </ul>
 </section>
-<section id="daily-volumes" class="slide level2">
-<h2>Daily Volumes</h2>
+<section id="daily-volumesflow" class="slide level2">
+<h2>Daily Volumes/Flow</h2>
+<ul>
+<li>Daily Volume or Flow: Vehicles per day</li>
+</ul>
 <table class="caption-top">
 <colgroup>
-<col style="width: 23%">
-<col style="width: 12%">
-<col style="width: 32%">
-<col style="width: 31%">
+<col style="width: 11%">
+<col style="width: 15%">
+<col style="width: 39%">
+<col style="width: 34%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Defn</th>
 <th>Space</th>
-<th>Count Period</th>
+<th>Count Period, <em>t</em></th>
 <th>Formula</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>AADT</strong>: Avg. 24-hour volume</td>
+<td><strong>AADT</strong>:</td>
 <td>Given location</td>
-<td>365-day year</td>
-<td># of veh / 356 day</td>
+<td>365-day or 1 year</td>
+<td><span class="math inline">\(\frac{n}{t=365}\)</span></td>
 </tr>
 <tr class="even">
-<td><strong>AAWT</strong>: Avg. 24-hour volume</td>
+<td><strong>AAWT</strong>:</td>
 <td>Given location</td>
 <td>weekdays over a full 365-year</td>
-<td># of veh / # of weekdays (260 days)</td>
+<td><span class="math inline">\(\frac{n}{t=260}\)</span></td>
 </tr>
 <tr class="odd">
-<td><strong>ADT</strong>: Avg. 24-hour volume</td>
+<td><strong>ADT</strong> :</td>
 <td>Given location</td>
 <td>less than one year</td>
-<td># of veh / # of counting days (&lt; 365)</td>
+<td><span class="math inline">\(\frac{n}{t&lt;365}\)</span></td>
 </tr>
 <tr class="even">
-<td><strong>AWT</strong>: Average 24-hour volume</td>
+<td><strong>AWT</strong> :</td>
 <td>Given location</td>
 <td>weekdays and less than one year (month)</td>
-<td># of veh / # of counting days</td>
+<td><span class="math inline">\(\frac{n}{t\ weekdays\ and\ &lt;365}\)</span></td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="time-interval-for-volume" class="slide level2" data-background-color="black" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Time Interval for Volume</h2>
-<div id="gantt-darkmode">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{init: {
-  'theme': 'dark', 
-  'gantt': {
-    'titlePadding': 20,
-    'barHeight': 45,
-    'barGap': 22,
-    'topPadding': 50,
-    'sidePadding': 50
-  },
-  'themeVariables': { 
-    'fontSize': '22px', 
-    'sectionFontSize': '24px',
-    'titleFontSize': '26px',
-    'background': '#000000',
-    'titleColor': '#ffffff',
-    'sectionBkgColor': '#111111',
-    'sectionColor': '#ffffff',
-    'gridLineColor': '#333333',
-    'taskTextColor': '#ffffff'
-  }
-}}%%
-gantt
-    title Visualizing Nested Measurement Windows Across Scales
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b
-    
-    %% Clear automatic red timeline marker
-    todayMarker off
-    
-    section 1. Year
-    Annual Scope (365 Days)               :active, y1, 2026-01-01, 2026-12-31
-    
-    section 2. Season
-    Summer Scope (92 Days)                :s1, 2026-06-20, 2026-09-21
-    
-    section 3. Week
-    Full Calendar Week (7 Days)           :w1, 2026-07-12, 2026-07-19
-    
-    section 4. Working Week
-    Working Week Frame (M-F)              :crit, d1, 2026-07-13, 2026-07-18
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="daily-volumes-problem" class="slide level2">
 <h2>Daily Volumes: Problem</h2>
@@ -364,9 +329,8 @@ gantt
 </figure>
 </div>
 </div></div>
-</section>
-<section id="peak-hour-volumes-solution" class="slide level2">
-<h2>Peak-hour volumes: Solution</h2>
+<div class="fragment">
+<h3 id="solution">Solution</h3>
 <ul>
 <li><p><span class="math inline">\(K = (0.15 -0.25)\)</span></p></li>
 <li><p><span class="math inline">\(D = (0.65-0.80)\)</span></p></li>
@@ -377,6 +341,7 @@ gantt
 <li><p><span class="math inline">\(DDHV_{low} = 30,000 \times 0.25 \times 0.85\)</span></p></li>
 <li><p><span class="math inline">\(DDHV_{low} = 6,000\)</span> veh/hour</p></li>
 </ul>
+</div>
 </section>
 <section id="sub-hourly-volumes" class="slide level2">
 <h2>Sub-Hourly Volumes</h2>
@@ -411,45 +376,58 @@ gantt
 <h2>Sub-Hourly Volumes: Max. rate of Flow</h2>
 <ul>
 <li>Max. rate of Flow: The max. flow rate within the peak hour</li>
-<li><span class="math inline">\(Peak Hour Factor (PHF) = \frac{Hourly Volume}{max. rate of flow}\)</span></li>
+<li><span class="math inline">\(Peak\ Hour\ Factor (PHF) = \frac{Hourly\ Volume}{max.\ rate\ of\ flow}\)</span></li>
 <li><span class="math inline">\(PHF = \frac{V}{4*V_{m15}}\)</span></li>
 </ul>
 </section>
 <section id="sub-hourly-volumes-max.-rate-of-flow-1" class="slide level2">
 <h2>Sub-Hourly Volumes: Max. rate of Flow</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
+
+<img data-src="images/chap5/ch5TSC_tab5_3_hourlyFlowRateSol.png" class="quarto-figure quarto-figure-center r-stretch"><div class="fragment">
 <ul>
 <li><span class="math inline">\(PHF = \frac{V}{4*V_{m15}}\)</span></li>
 <li><span class="math inline">\(PHF = \frac{4200}{4*1200}\)</span></li>
 <li><span class="math inline">\(PHF = 0.875\)</span></li>
 </ul>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap5/ch5TSC_tab5_3_hourlyFlowRateSol.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
 </div>
-</div></div>
 </section>
 <section id="speed-and-travel-time" class="slide level2">
 <h2>Speed and Travel Time</h2>
-<ul>
-<li>distance traversed = speed x time to traverse distance</li>
-<li><span class="math inline">\(d=S \times t\)</span></li>
-</ul>
+<p><strong>Single Vehicle Speed</strong><br>
+- distance traversed = speed x time to traverse distance<br>
+- <span class="math inline">\(d=S \times t\)</span></p>
+<div class="fragment">
+<p><strong>Group Vehicle Speed</strong><br>
+- <strong>Time mean speed (TMS)</strong> - The average speed of all vehicles passing a <strong>point</strong> on a highway or lane over some specified time period.<br>
+- <strong>Space mean speed (SMS)</strong> - The average speed of all vehicles occupying a <strong>given section of highway</strong> or lane over some specified time period.</p>
+</div>
 </section>
-<section id="speed-and-travel-time-1" class="slide level2">
-<h2>Speed and Travel Time</h2>
+<section id="traffic-stream-speed" class="slide level2">
+<h2>Traffic Stream Speed</h2>
 <ul>
-<li><strong>Time mean speed (TMS)</strong>
+<li><span class="math inline">\(TMS, u = \frac{\sum_{i=1}^{n} u_i}{n}\)</span>
 <ul>
-<li>The average speed of all vehicles passing a <strong>point</strong> on a highway or lane over some specified time peiod.</li>
+<li><span class="math inline">\(u_i\)</span>: speed of veh <span class="math inline">\(i\)</span></li>
 </ul></li>
-<li><strong>Space mean speed (SMS)</strong>
+</ul>
+<div class="fragment">
 <ul>
-<li>The average speed of all vehicles occupying a <strong>given section of highway</strong> or lane over some specified time period.</li>
+<li><span class="math inline">\(SMS, u_s = \frac{total\ dist.\ travelled\ by\ all\ veh}{travel\ time\ of\ all\ veh}\)</span></li>
+<li><span class="math inline">\(SMS, u_s = \frac{nl}{\sum_{i=1}^{n} t_i}\)</span>
+<ul>
+<li><span class="math inline">\(l\)</span>: length of the roadway section</li>
+<li><span class="math inline">\(t_i\)</span>: travel&nbsp;time&nbsp;of&nbsp;veh&nbsp;i <span class="math inline">\(i\)</span></li>
 </ul></li>
+</ul>
+</div>
+</section>
+<section id="tms-vs.-sms" class="slide level2">
+<h2>TMS vs.&nbsp;SMS</h2>
+<ul>
+<li>SMS weights slower vehicles more heavily.</li>
+<li>TMS weights each vehicle equally.</li>
+<li>SMS <span class="math inline">\(≤\)</span> TMS</li>
+<li>SMS = TMS when all vehicles are traveling at the same speed.</li>
 </ul>
 </section>
 <section id="speed-and-travel-time-problem" class="slide level2">
@@ -465,24 +443,222 @@ gantt
 <ul>
 <li><strong>Density</strong>
 <ul>
-<li>the number of vehicles occupying a given length of highway or lane (veh/mile)</li>
-</ul></li>
-<li><strong>Occupancy</strong>
-<ul>
-<li>of time that a detector is “occupied”</li>
+<li>the number of vehicles occupying a given length of highway or lane (veh/mile) at a given time</li>
+<li><span class="math inline">\(D\ or\ k = \frac{n}{l}\)</span></li>
 </ul></li>
 </ul>
-</section>
-<section id="relationship-flow-rate-speed-and-density" class="slide level2">
-<h2>Relationship: Flow Rate, Speed, and Density</h2>
+<div class="fragment">
 <ul>
-<li>Rate of Flow = space mean speed x Density</li>
-<li><span class="math inline">\(v= SMS \times D\)</span></li>
+<li><strong>Occupancy</strong>
+<ul>
+<li>Proportion of time that a detector is “occupied”</li>
+<li><span class="math inline">\(O = \frac{D(L_v + L_d)}{5,280}\)</span>
+<ul>
+<li><span class="math inline">\(L_v\)</span>: avg. length of vehicle</li>
+<li><span class="math inline">\(L_d\)</span>: length of detector</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="headway-and-spacing" class="slide level2">
+<h2>Headway and Spacing</h2>
+<ul>
+<li><strong>Headway</strong>: time interval between successive vehicles as they pass a point along the lane (measured between common reference points on the vehicles).
+<ul>
+<li><span class="math inline">\(q = \frac{3600}{\bar{h}}\)</span>
+<ul>
+<li><span class="math inline">\(q\)</span> = flow rate, veh/hr/ln and <span class="math inline">\(\bar{h}\)</span> = avg. headway in the lane, s</li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><strong>Spacing</strong>: distance between successive vehicles as they pass a point along the lane (measured between common reference points on the vehicles).
+<ul>
+<li><span class="math inline">\(k = \frac{5280}{\bar{s}}\)</span>
+<ul>
+<li><span class="math inline">\(k\)</span> = density, veh/mile and <span class="math inline">\(\bar{s}\)</span> = avg. spacing in the lane, ft</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="fundamental-identity" class="slide level2">
+<h2>Fundamental Identity</h2>
+<ul>
+<li>Depicts relationship among Flow Rate, Speed, and Density</li>
+<li><span class="math inline">\(q= k \times u_s\)</span>
+<ul>
+<li><span class="math inline">\(q\)</span> = Flow, veh/h or veh/h/ln</li>
+<li><span class="math inline">\(k\)</span> = density, veh/mi or veh/mi/ln</li>
+<li><span class="math inline">\(u_s\)</span> = SMS, mph</li>
+</ul></li>
 </ul>
 </section>
 <section id="relationship-problem" class="slide level2">
 <h2>Relationship: Problem</h2>
-<p>Consider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln.</p>
+<p><strong>Consider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln. What is the Density of the roadway segment?</strong></p>
+<div class="fragment">
+<ul>
+<li><span class="math inline">\(q= k \times u_s\)</span></li>
+<li><span class="math inline">\(k= \frac{q}{u_s}\)</span></li>
+<li><span class="math inline">\(k= \frac{1000}{60} = 16.7 veh/mi/ln\)</span></li>
+</ul>
+</div>
+</section>
+<section id="traffic-stream-models" class="slide level2">
+<h2>Traffic Stream Models</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="speed-and-density">Speed and Density</h3>
+<ul>
+<li><span class="math inline">\(u_s = u_f(1 - \frac{k}{k_j})\)</span>
+<ul>
+<li><span class="math inline">\(u\)</span>: SMS, mph</li>
+<li><span class="math inline">\(u_f\)</span>: Free-flow speed, mph</li>
+<li><span class="math inline">\(k\)</span>: density, veh/mi</li>
+<li><span class="math inline">\(k_j\)</span>: Jam density, veh/mi</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap6/chap6_greenshield.png"></p>
+</div></div>
+</section>
+<section id="traffic-stream-models-1" class="slide level2">
+<h2>Traffic Stream Models</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="flow-and-density">Flow and Density</h3>
+<p>Using the assumption of a linear speed-density relationship, a parabolicflow-density model can be obtained by using the given u-k relation and fundamental identity.</p>
+<ul>
+<li><span class="math inline">\(q = k \times u_s\)</span></li>
+<li><span class="math inline">\(q = k \times u_f(1 - \frac{k}{k_j})\)</span></li>
+<li><span class="math inline">\(q = u_f(k - \frac{k^2}{k_j})\)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap6/chap6_greenshield_q.png"></p>
+</div></div>
+</section>
+<section id="traffic-stream-models-2" class="slide level2">
+<h2>Traffic Stream Models</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="speed-and-flow">Speed and Flow</h3>
+<p>Rearranging speed-density and using fundamental equation to find speed-flow relation</p>
+<ul>
+<li><span class="math inline">\(q = k_j(u - \frac{u^2}{u_f})\)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap6/chap6_greenshield_q_u.png"></p>
+</div></div>
+</section>
+<section id="traffic-stream-models-3" class="slide level2">
+<h2>Traffic Stream Models</h2>
+<p><strong>Functional Diagram of Traffic Flow</strong> <img data-src="images/chap6/chap6_funcDiag.png"></p>
+</section>
+<section id="traffic-stream-models-problem" class="slide level2">
+<h2>Traffic Stream Models: Problem</h2>
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+
+<img data-src="images/chap6/chap6_q_k_u_prob.png" class="r-stretch"></section>
+<section id="traffic-stream-models-solution" class="slide level2">
+<h2>Traffic Stream Models: Solution</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+<ul>
+<li><u>Find <span class="math inline">\(u-k\)</span> relation</u></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap6/chap6_q_k_u_prob.png"></p>
+</div></div>
+</section>
+<section id="traffic-stream-models-solution-1" class="slide level2">
+<h2>Traffic Stream Models: Solution</h2>
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+<ul>
+<li><u>Find <span class="math inline">\(q-k\)</span> relation</u></li>
+</ul>
+</section>
+<section id="traffic-stream-models-solution-2" class="slide level2">
+<h2>Traffic Stream Models: Solution</h2>
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+<ul>
+<li><u>Find <span class="math inline">\(q-u\)</span> relation</u></li>
+</ul>
+</section>
+<section id="traffic-stream-models-solution-3" class="slide level2">
+<h2>Traffic Stream Models: Solution</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+<ul>
+<li><u>Find <span class="math inline">\(k_{cap}\)</span></u></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap6/chap6_greenshield_q.png"></p>
+</div></div>
+</section>
+<section id="traffic-stream-models-solution-4" class="slide level2">
+<h2>Traffic Stream Models: Solution</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+<ul>
+<li><u>Find <span class="math inline">\(u_{cap}\)</span></u></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/chap6/chap6_greenshield_q_u.png"></p>
+</div></div>
+</section>
+<section id="traffic-stream-models-solution-5" class="slide level2">
+<h2>Traffic Stream Models: Solution</h2>
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+<ul>
+<li><u>Find <span class="math inline">\(q_{cap}\)</span></u></li>
+</ul>
+</section>
+<section id="traffic-stream-models-solution-6" class="slide level2">
+<h2>Traffic Stream Models: Solution</h2>
+<p><strong>Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (<span class="math inline">\(u_{cap}\)</span>)?</strong></p>
+<ul>
+<li><p><u>ALL STEPS</u></p></li>
+<li><p><span class="math inline">\(u_s = u_f(1 - \frac{k}{k_j})\)</span></p></li>
+<li><p><span class="math inline">\(u_s = 65(1 - \frac{k}{110})\)</span></p></li>
+</ul>
+<p><br></p>
+<ul>
+<li><span class="math inline">\(u_s = 65(1 - \frac{k}{110})\)</span></li>
+<li><span class="math inline">\(\frac{q}{k} = 65(1 - \frac{k}{110})\)</span></li>
+<li><span class="math inline">\(q = 65k- 0.59091k^2\)</span></li>
+</ul>
+<p><br></p>
+<ul>
+<li><span class="math inline">\(u_s = 65(1 - \frac{k}{110})\)</span></li>
+<li><span class="math inline">\(u_s = 65(1 - \frac{\frac{q}{u_s}}{110})\)</span></li>
+<li><span class="math inline">\(q = 110u_s-1.6923u_s^2\)</span></li>
+</ul>
+<p><br></p>
+<ul>
+<li><span class="math inline">\(q = 65k- 0.59091k^2\)</span></li>
+<li><span class="math inline">\(\frac{dq}{dk} = 65 -1.18182k\)</span></li>
+<li><span class="math inline">\(65 -1.18182k_{cap} = 0\)</span></li>
+<li><span class="math inline">\(k_{cap} = 55\)</span> veh/h</li>
+</ul>
+<p><br></p>
+<ul>
+<li><span class="math inline">\(q = 110u_s-1.6923u_s^2\)</span></li>
+<li><span class="math inline">\(\frac{dq}{du_s} = 110-3.3846u_s\)</span></li>
+<li><span class="math inline">\(110-3.3846u_s = 0\)</span></li>
+<li><span class="math inline">\(u_{cap} = 32.5\)</span> mph</li>
+</ul>
+<p><br></p>
+<ul>
+<li><span class="math inline">\(q_{cap} = k_{cap} \times u_{cap}\)</span></li>
+<li><span class="math inline">\(q_{cap} = 55 \times 32.5\)</span></li>
+<li><span class="math inline">\(q_{cap} = 1,788\)</span> veh/h</li>
+</ul>
 
 
 </section>

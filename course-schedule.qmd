@@ -7,18 +7,63 @@ execute:
   echo: false
 ---
 
+## Reference Book
+**Traffic Engineering, 5th edition**   
+Author: Roger P. Roess, Elena S. Prassas, William R. McShane   
+Publisher: Pearson   
 
-```{r}
-
-# Load the package
-library(readr)
-library(knitr)
-
-# Import the CSV file
-my_data <- read_csv("eciv542Schedule.csv", na = c("", "NA"))
+## Schedule
+- [{{< fa file-powerpoint >}}]{style="color: red;"}: Presentation NOT Uploaded
+- [{{< fa file-powerpoint >}}]{style="color: green;"}: Presentation Uploaded and Link Updated
 
 
-# View the first few rows
-kable(my_data)
-```
+| Class # | Date      | Day | Topics (Tentative)                                     | Reference  | Status                                                            |
+|---------|-----------|-----|--------------------------------------------------------|------------|-------------------------------------------------------------------|
+|         | 18-Aug-26 | T   | Fall 2026 Classes Begin                                |            | |
+| 1       | 19-Aug-26 | W   | Syllabus / Road user and vehicle characteristics       | Ch. 1 & 2  | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/eciv542syllabusFall26.html#/title-slide) |
+| 2       | 24-Aug-26 | M   | Roadways and their geometric characteristics (Hor. Curve) | Ch. 27     | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/ch3HorDgn.html#/title-slide) |
+| 3       | 26-Aug-26 | W   | Roadways and their geometric characteristics (Ver. Curve) | Ch. 27     | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/ch3VerDgn.html#/title-slide) |
+| 4       | 31-Aug-26 | M   | Traffic stream characteristics                         | Ch. 5      | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/ch5TrafficStreamCharacter.html#/title-slide) |
+| 5       | 2-Sep-26  | W   | Traffic stream characteristics                         | Ch. 5      | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 6       | 9-Sep-26  | W   | Introduction to traffic flow theory                    | Ch. 6      | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 7       | 14-Sep-26 | M   | Introduction to traffic flow theory (cont.)            | Ch. 7      | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 8       | 16-Sep-26 | W   | Statistical applications in traffic engineering & data | Ch. 9      | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 9       | 21-Sep-26 | M   | Freeways and Multi-Lane Highways                       | Ch. 28     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 10      | 23-Sep-26 | W   | Weaving Movements                                      | Ch. 29     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 11      | 28-Sep-26 | M   | Merging and Diverging Movements                        | Ch. 30     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 12      | 30-Sep-26 | W   | Hierarchy of intersection control                      | Ch. 15     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 13      | 5-Oct-26  | M   | Intersection design and layout                         | Ch. 17     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 14      | 7-Oct-26  | W   | Intersection design and layout (cont.)                 | Ch. 17     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 15      | 12-Oct-26 | M   | **Exam 1**                                             |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 16      | 14-Oct-26 | W   | Principles of Signal Timing and Design                 | Ch. 18, 19 | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 17      | 19-Oct-26 | M   | Fundamentals of actuated signal design                 | Ch. 20     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 18      | 21-Oct-26 | W   | Signal coordination for Arterials and networks         | Ch. 21     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 19      | 26-Oct-26 | M   | HCM/HCS Workshop                                       | Lab        | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 20      | 28-Oct-26 | W   | Analysis of Signalized Intersections                   | Ch. 23     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 21      | 2-Nov-26  | M   | Analysis of Urban Streets                              | Ch. 24     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 22      | 4-Nov-26  | W   | Synchro 10 Workshop                                    | Lab        | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 23      | 9-Nov-26  | M   | Analysis of Urban Streets                              | Ch. 24     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 24      | 11-Nov-26 | W   | Synchro 10 Workshop                                    | Lab        | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 25      | 16-Nov-26 | M   | Analysis of Unsignalized Intersections                 | Ch. 25     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 26      | 18-Nov-26 | W   | Analysis of Unsignalized Intersections                 | Ch. 25     | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| 27      | 30-Nov-26 | M   | Project                                                |            | |
+| 28      | 2-Dec-26  | W   | Project                                                |            | |
+| 29      | 11-Dec-26 | FR  | **Exam 2 **                                            |            | |
+
+
+
+
+<!-- # ```{r} -->
+<!-- #  -->
+<!-- # # Load the package -->
+<!-- # library(readr) -->
+<!-- # library(knitr) -->
+<!-- #  -->
+<!-- # # Import the CSV file -->
+<!-- # my_data <- read_csv("eciv542Schedule.csv", na = c("", "NA")) -->
+<!-- #  -->
+<!-- #  -->
+<!-- # # View the first few rows -->
+<!-- # kable(my_data) -->
+<!-- # ``` -->
 

@@ -1,5 +1,5 @@
 ---
-title: "Class 03 08/26/2026 </br> Chapter 3 (Ver. Curve)"
+title: "Class 03 08/26/2026 </br> Chapter 27 (Ver. Curve)"
 format: 
   revealjs:
     theme: white
@@ -119,12 +119,20 @@ Identify the the type of vertical curve in A, B, and C?
   - $x_{high/low} = \frac{-g_1L}{g_2-g_1}$
 
 
-## Ver. Curve: Problem
+## Ver. Curve: Problem 27-5
 A vertical curve of 600 feet connects a +4% grade to a -2% grade. The elevation of the PVC is 1250 ft.  Find the elevation of the PVI, the PVT and the high point?
+
+## Ver. Curve: Problem 27-5 Solution
+A vertical curve of 600 feet connects a +4% grade to a -2% grade. The elevation of the PVC is 1250 ft.  Find the elevation of the PVI, the PVT and the high point?
+$$Y_{VPI} = Y_{VPC}+(\frac{G_1}{100})(\frac{L}{2})$$
+$$ Y_{VPI} = 1250+(\frac{4}{100})(\frac{600}{2})$$
+$$ Y_{VPI} = 1262 ft$$
+
+
 
 ## Ver. Curve: SSD
 
-* available sight distance ≥ required stopping sight distance S
+* available sight distance ≥ required stopping sight distance
 * driver’s sight line just “grazes” the parabolic curve. {{< fa arrow-right >}} CREST curve
 * Sight distance limited by headlamp range. {{< fa arrow-right >}} SAG curve
 
@@ -139,18 +147,39 @@ A vertical curve of 600 feet connects a +4% grade to a -2% grade. The elevation 
 * <u>sight distance extends beyond the curve onto a tangent</u> $d_{ssd} > L$
   - $L_{min} = 2d_{ssd} - \frac{2158}{|g_2 - g_1|}$ {{< fa arrow-right >}} CREST curve
   - $L_{min} = 2d_{ssd} - (\frac{400+3.5d_{ssd}}{|g_2 - g_1|})$  {{< fa arrow-right >}} SAG curve
-  
-## Ver. Curve: SSD Problem
+
+* $G_1$ and $G_2$ are in $\%$
+
+## Ver. Curve: SSD Problem 27-6
 What is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?
-  
 
 
+## Ver. Curve: SSD Problem 27-6 Solution
+What is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?
+ 
+* Vertical Crest Curve; Assume $G=2\%$
+* $d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}$
+* $d_{ssd}=1.47 \times 60 \times  2.5 + \frac{60^2 - 0^2}{30(0.348 + 0.02)}$
+* $d_{ssd}=546.6ft$
+
+<br>
+
+* Assume, $d_{ssd} < L$
+* $L_{min} = \frac{|g_2 - g_1| \times d_{ssd}^2}{2158}$
+* $L_{min} = \frac{|2- 5| \times 547^2}{2158}$
+* $L_{min} = 415.95$
+
+<br>
 
 
+* Check Assumption $d_{ssd} = 547 < L_{min} = 416$:  Incorrect
+
+<br>
 
 
-
-
-
+* Revise solution using $d_{ssd} > L_{min}$ formula
+* $L_{min} = 2d_{ssd} - \frac{2158}{|g_2 - g_1|}$
+* $L_{min} = 2 \times 547 - \frac{2158}{|2 - 5|}$
+* $L_{min} = 365ft$ 
 
 

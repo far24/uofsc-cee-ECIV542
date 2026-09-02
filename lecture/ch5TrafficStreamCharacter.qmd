@@ -1,5 +1,5 @@
 ---
-title: "Class 04 08/31/2026 </br> Chapter 5: Traffic Stream Characteristics"
+title: "Class 04 & 05 09/02/2026 </br> Chapter 5: Traffic Stream Characteristics"
 format: 
   revealjs:
     theme: white
@@ -8,28 +8,38 @@ format:
 ---
 
 
-## Class Logistics (08/31/2026)
+## Class Logistics (09/02/2026)
 
-- HW 1 posted on BlackBoard
+* Update Chapter Number in lecture slides
+  - 5th Edition: Chapter 27 Geometric Design
+* Revised HW 1 posted on BlackBoard
+* Course Project
+  - Team members assigned
+  - Tech Memo #1 uploaded
 
-## Topics 
+## Traffic Stream Characteristics 
 
-### Traffic Stream Characteristics 
-
-* Traffic Stream Parameters
-  - Volume and Rate of Flow
-  - Speed and Travel Time
+* To analyze, evaluate, and plan improvementprojects, traffic engineers need a set of variables to describe traffic streams in quantitative terms.
+* <u>Macroscopic variables</u>:
+  - Volume
+  - Flow
+  - Speed
   - Density and Occupancy
-* Relationship among Flow rate, Speed, Density
+* <u>Microscopic variables</u>:
+  - Headway
+  - Spacing
 
 ## Volume and Rate of Flow
 
 * **Purpose**:
   - trends over time
   - general planning purposes
-  - 
-* **Volume**: 
+* **Traffic Volume, $V$**: 
   - number of vehicles passing a point on a highway, or a given lane or direction of a highway, during a specified time interval.
+* **Traffic Flow, $q$**: 
+  - number of vehicles passing a point on a highway, or a given lane or direction of a highway, during a specified time interval.
+  - $q = \frac{n}{t}$
+
 * **Unit**: 
   - vehicles or **vehicles per unit time (veh/hour): Rate of Flow**
 
@@ -43,64 +53,21 @@ format:
 * Hourly Volumes
   - Peak-hour volume
   - Directional Design Hour Volume
-* Subhourly Volumes
-  - 
+* Sub-hourly Volumes
+  - PHF
 
-## Daily Volumes
+## Daily Volumes/Flow
 
-| Defn                        | Space          | Count Period                            | Formula                               |
-|-----------------------------|----------------|-----------------------------------------|---------------------------------------|
-| **AADT**: Avg. 24-hour volume   | Given location | 365-day year                            | # of veh / 356 day                      |
-| **AAWT**: Avg. 24-hour volume   | Given location | weekdays over a full 365-year           | # of veh / # of weekdays (260 days)     |
-| **ADT**: Avg. 24-hour volume    | Given location | less than one year                      | # of veh / # of counting days (< 365) |
-| **AWT**: Average 24-hour volume | Given location | weekdays and less than one year (month) | # of veh / # of counting days         |
+- Daily Volume or Flow: Vehicles per day 
 
-## Time Interval for Volume {background-color="black" auto-animate=true}
 
-::: {#gantt-darkmode}
-```{mermaid}
-%%{init: {
-  'theme': 'dark', 
-  'gantt': {
-    'titlePadding': 20,
-    'barHeight': 45,
-    'barGap': 22,
-    'topPadding': 50,
-    'sidePadding': 50
-  },
-  'themeVariables': { 
-    'fontSize': '22px', 
-    'sectionFontSize': '24px',
-    'titleFontSize': '26px',
-    'background': '#000000',
-    'titleColor': '#ffffff',
-    'sectionBkgColor': '#111111',
-    'sectionColor': '#ffffff',
-    'gridLineColor': '#333333',
-    'taskTextColor': '#ffffff'
-  }
-}}%%
-gantt
-    title Visualizing Nested Measurement Windows Across Scales
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b
-    
-    %% Clear automatic red timeline marker
-    todayMarker off
-    
-    section 1. Year
-    Annual Scope (365 Days)               :active, y1, 2026-01-01, 2026-12-31
-    
-    section 2. Season
-    Summer Scope (92 Days)                :s1, 2026-06-20, 2026-09-21
-    
-    section 3. Week
-    Full Calendar Week (7 Days)           :w1, 2026-07-12, 2026-07-19
-    
-    section 4. Working Week
-    Working Week Frame (M-F)              :crit, d1, 2026-07-13, 2026-07-18
-```
-:::
+| Defn       | Space          | Count Period, *t*                       | Formula                            |
+|------------|----------------|-----------------------------------------|------------------------------------|
+| **AADT**:  | Given location | 365-day or 1 year                       | $\frac{n}{t=365}$                  |
+| **AAWT**:  | Given location | weekdays over a full 365-year           | $\frac{n}{t=260}$                  |
+| **ADT** :  | Given location | less than one year                      | $\frac{n}{t<365}$                  |
+| **AWT** :  | Given location | weekdays and less than one year (month) | $\frac{n}{t\ weekdays\ and\ <365}$ |
+
 
 
 ## Daily Volumes: Problem
@@ -169,8 +136,9 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
 
 ::::
 
-## Peak-hour volumes: Solution
+. . .
 
+### Solution
 * $K = (0.15 -0.25)$
 * $D = (0.65-0.80)$
  
@@ -207,39 +175,54 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
 
 ## Sub-Hourly Volumes: Max. rate of Flow
 - Max. rate of Flow:  The max. flow rate within the peak hour
-- $Peak Hour Factor (PHF) = \frac{Hourly Volume}{max. rate of flow}$
+- $Peak\ Hour\ Factor (PHF) = \frac{Hourly\ Volume}{max.\ rate\ of\ flow}$
 - $PHF = \frac{V}{4*V_{m15}}$
 
 ## Sub-Hourly Volumes: Max. rate of Flow
-:::: {.columns}
 
-::: {.column width="50%"}
+![](images/chap5/ch5TSC_tab5_3_hourlyFlowRateSol.png){fig-align="center"}
+
+. . . 
+
 * $PHF = \frac{V}{4*V_{m15}}$
 * $PHF = \frac{4200}{4*1200}$
 * $PHF = 0.875$
 
 
-:::
-
-::: {.column width="40%"}
-![](images/chap5/ch5TSC_tab5_3_hourlyFlowRateSol.png){fig-align="center"}
-
-:::
-
-::::
-
 
 ## Speed and Travel Time
-* distance traversed = speed x time to traverse distance
-* $d=S \times t$
 
-## Speed and Travel Time
-* **Time mean speed (TMS)**
-  - The average speed of all vehicles passing a **point** on a highway or lane over some specified time peiod.
-* **Space mean speed (SMS)**
+**Single Vehicle Speed**    
+- distance traversed = speed x time to traverse distance    
+- $d=S \times t$
+
+
+. . . 
+
+
+**Group Vehicle Speed**    
+- **Time mean speed (TMS)**
+  - The average speed of all vehicles passing a **point** on a highway or lane over some specified time period.    
+- **Space mean speed (SMS)**
   - The average speed of all vehicles occupying a **given section of highway** or lane over some specified time period.
   
-  
+## Traffic Stream Speed
+* $TMS, u = \frac{\sum_{i=1}^{n} u_i}{n}$
+  - $u_i$: speed of veh $i$
+
+. . . 
+
+* $SMS, u_s = \frac{total\ dist.\ travelled\ by\ all\ veh}{travel\ time\ of\ all\ veh}$
+* $SMS, u_s = \frac{nl}{\sum_{i=1}^{n} t_i}$
+  - $l$: length of the roadway section
+  - $t_i$: travel\ time\ of\ veh\ i $i$
+
+## TMS vs. SMS
+* SMS weights slower vehicles more heavily.
+* TMS weights each vehicle equally.
+* SMS $≤$ TMS
+* SMS = TMS when all vehicles are traveling at the same speed.
+
 ## Speed and Travel Time: Problem
 ![](images/chap5/ch5TSC_tab5_5_tms_sms.png){fig-align="center"}
 
@@ -249,15 +232,237 @@ Consider the case of a rural highway that has a 20-year' forecast of AADT of 30,
 
 ## Density and Occupancy
 * **Density**
-  - the number of vehicles occupying a given length of highway or lane (veh/mile)
+  - the number of vehicles occupying a given length of highway or lane (veh/mile) at a given time
+  - $D\ or\ k = \frac{n}{l}$
+
+. . . 
+
 * **Occupancy**
-  - of time that a detector is "occupied"
+  - Proportion of time that a detector is "occupied"
+  - $O = \frac{D(L_v + L_d)}{5,280}$
+    - $L_v$: avg. length of vehicle
+    - $L_d$: length of detector
 
-## Relationship: Flow Rate, Speed, and Density
+## Headway and Spacing
 
-* Rate of Flow = space mean speed x Density
-* $v= SMS \times D$
+* **Headway**: time interval between successive vehicles as they pass a point along the lane
+(measured between common reference points on the vehicles).
+  - $q = \frac{3600}{\bar{h}}$
+    - $q$ = flow rate, veh/hr/ln and $\bar{h}$ = avg. headway in the lane, s
+    
+. . . 
+
+* **Spacing**: distance between successive vehicles as they pass a point along the lane
+(measured between common reference points on the vehicles).
+  - $k = \frac{5280}{\bar{s}}$
+    - $k$ = density, veh/mile and $\bar{s}$ = avg. spacing in the lane, ft
+    
+
+## Fundamental Identity
+
+* Depicts relationship among Flow Rate, Speed, and Density
+* $q= k \times u_s$
+  - $q$ = Flow, veh/h or veh/h/ln
+  - $k$ = density, veh/mi or veh/mi/ln
+  - $u_s$ = SMS, mph
 
 ## Relationship: Problem
+**Consider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln. What is the Density of the roadway segment?**
 
-Consider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln.
+. . .  
+
+* $q= k \times u_s$
+* $k= \frac{q}{u_s}$
+* $k= \frac{1000}{60} = 16.7 veh/mi/ln$
+
+## Traffic Stream Models
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Speed and Density
+
+* $u_s = u_f(1 - \frac{k}{k_j})$
+  - $u$: SMS, mph
+  - $u_f$: Free-flow speed, mph
+  - $k$: density, veh/mi
+  - $k_j$: Jam density, veh/mi
+  
+
+:::
+
+::: {.column width="50%"}
+![](images/chap6/chap6_greenshield.png)
+:::
+
+::::
+
+
+## Traffic Stream Models
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Flow and Density
+Using the assumption of a linear speed-density relationship, a parabolicflow-density model can be obtained by using the given u-k relation and fundamental identity.
+
+* $q = k \times u_s$
+* $q = k \times u_f(1 - \frac{k}{k_j})$
+* $q = u_f(k - \frac{k^2}{k_j})$
+
+:::
+
+::: {.column width="50%"}
+![](images/chap6/chap6_greenshield_q.png)
+:::
+
+::::
+
+
+## Traffic Stream Models
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Speed and Flow
+Rearranging speed-density and using fundamental equation to find speed-flow relation
+
+* $q = k_j(u - \frac{u^2}{u_f})$
+
+:::
+
+::: {.column width="50%"}
+![](images/chap6/chap6_greenshield_q_u.png)
+:::
+
+::::
+
+## Traffic Stream Models
+
+**Functional Diagram of Traffic Flow**
+![](images/chap6/chap6_funcDiag.png)
+
+
+## Traffic Stream Models: Problem
+
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+![](images/chap6/chap6_q_k_u_prob.png)
+
+## Traffic Stream Models: Solution
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+* <u>Find $u-k$ relation</u>
+
+:::
+
+::: {.column width="50%"}
+![](images/chap6/chap6_q_k_u_prob.png)
+:::
+
+::::
+
+## Traffic Stream Models: Solution
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+* <u>Find $q-k$ relation</u>
+
+
+## Traffic Stream Models: Solution
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+* <u>Find $q-u$ relation</u>
+
+
+
+## Traffic Stream Models: Solution
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+* <u>Find $k_{cap}$</u>
+
+
+
+:::
+
+::: {.column width="50%"}
+![](images/chap6/chap6_greenshield_q.png)
+:::
+
+::::
+
+
+## Traffic Stream Models: Solution
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+* <u>Find $u_{cap}$</u>
+
+
+
+:::
+
+::: {.column width="50%"}
+![](images/chap6/chap6_greenshield_q_u.png)
+:::
+
+::::
+
+## Traffic Stream Models: Solution
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+* <u>Find $q_{cap}$</u>
+
+
+
+## Traffic Stream Models: Solution
+**Given the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow ($u_{cap}$)?**
+
+* <u>ALL STEPS</u>
+
+
+* $u_s = u_f(1 - \frac{k}{k_j})$
+* $u_s = 65(1 - \frac{k}{110})$
+
+<br>
+
+* $u_s = 65(1 - \frac{k}{110})$
+* $\frac{q}{k} = 65(1 - \frac{k}{110})$
+* $q = 65k- 0.59091k^2$
+
+<br>
+
+* $u_s = 65(1 - \frac{k}{110})$
+* $u_s = 65(1 - \frac{\frac{q}{u_s}}{110})$
+* $q = 110u_s-1.6923u_s^2$
+
+<br>
+
+* $q = 65k- 0.59091k^2$
+* $\frac{dq}{dk} = 65 -1.18182k$
+* $65 -1.18182k_{cap} = 0$
+* $k_{cap} = 55$ veh/h
+
+<br>
+
+* $q = 110u_s-1.6923u_s^2$
+* $\frac{dq}{du_s} = 110-3.3846u_s$
+* $110-3.3846u_s = 0$
+* $u_{cap} = 32.5$ mph
+
+<br>
+
+
+* $q_{cap} = k_{cap} \times u_{cap}$
+* $q_{cap} = 55 \times 32.5$
+* $q_{cap} = 1,788$ veh/h

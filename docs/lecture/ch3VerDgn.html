@@ -11,7 +11,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>ECIV542: Traffic Engineering – Class 03 08/26/2026  Chapter 3 (Ver. Curve)</title>
+  <title>ECIV542: Traffic Engineering – Class 03 08/26/2026  Chapter 27 (Ver. Curve)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -129,7 +129,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Class 03 08/26/2026 <br> Chapter 3 (Ver. Curve)</h1>
+  <h1 class="title">Class 03 08/26/2026 <br> Chapter 27 (Ver. Curve)</h1>
 
 <div class="quarto-title-authors">
 </div>
@@ -245,14 +245,18 @@
 </ul></li>
 </ul>
 </section>
-<section id="ver.-curve-problem" class="slide level2">
-<h2>Ver. Curve: Problem</h2>
+<section id="ver.-curve-problem-27-5" class="slide level2">
+<h2>Ver. Curve: Problem 27-5</h2>
 <p>A vertical curve of 600 feet connects a +4% grade to a -2% grade. The elevation of the PVC is 1250 ft. Find the elevation of the PVI, the PVT and the high point?</p>
+</section>
+<section id="ver.-curve-problem-27-5-solution" class="slide level2">
+<h2>Ver. Curve: Problem 27-5 Solution</h2>
+<p>A vertical curve of 600 feet connects a +4% grade to a -2% grade. The elevation of the PVC is 1250 ft. Find the elevation of the PVI, the PVT and the high point? <span class="math display">\[Y_{VPI} = Y_{VPC}+(\frac{G_1}{100})(\frac{L}{2})\]</span> <span class="math display">\[ Y_{VPI} = 1250+(\frac{4}{100})(\frac{600}{2})\]</span> <span class="math display">\[ Y_{VPI} = 1262 ft\]</span></p>
 </section>
 <section id="ver.-curve-ssd" class="slide level2">
 <h2>Ver. Curve: SSD</h2>
 <ul>
-<li>available sight distance ≥ required stopping sight distance S</li>
+<li>available sight distance ≥ required stopping sight distance</li>
 <li>driver’s sight line just “grazes” the parabolic curve. <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> CREST curve</li>
 <li>Sight distance limited by headlamp range. <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> SAG curve</li>
 </ul>
@@ -273,11 +277,40 @@
 <li><span class="math inline">\(L_{min} = 2d_{ssd} - \frac{2158}{|g_2 - g_1|}\)</span> <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> CREST curve</li>
 <li><span class="math inline">\(L_{min} = 2d_{ssd} - (\frac{400+3.5d_{ssd}}{|g_2 - g_1|})\)</span> <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> SAG curve</li>
 </ul></li>
+<li><span class="math inline">\(G_1\)</span> and <span class="math inline">\(G_2\)</span> are in <span class="math inline">\(\%\)</span></li>
 </ul>
 </section>
-<section id="ver.-curve-ssd-problem" class="slide level2">
-<h2>Ver. Curve: SSD Problem</h2>
+<section id="ver.-curve-ssd-problem-27-6" class="slide level2">
+<h2>Ver. Curve: SSD Problem 27-6</h2>
 <p>What is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?</p>
+</section>
+<section id="ver.-curve-ssd-problem-27-6-solution" class="slide level2">
+<h2>Ver. Curve: SSD Problem 27-6 Solution</h2>
+<p>What is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?</p>
+<ul>
+<li>Vertical Crest Curve; Assume <span class="math inline">\(G=2\%\)</span></li>
+<li><span class="math inline">\(d_{ssd}=1.47S_i t + \frac{S_i^2 - S_f^2}{30(F \pm G)}\)</span></li>
+<li><span class="math inline">\(d_{ssd}=1.47 \times 60 \times  2.5 + \frac{60^2 - 0^2}{30(0.348 + 0.02)}\)</span></li>
+<li><span class="math inline">\(d_{ssd}=546.6ft\)</span></li>
+</ul>
+<p><br></p>
+<ul>
+<li>Assume, <span class="math inline">\(d_{ssd} &lt; L\)</span></li>
+<li><span class="math inline">\(L_{min} = \frac{|g_2 - g_1| \times d_{ssd}^2}{2158}\)</span></li>
+<li><span class="math inline">\(L_{min} = \frac{|2- 5| \times 547^2}{2158}\)</span></li>
+<li><span class="math inline">\(L_{min} = 415.95\)</span></li>
+</ul>
+<p><br></p>
+<ul>
+<li>Check Assumption <span class="math inline">\(d_{ssd} = 547 &lt; L_{min} = 416\)</span>: Incorrect</li>
+</ul>
+<p><br></p>
+<ul>
+<li>Revise solution using <span class="math inline">\(d_{ssd} &gt; L_{min}\)</span> formula</li>
+<li><span class="math inline">\(L_{min} = 2d_{ssd} - \frac{2158}{|g_2 - g_1|}\)</span></li>
+<li><span class="math inline">\(L_{min} = 2 \times 547 - \frac{2158}{|2 - 5|}\)</span></li>
+<li><span class="math inline">\(L_{min} = 365ft\)</span></li>
+</ul>
 
 
 </section>
