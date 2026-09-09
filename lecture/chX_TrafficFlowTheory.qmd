@@ -1,16 +1,18 @@
 ---
-title: "Class 04 & 05 09/02/2026 </br> Chapter 5: Traffic Stream Characteristics"
+title: "Class 06 09/09/2026 </br> Chapter 5: Traffic Flow Theory"
 format: 
   revealjs:
     theme: white
     slide-number: true
     scrollable: true
+    chalkboard: true
 ---
 
 
 ## Class Logistics (09/09/2026)
 
 * HW 1 due today 11:59PM
+  - Rubric uploaded
 * Course Project
   - Update or Q/A?
 
@@ -277,4 +279,52 @@ Rearranging speed-density and using fundamental equation to find speed-flow rela
 
 ## Traffic Shockwave
 
-[](https://seo.cv.ens.titech.ac.jp/traffic-flow-demo/bottleneck.html)
+* Queing as a result of a sudden decrease in roadway capacity (lane reduction, traffic signal etc.)
+
+* [Demo](https://seo.cv.ens.titech.ac.jp/traffic-flow-demo/bottleneck.html)
+
+## Traffic Shockwave
+
+![](images/tft/tft_shockwavePropagation.png)
+
+## Traffic Shockwave Velocity
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+
+:::
+
+::: {.column width="50%"}
+![](images/tft/tft_shockwave.png)
+:::
+
+::::
+
+## Traffic Shockwave at Signalized Intersection
+
+![](images/tft/tft_shockwaveTSatSignal.png)
+
+## Traffic Shockwave at Signalized Intersection
+
+![](images/tft/tft_shockwaveStateAtSignal.png)
+
+## Traffic Shockwave at Signalized Intersection
+
+![](images/tft/tft_shockwaveEstAtSignal.png)
+
+
+## Traffic Shockwave at Signalized Intersection
+
+![](images/tft/tft_shockwaveAllAtSignal.png)
+
+
+
+## Traffic Shockwave Problem
+The southbound approach of a signalized intersection carries a flow of 1000 veh/h/ln at a velocity of 50 mi/h. The duration of the red signal indication for this approach is 15 sec. If the saturation flow is 2000 veh/h/ln with a density of 75 veh/ln, the jam density is 150 veh/mi, determine the following:
+
+* a. The length of the queue at the end of the red phase
+* b. The maximum queue length
+* c. The time it takes for the queue to dissipate after the end of the red indication.

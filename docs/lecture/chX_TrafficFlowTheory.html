@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
-  <title>ECIV542: Traffic Engineering – Class 04 &amp; 05 09/02/2026  Chapter 5: Traffic Stream Characteristics</title>
+  <title>ECIV542: Traffic Engineering – Class 06 09/09/2026  Chapter 5: Traffic Flow Theory</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,6 +32,8 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -127,7 +129,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Class 04 &amp; 05 09/02/2026 <br> Chapter 5: Traffic Stream Characteristics</h1>
+  <h1 class="title">Class 06 09/09/2026 <br> Chapter 5: Traffic Flow Theory</h1>
 
 <div class="quarto-title-authors">
 </div>
@@ -136,7 +138,10 @@
 <section id="class-logistics-09092026" class="slide level2">
 <h2>Class Logistics (09/09/2026)</h2>
 <ul>
-<li>HW 1 due today 11:59PM</li>
+<li>HW 1 due today 11:59PM
+<ul>
+<li>Rubric uploaded</li>
+</ul></li>
 <li>Course Project
 <ul>
 <li>Update or Q/A?</li>
@@ -394,7 +399,54 @@
 </section>
 <section id="traffic-shockwave" class="slide level2">
 <h2>Traffic Shockwave</h2>
-<p><a href="https://seo.cv.ens.titech.ac.jp/traffic-flow-demo/bottleneck.html"></a></p>
+<ul>
+<li><p>Queing as a result of a sudden decrease in roadway capacity (lane reduction, traffic signal etc.)</p></li>
+<li><p><a href="https://seo.cv.ens.titech.ac.jp/traffic-flow-demo/bottleneck.html">Demo</a></p></li>
+</ul>
+</section>
+<section id="traffic-shockwave-1" class="slide level2">
+<h2>Traffic Shockwave</h2>
+
+<img data-src="images/tft/tft_shockwavePropagation.png" class="r-stretch"></section>
+<section id="traffic-shockwave-velocity" class="slide level2">
+<h2>Traffic Shockwave Velocity</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/tft/tft_shockwave.png"></p>
+</div></div>
+</section>
+<section id="traffic-shockwave-at-signalized-intersection" class="slide level2">
+<h2>Traffic Shockwave at Signalized Intersection</h2>
+
+<img data-src="images/tft/tft_shockwaveTSatSignal.png" class="r-stretch"></section>
+<section id="traffic-shockwave-at-signalized-intersection-1" class="slide level2">
+<h2>Traffic Shockwave at Signalized Intersection</h2>
+
+<img data-src="images/tft/tft_shockwaveStateAtSignal.png" class="r-stretch"></section>
+<section id="traffic-shockwave-at-signalized-intersection-2" class="slide level2">
+<h2>Traffic Shockwave at Signalized Intersection</h2>
+
+<img data-src="images/tft/tft_shockwaveEstAtSignal.png" class="r-stretch"></section>
+<section id="traffic-shockwave-at-signalized-intersection-3" class="slide level2">
+<h2>Traffic Shockwave at Signalized Intersection</h2>
+
+<img data-src="images/tft/tft_shockwaveAllAtSignal.png" class="r-stretch"></section>
+<section id="traffic-shockwave-problem" class="slide level2 scrollable">
+<h2>Traffic Shockwave Problem</h2>
+<p>The southbound approach of a signalized intersection carries a flow of 1000 veh/h/ln at a velocity of 50 mi/h. The duration of the red signal indication for this approach is 15 sec.&nbsp;If the saturation flow is 2000 veh/h/ln with a density of 75 veh/ln, the jam density is 150 veh/mi, determine the following:</p>
+<ul>
+<li><ol type="a">
+<li>The length of the queue at the end of the red phase</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>The maximum queue length</li>
+</ol></li>
+<li><ol start="3" type="a">
+<li>The time it takes for the queue to dissipate after the end of the red indication.</li>
+</ol></li>
+</ul>
 
 
 </section>
@@ -412,6 +464,7 @@
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -433,7 +486,8 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -604,7 +658,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
