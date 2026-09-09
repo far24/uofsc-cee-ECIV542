@@ -50,6 +50,10 @@ website:
             text: "31AUG26-Class 04: Ch5 - Traffic Stream Characteristics"
           - href: lecture/ch5TrafficStreamCharacter.qmd
             text: "02SEP26-Class 04: Ch5 - Traffic Stream Characteristics (Cont.)"
+          - href: lecture/chX_TrafficFlowTheory.qmd
+            text: "09SEP26-Class 05: Traffic Flow Theory"
+          - href: lecture/ch4TrafficControlDevices.qmd
+            text: "14SEP26-Class 05: Traffic Flow Theory (Cont.)"
 
       - text: "Homeworks"
         menu: 

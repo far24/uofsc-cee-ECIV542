@@ -1,0 +1,49 @@
+---
+title: "My Presentation"
+format: 
+  revealjs:
+    scrollable: true
+    quiz:
+      shuffleOptions: true
+      defaultCorrect: "Correct! 🎉"
+      defaultIncorrect: "Try again! ❌"
+    revealjs-plugins:
+      - quiz
+---
+
+
+
+# Quiz
+
+## Team Scoreboard
+
+| Team Name | MUTCD | Markings | Signs | Signals | Total Points |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Team Alpha** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
+| **Team Bravo** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
+| **Team Charlie** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
+| **Team Delta** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
+
+
+# MUTCD
+
+## What study technique involves actively testing your memory? {.smaller .quiz-question}
+
+![](images/chap3/ch3VerDgn_01.png){width="600" height="300" fig-align="center"}
+
+- Passive reading
+- [Active recall]{.correct}
+- Highlighting text
+
+
+
+
+
+
+# Traffic Markings
+
+# Traffic Signs
+
+# Traffic Signals
+
+

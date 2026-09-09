@@ -1,0 +1,225 @@
+---
+title: "Ch 4. Traffic Control Devices"
+subtitle: "Class 03" 
+author: "ECIV 542 (Traffic Engineering), Fall 2026"
+institute: "Dept. of CE&E, Univ. of South Carolina"
+date: "08/26/2026"
+format: 
+  revealjs:
+    theme: white
+    transition: slide
+    toc: true
+    toc-title: "Today's Agenda"
+    toc-depth: 1
+    chalkboard: true
+    slide-number: true
+    scrollable: true
+    progress: true
+    footer: "ECIV 542"
+filters:
+- diagrams
+---
+
+
+# Class Logistics
+
+## Announcements
+
+## Reminders
+
+* Homework #1 is due today
+
+# Traffic Control Devices
+
+## Traffic Control Devices
+- Show a image and identity
+
+## Traffic Control Devices
+
+* Purpose
+  - “To promote highway safety and efficiency by providing for orderly movement of all road users on streets and highways, bikeways, public facilities, and private property open to public travel throughout the Nation.”
+
+## MUTCD
+
+* MUTCD:
+  - Manual on Uniform Traffic Control Devices
+  - principal standard governing the application, design, and placement of traffic control devices
+  - minimum standard and a model for individual state MUTCDs.
+  - Latest Edition: [MUTCD 11th Ed.](https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm)
+* Many states simply adopt the federal manual by statute (e.g. SC). Others develop their own manuals (e.g. TX, CA)
+
+## MUTCD: Principles {.smaller}
+
+Must: 
+
+* Fulfill a need
+  - Superfluous devices should not be used. A installed device must be needed for safe and efficient flow of traffic.
+* Command attention
+  - Attracting a driver’s attention requires proper visibility and a distinctive design.
+* Convey a clear, simple message
+  - Clarity and simplicity of message is critical since the device is seen for only a few seconds.
+* Command respect of road users  
+  - Drivers are conditioned to expect meaningful and important messages.
+* Give adequate time for a proper response
+  - Example, a stop sign should be placed at the stop line and be visible from at least one SSD.
+
+
+## MUTCD: Contents
+
+* Physical design
+  - Detailed standards for shape, size, colors, legend types and sizes, and specific legend.
+* Placement / Location
+  - Detailed standards and guidelines on where devices should be located with
+respect to the traveled way.
+* Selection of Devices
+  - Warrants or conditions that justify the use of a particular device.
+
+
+## MUTCD: Legal Aspects {.smaller}
+
+
+| Type     | Enforcement                                                                                                                         | Word                                       |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| Standard | Required, mandatory, specifically prohibitive                                                                                       | "shall" or "shall not"                     |
+| Guidance | recommended but not mandatory; Deviations are allowed if engineering judgment or a study indicates that a deviation is appropriate. | "should" or "should not"                   |
+| Option   | permissive condition; contain allowable modifications to a Standard or Guidance                                                     | "may" or "may not"                         |
+| Support  | purely information statement                                                                                                        | statement without "shall", "should", "may" |
+
+
+## MUTCD: How to Read
+
+:::: {.columns}
+
+::: {.column}
+<!-- left column -->
+### Example
+
+* [Section]{style="color: #6C88C4;"} [4]{style="color: #FF5C77;"}[D]{style="color: #4DD091;"}.[08]{style="color: #6C88C4;"}, [Par.1]{style="color: #FFA23A;"}, [A.1]{style="color: #74737A;"}
+
+* Item A.1 of Paragraph 1 of Section 4D.08.
+
+:::
+
+::: {.column}
+<!-- right column -->
+::: pyramid
+::: {.item color="#74737A"}
+ITEMS
+:::
+::: {.item color="#FFA23A"}
+PARAGRAPH <br> numbered
+:::
+::: {.item color="#6C88C4"}
+SECTION <br> numbered 
+:::
+::: {.item color="#4DD091"}
+CHAPTER <br> letter: A-Z
+:::
+::: {.item color="#FF5C77"}
+PARTS <br> numbered: 1-9
+:::
+:::
+
+
+:::
+
+
+::::
+
+## MUTCD: How to Read ...
+
+:::: {.columns}
+
+::: {.column}
+<!-- left column -->
+### Example
+
+* [Section]{style="color: #6C88C4;"} [4]{style="color: #FF5C77;"}[D]{style="color: #4DD091;"}.[08]{style="color: #6C88C4;"}, [Par.1]{style="color: #FFA23A;"}, [A.1]{style="color: #74737A;"}
+
+* Item A.1 of Paragraph 1 of Section 4D.08.
+
+:::
+
+::: {.column}
+<!-- right column -->
+![](images/chap4/ch4_mutcdPartChapSec.png)
+
+
+:::
+
+
+::::
+
+
+
+## MUTCD: How to Read ...
+
+:::: {.columns}
+
+::: {.column}
+<!-- left column -->
+### Example
+
+* [Section]{style="color: #6C88C4;"} [4]{style="color: #FF5C77;"}[D]{style="color: #4DD091;"}.[08]{style="color: #6C88C4;"}, [Par.1]{style="color: #FFA23A;"}, [A.1]{style="color: #74737A;"}
+
+* Item A.1 of Paragraph 1 of Section 4D.08.
+  - "No less than 40 feet beyond the stop line, and"
+
+
+:::
+
+::: {.column}
+<!-- right column -->
+![](images/chap4/ch4_mutcdRead.png)
+
+
+:::
+
+
+::::
+
+
+
+## MUTCD: QUIZ
+
+# Traffic Markings
+
+## Traffic Markings: Types {.smaller}
+
+* Longitudinal markings
+  - Placed parallel to the direction of travel
+  - centerlines, lane lines, and pavement edge lines
+* Transverse markings 
+  - Placed perpendicular to the direction of travel 
+  - Stop and Yield lines
+* Crosswalk Markings 
+* Object Markers
+  - Used to denote obstructions either in or  adjacent to the traveled way.
+* Delineators
+  - Delineators are reflective devices mounted at a 4-ft height on the sides of a
+roadway to help denote its alignment.
+
+## Traffic Markings: Example
+
+* Placed parallel to the direction of travel
+* centerlines, lane lines, and pavement edge lines
+
+## Traffic Markings: Example
+
+* Placed parallel to the direction of travel
+* centerlines, lane lines, and pavement edge lines
+
+## Traffic Markings: Example
+
+
+# Traffic Signs
+
+## Traffic Signs: Types
+
+* Regulator
+* Warning
+* Guide
+  - provide information to road users concerning destinations, available services, and historical/recreational facilities.
+
+
+# Traffic Signals

@@ -470,6 +470,139 @@
     "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nALL STEPS\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(\\frac{q}{k} = 65(1 - \\frac{k}{110})\\)\n\\(q = 65k- 0.59091k^2\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(u_s = 65(1 - \\frac{\\frac{q}{u_s}}{110})\\)\n\\(q = 110u_s-1.6923u_s^2\\)\n\n\n\n\\(q = 65k- 0.59091k^2\\)\n\\(\\frac{dq}{dk} = 65 -1.18182k\\)\n\\(65 -1.18182k_{cap} = 0\\)\n\\(k_{cap} = 55\\) veh/h\n\n\n\n\\(q = 110u_s-1.6923u_s^2\\)\n\\(\\frac{dq}{du_s} = 110-3.3846u_s\\)\n\\(110-3.3846u_s = 0\\)\n\\(u_{cap} = 32.5\\) mph\n\n\n\n\\(q_{cap} = k_{cap} \\times u_{cap}\\)\n\\(q_{cap} = 55 \\times 32.5\\)\n\\(q_{cap} = 1,788\\) veh/h"
   },
   {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#class-logistics-09092026",
+    "href": "lecture/chX_TrafficFlowTheory.html#class-logistics-09092026",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Class Logistics (09/09/2026)",
+    "text": "Class Logistics (09/09/2026)\n\nHW 1 due today 11:59PM\nCourse Project\n\nUpdate or Q/A?"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics",
+    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "RECAP: Traffic Stream Characteristics",
+    "text": "RECAP: Traffic Stream Characteristics\n\nMacroscopic variables:\n\nVolume: \\(V\\)\nFlow\n\n\\(q = \\frac{n}{t}\\) –&gt; AADT, ADT, DDHV, PHF\n\n\n\n\n\nSpeed\n\n\\(TMS, u = \\frac{\\sum_{i=1}^{n} u_i}{n}\\)\n\\(SMS, u_s = \\frac{nl}{\\sum_{i=1}^{n} t_i}\\)\n\n\n\n\n\nDensity and Occupancy\n\n\\(D\\ or\\ k = \\frac{n}{l}\\)\n\\(O = \\frac{D(L_v + L_d)}{5,280}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-1",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "RECAP: Traffic Stream Characteristics",
+    "text": "RECAP: Traffic Stream Characteristics\nIllustration: Headway and Spacing\n\nMicroscopic variables:\n\nHeadway\n\n\\(q = \\frac{3600}{\\bar{h}}\\)\n\nSpacing\n\n\\(k = \\frac{5280}{\\bar{s}}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-2",
+    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-2",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "RECAP: Traffic Stream Characteristics",
+    "text": "RECAP: Traffic Stream Characteristics\nFundamental Identity\n\nDepicts relationship among Flow Rate, Speed, and Density\n\\(q= k \\times u_s\\)\n\n\\(q\\) = Flow, veh/h or veh/h/ln\n\\(k\\) = density, veh/mi or veh/mi/ln\n\\(u_s\\) = SMS, mph"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#relationship-problem",
+    "href": "lecture/chX_TrafficFlowTheory.html#relationship-problem",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Relationship: Problem",
+    "text": "Relationship: Problem\nConsider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln. What is the Density of the roadway segment?\n\n\n\\(q= k \\times u_s\\)\n\\(k= \\frac{q}{u_s}\\)\n\\(k= \\frac{1000}{60} = 16.7 veh/mi/ln\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\n\n\nSpeed and Density: Greenshield’s Linear model\n\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\n\\(u\\): SMS, mph\n\\(u_f\\): Free-flow speed, mph\n\\(k\\): density, veh/mi\n\\(k_j\\): Jam density, veh/mi\n\nObservations\n\nAt \\(k \\approx 0\\), \\(u=u_f\\), no/few vehicles on the road, more speed\nAt \\(k=k_j\\), \\(u=0\\), more vehicles on the road, less speed"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-1",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\n\n\nFlow and Density\nUsing the assumption of a linear speed-density relationship, a parabolicflow-density model can be obtained by using the given u-k relation and fundamental identity.\n\n\\(q = k \\times u_s\\)\n\\(q = k \\times u_f(1 - \\frac{k}{k_j})\\)\n\\(q = u_f(k - \\frac{k^2}{k_j})\\)\n\n\n\n\nObservations\n\nAt \\(k \\approx 0\\), \\(q=0\\), no vehicle, no flow\nAt \\(q=q_{max}\\) at capacity, \\(k=k_c\\), maximum flow\nAfter \\(k&gt;k_c\\), flow drops\nAt \\(k&gt;k_j\\), no flow"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-2",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-2",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\n\n\nSpeed and Flow\nRearranging speed-density and using fundamental equation to find speed-flow relation\n\n\\(q = k_j(u - \\frac{u^2}{u_f})\\)\n\n\n\n\nObservations:\n\nsame flow can occur under two very different traffic conditions (stable free flow and congested)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-3",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-3",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\nFunctional Diagram of Traffic Flow"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-4",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-4",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\nInteractive Traffic Stream Model"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-problem",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-problem",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Problem",
+    "text": "Traffic Stream Models: Problem\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(u-k\\) relation"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-1",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q-k\\) relation"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-2",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-2",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q-u\\) relation"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-3",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-3",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(k_{cap}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-4",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-4",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(u_{cap}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-5",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-5",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q_{cap}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-6",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-6",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nALL STEPS\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(\\frac{q}{k} = 65(1 - \\frac{k}{110})\\)\n\\(q = 65k- 0.59091k^2\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(u_s = 65(1 - \\frac{\\frac{q}{u_s}}{110})\\)\n\\(q = 110u_s-1.6923u_s^2\\)\n\n\n\n\\(q = 65k- 0.59091k^2\\)\n\\(\\frac{dq}{dk} = 65 -1.18182k\\)\n\\(65 -1.18182k_{cap} = 0\\)\n\\(k_{cap} = 55\\) veh/h\n\n\n\n\\(q = 110u_s-1.6923u_s^2\\)\n\\(\\frac{dq}{du_s} = 110-3.3846u_s\\)\n\\(110-3.3846u_s = 0\\)\n\\(u_{cap} = 32.5\\) mph\n\n\n\n\\(q_{cap} = k_{cap} \\times u_{cap}\\)\n\\(q_{cap} = 55 \\times 32.5\\)\n\\(q_{cap} = 1,788\\) veh/h"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave",
+    "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
+    "section": "Traffic Shockwave",
+    "text": "Traffic Shockwave"
+  },
+  {
     "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",
     "href": "lecture/rdUserVehCharacteristics.html#problem-01",
     "title": "Ch. 2: Road user and vehicle characteristics",
@@ -680,6 +813,132 @@
     "text": "Ch. 2: Road user and vehicle characteristics\nEND"
   },
   {
+    "objectID": "lecture/ch4TrafficControlDevices.html#announcements",
+    "href": "lecture/ch4TrafficControlDevices.html#announcements",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Announcements",
+    "text": "Announcements"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#reminders",
+    "href": "lecture/ch4TrafficControlDevices.html#reminders",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Reminders",
+    "text": "Reminders\n\nHomework #1 is due today"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Control Devices",
+    "text": "Traffic Control Devices\n\nShow a image and identity"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-2",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-2",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Control Devices",
+    "text": "Traffic Control Devices\n\nPurpose\n\n“To promote highway safety and efficiency by providing for orderly movement of all road users on streets and highways, bikeways, public facilities, and private property open to public travel throughout the Nation.”"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD",
+    "text": "MUTCD\n\nMUTCD:\n\nManual on Uniform Traffic Control Devices\nprincipal standard governing the application, design, and placement of traffic control devices\nminimum standard and a model for individual state MUTCDs.\nLatest Edition: MUTCD 11th Ed.\n\nMany states simply adopt the federal manual by statute (e.g. SC). Others develop their own manuals (e.g. TX, CA)"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-principles",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-principles",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: Principles",
+    "text": "MUTCD: Principles\nMust:\n\nFulfill a need\n\nSuperfluous devices should not be used. A installed device must be needed for safe and efficient flow of traffic.\n\nCommand attention\n\nAttracting a driver’s attention requires proper visibility and a distinctive design.\n\nConvey a clear, simple message\n\nClarity and simplicity of message is critical since the device is seen for only a few seconds.\n\nCommand respect of road users\n\nDrivers are conditioned to expect meaningful and important messages.\n\nGive adequate time for a proper response\n\nExample, a stop sign should be placed at the stop line and be visible from at least one SSD."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-contents",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-contents",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: Contents",
+    "text": "MUTCD: Contents\n\nPhysical design\n\nDetailed standards for shape, size, colors, legend types and sizes, and specific legend.\n\nPlacement / Location\n\nDetailed standards and guidelines on where devices should be located with respect to the traveled way.\n\nSelection of Devices\n\nWarrants or conditions that justify the use of a particular device."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-legal-aspects",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-legal-aspects",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: Legal Aspects",
+    "text": "MUTCD: Legal Aspects\n\n\n\n\n\n\n\n\nType\nEnforcement\nWord\n\n\n\n\nStandard\nRequired, mandatory, specifically prohibitive\n“shall” or “shall not”\n\n\nGuidance\nrecommended but not mandatory; Deviations are allowed if engineering judgment or a study indicates that a deviation is appropriate.\n“should” or “should not”\n\n\nOption\npermissive condition; contain allowable modifications to a Standard or Guidance\n“may” or “may not”\n\n\nSupport\npurely information statement\nstatement without “shall”, “should”, “may”"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: How to Read",
+    "text": "MUTCD: How to Read\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08.\n\n\n\n\n\nITEMS\n\n\nPARAGRAPH  numbered\n\n\nSECTION  numbered\n\n\nCHAPTER  letter: A-Z\n\n\nPARTS  numbered: 1-9"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-1",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: How to Read …",
+    "text": "MUTCD: How to Read …\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-2",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-2",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: How to Read …",
+    "text": "MUTCD: How to Read …\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08.\n\n“No less than 40 feet beyond the stop line, and”"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-quiz",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-quiz",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: QUIZ",
+    "text": "MUTCD: QUIZ"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Markings: Types",
+    "text": "Traffic Markings: Types\n\nLongitudinal markings\n\nPlaced parallel to the direction of travel\ncenterlines, lane lines, and pavement edge lines\n\nTransverse markings\n\nPlaced perpendicular to the direction of travel\nStop and Yield lines\n\nCrosswalk Markings\nObject Markers\n\nUsed to denote obstructions either in or adjacent to the traveled way.\n\nDelineators\n\nDelineators are reflective devices mounted at a 4-ft height on the sides of a roadway to help denote its alignment."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Markings: Example",
+    "text": "Traffic Markings: Example\n\nPlaced parallel to the direction of travel\ncenterlines, lane lines, and pavement edge lines"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-1",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Markings: Example",
+    "text": "Traffic Markings: Example\n\nPlaced parallel to the direction of travel\ncenterlines, lane lines, and pavement edge lines"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-2",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-2",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Markings: Example",
+    "text": "Traffic Markings: Example"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signs-types",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signs-types",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Signs: Types",
+    "text": "Traffic Signs: Types\n\nRegulator\nWarning\nGuide\n\nprovide information to road users concerning destinations, available services, and historical/recreational facilities."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ECIV 542: Traffic Engineering (Fall 2026)",
@@ -722,13 +981,6 @@
       "Home",
       "Home/Announcement"
     ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
@@ -785,6 +1037,20 @@
     "title": "Ch. 1: Introduction to Traffic Engineering",
     "section": "Key Manuals and References",
     "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
+  },
+  {
+    "objectID": "lecture/ch4Quiz.html#team-scoreboard",
+    "href": "lecture/ch4Quiz.html#team-scoreboard",
+    "title": "My Presentation",
+    "section": "Team Scoreboard",
+    "text": "Team Scoreboard\n\n\n\n\n\n\n\n\n\n\n\nTeam Name\nMUTCD\nMarkings\nSigns\nSignals\nTotal Points\n\n\n\n\nTeam Alpha\n\n\n\n\n\n\n\nTeam Bravo\n\n\n\n\n\n\n\nTeam Charlie\n\n\n\n\n\n\n\nTeam Delta"
+  },
+  {
+    "objectID": "lecture/ch4Quiz.html#what-study-technique-involves-actively-testing-your-memory",
+    "href": "lecture/ch4Quiz.html#what-study-technique-involves-actively-testing-your-memory",
+    "title": "My Presentation",
+    "section": "What study technique involves actively testing your memory?",
+    "text": "What study technique involves actively testing your memory?\n\n\n\n\n\n\nPassive reading\nActive recall\nHighlighting text"
   },
   {
     "objectID": "lecture/ch3HorDgn.html#class-logistics",
