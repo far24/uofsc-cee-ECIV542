@@ -16,18 +16,24 @@ format:
     scrollable: true
     progress: true
     footer: "ECIV 542"
+    quiz:
+      shuffleOptions: true
+      defaultCorrect: "Correct! 🎉"
+      defaultIncorrect: "Try again! ❌"
+revealjs-plugins:
+  - quiz
 filters:
 - diagrams
 ---
 
 
-# Class Logistics
+<!-- # Class Logistics -->
 
-## Announcements
+<!-- ## Announcements -->
 
-## Reminders
+<!-- ## Reminders -->
 
-* Homework #1 is due today
+<!-- * Homework #1 is due today -->
 
 # Traffic Control Devices
 
@@ -78,12 +84,12 @@ respect to the traveled way.
 ## MUTCD: Legal Aspects {.smaller}
 
 
-| Type     | Enforcement                                                                                                                         | Word                                       |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| Standard | Required, mandatory, specifically prohibitive                                                                                       | "shall" or "shall not"                     |
-| Guidance | recommended but not mandatory; Deviations are allowed if engineering judgment or a study indicates that a deviation is appropriate. | "should" or "should not"                   |
-| Option   | permissive condition; contain allowable modifications to a Standard or Guidance                                                     | "may" or "may not"                         |
-| Support  | purely information statement                                                                                                        | statement without "shall", "should", "may" |
+| Type     | Enforcement                                          | Word                                       |
+|----------|------------------------------------------------------|--------------------------------------------|
+| Standard | Required, mandatory, specifically prohibitive        | "shall" or "shall not"                     |
+| Guidance | Recommended; departure needs justification           | "should" or "should not"                   |
+| Option   | Permitted; engineering judgment may be used          | "may" or "may not"                         |
+| Support  | Explanation, examples, or background                 | statement without "shall", "should", "may" |
 
 
 ## MUTCD: How to Read
@@ -178,9 +184,20 @@ PARTS <br> numbered: 1-9
 
 ::::
 
+# MUTCD Part
+
+| MUTCD part | Main content                         |
+| ---------- | ------------------------------------ |
+| **Part 1** | General principles and definitions   |
+| **Part 2** | Signs                                |
+| **Part 3** | Markings                             |
+| **Part 4** | Highway traffic signals              |
+| **Part 6** | Temporary traffic control/work zones |
 
 
-## MUTCD: QUIZ
+
+
+
 
 # Traffic Markings
 
@@ -201,25 +218,116 @@ roadway to help denote its alignment.
 
 ## Traffic Markings: Example
 
-* Placed parallel to the direction of travel
-* centerlines, lane lines, and pavement edge lines
+![](images/chap4/ch4_mutcdMarkLong.png)
 
 ## Traffic Markings: Example
 
-* Placed parallel to the direction of travel
-* centerlines, lane lines, and pavement edge lines
-
-## Traffic Markings: Example
+![](images/chap4/ch4_mutcdMarkTransverse.png)
 
 
 # Traffic Signs
 
-## Traffic Signs: Types
+## Traffic Signs: Classification
 
-* Regulator
+* Regulatory
+  -  give notice of traffic laws or regulations.
 * Warning
+  - give notice of a situation that might not be readily apparent.
 * Guide
   - provide information to road users concerning destinations, available services, and historical/recreational facilities.
 
 
+# Traffic Signs: Regulatory
+
+![](images/chap4/ch4_mutcdRegSign1.png)
+
+# Traffic Signs: Regulatory
+
+![](images/chap4/ch4_mutcdRegSignLane.png)
+
+# Traffic Signs: Regulatory
+
+![](images/chap4/ch4_mutcdRegSignSpd.png)
+
+# Traffic Signs: Warning
+
+![](images/chap4/ch4_mutcdWarnSignAlign.png)
+
+# Traffic Signs: Warning
+
+![](images/chap4/ch4_mutcdWarnSignExple.png)
+
+# Traffic Signs: Warning
+
+![](images/chap4/ch4_mutcdWarnSignTable.png)
+
+# Traffic Signs: Guide
+
+![](images/chap4/ch4_mutcdGdeSignExple.png)
+
+# Traffic Signs: Guide
+
+![](images/chap4/ch4_mutcdGdeSignDest.png)
+
 # Traffic Signals
+
+## Traffic Signals: Classification
+
+The MUTCD defines nine types of traffic signals:  
+* Pedestrian signals  
+* Emergency vehicle traffic control signals  
+* Traffic control signals for one-lane, two-way facilities  
+* Traffic control signals for freeway entrance ramps  
+* Traffic control signals for movable bridges  
+* Lane-use control signals  
+* Flashing beacons  
+* In-roadway lights  
+
+## Traffic Signals: Example
+
+![](images/chap4/ch4_mutcdTraffcSignal1.png)
+
+## Traffic Signals: Example
+
+![](images/chap4/ch4_mutcdTraffcSignal2.png)
+
+
+
+
+## QUIZ Rules
+
+* Read the entire question before teams may buzz.
+* Correct answer: 2 points.
+* Correct answer plus a brief reason: 3 points.
+* Incorrect answer: no points; that team is locked out, and another team may buzz.
+
+
+# MUTCD: QUIZ
+
+
+## MUTCD Q1: <br> What is the primary purpose of the MUTCD?{.quiz-question}
+<!-- ![](images/chap3/ch3VerDgn_01.png){width="600" height="300" fig-align="center"} -->
+- To calculate roadway capacity
+- [To standardize traffic control devices]{.correct}
+- To determine pavement thickness
+- To design horizontal curves
+
+
+## MUTCD Q2: <br> Which MUTCD Part contains pavement-marking provisions?{.quiz-question}
+
+- Part 1
+- Part 2
+- [Part 3]{.correct}
+- Part 4
+
+## MUTCD Q3: <br> In the MUTCD, what does the word “shall” mean?{.quiz-question}
+- [Required]{.correct}
+- Recommended
+- Optional
+- Informational only
+
+## MUTCD Q4: <br> Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?{.quiz-question}
+- Part 2 — Signs
+- Part 3 — Markings
+- Part 4 — Signals
+- [Part 6 — Temporary Traffic Control]{.correct}
