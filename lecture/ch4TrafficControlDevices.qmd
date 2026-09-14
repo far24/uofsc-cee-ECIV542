@@ -1,9 +1,9 @@
 ---
 title: "Ch 4. Traffic Control Devices"
-subtitle: "Class 03" 
+subtitle: "Class 07" 
 author: "ECIV 542 (Traffic Engineering), Fall 2026"
 institute: "Dept. of CE&E, Univ. of South Carolina"
-date: "08/26/2026"
+date: "09/14/2026"
 format: 
   revealjs:
     theme: white
