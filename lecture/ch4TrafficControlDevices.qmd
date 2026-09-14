@@ -8,9 +8,9 @@ format:
   revealjs:
     theme: white
     transition: slide
-    toc: true
-    toc-title: "Today's Agenda"
-    toc-depth: 1
+    # toc: true
+    # toc-title: "Today's Agenda"
+    # toc-depth: 1
     chalkboard: true
     slide-number: true
     scrollable: true
