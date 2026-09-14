@@ -862,20 +862,6 @@
     "text": "Ch. 2: Road user and vehicle characteristics\nEND"
   },
   {
-    "objectID": "lecture/ch4TrafficControlDevices.html#announcements",
-    "href": "lecture/ch4TrafficControlDevices.html#announcements",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Announcements",
-    "text": "Announcements"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#reminders",
-    "href": "lecture/ch4TrafficControlDevices.html#reminders",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Reminders",
-    "text": "Reminders\n\nHomework #1 is due today"
-  },
-  {
     "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
     "href": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
     "title": "Ch 4. Traffic Control Devices",
@@ -939,13 +925,6 @@
     "text": "MUTCD: How to Read …\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08.\n\n“No less than 40 feet beyond the stop line, and”"
   },
   {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-quiz",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-quiz",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD: QUIZ",
-    "text": "MUTCD: QUIZ"
-  },
-  {
     "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
     "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
     "title": "Ch 4. Traffic Control Devices",
@@ -967,18 +946,67 @@
     "text": "Traffic Markings: Example"
   },
   {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-2",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-2",
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Markings: Example",
-    "text": "Traffic Markings: Example"
+    "section": "Traffic Signs: Classification",
+    "text": "Traffic Signs: Classification\n\nRegulatory\n\ngive notice of traffic laws or regulations.\n\nWarning\n\ngive notice of a situation that might not be readily apparent.\n\nGuide\n\nprovide information to road users concerning destinations, available services, and historical/recreational facilities."
   },
   {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signs-types",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signs-types",
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signs: Types",
-    "text": "Traffic Signs: Types\n\nRegulator\nWarning\nGuide\n\nprovide information to road users concerning destinations, available services, and historical/recreational facilities."
+    "section": "Traffic Signals: Classification",
+    "text": "Traffic Signals: Classification\nThe MUTCD defines nine types of traffic signals:\n* Pedestrian signals\n* Emergency vehicle traffic control signals\n* Traffic control signals for one-lane, two-way facilities\n* Traffic control signals for freeway entrance ramps\n* Traffic control signals for movable bridges\n* Lane-use control signals\n* Flashing beacons\n* In-roadway lights"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Signals: Example",
+    "text": "Traffic Signals: Example"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Signals: Example",
+    "text": "Traffic Signals: Example"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#quiz-rules",
+    "href": "lecture/ch4TrafficControlDevices.html#quiz-rules",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "QUIZ Rules",
+    "text": "QUIZ Rules\n\nRead the entire question before teams may buzz.\nCorrect answer: 2 points.\nCorrect answer plus a brief reason: 3 points.\nIncorrect answer: no points; that team is locked out, and another team may buzz."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q1-what-is-the-primary-purpose-of-the-mutcd",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q1-what-is-the-primary-purpose-of-the-mutcd",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD Q1:  What is the primary purpose of the MUTCD?",
+    "text": "MUTCD Q1:  What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q2-which-mutcd-part-contains-pavement-marking-provisions",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q2-which-mutcd-part-contains-pavement-marking-provisions",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD Q2:  Which MUTCD Part contains pavement-marking provisions?",
+    "text": "MUTCD Q2:  Which MUTCD Part contains pavement-marking provisions?\n\nPart 1\nPart 2\nPart 3\nPart 4"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q3-in-the-mutcd-what-does-the-word-shall-mean",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q3-in-the-mutcd-what-does-the-word-shall-mean",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD Q3:  In the MUTCD, what does the word “shall” mean?",
+    "text": "MUTCD Q3:  In the MUTCD, what does the word “shall” mean?\n\nRequired\nRecommended\nOptional\nInformational only"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q4-which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q4-which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD Q4:  Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?",
+    "text": "MUTCD Q4:  Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?\n\nPart 2 — Signs\nPart 3 — Markings\nPart 4 — Signals\nPart 6 — Temporary Traffic Control"
   },
   {
     "objectID": "about.html",
@@ -1093,13 +1121,6 @@
     "title": "My Presentation",
     "section": "Team Scoreboard",
     "text": "Team Scoreboard\n\n\n\n\n\n\n\n\n\n\n\nTeam Name\nMUTCD\nMarkings\nSigns\nSignals\nTotal Points\n\n\n\n\nTeam Alpha\n\n\n\n\n\n\n\nTeam Bravo\n\n\n\n\n\n\n\nTeam Charlie\n\n\n\n\n\n\n\nTeam Delta"
-  },
-  {
-    "objectID": "lecture/ch4Quiz.html#what-study-technique-involves-actively-testing-your-memory",
-    "href": "lecture/ch4Quiz.html#what-study-technique-involves-actively-testing-your-memory",
-    "title": "My Presentation",
-    "section": "What study technique involves actively testing your memory?",
-    "text": "What study technique involves actively testing your memory?\n\n\n\n\n\n\nPassive reading\nActive recall\nHighlighting text"
   },
   {
     "objectID": "lecture/ch3HorDgn.html#class-logistics",
@@ -1399,103 +1420,5 @@
       "Home",
       "Fall 2026 Schedule"
     ]
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#quiz-rules",
-    "href": "lecture/ch4TrafficControlDevices.html#quiz-rules",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "QUIZ Rules",
-    "text": "QUIZ Rules\n\nRead the entire question before teams may buzz.\nCorrect answer: 2 points.\nCorrect answer plus a brief reason: 3 points.\nIncorrect answer: no points; that team is locked out, and another team may buzz."
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-study-technique-involves-actively-testing-your-memory",
-    "href": "lecture/ch4TrafficControlDevices.html#what-study-technique-involves-actively-testing-your-memory",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "What study technique involves actively testing your memory?",
-    "text": "What study technique involves actively testing your memory?\n\n\nPassive reading\nActive recall\nHighlighting text"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
-    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "What is the primary purpose of the MUTCD?",
-    "text": "What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
-  },
-  {
-    "objectID": "lecture/ch4Quiz.html#what-is-the-primary-purpose-of-the-mutcd",
-    "href": "lecture/ch4Quiz.html#what-is-the-primary-purpose-of-the-mutcd",
-    "title": "My Presentation",
-    "section": "What is the primary purpose of the MUTCD?",
-    "text": "What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
-  },
-  {
-    "objectID": "lecture/ch4Quiz.html#quiz-question-goes-here",
-    "href": "lecture/ch4Quiz.html#quiz-question-goes-here",
-    "title": "My Presentation",
-    "section": "Quiz question goes here",
-    "text": "Quiz question goes here\n\nOption 1\nOption 2 which is correct\nOption 3\nOption 4"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q1-what-is-the-primary-purpose-of-the-mutcd",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q1-what-is-the-primary-purpose-of-the-mutcd",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD Q1:  What is the primary purpose of the MUTCD?",
-    "text": "MUTCD Q1:  What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q2-which-mutcd-part-contains-pavement-marking-provisions",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q2-which-mutcd-part-contains-pavement-marking-provisions",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD Q2:  Which MUTCD Part contains pavement-marking provisions?",
-    "text": "MUTCD Q2:  Which MUTCD Part contains pavement-marking provisions?\n\nPart 1\nPart 2\nPart 3\nPart 4"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q2-in-the-mutcd-what-does-the-word-shall-mean",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q2-in-the-mutcd-what-does-the-word-shall-mean",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD Q2:  In the MUTCD, what does the word “shall” mean?",
-    "text": "MUTCD Q2:  In the MUTCD, what does the word “shall” mean?\n\nRequired\nRecommended\nOptional\nInformational only"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q3-in-the-mutcd-what-does-the-word-shall-mean",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q3-in-the-mutcd-what-does-the-word-shall-mean",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD Q3:  In the MUTCD, what does the word “shall” mean?",
-    "text": "MUTCD Q3:  In the MUTCD, what does the word “shall” mean?\n\nRequired\nRecommended\nOptional\nInformational only"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-q4-which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-q4-which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD Q4:  Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?",
-    "text": "MUTCD Q4:  Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?\n\nPart 2 — Signs\nPart 3 — Markings\nPart 4 — Signals\nPart 6 — Temporary Traffic Control"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signs: Classification",
-    "text": "Traffic Signs: Classification\n\nRegulatory\n\ngive notice of traffic laws or regulations.\n\nWarning\n\ngive notice of a situation that might not be readily apparent.\n\nGuide\n\nprovide information to road users concerning destinations, available services, and historical/recreational facilities."
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signals: Classification",
-    "text": "Traffic Signals: Classification\nThe MUTCD defines nine types of traffic signals:\n* Pedestrian signals\n* Emergency vehicle traffic control signals\n* Traffic control signals for one-lane, two-way facilities\n* Traffic control signals for freeway entrance ramps\n* Traffic control signals for movable bridges\n* Lane-use control signals\n* Flashing beacons\n* In-roadway lights"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signals: Example",
-    "text": "Traffic Signals: Example"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signals: Example",
-    "text": "Traffic Signals: Example"
   }
 ]
