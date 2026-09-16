@@ -292,42 +292,115 @@ The MUTCD defines nine types of traffic signals:
 ![](images/chap4/ch4_mutcdTraffcSignal2.png)
 
 
-
+# QUIZ 
 
 ## QUIZ Rules
-
-* Read the entire question before teams may buzz.
+* Four teams: Row 1, Row 2, Row 3, Row 4
+* Each team takes turn to answer the question ( 12 questions in total)
+  - Starting with Row arto 
+* Read the entire question and answer in 30 seconds
 * Correct answer: 2 points.
-* Correct answer plus a brief reason: 3 points.
-* Incorrect answer: no points; that team is locked out, and another team may buzz.
+* Incorrect answer: no points
+{{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
 
-# MUTCD: QUIZ
-
-
-## MUTCD Q1: <br> What is the primary purpose of the MUTCD?{.quiz-question}
+## 1) What is the primary purpose of the MUTCD?{.quiz-question}
 <!-- ![](images/chap3/ch3VerDgn_01.png){width="600" height="300" fig-align="center"} -->
 - To calculate roadway capacity
 - [To standardize traffic control devices]{.correct}
 - To determine pavement thickness
 - To design horizontal curves
+{{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
 
-## MUTCD Q2: <br> Which MUTCD Part contains pavement-marking provisions?{.quiz-question}
+## 2) Which MUTCD Part contains pavement-marking provisions?{.quiz-question}
 
 - Part 1
 - Part 2
 - [Part 3]{.correct}
 - Part 4
+{{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
-## MUTCD Q3: <br> In the MUTCD, what does the word “shall” mean?{.quiz-question}
+## 3) In the MUTCD, what does the word “shall” mean?{.quiz-question}
 - [Required]{.correct}
 - Recommended
 - Optional
 - Informational only
+{{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
-## MUTCD Q4: <br> Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?{.quiz-question}
+## 4) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?{.quiz-question}
 - Part 2 — Signs
 - Part 3 — Markings
 - Part 4 — Signals
 - [Part 6 — Temporary Traffic Control]{.correct}
+{{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
+
+## 5) What type of sign is this?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_stopSign.png){width="600" height="300" fig-align="center"}
+
+- Warning sign
+- [Regulatory sign]{.correct}
+- Guide sign
+- Service 
+
+## 6) What is the primary purpose of this sign?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_curveAheadSign.png){width="600" height="300" fig-align="center"}
+
+- Regulate a movement
+- [Warn of a condition ahead]{.correct}
+- Provide route guidance
+- Identify a parking area
+
+## 7) What is the main purpose of this sign?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_DestSign.png){width="600" height="300" fig-align="center"}
+
+- Require a driver action
+- Warn of a hazard
+- [Guide road users to destinations or routes]{.correct}
+- Mark a pedestrian crossing
+
+## 8) What does white dashed line marking generally separate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_mutcdMarkLong.png){width="600" height="300" fig-align="center"}
+
+- Traffic moving in opposite directions
+- [Traffic moving in the same direction]{.correct}
+- Vehicle traffic and a bicycle lane only
+- The roadway from a sidewalk
+
+## 9) What does this marking generally communicate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_greenLTsignal.png){width="600" height="300" fig-align="center"}
+
+- Passing is permitted in both directions
+- [Passing is prohibited in both directions]{.correct}
+- The lanes travel in the same direction
+- Vehicles must turn left
+
+
+
+## 10) What is the primary purpose of the stop bar?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_stopBar.png){width="600" height="300" fig-align="center"}
+
+- Mark the preferred path for a pedestrian
+- [Show where a driver should stop before entering the intersection]{.correct}
+- Separate opposing traffic
+- Identify a parking restriction
+
+
+## 11) What does this (signal on the right) indication require a driver to do?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_greenLTsignal.png){width="600" height="300" fig-align="center"}
+
+- Proceed with caution
+- [Stop]{.correct}
+- Yield only to pedestrians
+- Turn left only
+
+
+## 12) What does green arrow signal indication communicate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+![](images/chap4/ch4_greenLTsignal.png){width="600" height="300" fig-align="center"}
+
+- The driver must stop before turning left
+- [The indicated left-turn movement is permitted]{.correct}
+- Left turns are prohibited
+- Drivers may proceed straight only
+
+

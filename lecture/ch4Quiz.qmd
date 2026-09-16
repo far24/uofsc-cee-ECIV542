@@ -17,12 +17,12 @@ revealjs-plugins:
 
 ## Team Scoreboard
 
-| Team Name | MUTCD | Markings | Signs | Signals | Total Points |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **Team Alpha** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
-| **Team Bravo** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
-| **Team Charlie** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
-| **Team Delta** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> |
+| Team Name | Total Points |
+| :--- | :---: |
+| **Row 1** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | 
+| **Row 2** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | 
+| **Row 3** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | 
+| **Row 4** | <input type="number" style="width:70px; font-size:1.2rem; font-weight:bold; text-align:center;"> | 
 
 
 
