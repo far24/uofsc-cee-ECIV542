@@ -978,91 +978,119 @@
     "href": "lecture/ch4TrafficControlDevices.html#quiz-rules",
     "title": "Ch 4. Traffic Control Devices",
     "section": "QUIZ Rules",
-    "text": "QUIZ Rules\n\nFour teams: Row 1, Row 2, Row 3, Row 4\nEach team takes turn to answer the question ( 12 questions in total)\n\nStarting with Row arto\n\nRead the entire question and answer in 30 seconds\nCorrect answer: 2 points.\nIncorrect answer: no points"
+    "text": "QUIZ Rules\n\nFour teams: Row 1, Row 2, Row 3, Row 4\nEach team takes turn to answer the question ( 16 questions in total)\n\nStarting with Row arto\n\nRead the entire question and answer in 30 seconds (except first 4 questions)\nCorrect answer: 2 points.\nIncorrect answer: no points"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-2b.04-par.-1-in-mutcd-when-a-full-stop-is-always-required-on-an-approach-to-an-intersection-which-device-shall-be-used",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-2b.04-par.-1-in-mutcd-when-a-full-stop-is-always-required-on-an-approach-to-an-intersection-which-device-shall-be-used",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "1) According to “Section 2B.04, Par. 1” in MUTCD , when a full stop is always required on an approach to an intersection, which device shall be used?",
+    "text": "1) According to “Section 2B.04, Par. 1” in MUTCD , when a full stop is always required on an approach to an intersection, which device shall be used?\n\nYIELD sign\nSTOP sign\nSignal Ahead sign\nPedestrian crossing sign"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.03-par.-3-a-in-mutcd-yellow-longitudinal-markings-delineate",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.03-par.-3-a-in-mutcd-yellow-longitudinal-markings-delineate",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "2) According to “Section 3A.03, Par. 3, A” in MUTCD , yellow longitudinal markings delineate:",
+    "text": "2) According to “Section 3A.03, Par. 3, A” in MUTCD , yellow longitudinal markings delineate:\n\nTraffic traveling in opposite directions\nTraffic traveling in the same direction\nThe right edge of the roadway only\nPedestrian crossing paths"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.04-par.-1-c-in-mutcd-what-does-a-broken-longitudinal-line-indicate",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.04-par.-1-c-in-mutcd-what-does-a-broken-longitudinal-line-indicate",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "3) According to “Section 3A.04, Par. 1, C” in MUTCD , what does a broken longitudinal line indicate?",
+    "text": "3) According to “Section 3A.04, Par. 1, C” in MUTCD , what does a broken longitudinal line indicate?\n\nMaximum restriction\nCrossing is discouraged or prohibited\nA permissive condition\nA downstream lane-function change"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-4a.03-par.-1-a.2-in-mutcd-a-driver-facing-a-green-arrow-is-permitted-to",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-4a.03-par.-1-a.2-in-mutcd-a-driver-facing-a-green-arrow-is-permitted-to",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "4) According to “Section 4A.03, Par. 1, A.2” in MUTCD , a driver facing a green arrow is permitted to:",
+    "text": "4) According to “Section 4A.03, Par. 1, A.2” in MUTCD , a driver facing a green arrow is permitted to:\n\nProceed in any direction without yielding\nEnter the intersection only for the movement indicated by the arrow\nStop and wait for a circular green signal\nMake the indicated turn only after a complete stop"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
     "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "1) What is the primary purpose of the MUTCD?",
-    "text": "1) What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
+    "section": "5) What is the primary purpose of the MUTCD?",
+    "text": "5) What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-contains-pavement-marking-provisions",
     "href": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-contains-pavement-marking-provisions",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "2) Which MUTCD Part contains pavement-marking provisions?",
-    "text": "2) Which MUTCD Part contains pavement-marking provisions?\n\nPart 1\nPart 2\nPart 3\nPart 4"
+    "section": "6) Which MUTCD Part contains pavement-marking provisions?",
+    "text": "6) Which MUTCD Part contains pavement-marking provisions?\n\nPart 1\nPart 2\nPart 3\nPart 4"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#in-the-mutcd-what-does-the-word-shall-mean",
     "href": "lecture/ch4TrafficControlDevices.html#in-the-mutcd-what-does-the-word-shall-mean",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "3) In the MUTCD, what does the word “shall” mean?",
-    "text": "3) In the MUTCD, what does the word “shall” mean?\n\nRequired\nRecommended\nOptional\nInformational only"
+    "section": "7) In the MUTCD, what does the word “shall” mean?",
+    "text": "7) In the MUTCD, what does the word “shall” mean?\n\nRequired\nRecommended\nOptional\nInformational only"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
     "href": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "4) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?",
-    "text": "4) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?\n\nPart 2 — Signs\nPart 3 — Markings\nPart 4 — Signals\nPart 6 — Temporary Traffic Control"
+    "section": "8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?",
+    "text": "8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?\n\nPart 2 — Signs\nPart 3 — Markings\nPart 4 — Signals\nPart 6 — Temporary Traffic Control"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-type-of-sign-is-this",
     "href": "lecture/ch4TrafficControlDevices.html#what-type-of-sign-is-this",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "5) What type of sign is this?\n ",
-    "text": "5) What type of sign is this?\n \n\n\n\n\n\n\nWarning sign\nRegulatory sign\nGuide sign\nService"
+    "section": "9) What type of sign is this?\n ",
+    "text": "9) What type of sign is this?\n \n\n\n\n\n\n\nWarning sign\nRegulatory sign\nGuide sign\nService"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-this-sign",
     "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-this-sign",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "6) What is the primary purpose of this sign?\n ",
-    "text": "6) What is the primary purpose of this sign?\n \n\n\n\n\n\n\nRegulate a movement\nWarn of a condition ahead\nProvide route guidance\nIdentify a parking area"
+    "section": "10) What is the primary purpose of this sign?\n ",
+    "text": "10) What is the primary purpose of this sign?\n \n\n\n\n\n\n\nRegulate a movement\nWarn of a condition ahead\nProvide route guidance\nIdentify a parking area"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-main-purpose-of-this-sign",
     "href": "lecture/ch4TrafficControlDevices.html#what-is-the-main-purpose-of-this-sign",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "7) What is the main purpose of this sign?\n ",
-    "text": "7) What is the main purpose of this sign?\n \n\n\n\n\n\n\nRequire a driver action\nWarn of a hazard\nGuide road users to destinations or routes\nMark a pedestrian crossing"
+    "section": "11) What is the main purpose of this sign?\n ",
+    "text": "11) What is the main purpose of this sign?\n \n\n\n\n\n\n\nRequire a driver action\nWarn of a hazard\nGuide road users to destinations or routes\nMark a pedestrian crossing"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-does-white-dashed-line-marking-generally-separate",
     "href": "lecture/ch4TrafficControlDevices.html#what-does-white-dashed-line-marking-generally-separate",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "8) What does white dashed line marking generally separate?\n ",
-    "text": "8) What does white dashed line marking generally separate?\n \n\n\n\n\n\n\nTraffic moving in opposite directions\nTraffic moving in the same direction\nVehicle traffic and a bicycle lane only\nThe roadway from a sidewalk"
+    "section": "12) What does white dashed line marking generally separate?\n ",
+    "text": "12) What does white dashed line marking generally separate?\n \n\n\n\n\n\n\nTraffic moving in opposite directions\nTraffic moving in the same direction\nVehicle traffic and a bicycle lane only\nThe roadway from a sidewalk"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-does-this-marking-generally-communicate",
     "href": "lecture/ch4TrafficControlDevices.html#what-does-this-marking-generally-communicate",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "9) What does this marking generally communicate?\n ",
-    "text": "9) What does this marking generally communicate?\n \n\n\n\n\n\n\nPassing is permitted in both directions\nPassing is prohibited in both directions\nThe lanes travel in the same direction\nVehicles must turn left"
+    "section": "13) What does this marking generally communicate?\n ",
+    "text": "13) What does this marking generally communicate?\n \n\n\n\n\n\n\nPassing is permitted in both directions\nPassing is prohibited in both directions\nThe lanes travel in the same direction\nVehicles must turn left"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-stop-bar",
     "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-stop-bar",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "10) What is the primary purpose of the stop bar?\n ",
-    "text": "10) What is the primary purpose of the stop bar?\n \n\n\n\n\n\n\nMark the preferred path for a pedestrian\nShow where a driver should stop before entering the intersection\nSeparate opposing traffic\nIdentify a parking restriction"
+    "section": "14) What is the primary purpose of the stop bar?\n ",
+    "text": "14) What is the primary purpose of the stop bar?\n \n\n\n\n\n\n\nMark the preferred path for a pedestrian\nShow where a driver should stop before entering the intersection\nSeparate opposing traffic\nIdentify a parking restriction"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-does-this-signal-on-the-right-indication-require-a-driver-to-do",
     "href": "lecture/ch4TrafficControlDevices.html#what-does-this-signal-on-the-right-indication-require-a-driver-to-do",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "11) What does this (signal on the right) indication require a driver to do?\n ",
-    "text": "11) What does this (signal on the right) indication require a driver to do?\n \n\n\n\n\n\n\nProceed with caution\nStop\nYield only to pedestrians\nTurn left only"
+    "section": "15) What does this (signal on the right) indication require a driver to do?\n ",
+    "text": "15) What does this (signal on the right) indication require a driver to do?\n \n\n\n\n\n\n\nProceed with caution\nStop\nYield only to pedestrians\nTurn left only"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#what-does-green-arrow-signal-indication-communicate",
     "href": "lecture/ch4TrafficControlDevices.html#what-does-green-arrow-signal-indication-communicate",
     "title": "Ch 4. Traffic Control Devices",
-    "section": "12) What does green arrow signal indication communicate?\n ",
-    "text": "12) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
+    "section": "16) What does green arrow signal indication communicate?\n ",
+    "text": "16) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
   },
   {
     "objectID": "about.html",

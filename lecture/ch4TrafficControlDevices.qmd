@@ -1,9 +1,9 @@
 ---
 title: "Ch 4. Traffic Control Devices"
-subtitle: "Class 07" 
+subtitle: "Class 07 & 08" 
 author: "ECIV 542 (Traffic Engineering), Fall 2026"
 institute: "Dept. of CE&E, Univ. of South Carolina"
-date: "09/14/2026"
+date: "09/14/2026 & 09/16/2026"
 format: 
   revealjs:
     theme: white
@@ -296,15 +296,44 @@ The MUTCD defines nine types of traffic signals:
 
 ## QUIZ Rules
 * Four teams: Row 1, Row 2, Row 3, Row 4
-* Each team takes turn to answer the question ( 12 questions in total)
+* Each team takes turn to answer the question ( 16 questions in total)
   - Starting with Row arto 
-* Read the entire question and answer in 30 seconds
+* Read the entire question and answer in 30 seconds (except first 4 questions)
 * Correct answer: 2 points.
 * Incorrect answer: no points
 {{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
 
-## 1) What is the primary purpose of the MUTCD?{.quiz-question}
+## 1) According to <u>"Section 2B.04, Par. 1" in MUTCD</u> , when a full stop is always required on an approach to an intersection, which device shall be used?{.quiz-question}
+
+- YIELD sign
+- [STOP sign]{.correct}
+- Signal Ahead sign
+- Pedestrian crossing sign
+
+## 2) According to <u>"Section 3A.03, Par. 3, A" in MUTCD </u>, yellow longitudinal markings delineate:{.quiz-question}
+
+- Traffic traveling in opposite directions
+- [Traffic traveling in the same direction]{.correct}
+- The right edge of the roadway only
+- Pedestrian crossing paths
+
+## 3) According to <u>"Section 3A.04, Par. 1, C" in MUTCD </u>, what does a broken longitudinal line indicate?{.quiz-question}
+
+- Maximum restriction
+- Crossing is discouraged or prohibited
+- [A permissive condition]{.correct}
+- A downstream lane-function change
+
+## 4) According to <u>"Section 4A.03, Par. 1, A.2" in MUTCD </u>, a driver facing a green arrow is permitted to:{.quiz-question}
+
+- Proceed in any direction without yielding
+- [Enter the intersection only for the movement indicated by the arrow]{.correct}
+- Stop and wait for a circular green signal
+- Make the indicated turn only after a complete stop
+
+
+## 5) What is the primary purpose of the MUTCD?{.quiz-question}
 <!-- ![](images/chap3/ch3VerDgn_01.png){width="600" height="300" fig-align="center"} -->
 - To calculate roadway capacity
 - [To standardize traffic control devices]{.correct}
@@ -313,7 +342,7 @@ The MUTCD defines nine types of traffic signals:
 {{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
 
-## 2) Which MUTCD Part contains pavement-marking provisions?{.quiz-question}
+## 6) Which MUTCD Part contains pavement-marking provisions?{.quiz-question}
 
 - Part 1
 - Part 2
@@ -321,21 +350,21 @@ The MUTCD defines nine types of traffic signals:
 - Part 4
 {{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
-## 3) In the MUTCD, what does the word “shall” mean?{.quiz-question}
+## 7) In the MUTCD, what does the word “shall” mean?{.quiz-question}
 - [Required]{.correct}
 - Recommended
 - Optional
 - Informational only
 {{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
-## 4) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?{.quiz-question}
+## 8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?{.quiz-question}
 - Part 2 — Signs
 - Part 3 — Markings
 - Part 4 — Signals
 - [Part 6 — Temporary Traffic Control]{.correct}
 {{< countdown "0:30" play_sound=true warn_when=10 bottom="0" left="0" >}}
 
-## 5) What type of sign is this?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 9) What type of sign is this?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_stopSign.png){width="600" height="300" fig-align="center"}
 
 - Warning sign
@@ -343,7 +372,7 @@ The MUTCD defines nine types of traffic signals:
 - Guide sign
 - Service 
 
-## 6) What is the primary purpose of this sign?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 10) What is the primary purpose of this sign?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_curveAheadSign.png){width="600" height="300" fig-align="center"}
 
 - Regulate a movement
@@ -351,7 +380,7 @@ The MUTCD defines nine types of traffic signals:
 - Provide route guidance
 - Identify a parking area
 
-## 7) What is the main purpose of this sign?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 11) What is the main purpose of this sign?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_DestSign.png){width="600" height="300" fig-align="center"}
 
 - Require a driver action
@@ -359,7 +388,7 @@ The MUTCD defines nine types of traffic signals:
 - [Guide road users to destinations or routes]{.correct}
 - Mark a pedestrian crossing
 
-## 8) What does white dashed line marking generally separate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 12) What does white dashed line marking generally separate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_mutcdMarkLong.png){width="600" height="300" fig-align="center"}
 
 - Traffic moving in opposite directions
@@ -367,7 +396,7 @@ The MUTCD defines nine types of traffic signals:
 - Vehicle traffic and a bicycle lane only
 - The roadway from a sidewalk
 
-## 9) What does this marking generally communicate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 13) What does this marking generally communicate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_greenLTsignal.png){width="600" height="300" fig-align="center"}
 
 - Passing is permitted in both directions
@@ -377,7 +406,7 @@ The MUTCD defines nine types of traffic signals:
 
 
 
-## 10) What is the primary purpose of the stop bar?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 14) What is the primary purpose of the stop bar?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_stopBar.png){width="600" height="300" fig-align="center"}
 
 - Mark the preferred path for a pedestrian
@@ -386,7 +415,7 @@ The MUTCD defines nine types of traffic signals:
 - Identify a parking restriction
 
 
-## 11) What does this (signal on the right) indication require a driver to do?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 15) What does this (signal on the right) indication require a driver to do?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_greenLTsignal.png){width="600" height="300" fig-align="center"}
 
 - Proceed with caution
@@ -395,7 +424,7 @@ The MUTCD defines nine types of traffic signals:
 - Turn left only
 
 
-## 12) What does green arrow signal indication communicate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
+## 16) What does green arrow signal indication communicate?{{< countdown "0:30" play_sound=true warn_when=10 top="10" right="0" >}}{.quiz-question}
 ![](images/chap4/ch4_greenLTsignal.png){width="600" height="300" fig-align="center"}
 
 - The driver must stop before turning left
