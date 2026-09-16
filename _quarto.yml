@@ -49,11 +49,15 @@ website:
           - href: lecture/ch5TrafficStreamCharacter.qmd
             text: "31AUG26-Class 04: Ch5 - Traffic Stream Characteristics"
           - href: lecture/ch5TrafficStreamCharacter.qmd
-            text: "02SEP26-Class 05: Ch5 - Traffic Stream Characteristics (Cont.)"
+            text: "02SEP26-Class 05: Ch5 - Traffic Flow Theory"
           - href: lecture/chX_TrafficFlowTheory.qmd
             text: "09SEP26-Class 06: Traffic Flow Theory"
+          - href: lecture/chX_TrafficFlowTheory.qmd
+            text: "14SEP26-Class 07: Traffic Flow Theory (Cont.) & Ch 4. Traffic Control Devices"
           - href: lecture/ch4TrafficControlDevices.qmd
-            text: "14SEP26-Class 07: Ch. 4 Traffic Control Devices"
+            text: "16SEP26-Class 08: Ch. 4 Traffic Control Devices (Cont.)"
+          - href: lecture/ch11StatsInTransp.qmd
+            text: "16SEP26-Class 09: Ch. 11 Statistical Application in Transportation"
           - href: lecture/ch4Quiz.qmd
             text: "Team Scorecard"
 

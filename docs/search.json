@@ -127,6 +127,1009 @@
     "text": "Ver. Curve: SSD Problem 27-6 Solution\nWhat is the min length of vertical curve that must be provided to connect a 5% grade with a 2% grade on a highway with design speed of 60 mph?\n\nVertical Crest Curve; Assume \\(G=2\\%\\)\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\\(d_{ssd}=1.47 \\times 60 \\times  2.5 + \\frac{60^2 - 0^2}{30(0.348 + 0.02)}\\)\n\\(d_{ssd}=546.6ft\\)\n\n\n\nAssume, \\(d_{ssd} &lt; L\\)\n\\(L_{min} = \\frac{|g_2 - g_1| \\times d_{ssd}^2}{2158}\\)\n\\(L_{min} = \\frac{|2- 5| \\times 547^2}{2158}\\)\n\\(L_{min} = 415.95\\)\n\n\n\nCheck Assumption \\(d_{ssd} = 547 &lt; L_{min} = 416\\): Incorrect\n\n\n\nRevise solution using \\(d_{ssd} &gt; L_{min}\\) formula\n\\(L_{min} = 2d_{ssd} - \\frac{2158}{|g_2 - g_1|}\\)\n\\(L_{min} = 2 \\times 547 - \\frac{2158}{|2 - 5|}\\)\n\\(L_{min} = 365ft\\)"
   },
   {
+    "objectID": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
+    "href": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Welcome to Traffic Engineering",
+    "text": "Welcome to Traffic Engineering\n\nECIV 542, Fall 2026\nMW 11 AM - 12:15PM, Swearingen 2A07"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
+    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\nDr. FAHIM AHMED\nAdjuct Faculty, UofSC\nEngineer, SCDOT\n\nBACKGROUND:\n\nPhD in Transportation (Logistics)\n\nM.S. , M.A.S, EIT\n\nWHAT I WORK ON:\n\nHighway Design/Traffic Safety\n\nLogistic Modeling"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
+    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Meet Your Instructor",
+    "text": "Meet Your Instructor\n\nMY APPROACH:\n\nUnderstand  Apply  Interpret\n\nOUTSIDE ENGR.:\n\nSoccer (ManU fan)\n\nTravel\n\n\n\nWe’ll certainly do calculations in this class, but I don’t want you to just know which equation to use. I want you to understand what you’re calculating, why an engineer needs it, and what the result tells us about the transportation system."
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#section",
+    "href": "lecture/eciv542syllabusFall26.html#section",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "",
+    "text": "Getting to Know You\n\n\nName\nUndergraduate or Graduate student\nMajor/year\nWhy are you taking this course?\nWhat comes to mind when you hear “Traffic Engineering”?"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#course-content",
+    "href": "lecture/eciv542syllabusFall26.html#course-content",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Course Content",
+    "text": "Course Content\n\nBlackboard\nWebsite: Link"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Course Description",
+    "text": "Syllabus: Course Description\n\nThis course (ECIV 542) is designed to teach students the fundamentals of traffic engineering.\nThis course will enable students to solve transportation problems that are likely to appear in FE/PE exam and professional practice.\nServe as a foundation for graduate coursework at USC or other academic institutions."
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Pre-requisite",
+    "text": "Syllabus: Pre-requisite\n\nECIV 340 (Introduction to Transportation Engineering)"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Textbook",
+    "text": "Syllabus: Textbook\n\nTraffic Engineering, 5th edition, by Roger P. Roess, Elena S. Prassas, and William R. McShane. Pearson Higher Education, Inc., 2019; ISBN-13: 978-0134599717"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Performance Evaluation",
+    "text": "Syllabus: Performance Evaluation\n\nHomework assignments: 6-8\nExams: 02\nProject: 01 (Divided into 4 Tasks)"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Grade Distribution",
+    "text": "Syllabus: Grade Distribution\n\n\n\n\n\n\n\n\nGrading Rubric\nUndergraduate\nGraduate\n\n\n\n\nExam 1\n35%\n30%\n\n\nExam 2\n35%\n30%\n\n\nHomework\n10%\n10%\n\n\nClass Project (Standard Scope)\n20%\n20%\n\n\nClass Project (Advanced Scope)\n0%\n10%"
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Attendance",
+    "text": "Syllabus: Class Attendance\n\nYou are expected to attend all lectures and labs and contribute to the team’s class project."
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Documents",
+    "text": "Syllabus: Class Documents\nAll class documents will be made available on Blackboard. The instructor will provide supplemental notes. It is the student’s responsibility to check Blackboard and print the provided documents."
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
+    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Syllabus: Class Project",
+    "text": "Syllabus: Class Project\n\nStudents will work in groups of 3-6 to conduct traffic analyses of intersections near campus.\nEach team will be assigned to one intersection (randomly).\nEach team will be responsible for collecting its own data, performing appropriate analyses, and making recommendations.\n\nThere will be a final report, and if time permits, each team will make a presentation to the class describing their work."
+  },
+  {
+    "objectID": "lecture/eciv542syllabusFall26.html#schedule",
+    "href": "lecture/eciv542syllabusFall26.html#schedule",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Schedule",
+    "text": "Schedule\nECIV 542 Fall 2026 Schedule"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#class-logistics",
+    "href": "lecture/ch3HorDgn.html#class-logistics",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Class Logistics",
+    "text": "Class Logistics\n\nExam 2 (Final Exam): December 11th (FRI) at 7:30 PM SWGN 2A07\nHW1 will assigned next week\nGroups and Project will be assigned next week"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#topics",
+    "href": "lecture/ch3HorDgn.html#topics",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "TOPICS",
+    "text": "TOPICS\n\nCh. 3: Horizontal Design of Roadway\n\nHor. Curve Alignments\nHor. Curve Equations\nSuperelevation\nMin. Radius of Curve\nStopping Sight Distance (SSD) on the curve"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#arc-and-chord-definition",
+    "href": "lecture/ch3HorDgn.html#arc-and-chord-definition",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Arc and Chord Definition",
+    "text": "Arc and Chord Definition\n\n\nDegree of curvature: the central angle (D) to the ends of an agreed length (i.e. 100 ft) of either an arc or a chord."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#stationing",
+    "href": "lecture/ch3HorDgn.html#stationing",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Stationing",
+    "text": "Stationing"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
+    "href": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Horizontal Curve Alignments",
+    "text": "Horizontal Curve Alignments\n\n\n\nObjectives:\n\nProvide a transition between two straight (tangent) sections.\n\nThings to consider\n\nspeed, side friction, superelevation, etc.\nSeverity (tight/gentle) measured by the degree of curvature"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Hor. Curve Equations",
+    "text": "Hor. Curve Equations"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
+    "href": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Hor. Curve Eq. : Problem",
+    "text": "Hor. Curve Eq. : Problem\n\n\nTwo tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E)."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-1",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-1",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\nSight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.\nA minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-2",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-2",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\nWhen such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes)."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-3",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-3",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\nfor a specified stopping distance, some distance, Ms (the middle ordinate of a curve that has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-4",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-4",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "SSD on Curve",
+    "text": "SSD on Curve\n\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(F=0.348\\)\n\n\\(M_{s}=R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\n\\(R_v = \\frac{5729.58}{D_v}\\)"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
+    "href": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "SSD on Curve: Problem",
+    "text": "SSD on Curve: Problem\n\n\nA 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?\n\n\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5 + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd}=726.6 ft\\)\n\nFor a SSD of \\(726.6ft\\), the min clearance at roadside:\n\n\\(M_{s}= R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\\(M_{s}= \\frac{5729.58}{6} \\times (1- cos \\frac{90 \\times 726.26}{\\pi \\frac{5729.58}{6}})\\)\n\\(M_{s}= 68.3 ft\\)"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation",
+    "href": "lecture/ch3HorDgn.html#superelevation",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation",
+    "text": "Superelevation\nAmount by which the outer edge of a curve on a road or railroad is banked above the inner edge."
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-why",
+    "href": "lecture/ch3HorDgn.html#superelevation-why",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation: Why?",
+    "text": "Superelevation: Why?\n\n\n\n\n\n\n\nhttps://www.bigrentz.com/blog/superelevation"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-components",
+    "href": "lecture/ch3HorDgn.html#superelevation-components",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation: Components",
+    "text": "Superelevation: Components"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
+    "href": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation: Change of XS",
+    "text": "Superelevation: Change of XS"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Runoff length",
+    "text": "Superelevation: Eq. for Runoff length\n\n\n\\(L_r = \\frac{w \\times n \\times e_d \\times b_w}{\\Delta}\\)\n\n\\(L_r\\) = minimum length of superelevation runoff, ft\n\\(w\\) = width of lane, ft\n\\(n\\) = number of lanes being rotated (i.e. lanes in one direction)\n\\(e_d\\) = design superelevation rate, expressed as a decimal\n\\(b_w\\) = adjustment factor for number of lanes rotated\n\n1: for one lane, 0.75 for two, 0.67 for three\n\n\\(\\Delta\\) = maximum relative gradient, (Table 27.3) expressed as a decimal"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Runoff length",
+    "text": "Superelevation: Eq. for Runoff length"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
+    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation: Eq. for Tangent Runoff",
+    "text": "Superelevation: Eq. for Tangent Runoff\n\n\n\\(L_t = \\frac{e_{NC}}{e_d} \\times L_r\\)\n\n\\(L_t\\) = length of tangent runoff, ft\n\\(L_r\\) = length of superelevation runoff, ft\n\\(e_{NC}\\) = normal cross-slope, % (for drainage)\n\\(e_d\\) = design superelevation rate, %"
+  },
+  {
+    "objectID": "lecture/ch3HorDgn.html#superelevation-sample-problem",
+    "href": "lecture/ch3HorDgn.html#superelevation-sample-problem",
+    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
+    "section": "Superelevation: Sample Problem",
+    "text": "Superelevation: Sample Problem\nA four-lane highway with a superelvation rate of 0.04 achieved by rotating two 12 ft lanes around the centerline. The normal drainage cross-slope is 0.01. The design speed of the highway is 60 mi/h. What is the appropriate minimum length of superelevation runoff and what is the tangent runoff length."
+  },
+  {
+    "objectID": "lecture/ch4Quiz.html#team-scoreboard",
+    "href": "lecture/ch4Quiz.html#team-scoreboard",
+    "title": "My Presentation",
+    "section": "Team Scoreboard",
+    "text": "Team Scoreboard\n\n\n\n\n\n\n\nTeam Name\nTotal Points\n\n\n\n\nRow 1\n\n\n\nRow 2\n\n\n\nRow 3\n\n\n\nRow 4"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "What is Traffic Engineering?",
+    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Primary Objective: SAFETY",
+    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Mobility vs. Accessibility",
+    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
+    "href": "lecture/introTrafficEngr.html#transportation-modes",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Transportation Modes",
+    "text": "Transportation Modes"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#section",
+    "href": "lecture/introTrafficEngr.html#section",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "",
+    "text": "What’s Missing?"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Elements of Traffic Engineering",
+    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Modern Problems for the Traffic Engineer",
+    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Key Manuals and References",
+    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#due-dates",
+    "href": "index.html#due-dates",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "Due Dates",
+    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 10:59AM\nHW\n#1\nSee BlackBoard\n\n\nSep 23, 2026 10:59AM\nProject\nTech Memo 1\nSee Blackboard\n\n\nOct 12, 2026 11:00AM\nExam\n#1\nIn-class\n\n\nDec 11, 2026 07:30PM\nExam\n#2\nIn-class",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "Resources",
+    "text": "Resources\n\nHW Submisstion Template",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Control Devices",
+    "text": "Traffic Control Devices\n\nShow a image and identity"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-2",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-2",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Control Devices",
+    "text": "Traffic Control Devices\n\nPurpose\n\n“To promote highway safety and efficiency by providing for orderly movement of all road users on streets and highways, bikeways, public facilities, and private property open to public travel throughout the Nation.”"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD",
+    "text": "MUTCD\n\nMUTCD:\n\nManual on Uniform Traffic Control Devices\nprincipal standard governing the application, design, and placement of traffic control devices\nminimum standard and a model for individual state MUTCDs.\nLatest Edition: MUTCD 11th Ed.\n\nMany states simply adopt the federal manual by statute (e.g. SC). Others develop their own manuals (e.g. TX, CA)"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-principles",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-principles",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: Principles",
+    "text": "MUTCD: Principles\nMust:\n\nFulfill a need\n\nSuperfluous devices should not be used. A installed device must be needed for safe and efficient flow of traffic.\n\nCommand attention\n\nAttracting a driver’s attention requires proper visibility and a distinctive design.\n\nConvey a clear, simple message\n\nClarity and simplicity of message is critical since the device is seen for only a few seconds.\n\nCommand respect of road users\n\nDrivers are conditioned to expect meaningful and important messages.\n\nGive adequate time for a proper response\n\nExample, a stop sign should be placed at the stop line and be visible from at least one SSD."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-contents",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-contents",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: Contents",
+    "text": "MUTCD: Contents\n\nPhysical design\n\nDetailed standards for shape, size, colors, legend types and sizes, and specific legend.\n\nPlacement / Location\n\nDetailed standards and guidelines on where devices should be located with respect to the traveled way.\n\nSelection of Devices\n\nWarrants or conditions that justify the use of a particular device."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-legal-aspects",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-legal-aspects",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: Legal Aspects",
+    "text": "MUTCD: Legal Aspects\n\n\n\n\n\n\n\n\nType\nEnforcement\nWord\n\n\n\n\nStandard\nRequired, mandatory, specifically prohibitive\n“shall” or “shall not”\n\n\nGuidance\nRecommended; departure needs justification\n“should” or “should not”\n\n\nOption\nPermitted; engineering judgment may be used\n“may” or “may not”\n\n\nSupport\nExplanation, examples, or background\nstatement without “shall”, “should”, “may”"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: How to Read",
+    "text": "MUTCD: How to Read\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08.\n\n\n\n\n\nITEMS\n\n\nPARAGRAPH  numbered\n\n\nSECTION  numbered\n\n\nCHAPTER  letter: A-Z\n\n\nPARTS  numbered: 1-9"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-1",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: How to Read …",
+    "text": "MUTCD: How to Read …\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-2",
+    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-2",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "MUTCD: How to Read …",
+    "text": "MUTCD: How to Read …\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08.\n\n“No less than 40 feet beyond the stop line, and”"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Markings: Types",
+    "text": "Traffic Markings: Types\n\nLongitudinal markings\n\nPlaced parallel to the direction of travel\ncenterlines, lane lines, and pavement edge lines\n\nTransverse markings\n\nPlaced perpendicular to the direction of travel\nStop and Yield lines\n\nCrosswalk Markings\nObject Markers\n\nUsed to denote obstructions either in or adjacent to the traveled way.\n\nDelineators\n\nDelineators are reflective devices mounted at a 4-ft height on the sides of a roadway to help denote its alignment."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Markings: Example",
+    "text": "Traffic Markings: Example"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-1",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Markings: Example",
+    "text": "Traffic Markings: Example"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Signs: Classification",
+    "text": "Traffic Signs: Classification\n\nRegulatory\n\ngive notice of traffic laws or regulations.\n\nWarning\n\ngive notice of a situation that might not be readily apparent.\n\nGuide\n\nprovide information to road users concerning destinations, available services, and historical/recreational facilities."
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Signals: Classification",
+    "text": "Traffic Signals: Classification\nThe MUTCD defines nine types of traffic signals:\n* Pedestrian signals\n* Emergency vehicle traffic control signals\n* Traffic control signals for one-lane, two-way facilities\n* Traffic control signals for freeway entrance ramps\n* Traffic control signals for movable bridges\n* Lane-use control signals\n* Flashing beacons\n* In-roadway lights"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Signals: Example",
+    "text": "Traffic Signals: Example"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
+    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "Traffic Signals: Example",
+    "text": "Traffic Signals: Example"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#quiz-rules",
+    "href": "lecture/ch4TrafficControlDevices.html#quiz-rules",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "QUIZ Rules",
+    "text": "QUIZ Rules\n\nFour teams: Row 1, Row 2, Row 3, Row 4\nEach team takes turn to answer the question ( 16 questions in total)\n\nStarting with Row arto\n\nRead the entire question and answer in 30 seconds (except first 4 questions)\nCorrect answer: 2 points.\nIncorrect answer: no points"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-2b.04-par.-1-in-mutcd-when-a-full-stop-is-always-required-on-an-approach-to-an-intersection-which-device-shall-be-used",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-2b.04-par.-1-in-mutcd-when-a-full-stop-is-always-required-on-an-approach-to-an-intersection-which-device-shall-be-used",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "1) According to “Section 2B.04, Par. 1” in MUTCD , when a full stop is always required on an approach to an intersection, which device shall be used?",
+    "text": "1) According to “Section 2B.04, Par. 1” in MUTCD , when a full stop is always required on an approach to an intersection, which device shall be used?\n\nYIELD sign\nSTOP sign\nSignal Ahead sign\nPedestrian crossing sign"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.03-par.-3-a-in-mutcd-yellow-longitudinal-markings-delineate",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.03-par.-3-a-in-mutcd-yellow-longitudinal-markings-delineate",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "2) According to “Section 3A.03, Par. 3, A” in MUTCD , yellow longitudinal markings delineate:",
+    "text": "2) According to “Section 3A.03, Par. 3, A” in MUTCD , yellow longitudinal markings delineate:\n\nTraffic traveling in opposite directions\nTraffic traveling in the same direction\nThe right edge of the roadway only\nPedestrian crossing paths"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.04-par.-1-c-in-mutcd-what-does-a-broken-longitudinal-line-indicate",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.04-par.-1-c-in-mutcd-what-does-a-broken-longitudinal-line-indicate",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "3) According to “Section 3A.04, Par. 1, C” in MUTCD , what does a broken longitudinal line indicate?",
+    "text": "3) According to “Section 3A.04, Par. 1, C” in MUTCD , what does a broken longitudinal line indicate?\n\nMaximum restriction\nCrossing is discouraged or prohibited\nA permissive condition\nA downstream lane-function change"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-4a.03-par.-1-a.2-in-mutcd-a-driver-facing-a-green-arrow-is-permitted-to",
+    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-4a.03-par.-1-a.2-in-mutcd-a-driver-facing-a-green-arrow-is-permitted-to",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "4) According to “Section 4A.03, Par. 1, A.2” in MUTCD , a driver facing a green arrow is permitted to:",
+    "text": "4) According to “Section 4A.03, Par. 1, A.2” in MUTCD , a driver facing a green arrow is permitted to:\n\nProceed in any direction without yielding\nEnter the intersection only for the movement indicated by the arrow\nStop and wait for a circular green signal\nMake the indicated turn only after a complete stop"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
+    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "5) What is the primary purpose of the MUTCD?",
+    "text": "5) What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-contains-pavement-marking-provisions",
+    "href": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-contains-pavement-marking-provisions",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "6) Which MUTCD Part contains pavement-marking provisions?",
+    "text": "6) Which MUTCD Part contains pavement-marking provisions?\n\nPart 1\nPart 2\nPart 3\nPart 4"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#in-the-mutcd-what-does-the-word-shall-mean",
+    "href": "lecture/ch4TrafficControlDevices.html#in-the-mutcd-what-does-the-word-shall-mean",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "7) In the MUTCD, what does the word “shall” mean?",
+    "text": "7) In the MUTCD, what does the word “shall” mean?\n\nRequired\nRecommended\nOptional\nInformational only"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
+    "href": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?",
+    "text": "8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?\n\nPart 2 — Signs\nPart 3 — Markings\nPart 4 — Signals\nPart 6 — Temporary Traffic Control"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-type-of-sign-is-this",
+    "href": "lecture/ch4TrafficControlDevices.html#what-type-of-sign-is-this",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "9) What type of sign is this?\n ",
+    "text": "9) What type of sign is this?\n \n\n\n\n\n\n\nWarning sign\nRegulatory sign\nGuide sign\nService"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-this-sign",
+    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-this-sign",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "10) What is the primary purpose of this sign?\n ",
+    "text": "10) What is the primary purpose of this sign?\n \n\n\n\n\n\n\nRegulate a movement\nWarn of a condition ahead\nProvide route guidance\nIdentify a parking area"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-main-purpose-of-this-sign",
+    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-main-purpose-of-this-sign",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "11) What is the main purpose of this sign?\n ",
+    "text": "11) What is the main purpose of this sign?\n \n\n\n\n\n\n\nRequire a driver action\nWarn of a hazard\nGuide road users to destinations or routes\nMark a pedestrian crossing"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-white-dashed-line-marking-generally-separate",
+    "href": "lecture/ch4TrafficControlDevices.html#what-does-white-dashed-line-marking-generally-separate",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "12) What does white dashed line marking generally separate?\n ",
+    "text": "12) What does white dashed line marking generally separate?\n \n\n\n\n\n\n\nTraffic moving in opposite directions\nTraffic moving in the same direction\nVehicle traffic and a bicycle lane only\nThe roadway from a sidewalk"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-this-marking-generally-communicate",
+    "href": "lecture/ch4TrafficControlDevices.html#what-does-this-marking-generally-communicate",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "13) What does this marking generally communicate?\n ",
+    "text": "13) What does this marking generally communicate?\n \n\n\n\n\n\n\nPassing is permitted in both directions\nPassing is prohibited in both directions\nThe lanes travel in the same direction\nVehicles must turn left"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-stop-bar",
+    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-stop-bar",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "14) What is the primary purpose of the stop bar?\n ",
+    "text": "14) What is the primary purpose of the stop bar?\n \n\n\n\n\n\n\nMark the preferred path for a pedestrian\nShow where a driver should stop before entering the intersection\nSeparate opposing traffic\nIdentify a parking restriction"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-this-signal-on-the-right-indication-require-a-driver-to-do",
+    "href": "lecture/ch4TrafficControlDevices.html#what-does-this-signal-on-the-right-indication-require-a-driver-to-do",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "15) What does this (signal on the right) indication require a driver to do?\n ",
+    "text": "15) What does this (signal on the right) indication require a driver to do?\n \n\n\n\n\n\n\nProceed with caution\nStop\nYield only to pedestrians\nTurn left only"
+  },
+  {
+    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-green-arrow-signal-indication-communicate",
+    "href": "lecture/ch4TrafficControlDevices.html#what-does-green-arrow-signal-indication-communicate",
+    "title": "Ch 4. Traffic Control Devices",
+    "section": "16) What does green arrow signal indication communicate?\n ",
+    "text": "16) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-01",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 01",
+    "text": "PROBLEM 01\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-02",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-02",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 02",
+    "text": "PROBLEM 02\n\nGiven the roadway scenario, how long should the yellow interval of the signal?"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#concepts",
+    "href": "lecture/rdUserVehCharacteristics.html#concepts",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "CONCEPTS",
+    "text": "CONCEPTS\n\nSight Distance (SD)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#sight-distance-sd",
+    "href": "lecture/rdUserVehCharacteristics.html#sight-distance-sd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SIGHT DISTANCE (SD)",
+    "text": "SIGHT DISTANCE (SD)\n\nSD: How much of the roadway drivers’ able to see (perceive)\nTypes of SD:\n\nStopping SD (SSD)\nDecision SD (DSD)\nPassing SD (PSD)\nIntersection SD (ISD)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#basic-equations",
+    "href": "lecture/rdUserVehCharacteristics.html#basic-equations",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "BASIC EQUATIONS",
+    "text": "BASIC EQUATIONS\n\n\n\n\\(d = St\\)\n\\(S_f^2 = S_i^2 + 2ad\\)\n\n\nWhere:\n\n\\(S_f\\)= final speed, \\(ft/s\\) or \\(mph\\)\n\\(S_i\\)= initial speed, \\(ft/s\\) or \\(mph\\)\n\n\\(a\\)= acceleration/deceleration, \\(ft/s^2\\)\n\\(t\\)= time/duration, seconds (\\(s\\)) or hours (\\(h\\))\n\\(d\\)= distance traveled, feet (\\(ft\\))"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#unit-convertion",
+    "href": "lecture/rdUserVehCharacteristics.html#unit-convertion",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "UNIT CONVERTION",
+    "text": "UNIT CONVERTION\n\n1 mile = 5280 feet\n1 hour = 3600 sec\n\nConvert mph to ft/sec (fps)\n\n\\[1 mph = \\frac{5280}{3600}  fps = 1.47 fps\\]"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-1",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-3",
+    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-3",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Stopping SD: SSD",
+    "text": "Stopping SD: SSD\n\nSSD = Reaction Distance (\\(d_r\\)) + Braking Distance (\\(d_b\\))\n\n\n\n\n\n\nflowchart LR\n  A[SSD] --&gt; B(\"$$d_r$$\")\n  A --&gt; C(\"$$d_b$$\")\n  B --&gt; B1(PRT)\n  C --&gt; C1(Acceleration)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-reaction-distance",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-reaction-distance",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Reaction Distance",
+    "text": "SSD: Reaction Distance\nPRT (\\(t_r\\)) ~ Perception-Reaction Time\nPRT (\\(t_r\\)) ~ f(age, fatigue, complexity of roadway, DUI)\n\n\\[d = St\\] \\[d_r (ft) = S (fps) \\times t_r(sec)\\] \\[d_r (ft) = 1.47 \\times S (mph) \\times t_r(sec)\\]\n\n\n\nAASHTO Design value: 2.5 sec\nITE Signal Design value: 1 sec (Expectancy)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-braking-distance",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-braking-distance",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Braking Distance",
+    "text": "SSD: Braking Distance\n\n\n\n\\(S_f^2 = S_i^2 + 2ad_b\\)\n\\[d_b=\\frac{S_i^2 - S_f^2}{2a}\\]\n\\[d_b=\\frac{S_i^2 - S_f^2}{2(Fg)}\\]\n\\[d_b=\\frac{(1.47)^2 \\times S_i^2 - S_f^2}{2(F \\times 32.2)}\\]\n\\[d_b= \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\]\n\n\n\n\\(S_i\\) or \\(S_f\\): speed\n\\(d_b\\): Braking Distance\n\n\\(G\\): Grade (%)\n\\(F=\\frac{a}{g}\\): Coefficient of friction,\n\\(a\\): deceleration rate"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-full-equation",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-full-equation",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Full Equation",
+    "text": "SSD: Full Equation\n\nSSD = Reaction Distance (\\(d_r\\)) + Braking Distance (\\(d_b\\))\n\n\n\n\n\n\nflowchart LR\n  A[SSD] --&gt; B(\"$$d_r$$\")\n  A --&gt; C(\"$$d_b$$\")\n  B --&gt; B1(PRT)\n  C --&gt; C1(Acceleration)\n\n\n\n\n\n\n\n\\(d_{ssd}=d_r + d_b\\)\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-full-equation-1",
+    "href": "lecture/rdUserVehCharacteristics.html#ssd-full-equation-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "SSD: Full Equation",
+    "text": "SSD: Full Equation\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(a = 11.2 fps\\) –&gt; \\(F=\\frac{a}{g}=\\frac{11.2 f/s^2}{32.2 f/s^2}=0.348\\)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-01-1",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-01-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 01",
+    "text": "PROBLEM 01\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-1",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: UNDERSTAND (Part 1)",
+    "text": "PROB 01: UNDERSTAND (Part 1)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-1",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: APPLY (Part 1)",
+    "text": "PROB 01: APPLY (Part 1)\n1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5  + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd} = 257.3 + 469.3 = 726.6 ft\\)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-1",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: INTERPRET (Part 1)",
+    "text": "PROB 01: INTERPRET (Part 1)\n1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?\n\n\nSince \\(d_{ssd}\\) = \\(726.6 ft\\) is higher that \\(500 ft\\), the provided SSD is NOT safe"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-2",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: UNDERSTAND (Part 2)",
+    "text": "PROB 01: UNDERSTAND (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-2",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: APPLY (Part 2)",
+    "text": "PROB 01: APPLY (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(500=1.47 \\times 70 \\times 2.5  + \\frac{70^2 - S_f^2}{30(0.348 \\pm 0)}\\)\n\\(S_f = 48.6 mph\\)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-2",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-2",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 01: INTERPRET (Part 2)",
+    "text": "PROB 01: INTERPRET (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?\n\n\n\nIf \\(500 ft\\) is provided, the speed of the collision would be at a speed of \\(48.6mph\\)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#problem-02-1",
+    "href": "lecture/rdUserVehCharacteristics.html#problem-02-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROBLEM 02",
+    "text": "PROBLEM 02\n\nGiven the roadway scenario, how long should the yellow interval of the signal?"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-understand",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-02-understand",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 02: UNDERSTAND",
+    "text": "PROB 02: UNDERSTAND\n\nGiven the roadway scenario, how long should the yellow interval of the signal?"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-apply",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-02-apply",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 02: APPLY",
+    "text": "PROB 02: APPLY\n\nGiven the roadway scenario, how long should the yellow interval of the signal?\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(d_{ssd}=1.47 \\times 50 \\times 1  + \\frac{50^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd} = 73.5 + 293.46 = 312.96 ft\\)\n\n\n\nyellow interval = Time it takes a veh to travel 312.96 ft at a speed of 50mph\n\nyellow interval, \\(y = \\frac{312.96}{50} = 6.25 sec\\)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-interpret",
+    "href": "lecture/rdUserVehCharacteristics.html#prob-02-interpret",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "PROB 02: INTERPRET",
+    "text": "PROB 02: INTERPRET\n\nGiven the roadway scenario, how long should the yellow interval of the signal?\n\n\n\nYellow interval = 6.25 sec"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd",
+    "href": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "COMPLEX SCENARIOS for SD",
+    "text": "COMPLEX SCENARIOS for SD"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd-1",
+    "href": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "COMPLEX SCENARIOS for SD",
+    "text": "COMPLEX SCENARIOS for SD\n\nInterchange / Intersection\nChange in XS (e.g. lane drop)\nToll Plaza"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd",
+    "href": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Decision SD: DSD",
+    "text": "Decision SD: DSD\n\nDSD: Sight distance based on collision-avoidance decision reaction time\nStop Maneuver (A or B)\n\n\\(d_{dsd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\nSpeed/path/direction change Maneuver (C/D/E)\n\n\\(d_{dsd}=1.47 S_i (t_r + t_m)\\)\n\\(t_r\\): reaction time for appropriate avoidance maneuver, s\n\\(t_m\\): maneuver time, s"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd-1",
+    "href": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd-1",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Decision SD: DSD",
+    "text": "Decision SD: DSD\n\n\n\n\\(t_m\\)\n\n\n\\(t_r\\)"
+  },
+  {
+    "objectID": "lecture/rdUserVehCharacteristics.html#ch.-2-road-user-and-vehicle-characteristics",
+    "href": "lecture/rdUserVehCharacteristics.html#ch.-2-road-user-and-vehicle-characteristics",
+    "title": "Ch. 2: Road user and vehicle characteristics",
+    "section": "Ch. 2: Road user and vehicle characteristics",
+    "text": "Ch. 2: Road user and vehicle characteristics\nEND"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#class-logistics-09092026",
+    "href": "lecture/chX_TrafficFlowTheory.html#class-logistics-09092026",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Class Logistics (09/09/2026)",
+    "text": "Class Logistics (09/09/2026)\n\nHW 1 due today 11:59PM\n\nRubric uploaded\n\nCourse Project\n\nUpdate or Q/A?"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics",
+    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "RECAP: Traffic Stream Characteristics",
+    "text": "RECAP: Traffic Stream Characteristics\n\nMacroscopic variables:\n\nVolume: \\(V\\)\nFlow\n\n\\(q = \\frac{n}{t}\\) –&gt; AADT, ADT, DDHV, PHF\n\n\n\n\n\nSpeed\n\n\\(TMS, u = \\frac{\\sum_{i=1}^{n} u_i}{n}\\)\n\\(SMS, u_s = \\frac{nl}{\\sum_{i=1}^{n} t_i}\\)\n\n\n\n\n\nDensity and Occupancy\n\n\\(D\\ or\\ k = \\frac{n}{l}\\)\n\\(O = \\frac{D(L_v + L_d)}{5,280}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-1",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "RECAP: Traffic Stream Characteristics",
+    "text": "RECAP: Traffic Stream Characteristics\nIllustration: Headway and Spacing\n\nMicroscopic variables:\n\nHeadway\n\n\\(q = \\frac{3600}{\\bar{h}}\\)\n\nSpacing\n\n\\(k = \\frac{5280}{\\bar{s}}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-2",
+    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-2",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "RECAP: Traffic Stream Characteristics",
+    "text": "RECAP: Traffic Stream Characteristics\nFundamental Identity\n\nDepicts relationship among Flow Rate, Speed, and Density\n\\(q= k \\times u_s\\)\n\n\\(q\\) = Flow, veh/h or veh/h/ln\n\\(k\\) = density, veh/mi or veh/mi/ln\n\\(u_s\\) = SMS, mph"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#relationship-problem",
+    "href": "lecture/chX_TrafficFlowTheory.html#relationship-problem",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Relationship: Problem",
+    "text": "Relationship: Problem\nConsider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln. What is the Density of the roadway segment?\n\n\n\\(q= k \\times u_s\\)\n\\(k= \\frac{q}{u_s}\\)\n\\(k= \\frac{1000}{60} = 16.7 veh/mi/ln\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\n\n\nSpeed and Density: Greenshield’s Linear model\n\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\n\\(u\\): SMS, mph\n\\(u_f\\): Free-flow speed, mph\n\\(k\\): density, veh/mi\n\\(k_j\\): Jam density, veh/mi\n\nObservations\n\nAt \\(k \\approx 0\\), \\(u=u_f\\), no/few vehicles on the road, more speed\nAt \\(k=k_j\\), \\(u=0\\), more vehicles on the road, less speed"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-1",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\n\n\nFlow and Density\nUsing the assumption of a linear speed-density relationship, a parabolicflow-density model can be obtained by using the given u-k relation and fundamental identity.\n\n\\(q = k \\times u_s\\)\n\\(q = k \\times u_f(1 - \\frac{k}{k_j})\\)\n\\(q = u_f(k - \\frac{k^2}{k_j})\\)\n\n\n\n\nObservations\n\nAt \\(k \\approx 0\\), \\(q=0\\), no vehicle, no flow\nAt \\(q=q_{max}\\) at capacity, \\(k=k_c\\), maximum flow\nAfter \\(k&gt;k_c\\), flow drops\nAt \\(k&gt;k_j\\), no flow"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-2",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-2",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\n\n\nSpeed and Flow\nRearranging speed-density and using fundamental equation to find speed-flow relation\n\n\\(q = k_j(u - \\frac{u^2}{u_f})\\)\n\n\n\n\nObservations:\n\nsame flow can occur under two very different traffic conditions (stable free flow and congested)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-3",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-3",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\nFunctional Diagram of Traffic Flow"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-4",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-4",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models",
+    "text": "Traffic Stream Models\nInteractive Traffic Stream Model"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-problem",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-problem",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Problem",
+    "text": "Traffic Stream Models: Problem\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(u-k\\) relation"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-1",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q-k\\) relation"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-2",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-2",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q-u\\) relation"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-3",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-3",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(k_{cap}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-4",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-4",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(u_{cap}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-5",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-5",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q_{cap}\\)"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-6",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-6",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Stream Models: Solution",
+    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nALL STEPS\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(\\frac{q}{k} = 65(1 - \\frac{k}{110})\\)\n\\(q = 65k- 0.59091k^2\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(u_s = 65(1 - \\frac{\\frac{q}{u_s}}{110})\\)\n\\(q = 110u_s-1.6923u_s^2\\)\n\n\n\n\\(q = 65k- 0.59091k^2\\)\n\\(\\frac{dq}{dk} = 65 -1.18182k\\)\n\\(65 -1.18182k_{cap} = 0\\)\n\\(k_{cap} = 55\\) veh/h\n\n\n\n\\(q = 110u_s-1.6923u_s^2\\)\n\\(\\frac{dq}{du_s} = 110-3.3846u_s\\)\n\\(110-3.3846u_s = 0\\)\n\\(u_{cap} = 32.5\\) mph\n\n\n\n\\(q_{cap} = k_{cap} \\times u_{cap}\\)\n\\(q_{cap} = 55 \\times 32.5\\)\n\\(q_{cap} = 1,788\\) veh/h"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave",
+    "text": "Traffic Shockwave\n\nQueing as a result of a sudden decrease in roadway capacity (lane reduction, traffic signal etc.)\nDemo"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-1",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave",
+    "text": "Traffic Shockwave"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-velocity",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-velocity",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave Velocity",
+    "text": "Traffic Shockwave Velocity"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave at Signalized Intersection",
+    "text": "Traffic Shockwave at Signalized Intersection"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-1",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-1",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave at Signalized Intersection",
+    "text": "Traffic Shockwave at Signalized Intersection"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-2",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-2",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave at Signalized Intersection",
+    "text": "Traffic Shockwave at Signalized Intersection"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-3",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-3",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave at Signalized Intersection",
+    "text": "Traffic Shockwave at Signalized Intersection"
+  },
+  {
+    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-problem",
+    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-problem",
+    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
+    "section": "Traffic Shockwave Problem",
+    "text": "Traffic Shockwave Problem\nThe southbound approach of a signalized intersection carries a flow of 1000 veh/h/ln at a velocity of 50 mi/h. The duration of the red signal indication for this approach is 15 sec. If the saturation flow is 2000 veh/h/ln with a density of 75 veh/ln, the jam density is 150 veh/mi, determine the following:\n\n\nThe length of the queue at the end of the red phase\n\n\nThe maximum queue length\n\n\nThe time it takes for the queue to dissipate after the end of the red indication."
+  },
+  {
     "objectID": "lecture/ch5TrafficStreamCharacter.html#class-logistics-09022026",
     "href": "lecture/ch5TrafficStreamCharacter.html#class-logistics-09022026",
     "title": "Class 04 & 05 09/02/2026  Chapter 5: Traffic Stream Characteristics",
@@ -470,1007 +1473,95 @@
     "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nALL STEPS\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(\\frac{q}{k} = 65(1 - \\frac{k}{110})\\)\n\\(q = 65k- 0.59091k^2\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(u_s = 65(1 - \\frac{\\frac{q}{u_s}}{110})\\)\n\\(q = 110u_s-1.6923u_s^2\\)\n\n\n\n\\(q = 65k- 0.59091k^2\\)\n\\(\\frac{dq}{dk} = 65 -1.18182k\\)\n\\(65 -1.18182k_{cap} = 0\\)\n\\(k_{cap} = 55\\) veh/h\n\n\n\n\\(q = 110u_s-1.6923u_s^2\\)\n\\(\\frac{dq}{du_s} = 110-3.3846u_s\\)\n\\(110-3.3846u_s = 0\\)\n\\(u_{cap} = 32.5\\) mph\n\n\n\n\\(q_{cap} = k_{cap} \\times u_{cap}\\)\n\\(q_{cap} = 55 \\times 32.5\\)\n\\(q_{cap} = 1,788\\) veh/h"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#class-logistics-09092026",
-    "href": "lecture/chX_TrafficFlowTheory.html#class-logistics-09092026",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Class Logistics (09/09/2026)",
-    "text": "Class Logistics (09/09/2026)\n\nHW 1 due today 11:59PM\n\nRubric uploaded\n\nCourse Project\n\nUpdate or Q/A?"
+    "objectID": "lecture/ch11StatsInTransp.html#chapter-11",
+    "href": "lecture/ch11StatsInTransp.html#chapter-11",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Chapter 11",
+    "text": "Chapter 11\nCh 11: Speed, Travel Time, and Delay Studies"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics",
-    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "RECAP: Traffic Stream Characteristics",
-    "text": "RECAP: Traffic Stream Characteristics\n\nMacroscopic variables:\n\nVolume: \\(V\\)\nFlow\n\n\\(q = \\frac{n}{t}\\) –&gt; AADT, ADT, DDHV, PHF\n\n\n\n\n\nSpeed\n\n\\(TMS, u = \\frac{\\sum_{i=1}^{n} u_i}{n}\\)\n\\(SMS, u_s = \\frac{nl}{\\sum_{i=1}^{n} t_i}\\)\n\n\n\n\n\nDensity and Occupancy\n\n\\(D\\ or\\ k = \\frac{n}{l}\\)\n\\(O = \\frac{D(L_v + L_d)}{5,280}\\)"
+    "objectID": "lecture/ch11StatsInTransp.html#research-questions",
+    "href": "lecture/ch11StatsInTransp.html#research-questions",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nWhat is the average speed of vehicles on this road?\nWhat percentage of drivers travel above the speed limit?\nDo cars travel faster during off-peak hours than during rush hour?\nIs traffic volume higher on weekdays than on weekends?\nIs there a relationship between traffic volume and vehicle delay at an intersection?"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-1",
-    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-1",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "RECAP: Traffic Stream Characteristics",
-    "text": "RECAP: Traffic Stream Characteristics\nIllustration: Headway and Spacing\n\nMicroscopic variables:\n\nHeadway\n\n\\(q = \\frac{3600}{\\bar{h}}\\)\n\nSpacing\n\n\\(k = \\frac{5280}{\\bar{s}}\\)"
+    "objectID": "lecture/ch11StatsInTransp.html#research-questions-1",
+    "href": "lecture/ch11StatsInTransp.html#research-questions-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nWhat is the average speed of vehicles on this road?\n\nMean, median, range, standard deviation.\n\nWhat percentage of drivers travel above the speed limit?\n\nProportions and probability.\n\nDo cars travel faster during off-peak hours than during rush hour? -Comparing two groups and hypothesis testing.\nIs traffic volume higher on weekdays than on weekends? -Data collection, averages, and comparison.\nIs there a relationship between traffic volume and vehicle delay at an intersection?\nScatterplots, correlation, and simple regression."
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-2",
-    "href": "lecture/chX_TrafficFlowTheory.html#recap-traffic-stream-characteristics-2",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "RECAP: Traffic Stream Characteristics",
-    "text": "RECAP: Traffic Stream Characteristics\nFundamental Identity\n\nDepicts relationship among Flow Rate, Speed, and Density\n\\(q= k \\times u_s\\)\n\n\\(q\\) = Flow, veh/h or veh/h/ln\n\\(k\\) = density, veh/mi or veh/mi/ln\n\\(u_s\\) = SMS, mph"
+    "objectID": "lecture/ch11StatsInTransp.html#why",
+    "href": "lecture/ch11StatsInTransp.html#why",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Why?",
+    "text": "Why?\nTransportation engineers use statistics because traffic, driver behavior, weather, and crashes vary every day; statistics helps us distinguish a real problem or improvement from ordinary random variation."
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#relationship-problem",
-    "href": "lecture/chX_TrafficFlowTheory.html#relationship-problem",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Relationship: Problem",
-    "text": "Relationship: Problem\nConsider a freeway lane with a measured space mean speed of 60 mi/h and a flow rate of 1,000 veh/h/ln. What is the Density of the roadway segment?\n\n\n\\(q= k \\times u_s\\)\n\\(k= \\frac{q}{u_s}\\)\n\\(k= \\frac{1000}{60} = 16.7 veh/mi/ln\\)"
+    "objectID": "lecture/ch11StatsInTransp.html#population-vs.-sample",
+    "href": "lecture/ch11StatsInTransp.html#population-vs.-sample",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Population vs. Sample",
+    "text": "Population vs. Sample"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\n\n\nSpeed and Density: Greenshield’s Linear model\n\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\n\\(u\\): SMS, mph\n\\(u_f\\): Free-flow speed, mph\n\\(k\\): density, veh/mi\n\\(k_j\\): Jam density, veh/mi\n\nObservations\n\nAt \\(k \\approx 0\\), \\(u=u_f\\), no/few vehicles on the road, more speed\nAt \\(k=k_j\\), \\(u=0\\), more vehicles on the road, less speed"
+    "objectID": "lecture/ch11StatsInTransp.html#population-vs.-sample-1",
+    "href": "lecture/ch11StatsInTransp.html#population-vs.-sample-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Population vs. Sample",
+    "text": "Population vs. Sample\n\nRQ: What percentage of U.S. college students feel sleep-deprived?\n\nWhat is the population of interest?\n\n\n\n\nSample: Take random sample of students across the US universities"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-1",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-1",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\n\n\nFlow and Density\nUsing the assumption of a linear speed-density relationship, a parabolicflow-density model can be obtained by using the given u-k relation and fundamental identity.\n\n\\(q = k \\times u_s\\)\n\\(q = k \\times u_f(1 - \\frac{k}{k_j})\\)\n\\(q = u_f(k - \\frac{k^2}{k_j})\\)\n\n\n\n\nObservations\n\nAt \\(k \\approx 0\\), \\(q=0\\), no vehicle, no flow\nAt \\(q=q_{max}\\) at capacity, \\(k=k_c\\), maximum flow\nAfter \\(k&gt;k_c\\), flow drops\nAt \\(k&gt;k_j\\), no flow"
+    "objectID": "lecture/ch11StatsInTransp.html#population-vs.-sample-2",
+    "href": "lecture/ch11StatsInTransp.html#population-vs.-sample-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Population vs. Sample",
+    "text": "Population vs. Sample\n\nRQ: What percentage of Univ. of SC students feel sleep-deprived?\n\nWhat is the population of interest?\n\n\n\n\nSample: Take random sample of students at Univ. of SC"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-2",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-2",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\n\n\nSpeed and Flow\nRearranging speed-density and using fundamental equation to find speed-flow relation\n\n\\(q = k_j(u - \\frac{u^2}{u_f})\\)\n\n\n\n\nObservations:\n\nsame flow can occur under two very different traffic conditions (stable free flow and congested)"
+    "objectID": "lecture/ch11StatsInTransp.html#speed-data",
+    "href": "lecture/ch11StatsInTransp.html#speed-data",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Speed Data",
+    "text": "Speed Data"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-3",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-3",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\nFunctional Diagram of Traffic Flow"
+    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution",
+    "href": "lecture/ch11StatsInTransp.html#frequency-distribution",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-4",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-4",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models",
-    "text": "Traffic Stream Models\nInteractive Traffic Stream Model"
+    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-1",
+    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-problem",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-problem",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Problem",
-    "text": "Traffic Stream Models: Problem\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?"
+    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-2",
+    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Solution",
-    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(u-k\\) relation"
+    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-3",
+    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-3",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution"
   },
   {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-1",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-1",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Solution",
-    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q-k\\) relation"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-2",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-2",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Solution",
-    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q-u\\) relation"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-3",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-3",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Solution",
-    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(k_{cap}\\)"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-4",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-4",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Solution",
-    "text": "Traffic Stream Models: Solution\n\n\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(u_{cap}\\)"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-5",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-5",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Solution",
-    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nFind \\(q_{cap}\\)"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-6",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-stream-models-solution-6",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Stream Models: Solution",
-    "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nALL STEPS\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(\\frac{q}{k} = 65(1 - \\frac{k}{110})\\)\n\\(q = 65k- 0.59091k^2\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(u_s = 65(1 - \\frac{\\frac{q}{u_s}}{110})\\)\n\\(q = 110u_s-1.6923u_s^2\\)\n\n\n\n\\(q = 65k- 0.59091k^2\\)\n\\(\\frac{dq}{dk} = 65 -1.18182k\\)\n\\(65 -1.18182k_{cap} = 0\\)\n\\(k_{cap} = 55\\) veh/h\n\n\n\n\\(q = 110u_s-1.6923u_s^2\\)\n\\(\\frac{dq}{du_s} = 110-3.3846u_s\\)\n\\(110-3.3846u_s = 0\\)\n\\(u_{cap} = 32.5\\) mph\n\n\n\n\\(q_{cap} = k_{cap} \\times u_{cap}\\)\n\\(q_{cap} = 55 \\times 32.5\\)\n\\(q_{cap} = 1,788\\) veh/h"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave",
-    "text": "Traffic Shockwave\n\nQueing as a result of a sudden decrease in roadway capacity (lane reduction, traffic signal etc.)\nDemo"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-1",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-1",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave",
-    "text": "Traffic Shockwave"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-velocity",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-velocity",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave Velocity",
-    "text": "Traffic Shockwave Velocity"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave at Signalized Intersection",
-    "text": "Traffic Shockwave at Signalized Intersection"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-1",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-1",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave at Signalized Intersection",
-    "text": "Traffic Shockwave at Signalized Intersection"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-2",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-2",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave at Signalized Intersection",
-    "text": "Traffic Shockwave at Signalized Intersection"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-3",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-at-signalized-intersection-3",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave at Signalized Intersection",
-    "text": "Traffic Shockwave at Signalized Intersection"
-  },
-  {
-    "objectID": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-problem",
-    "href": "lecture/chX_TrafficFlowTheory.html#traffic-shockwave-problem",
-    "title": "Class 06 09/09/2026  Chapter 5: Traffic Flow Theory",
-    "section": "Traffic Shockwave Problem",
-    "text": "Traffic Shockwave Problem\nThe southbound approach of a signalized intersection carries a flow of 1000 veh/h/ln at a velocity of 50 mi/h. The duration of the red signal indication for this approach is 15 sec. If the saturation flow is 2000 veh/h/ln with a density of 75 veh/ln, the jam density is 150 veh/mi, determine the following:\n\n\nThe length of the queue at the end of the red phase\n\n\nThe maximum queue length\n\n\nThe time it takes for the queue to dissipate after the end of the red indication."
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",
-    "href": "lecture/rdUserVehCharacteristics.html#problem-01",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROBLEM 01",
-    "text": "PROBLEM 01\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#problem-02",
-    "href": "lecture/rdUserVehCharacteristics.html#problem-02",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROBLEM 02",
-    "text": "PROBLEM 02\n\nGiven the roadway scenario, how long should the yellow interval of the signal?"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#concepts",
-    "href": "lecture/rdUserVehCharacteristics.html#concepts",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "CONCEPTS",
-    "text": "CONCEPTS\n\nSight Distance (SD)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#sight-distance-sd",
-    "href": "lecture/rdUserVehCharacteristics.html#sight-distance-sd",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "SIGHT DISTANCE (SD)",
-    "text": "SIGHT DISTANCE (SD)\n\nSD: How much of the roadway drivers’ able to see (perceive)\nTypes of SD:\n\nStopping SD (SSD)\nDecision SD (DSD)\nPassing SD (PSD)\nIntersection SD (ISD)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#basic-equations",
-    "href": "lecture/rdUserVehCharacteristics.html#basic-equations",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "BASIC EQUATIONS",
-    "text": "BASIC EQUATIONS\n\n\n\n\\(d = St\\)\n\\(S_f^2 = S_i^2 + 2ad\\)\n\n\nWhere:\n\n\\(S_f\\)= final speed, \\(ft/s\\) or \\(mph\\)\n\\(S_i\\)= initial speed, \\(ft/s\\) or \\(mph\\)\n\n\\(a\\)= acceleration/deceleration, \\(ft/s^2\\)\n\\(t\\)= time/duration, seconds (\\(s\\)) or hours (\\(h\\))\n\\(d\\)= distance traveled, feet (\\(ft\\))"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#unit-convertion",
-    "href": "lecture/rdUserVehCharacteristics.html#unit-convertion",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "UNIT CONVERTION",
-    "text": "UNIT CONVERTION\n\n1 mile = 5280 feet\n1 hour = 3600 sec\n\nConvert mph to ft/sec (fps)\n\n\\[1 mph = \\frac{5280}{3600}  fps = 1.47 fps\\]"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd",
-    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "Stopping SD: SSD",
-    "text": "Stopping SD: SSD"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-1",
-    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "Stopping SD: SSD",
-    "text": "Stopping SD: SSD"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
-    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-2",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "Stopping SD: SSD",
-    "text": "Stopping SD: SSD"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-3",
-    "href": "lecture/rdUserVehCharacteristics.html#stopping-sd-ssd-3",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "Stopping SD: SSD",
-    "text": "Stopping SD: SSD\n\nSSD = Reaction Distance (\\(d_r\\)) + Braking Distance (\\(d_b\\))\n\n\n\n\n\n\nflowchart LR\n  A[SSD] --&gt; B(\"$$d_r$$\")\n  A --&gt; C(\"$$d_b$$\")\n  B --&gt; B1(PRT)\n  C --&gt; C1(Acceleration)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-reaction-distance",
-    "href": "lecture/rdUserVehCharacteristics.html#ssd-reaction-distance",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "SSD: Reaction Distance",
-    "text": "SSD: Reaction Distance\nPRT (\\(t_r\\)) ~ Perception-Reaction Time\nPRT (\\(t_r\\)) ~ f(age, fatigue, complexity of roadway, DUI)\n\n\\[d = St\\] \\[d_r (ft) = S (fps) \\times t_r(sec)\\] \\[d_r (ft) = 1.47 \\times S (mph) \\times t_r(sec)\\]\n\n\n\nAASHTO Design value: 2.5 sec\nITE Signal Design value: 1 sec (Expectancy)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-braking-distance",
-    "href": "lecture/rdUserVehCharacteristics.html#ssd-braking-distance",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "SSD: Braking Distance",
-    "text": "SSD: Braking Distance\n\n\n\n\\(S_f^2 = S_i^2 + 2ad_b\\)\n\\[d_b=\\frac{S_i^2 - S_f^2}{2a}\\]\n\\[d_b=\\frac{S_i^2 - S_f^2}{2(Fg)}\\]\n\\[d_b=\\frac{(1.47)^2 \\times S_i^2 - S_f^2}{2(F \\times 32.2)}\\]\n\\[d_b= \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\]\n\n\n\n\\(S_i\\) or \\(S_f\\): speed\n\\(d_b\\): Braking Distance\n\n\\(G\\): Grade (%)\n\\(F=\\frac{a}{g}\\): Coefficient of friction,\n\\(a\\): deceleration rate"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-full-equation",
-    "href": "lecture/rdUserVehCharacteristics.html#ssd-full-equation",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "SSD: Full Equation",
-    "text": "SSD: Full Equation\n\nSSD = Reaction Distance (\\(d_r\\)) + Braking Distance (\\(d_b\\))\n\n\n\n\n\n\nflowchart LR\n  A[SSD] --&gt; B(\"$$d_r$$\")\n  A --&gt; C(\"$$d_b$$\")\n  B --&gt; B1(PRT)\n  C --&gt; C1(Acceleration)\n\n\n\n\n\n\n\n\\(d_{ssd}=d_r + d_b\\)\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#ssd-full-equation-1",
-    "href": "lecture/rdUserVehCharacteristics.html#ssd-full-equation-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "SSD: Full Equation",
-    "text": "SSD: Full Equation\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(a = 11.2 fps\\) –&gt; \\(F=\\frac{a}{g}=\\frac{11.2 f/s^2}{32.2 f/s^2}=0.348\\)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#problem-01-1",
-    "href": "lecture/rdUserVehCharacteristics.html#problem-01-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROBLEM 01",
-    "text": "PROBLEM 01\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-1",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 01: UNDERSTAND (Part 1)",
-    "text": "PROB 01: UNDERSTAND (Part 1)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-1",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 01: APPLY (Part 1)",
-    "text": "PROB 01: APPLY (Part 1)\n1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5  + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd} = 257.3 + 469.3 = 726.6 ft\\)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-1",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 01: INTERPRET (Part 1)",
-    "text": "PROB 01: INTERPRET (Part 1)\n1. A section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of this sight?\n\n\nSince \\(d_{ssd}\\) = \\(726.6 ft\\) is higher that \\(500 ft\\), the provided SSD is NOT safe"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-2",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-01-understand-part-2",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 01: UNDERSTAND (Part 2)",
-    "text": "PROB 01: UNDERSTAND (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-2",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-01-apply-part-2",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 01: APPLY (Part 2)",
-    "text": "PROB 01: APPLY (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(500=1.47 \\times 70 \\times 2.5  + \\frac{70^2 - S_f^2}{30(0.348 \\pm 0)}\\)\n\\(S_f = 48.6 mph\\)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-2",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-01-interpret-part-2",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 01: INTERPRET (Part 2)",
-    "text": "PROB 01: INTERPRET (Part 2)\n\nA section of rural freeway with design speed of 70 mph. On a section of level terrain, 500 feet of stopping sight distance is provided, is it safe? If not, what could be the implications of the provided sight distance?\n\n\n\nIf \\(500 ft\\) is provided, the speed of the collision would be at a speed of \\(48.6mph\\)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#problem-02-1",
-    "href": "lecture/rdUserVehCharacteristics.html#problem-02-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROBLEM 02",
-    "text": "PROBLEM 02\n\nGiven the roadway scenario, how long should the yellow interval of the signal?"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-understand",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-02-understand",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 02: UNDERSTAND",
-    "text": "PROB 02: UNDERSTAND\n\nGiven the roadway scenario, how long should the yellow interval of the signal?"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-apply",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-02-apply",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 02: APPLY",
-    "text": "PROB 02: APPLY\n\nGiven the roadway scenario, how long should the yellow interval of the signal?\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\n\n\n\\(d_{ssd}=1.47 \\times 50 \\times 1  + \\frac{50^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd} = 73.5 + 293.46 = 312.96 ft\\)\n\n\n\nyellow interval = Time it takes a veh to travel 312.96 ft at a speed of 50mph\n\nyellow interval, \\(y = \\frac{312.96}{50} = 6.25 sec\\)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#prob-02-interpret",
-    "href": "lecture/rdUserVehCharacteristics.html#prob-02-interpret",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "PROB 02: INTERPRET",
-    "text": "PROB 02: INTERPRET\n\nGiven the roadway scenario, how long should the yellow interval of the signal?\n\n\n\nYellow interval = 6.25 sec"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd",
-    "href": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "COMPLEX SCENARIOS for SD",
-    "text": "COMPLEX SCENARIOS for SD"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd-1",
-    "href": "lecture/rdUserVehCharacteristics.html#complex-scenarios-for-sd-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "COMPLEX SCENARIOS for SD",
-    "text": "COMPLEX SCENARIOS for SD\n\nInterchange / Intersection\nChange in XS (e.g. lane drop)\nToll Plaza"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd",
-    "href": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "Decision SD: DSD",
-    "text": "Decision SD: DSD\n\nDSD: Sight distance based on collision-avoidance decision reaction time\nStop Maneuver (A or B)\n\n\\(d_{dsd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\n\nSpeed/path/direction change Maneuver (C/D/E)\n\n\\(d_{dsd}=1.47 S_i (t_r + t_m)\\)\n\\(t_r\\): reaction time for appropriate avoidance maneuver, s\n\\(t_m\\): maneuver time, s"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd-1",
-    "href": "lecture/rdUserVehCharacteristics.html#decision-sd-dsd-1",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "Decision SD: DSD",
-    "text": "Decision SD: DSD\n\n\n\n\\(t_m\\)\n\n\n\\(t_r\\)"
-  },
-  {
-    "objectID": "lecture/rdUserVehCharacteristics.html#ch.-2-road-user-and-vehicle-characteristics",
-    "href": "lecture/rdUserVehCharacteristics.html#ch.-2-road-user-and-vehicle-characteristics",
-    "title": "Ch. 2: Road user and vehicle characteristics",
-    "section": "Ch. 2: Road user and vehicle characteristics",
-    "text": "Ch. 2: Road user and vehicle characteristics\nEND"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Control Devices",
-    "text": "Traffic Control Devices\n\nShow a image and identity"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-2",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-2",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Control Devices",
-    "text": "Traffic Control Devices\n\nPurpose\n\n“To promote highway safety and efficiency by providing for orderly movement of all road users on streets and highways, bikeways, public facilities, and private property open to public travel throughout the Nation.”"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD",
-    "text": "MUTCD\n\nMUTCD:\n\nManual on Uniform Traffic Control Devices\nprincipal standard governing the application, design, and placement of traffic control devices\nminimum standard and a model for individual state MUTCDs.\nLatest Edition: MUTCD 11th Ed.\n\nMany states simply adopt the federal manual by statute (e.g. SC). Others develop their own manuals (e.g. TX, CA)"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-principles",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-principles",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD: Principles",
-    "text": "MUTCD: Principles\nMust:\n\nFulfill a need\n\nSuperfluous devices should not be used. A installed device must be needed for safe and efficient flow of traffic.\n\nCommand attention\n\nAttracting a driver’s attention requires proper visibility and a distinctive design.\n\nConvey a clear, simple message\n\nClarity and simplicity of message is critical since the device is seen for only a few seconds.\n\nCommand respect of road users\n\nDrivers are conditioned to expect meaningful and important messages.\n\nGive adequate time for a proper response\n\nExample, a stop sign should be placed at the stop line and be visible from at least one SSD."
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-contents",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-contents",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD: Contents",
-    "text": "MUTCD: Contents\n\nPhysical design\n\nDetailed standards for shape, size, colors, legend types and sizes, and specific legend.\n\nPlacement / Location\n\nDetailed standards and guidelines on where devices should be located with respect to the traveled way.\n\nSelection of Devices\n\nWarrants or conditions that justify the use of a particular device."
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-legal-aspects",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-legal-aspects",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD: Legal Aspects",
-    "text": "MUTCD: Legal Aspects\n\n\n\n\n\n\n\n\nType\nEnforcement\nWord\n\n\n\n\nStandard\nRequired, mandatory, specifically prohibitive\n“shall” or “shall not”\n\n\nGuidance\nRecommended; departure needs justification\n“should” or “should not”\n\n\nOption\nPermitted; engineering judgment may be used\n“may” or “may not”\n\n\nSupport\nExplanation, examples, or background\nstatement without “shall”, “should”, “may”"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD: How to Read",
-    "text": "MUTCD: How to Read\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08.\n\n\n\n\n\nITEMS\n\n\nPARAGRAPH  numbered\n\n\nSECTION  numbered\n\n\nCHAPTER  letter: A-Z\n\n\nPARTS  numbered: 1-9"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-1",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-1",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD: How to Read …",
-    "text": "MUTCD: How to Read …\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08."
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-2",
-    "href": "lecture/ch4TrafficControlDevices.html#mutcd-how-to-read-2",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "MUTCD: How to Read …",
-    "text": "MUTCD: How to Read …\n\n\n\nExample\n\nSection 4D.08, Par.1, A.1\nItem A.1 of Paragraph 1 of Section 4D.08.\n\n“No less than 40 feet beyond the stop line, and”"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-types",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Markings: Types",
-    "text": "Traffic Markings: Types\n\nLongitudinal markings\n\nPlaced parallel to the direction of travel\ncenterlines, lane lines, and pavement edge lines\n\nTransverse markings\n\nPlaced perpendicular to the direction of travel\nStop and Yield lines\n\nCrosswalk Markings\nObject Markers\n\nUsed to denote obstructions either in or adjacent to the traveled way.\n\nDelineators\n\nDelineators are reflective devices mounted at a 4-ft height on the sides of a roadway to help denote its alignment."
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Markings: Example",
-    "text": "Traffic Markings: Example"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-1",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-markings-example-1",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Markings: Example",
-    "text": "Traffic Markings: Example"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signs-classification",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signs: Classification",
-    "text": "Traffic Signs: Classification\n\nRegulatory\n\ngive notice of traffic laws or regulations.\n\nWarning\n\ngive notice of a situation that might not be readily apparent.\n\nGuide\n\nprovide information to road users concerning destinations, available services, and historical/recreational facilities."
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-classification",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signals: Classification",
-    "text": "Traffic Signals: Classification\nThe MUTCD defines nine types of traffic signals:\n* Pedestrian signals\n* Emergency vehicle traffic control signals\n* Traffic control signals for one-lane, two-way facilities\n* Traffic control signals for freeway entrance ramps\n* Traffic control signals for movable bridges\n* Lane-use control signals\n* Flashing beacons\n* In-roadway lights"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signals: Example",
-    "text": "Traffic Signals: Example"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
-    "href": "lecture/ch4TrafficControlDevices.html#traffic-signals-example-1",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "Traffic Signals: Example",
-    "text": "Traffic Signals: Example"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#quiz-rules",
-    "href": "lecture/ch4TrafficControlDevices.html#quiz-rules",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "QUIZ Rules",
-    "text": "QUIZ Rules\n\nFour teams: Row 1, Row 2, Row 3, Row 4\nEach team takes turn to answer the question ( 16 questions in total)\n\nStarting with Row arto\n\nRead the entire question and answer in 30 seconds (except first 4 questions)\nCorrect answer: 2 points.\nIncorrect answer: no points"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-2b.04-par.-1-in-mutcd-when-a-full-stop-is-always-required-on-an-approach-to-an-intersection-which-device-shall-be-used",
-    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-2b.04-par.-1-in-mutcd-when-a-full-stop-is-always-required-on-an-approach-to-an-intersection-which-device-shall-be-used",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "1) According to “Section 2B.04, Par. 1” in MUTCD , when a full stop is always required on an approach to an intersection, which device shall be used?",
-    "text": "1) According to “Section 2B.04, Par. 1” in MUTCD , when a full stop is always required on an approach to an intersection, which device shall be used?\n\nYIELD sign\nSTOP sign\nSignal Ahead sign\nPedestrian crossing sign"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.03-par.-3-a-in-mutcd-yellow-longitudinal-markings-delineate",
-    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.03-par.-3-a-in-mutcd-yellow-longitudinal-markings-delineate",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "2) According to “Section 3A.03, Par. 3, A” in MUTCD , yellow longitudinal markings delineate:",
-    "text": "2) According to “Section 3A.03, Par. 3, A” in MUTCD , yellow longitudinal markings delineate:\n\nTraffic traveling in opposite directions\nTraffic traveling in the same direction\nThe right edge of the roadway only\nPedestrian crossing paths"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.04-par.-1-c-in-mutcd-what-does-a-broken-longitudinal-line-indicate",
-    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-3a.04-par.-1-c-in-mutcd-what-does-a-broken-longitudinal-line-indicate",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "3) According to “Section 3A.04, Par. 1, C” in MUTCD , what does a broken longitudinal line indicate?",
-    "text": "3) According to “Section 3A.04, Par. 1, C” in MUTCD , what does a broken longitudinal line indicate?\n\nMaximum restriction\nCrossing is discouraged or prohibited\nA permissive condition\nA downstream lane-function change"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#according-to-section-4a.03-par.-1-a.2-in-mutcd-a-driver-facing-a-green-arrow-is-permitted-to",
-    "href": "lecture/ch4TrafficControlDevices.html#according-to-section-4a.03-par.-1-a.2-in-mutcd-a-driver-facing-a-green-arrow-is-permitted-to",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "4) According to “Section 4A.03, Par. 1, A.2” in MUTCD , a driver facing a green arrow is permitted to:",
-    "text": "4) According to “Section 4A.03, Par. 1, A.2” in MUTCD , a driver facing a green arrow is permitted to:\n\nProceed in any direction without yielding\nEnter the intersection only for the movement indicated by the arrow\nStop and wait for a circular green signal\nMake the indicated turn only after a complete stop"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
-    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-mutcd",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "5) What is the primary purpose of the MUTCD?",
-    "text": "5) What is the primary purpose of the MUTCD?\n\n\nTo calculate roadway capacity\nTo standardize traffic control devices\nTo determine pavement thickness\nTo design horizontal curves"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-contains-pavement-marking-provisions",
-    "href": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-contains-pavement-marking-provisions",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "6) Which MUTCD Part contains pavement-marking provisions?",
-    "text": "6) Which MUTCD Part contains pavement-marking provisions?\n\nPart 1\nPart 2\nPart 3\nPart 4"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#in-the-mutcd-what-does-the-word-shall-mean",
-    "href": "lecture/ch4TrafficControlDevices.html#in-the-mutcd-what-does-the-word-shall-mean",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "7) In the MUTCD, what does the word “shall” mean?",
-    "text": "7) In the MUTCD, what does the word “shall” mean?\n\nRequired\nRecommended\nOptional\nInformational only"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
-    "href": "lecture/ch4TrafficControlDevices.html#which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?",
-    "text": "8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?\n\nPart 2 — Signs\nPart 3 — Markings\nPart 4 — Signals\nPart 6 — Temporary Traffic Control"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-type-of-sign-is-this",
-    "href": "lecture/ch4TrafficControlDevices.html#what-type-of-sign-is-this",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "9) What type of sign is this?\n ",
-    "text": "9) What type of sign is this?\n \n\n\n\n\n\n\nWarning sign\nRegulatory sign\nGuide sign\nService"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-this-sign",
-    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-this-sign",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "10) What is the primary purpose of this sign?\n ",
-    "text": "10) What is the primary purpose of this sign?\n \n\n\n\n\n\n\nRegulate a movement\nWarn of a condition ahead\nProvide route guidance\nIdentify a parking area"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-main-purpose-of-this-sign",
-    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-main-purpose-of-this-sign",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "11) What is the main purpose of this sign?\n ",
-    "text": "11) What is the main purpose of this sign?\n \n\n\n\n\n\n\nRequire a driver action\nWarn of a hazard\nGuide road users to destinations or routes\nMark a pedestrian crossing"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-white-dashed-line-marking-generally-separate",
-    "href": "lecture/ch4TrafficControlDevices.html#what-does-white-dashed-line-marking-generally-separate",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "12) What does white dashed line marking generally separate?\n ",
-    "text": "12) What does white dashed line marking generally separate?\n \n\n\n\n\n\n\nTraffic moving in opposite directions\nTraffic moving in the same direction\nVehicle traffic and a bicycle lane only\nThe roadway from a sidewalk"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-this-marking-generally-communicate",
-    "href": "lecture/ch4TrafficControlDevices.html#what-does-this-marking-generally-communicate",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "13) What does this marking generally communicate?\n ",
-    "text": "13) What does this marking generally communicate?\n \n\n\n\n\n\n\nPassing is permitted in both directions\nPassing is prohibited in both directions\nThe lanes travel in the same direction\nVehicles must turn left"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-stop-bar",
-    "href": "lecture/ch4TrafficControlDevices.html#what-is-the-primary-purpose-of-the-stop-bar",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "14) What is the primary purpose of the stop bar?\n ",
-    "text": "14) What is the primary purpose of the stop bar?\n \n\n\n\n\n\n\nMark the preferred path for a pedestrian\nShow where a driver should stop before entering the intersection\nSeparate opposing traffic\nIdentify a parking restriction"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-this-signal-on-the-right-indication-require-a-driver-to-do",
-    "href": "lecture/ch4TrafficControlDevices.html#what-does-this-signal-on-the-right-indication-require-a-driver-to-do",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "15) What does this (signal on the right) indication require a driver to do?\n ",
-    "text": "15) What does this (signal on the right) indication require a driver to do?\n \n\n\n\n\n\n\nProceed with caution\nStop\nYield only to pedestrians\nTurn left only"
-  },
-  {
-    "objectID": "lecture/ch4TrafficControlDevices.html#what-does-green-arrow-signal-indication-communicate",
-    "href": "lecture/ch4TrafficControlDevices.html#what-does-green-arrow-signal-indication-communicate",
-    "title": "Ch 4. Traffic Control Devices",
-    "section": "16) What does green arrow signal indication communicate?\n ",
-    "text": "16) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#updates",
-    "href": "index.html#updates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#due-dates",
-    "href": "index.html#due-dates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "Due Dates",
-    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 10:59AM\nHW\n#1\nSee BlackBoard\n\n\nSep 23, 2026 10:59AM\nProject\nTech Memo 1\nSee Blackboard\n\n\nOct 12, 2026 11:00AM\nExam\n#1\nIn-class\n\n\nDec 11, 2026 07:30PM\nExam\n#2\nIn-class",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#resources",
-    "href": "index.html#resources",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "Resources",
-    "text": "Resources\n\nHW Submisstion Template",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "What is Traffic Engineering?",
-    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Primary Objective: SAFETY",
-    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Mobility vs. Accessibility",
-    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
-    "href": "lecture/introTrafficEngr.html#transportation-modes",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Transportation Modes",
-    "text": "Transportation Modes"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#section",
-    "href": "lecture/introTrafficEngr.html#section",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "",
-    "text": "What’s Missing?"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Elements of Traffic Engineering",
-    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Modern Problems for the Traffic Engineer",
-    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Key Manuals and References",
-    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
-  },
-  {
-    "objectID": "lecture/ch4Quiz.html#team-scoreboard",
-    "href": "lecture/ch4Quiz.html#team-scoreboard",
-    "title": "My Presentation",
-    "section": "Team Scoreboard",
-    "text": "Team Scoreboard\n\n\n\n\n\n\n\nTeam Name\nTotal Points\n\n\n\n\nRow 1\n\n\n\nRow 2\n\n\n\nRow 3\n\n\n\nRow 4"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#class-logistics",
-    "href": "lecture/ch3HorDgn.html#class-logistics",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Class Logistics",
-    "text": "Class Logistics\n\nExam 2 (Final Exam): December 11th (FRI) at 7:30 PM SWGN 2A07\nHW1 will assigned next week\nGroups and Project will be assigned next week"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#topics",
-    "href": "lecture/ch3HorDgn.html#topics",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "TOPICS",
-    "text": "TOPICS\n\nCh. 3: Horizontal Design of Roadway\n\nHor. Curve Alignments\nHor. Curve Equations\nSuperelevation\nMin. Radius of Curve\nStopping Sight Distance (SSD) on the curve"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#arc-and-chord-definition",
-    "href": "lecture/ch3HorDgn.html#arc-and-chord-definition",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Arc and Chord Definition",
-    "text": "Arc and Chord Definition\n\n\nDegree of curvature: the central angle (D) to the ends of an agreed length (i.e. 100 ft) of either an arc or a chord."
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#stationing",
-    "href": "lecture/ch3HorDgn.html#stationing",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Stationing",
-    "text": "Stationing"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
-    "href": "lecture/ch3HorDgn.html#horizontal-curve-alignments",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Horizontal Curve Alignments",
-    "text": "Horizontal Curve Alignments\n\n\n\nObjectives:\n\nProvide a transition between two straight (tangent) sections.\n\nThings to consider\n\nspeed, side friction, superelevation, etc.\nSeverity (tight/gentle) measured by the degree of curvature"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-1",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-2",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-equations-3",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Hor. Curve Equations",
-    "text": "Hor. Curve Equations"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
-    "href": "lecture/ch3HorDgn.html#hor.-curve-eq.-problem",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Hor. Curve Eq. : Problem",
-    "text": "Hor. Curve Eq. : Problem\n\n\nTwo tangent lines meet at station 32 + 15. The radius of curvature is 1200 feet, and the angle of deflection is 14 degrees. Find the length of the curve, the stations for the PC and PT and all other relevant characteristics of the curve (LC, M, E)."
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-1",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-1",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\nSight distance restrictions on horizontal curves occur when there is an obstruction (e.g., buildings, rock outcroppings) located close to the road.\nA minimum of sight distance equal to the safe stopping distance must be provided at every point along the roadway."
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-2",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-2",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\n\n\nWhen such an obstruction exists, the stopping-sight distance is measured along the horizontal curve from the center of the traveled lane (the assumed location of the driver’s eyes)."
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-3",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-3",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\n\n\nfor a specified stopping distance, some distance, Ms (the middle ordinate of a curve that has an arc length equal to the stopping sight distance), must be visually cleared so that the line of sight is such that sufficient stopping-sight distance is available."
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-4",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-4",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "SSD on Curve",
-    "text": "SSD on Curve\n\n\n\n\\(d_{ssd}=1.47S_i t + \\frac{S_i^2 - S_f^2}{30(F \\pm G)}\\)\nDesign Stds:\n\n\\(F=0.348\\)\n\n\\(M_{s}=R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\n\\(R_v = \\frac{5729.58}{D_v}\\)"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
-    "href": "lecture/ch3HorDgn.html#ssd-on-curve-problem",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "SSD on Curve: Problem",
-    "text": "SSD on Curve: Problem\n\n\nA 6 degree curve (measured at the centerline of the inside lane) is being designed for a highway with a design speed of 70 mi/hr. The grade is level, and driver reaction time is 2.5 seconds. What is the closest any roadside object may be placed to the centerline of the inside lane of the roadway?\n\n\n\n\n\n\\(d_{ssd}=1.47 \\times 70 \\times 2.5 + \\frac{70^2 - 0^2}{30(0.348 \\pm 0)}\\)\n\\(d_{ssd}=726.6 ft\\)\n\nFor a SSD of \\(726.6ft\\), the min clearance at roadside:\n\n\\(M_{s}= R_v(1- cos \\frac{90d_{ssd}}{\\pi R_v})\\)\n\\(M_{s}= \\frac{5729.58}{6} \\times (1- cos \\frac{90 \\times 726.26}{\\pi \\frac{5729.58}{6}})\\)\n\\(M_{s}= 68.3 ft\\)"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation",
-    "href": "lecture/ch3HorDgn.html#superelevation",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation",
-    "text": "Superelevation\nAmount by which the outer edge of a curve on a road or railroad is banked above the inner edge."
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-why",
-    "href": "lecture/ch3HorDgn.html#superelevation-why",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation: Why?",
-    "text": "Superelevation: Why?\n\n\n\n\n\n\n\nhttps://www.bigrentz.com/blog/superelevation"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-components",
-    "href": "lecture/ch3HorDgn.html#superelevation-components",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation: Components",
-    "text": "Superelevation: Components"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
-    "href": "lecture/ch3HorDgn.html#superelevation-change-of-xs",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation: Change of XS",
-    "text": "Superelevation: Change of XS"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
-    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation: Eq. for Runoff length",
-    "text": "Superelevation: Eq. for Runoff length\n\n\n\\(L_r = \\frac{w \\times n \\times e_d \\times b_w}{\\Delta}\\)\n\n\\(L_r\\) = minimum length of superelevation runoff, ft\n\\(w\\) = width of lane, ft\n\\(n\\) = number of lanes being rotated (i.e. lanes in one direction)\n\\(e_d\\) = design superelevation rate, expressed as a decimal\n\\(b_w\\) = adjustment factor for number of lanes rotated\n\n1: for one lane, 0.75 for two, 0.67 for three\n\n\\(\\Delta\\) = maximum relative gradient, (Table 27.3) expressed as a decimal"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
-    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-runoff-length-1",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation: Eq. for Runoff length",
-    "text": "Superelevation: Eq. for Runoff length"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
-    "href": "lecture/ch3HorDgn.html#superelevation-eq.-for-tangent-runoff",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation: Eq. for Tangent Runoff",
-    "text": "Superelevation: Eq. for Tangent Runoff\n\n\n\\(L_t = \\frac{e_{NC}}{e_d} \\times L_r\\)\n\n\\(L_t\\) = length of tangent runoff, ft\n\\(L_r\\) = length of superelevation runoff, ft\n\\(e_{NC}\\) = normal cross-slope, % (for drainage)\n\\(e_d\\) = design superelevation rate, %"
-  },
-  {
-    "objectID": "lecture/ch3HorDgn.html#superelevation-sample-problem",
-    "href": "lecture/ch3HorDgn.html#superelevation-sample-problem",
-    "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
-    "section": "Superelevation: Sample Problem",
-    "text": "Superelevation: Sample Problem\nA four-lane highway with a superelvation rate of 0.04 achieved by rotating two 12 ft lanes around the centerline. The normal drainage cross-slope is 0.01. The design speed of the highway is 60 mi/h. What is the appropriate minimum length of superelevation runoff and what is the tangent runoff length."
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
-    "href": "lecture/eciv542syllabusFall26.html#welcome-to-traffic-engineering",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Welcome to Traffic Engineering",
-    "text": "Welcome to Traffic Engineering\n\nECIV 542, Fall 2026\nMW 11 AM - 12:15PM, Swearingen 2A07"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
-    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Meet Your Instructor",
-    "text": "Meet Your Instructor\nDr. FAHIM AHMED\nAdjuct Faculty, UofSC\nEngineer, SCDOT\n\nBACKGROUND:\n\nPhD in Transportation (Logistics)\n\nM.S. , M.A.S, EIT\n\nWHAT I WORK ON:\n\nHighway Design/Traffic Safety\n\nLogistic Modeling"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
-    "href": "lecture/eciv542syllabusFall26.html#meet-your-instructor-1",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Meet Your Instructor",
-    "text": "Meet Your Instructor\n\nMY APPROACH:\n\nUnderstand  Apply  Interpret\n\nOUTSIDE ENGR.:\n\nSoccer (ManU fan)\n\nTravel\n\n\n\nWe’ll certainly do calculations in this class, but I don’t want you to just know which equation to use. I want you to understand what you’re calculating, why an engineer needs it, and what the result tells us about the transportation system."
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#section",
-    "href": "lecture/eciv542syllabusFall26.html#section",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "",
-    "text": "Getting to Know You\n\n\nName\nUndergraduate or Graduate student\nMajor/year\nWhy are you taking this course?\nWhat comes to mind when you hear “Traffic Engineering”?"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#course-content",
-    "href": "lecture/eciv542syllabusFall26.html#course-content",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Course Content",
-    "text": "Course Content\n\nBlackboard\nWebsite: Link"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-course-description",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Course Description",
-    "text": "Syllabus: Course Description\n\nThis course (ECIV 542) is designed to teach students the fundamentals of traffic engineering.\nThis course will enable students to solve transportation problems that are likely to appear in FE/PE exam and professional practice.\nServe as a foundation for graduate coursework at USC or other academic institutions."
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-pre-requisite",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Pre-requisite",
-    "text": "Syllabus: Pre-requisite\n\nECIV 340 (Introduction to Transportation Engineering)"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-textbook",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Textbook",
-    "text": "Syllabus: Textbook\n\nTraffic Engineering, 5th edition, by Roger P. Roess, Elena S. Prassas, and William R. McShane. Pearson Higher Education, Inc., 2019; ISBN-13: 978-0134599717"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-performance-evaluation",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Performance Evaluation",
-    "text": "Syllabus: Performance Evaluation\n\nHomework assignments: 6-8\nExams: 02\nProject: 01 (Divided into 4 Tasks)"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-grade-distribution",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Grade Distribution",
-    "text": "Syllabus: Grade Distribution\n\n\n\n\n\n\n\n\nGrading Rubric\nUndergraduate\nGraduate\n\n\n\n\nExam 1\n35%\n30%\n\n\nExam 2\n35%\n30%\n\n\nHomework\n10%\n10%\n\n\nClass Project (Standard Scope)\n20%\n20%\n\n\nClass Project (Advanced Scope)\n0%\n10%"
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-attendance",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Class Attendance",
-    "text": "Syllabus: Class Attendance\n\nYou are expected to attend all lectures and labs and contribute to the team’s class project."
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-documents",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Class Documents",
-    "text": "Syllabus: Class Documents\nAll class documents will be made available on Blackboard. The instructor will provide supplemental notes. It is the student’s responsibility to check Blackboard and print the provided documents."
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
-    "href": "lecture/eciv542syllabusFall26.html#syllabus-class-project",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Syllabus: Class Project",
-    "text": "Syllabus: Class Project\n\nStudents will work in groups of 3-6 to conduct traffic analyses of intersections near campus.\nEach team will be assigned to one intersection (randomly).\nEach team will be responsible for collecting its own data, performing appropriate analyses, and making recommendations.\n\nThere will be a final report, and if time permits, each team will make a presentation to the class describing their work."
-  },
-  {
-    "objectID": "lecture/eciv542syllabusFall26.html#schedule",
-    "href": "lecture/eciv542syllabusFall26.html#schedule",
-    "title": "Traffic Engineering  Fall 2026",
-    "section": "Schedule",
-    "text": "Schedule\nECIV 542 Fall 2026 Schedule"
+    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-4",
+    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-4",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Frequency Distribution",
+    "text": "Frequency Distribution"
   },
   {
     "objectID": "course-schedule.html",

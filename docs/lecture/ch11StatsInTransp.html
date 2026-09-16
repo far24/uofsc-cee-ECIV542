@@ -7,13 +7,12 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-contrib/diagrams-0.2.0/diagrams.css" rel="stylesheet">
-<script src="../site_libs/quarto-contrib/countdown-0.6.0/countdown.js"></script>
-<link href="../site_libs/quarto-contrib/countdown-0.6.0/countdown.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../site_libs/quarto-contrib/diagrams-0.2.0/diagrams.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="ECIV 542 (Traffic Engineering), Fall 2026">
-  <title>ECIV542: Traffic Engineering – Ch 4. Traffic Control Devices</title>
+  <meta name="dcterms.date" content="2026-09-21">
+  <title>ECIV542: Traffic Engineering – Ch 11. Statistical Application in Transportation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -38,7 +37,6 @@
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-quiz/quiz.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -134,8 +132,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Ch 4. Traffic Control Devices</h1>
-  <p class="subtitle">Class 07 &amp; 08</p>
+  <h1 class="title">Ch 11. Statistical Application in Transportation</h1>
+  <p class="subtitle">Class 09</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -148,570 +146,106 @@ ECIV 542 (Traffic Engineering), Fall 2026
     </div>
 </div>
 
-  <p class="date">Invalid Date</p>
-</section>
-<section class="slide level2">
-
-<!-- # Class Logistics -->
-<!-- ## Announcements -->
-<!-- ## Reminders -->
-<!-- * Homework #1 is due today -->
+  <p class="date">2026-09-21</p>
 </section>
 <section>
-<section id="traffic-control-devices" class="title-slide slide level1 center">
-<h1>Traffic Control Devices</h1>
+<section id="statistics-in-transportation" class="title-slide slide level1 center">
+<h1>Statistics in Transportation</h1>
 
 </section>
-<section id="traffic-control-devices-1" class="slide level2">
-<h2>Traffic Control Devices</h2>
+<section id="chapter-11" class="slide level2">
+<h2>Chapter 11</h2>
+<h3 id="ch-11-speed-travel-time-and-delay-studies">Ch 11: Speed, Travel Time, and Delay Studies</h3>
+</section>
+<section id="research-questions" class="slide level2">
+<h2>Research Questions</h2>
 <ul>
-<li>Show a image and identity</li>
+<li>What is the average speed of vehicles on this road?</li>
+<li>What percentage of drivers travel above the speed limit?</li>
+<li>Do cars travel faster during off-peak hours than during rush hour?</li>
+<li>Is traffic volume higher on weekdays than on weekends?</li>
+<li>Is there a relationship between traffic volume and vehicle delay at an intersection?</li>
 </ul>
 </section>
-<section id="traffic-control-devices-2" class="slide level2">
-<h2>Traffic Control Devices</h2>
+<section id="research-questions-1" class="slide level2">
+<h2>Research Questions</h2>
 <ul>
-<li>Purpose
+<li>What is the average speed of vehicles on this road?
 <ul>
-<li>“To promote highway safety and efficiency by providing for orderly movement of all road users on streets and highways, bikeways, public facilities, and private property open to public travel throughout the Nation.”</li>
+<li>Mean, median, range, standard deviation.</li>
 </ul></li>
+<li>What percentage of drivers travel above the speed limit?
+<ul>
+<li>Proportions and probability.</li>
+</ul></li>
+<li>Do cars travel faster during off-peak hours than during rush hour? -Comparing two groups and hypothesis testing.</li>
+<li>Is traffic volume higher on weekdays than on weekends? -Data collection, averages, and comparison.</li>
+<li>Is there a relationship between traffic volume and vehicle delay at an intersection?</li>
+<li>Scatterplots, correlation, and simple regression.</li>
 </ul>
 </section>
-<section id="mutcd" class="slide level2">
-<h2>MUTCD</h2>
-<ul>
-<li>MUTCD:
-<ul>
-<li>Manual on Uniform Traffic Control Devices</li>
-<li>principal standard governing the application, design, and placement of traffic control devices</li>
-<li>minimum standard and a model for individual state MUTCDs.</li>
-<li>Latest Edition: <a href="https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm">MUTCD 11th Ed.</a></li>
-</ul></li>
-<li>Many states simply adopt the federal manual by statute (e.g.&nbsp;SC). Others develop their own manuals (e.g.&nbsp;TX, CA)</li>
-</ul>
+<section id="why" class="slide level2">
+<h2>Why?</h2>
+<h3 id="transportation-engineers-use-statistics-because-traffic-driver-behavior-weather-and-crashes-vary-every-day-statistics-helps-us-distinguish-a-real-problem-or-improvement-from-ordinary-random-variation.">Transportation engineers use statistics because traffic, driver behavior, weather, and crashes vary every day; statistics helps us distinguish a real problem or improvement from ordinary random variation.</h3>
 </section>
-<section id="mutcd-principles" class="slide level2 smaller">
-<h2>MUTCD: Principles</h2>
-<p>Must:</p>
+<section id="population-vs.-sample" class="slide level2">
+<h2>Population vs.&nbsp;Sample</h2>
+
+<img data-src="images/chap11/ch11_popVSsample.png" class="r-stretch"></section>
+<section id="population-vs.-sample-1" class="slide level2">
+<h2>Population vs.&nbsp;Sample</h2>
 <ul>
-<li>Fulfill a need
+<li>RQ: What percentage of U.S. college students feel sleep-deprived?
 <ul>
-<li>Superfluous devices should not be used. A installed device must be needed for safe and efficient flow of traffic.</li>
-</ul></li>
-<li>Command attention
-<ul>
-<li>Attracting a driver’s attention requires proper visibility and a distinctive design.</li>
-</ul></li>
-<li>Convey a clear, simple message
-<ul>
-<li>Clarity and simplicity of message is critical since the device is seen for only a few seconds.</li>
-</ul></li>
-<li>Command respect of road users
-<ul>
-<li>Drivers are conditioned to expect meaningful and important messages.</li>
-</ul></li>
-<li>Give adequate time for a proper response
-<ul>
-<li>Example, a stop sign should be placed at the stop line and be visible from at least one SSD.</li>
+<li>What is the population of interest?</li>
 </ul></li>
 </ul>
-</section>
-<section id="mutcd-contents" class="slide level2">
-<h2>MUTCD: Contents</h2>
+<div class="fragment">
 <ul>
-<li>Physical design
-<ul>
-<li>Detailed standards for shape, size, colors, legend types and sizes, and specific legend.</li>
-</ul></li>
-<li>Placement / Location
-<ul>
-<li>Detailed standards and guidelines on where devices should be located with respect to the traveled way.</li>
-</ul></li>
-<li>Selection of Devices
-<ul>
-<li>Warrants or conditions that justify the use of a particular device.</li>
-</ul></li>
+<li><strong>Sample: Take random sample of students across the US universities</strong></li>
 </ul>
-</section>
-<section id="mutcd-legal-aspects" class="slide level2 smaller">
-<h2>MUTCD: Legal Aspects</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 50%">
-<col style="width: 40%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Enforcement</th>
-<th>Word</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Standard</td>
-<td>Required, mandatory, specifically prohibitive</td>
-<td>“shall” or “shall not”</td>
-</tr>
-<tr class="even">
-<td>Guidance</td>
-<td>Recommended; departure needs justification</td>
-<td>“should” or “should not”</td>
-</tr>
-<tr class="odd">
-<td>Option</td>
-<td>Permitted; engineering judgment may be used</td>
-<td>“may” or “may not”</td>
-</tr>
-<tr class="even">
-<td>Support</td>
-<td>Explanation, examples, or background</td>
-<td>statement without “shall”, “should”, “may”</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="mutcd-how-to-read" class="slide level2">
-<h2>MUTCD: How to Read</h2>
-<div class="columns">
-<div class="column">
-<!-- left column -->
-<h3 id="example">Example</h3>
-<ul>
-<li><p><span style="color: #6C88C4;">Section</span> <span style="color: #FF5C77;">4</span><span style="color: #4DD091;">D</span>.<span style="color: #6C88C4;">08</span>, <span style="color: #FFA23A;">Par.1</span>, <span style="color: #74737A;">A.1</span></p></li>
-<li><p>Item A.1 of Paragraph 1 of Section 4D.08.</p></li>
-</ul>
-</div><div class="column">
-<!-- right column -->
-<div class="pyramid">
-<div class="item" color="#74737A">
-<p>ITEMS</p>
 </div>
-<div class="item" color="#FFA23A">
-<p>PARAGRAPH <br> numbered</p>
-</div>
-<div class="item" color="#6C88C4">
-<p>SECTION <br> numbered</p>
-</div>
-<div class="item" color="#4DD091">
-<p>CHAPTER <br> letter: A-Z</p>
-</div>
-<div class="item" color="#FF5C77">
-<p>PARTS <br> numbered: 1-9</p>
-</div>
-</div>
-</div></div>
 </section>
-<section id="mutcd-how-to-read-1" class="slide level2">
-<h2>MUTCD: How to Read …</h2>
-<div class="columns">
-<div class="column">
-<!-- left column -->
-<h3 id="example-1">Example</h3>
+<section id="population-vs.-sample-2" class="slide level2">
+<h2>Population vs.&nbsp;Sample</h2>
 <ul>
-<li><p><span style="color: #6C88C4;">Section</span> <span style="color: #FF5C77;">4</span><span style="color: #4DD091;">D</span>.<span style="color: #6C88C4;">08</span>, <span style="color: #FFA23A;">Par.1</span>, <span style="color: #74737A;">A.1</span></p></li>
-<li><p>Item A.1 of Paragraph 1 of Section 4D.08.</p></li>
-</ul>
-</div><div class="column">
-<!-- right column -->
-<p><img data-src="images/chap4/ch4_mutcdPartChapSec.png"></p>
-</div></div>
-</section>
-<section id="mutcd-how-to-read-2" class="slide level2">
-<h2>MUTCD: How to Read …</h2>
-<div class="columns">
-<div class="column">
-<!-- left column -->
-<h3 id="example-2">Example</h3>
+<li>RQ: What percentage of Univ. of SC students feel sleep-deprived?
 <ul>
-<li><p><span style="color: #6C88C4;">Section</span> <span style="color: #FF5C77;">4</span><span style="color: #4DD091;">D</span>.<span style="color: #6C88C4;">08</span>, <span style="color: #FFA23A;">Par.1</span>, <span style="color: #74737A;">A.1</span></p></li>
-<li><p>Item A.1 of Paragraph 1 of Section 4D.08.</p>
-<ul>
-<li>“No less than 40 feet beyond the stop line, and”</li>
+<li>What is the population of interest?</li>
 </ul></li>
 </ul>
-</div><div class="column">
-<!-- right column -->
-<p><img data-src="images/chap4/ch4_mutcdRead.png"></p>
-</div></div>
-</section></section>
-<section id="mutcd-part" class="title-slide slide level1 center">
-<h1>MUTCD Part</h1>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>MUTCD part</th>
-<th>Main content</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Part 1</strong></td>
-<td>General principles and definitions</td>
-</tr>
-<tr class="even">
-<td><strong>Part 2</strong></td>
-<td>Signs</td>
-</tr>
-<tr class="odd">
-<td><strong>Part 3</strong></td>
-<td>Markings</td>
-</tr>
-<tr class="even">
-<td><strong>Part 4</strong></td>
-<td>Highway traffic signals</td>
-</tr>
-<tr class="odd">
-<td><strong>Part 6</strong></td>
-<td>Temporary traffic control/work zones</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-<section>
-<section id="traffic-markings" class="title-slide slide level1 center">
-<h1>Traffic Markings</h1>
-
-</section>
-<section id="traffic-markings-types" class="slide level2 smaller">
-<h2>Traffic Markings: Types</h2>
+<div class="fragment">
 <ul>
-<li>Longitudinal markings
-<ul>
-<li>Placed parallel to the direction of travel</li>
-<li>centerlines, lane lines, and pavement edge lines</li>
-</ul></li>
-<li>Transverse markings
-<ul>
-<li>Placed perpendicular to the direction of travel</li>
-<li>Stop and Yield lines</li>
-</ul></li>
-<li>Crosswalk Markings</li>
-<li>Object Markers
-<ul>
-<li>Used to denote obstructions either in or adjacent to the traveled way.</li>
-</ul></li>
-<li>Delineators
-<ul>
-<li>Delineators are reflective devices mounted at a 4-ft height on the sides of a roadway to help denote its alignment.</li>
-</ul></li>
+<li><strong>Sample: Take random sample of students at Univ. of SC</strong></li>
 </ul>
-</section>
-<section id="traffic-markings-example" class="slide level2">
-<h2>Traffic Markings: Example</h2>
-
-<img data-src="images/chap4/ch4_mutcdMarkLong.png" class="r-stretch"></section>
-<section id="traffic-markings-example-1" class="slide level2">
-<h2>Traffic Markings: Example</h2>
-
-<img data-src="images/chap4/ch4_mutcdMarkTransverse.png" class="r-stretch"></section></section>
-<section>
-<section id="traffic-signs" class="title-slide slide level1 center">
-<h1>Traffic Signs</h1>
-
-</section>
-<section id="traffic-signs-classification" class="slide level2">
-<h2>Traffic Signs: Classification</h2>
-<ul>
-<li>Regulatory
-<ul>
-<li>give notice of traffic laws or regulations.</li>
-</ul></li>
-<li>Warning
-<ul>
-<li>give notice of a situation that might not be readily apparent.</li>
-</ul></li>
-<li>Guide
-<ul>
-<li>provide information to road users concerning destinations, available services, and historical/recreational facilities.</li>
-</ul></li>
-</ul>
-</section></section>
-<section id="traffic-signs-regulatory" class="title-slide slide level1 center">
-<h1>Traffic Signs: Regulatory</h1>
-
-<img data-src="images/chap4/ch4_mutcdRegSign1.png" class="r-stretch"></section>
-
-<section id="traffic-signs-regulatory-1" class="title-slide slide level1 center">
-<h1>Traffic Signs: Regulatory</h1>
-
-<img data-src="images/chap4/ch4_mutcdRegSignLane.png" class="r-stretch"></section>
-
-<section id="traffic-signs-regulatory-2" class="title-slide slide level1 center">
-<h1>Traffic Signs: Regulatory</h1>
-
-<img data-src="images/chap4/ch4_mutcdRegSignSpd.png" class="r-stretch"></section>
-
-<section id="traffic-signs-warning" class="title-slide slide level1 center">
-<h1>Traffic Signs: Warning</h1>
-
-<img data-src="images/chap4/ch4_mutcdWarnSignAlign.png" class="r-stretch"></section>
-
-<section id="traffic-signs-warning-1" class="title-slide slide level1 center">
-<h1>Traffic Signs: Warning</h1>
-
-<img data-src="images/chap4/ch4_mutcdWarnSignExple.png" class="r-stretch"></section>
-
-<section id="traffic-signs-warning-2" class="title-slide slide level1 center">
-<h1>Traffic Signs: Warning</h1>
-
-<img data-src="images/chap4/ch4_mutcdWarnSignTable.png" class="r-stretch"></section>
-
-<section id="traffic-signs-guide" class="title-slide slide level1 center">
-<h1>Traffic Signs: Guide</h1>
-
-<img data-src="images/chap4/ch4_mutcdGdeSignExple.png" class="r-stretch"></section>
-
-<section id="traffic-signs-guide-1" class="title-slide slide level1 center">
-<h1>Traffic Signs: Guide</h1>
-
-<img data-src="images/chap4/ch4_mutcdGdeSignDest.png" class="r-stretch"></section>
-
-<section>
-<section id="traffic-signals" class="title-slide slide level1 center">
-<h1>Traffic Signals</h1>
-
-</section>
-<section id="traffic-signals-classification" class="slide level2">
-<h2>Traffic Signals: Classification</h2>
-<p>The MUTCD defines nine types of traffic signals:<br>
-* Pedestrian signals<br>
-* Emergency vehicle traffic control signals<br>
-* Traffic control signals for one-lane, two-way facilities<br>
-* Traffic control signals for freeway entrance ramps<br>
-* Traffic control signals for movable bridges<br>
-* Lane-use control signals<br>
-* Flashing beacons<br>
-* In-roadway lights</p>
-</section>
-<section id="traffic-signals-example" class="slide level2">
-<h2>Traffic Signals: Example</h2>
-
-<img data-src="images/chap4/ch4_mutcdTraffcSignal1.png" class="r-stretch"></section>
-<section id="traffic-signals-example-1" class="slide level2">
-<h2>Traffic Signals: Example</h2>
-
-<img data-src="images/chap4/ch4_mutcdTraffcSignal2.png" class="r-stretch"></section></section>
-<section>
-<section id="quiz" class="title-slide slide level1 center">
-<h1>QUIZ</h1>
-
-</section>
-<section id="quiz-rules" class="slide level2">
-<h2>QUIZ Rules</h2>
-<ul>
-<li>Four teams: Row 1, Row 2, Row 3, Row 4</li>
-<li>Each team takes turn to answer the question ( 16 questions in total)
-<ul>
-<li>Starting with Row arto</li>
-</ul></li>
-<li>Read the entire question and answer in 30 seconds (except first 4 questions)</li>
-<li>Correct answer: 2 points.</li>
-<li>Incorrect answer: no points <countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="bottom: 0;left: 0;">
- </countdown-timer></li>
-</ul>
-</section>
-<section id="according-to-section-2b.04-par.-1-in-mutcd-when-a-full-stop-is-always-required-on-an-approach-to-an-intersection-which-device-shall-be-used" class="slide level2 quiz-question">
-<h2>1) According to <u>“Section 2B.04, Par. 1” in MUTCD</u> , when a full stop is always required on an approach to an intersection, which device shall be used?</h2>
-<ul>
-<li>YIELD sign</li>
-<li><span class="correct">STOP sign</span></li>
-<li>Signal Ahead sign</li>
-<li>Pedestrian crossing sign</li>
-</ul>
-</section>
-<section id="according-to-section-3a.03-par.-3-a-in-mutcd-yellow-longitudinal-markings-delineate" class="slide level2 quiz-question">
-<h2>2) According to <u>“Section 3A.03, Par. 3, A” in MUTCD </u>, yellow longitudinal markings delineate:</h2>
-<ul>
-<li>Traffic traveling in opposite directions</li>
-<li><span class="correct">Traffic traveling in the same direction</span></li>
-<li>The right edge of the roadway only</li>
-<li>Pedestrian crossing paths</li>
-</ul>
-</section>
-<section id="according-to-section-3a.04-par.-1-c-in-mutcd-what-does-a-broken-longitudinal-line-indicate" class="slide level2 quiz-question">
-<h2>3) According to <u>“Section 3A.04, Par. 1, C” in MUTCD </u>, what does a broken longitudinal line indicate?</h2>
-<ul>
-<li>Maximum restriction</li>
-<li>Crossing is discouraged or prohibited</li>
-<li><span class="correct">A permissive condition</span></li>
-<li>A downstream lane-function change</li>
-</ul>
-</section>
-<section id="according-to-section-4a.03-par.-1-a.2-in-mutcd-a-driver-facing-a-green-arrow-is-permitted-to" class="slide level2 quiz-question">
-<h2>4) According to <u>“Section 4A.03, Par. 1, A.2” in MUTCD </u>, a driver facing a green arrow is permitted to:</h2>
-<ul>
-<li>Proceed in any direction without yielding</li>
-<li><span class="correct">Enter the intersection only for the movement indicated by the arrow</span></li>
-<li>Stop and wait for a circular green signal</li>
-<li>Make the indicated turn only after a complete stop</li>
-</ul>
-</section>
-<section id="what-is-the-primary-purpose-of-the-mutcd" class="slide level2 quiz-question">
-<h2>5) What is the primary purpose of the MUTCD?</h2>
-<!-- ![](images/chap3/ch3VerDgn_01.png){width="600" height="300" fig-align="center"} -->
-<ul>
-<li>To calculate roadway capacity</li>
-<li><span class="correct">To standardize traffic control devices</span></li>
-<li>To determine pavement thickness</li>
-<li>To design horizontal curves <countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="bottom: 0;left: 0;">
- </countdown-timer></li>
-</ul>
-</section>
-<section id="which-mutcd-part-contains-pavement-marking-provisions" class="slide level2 quiz-question">
-<h2>6) Which MUTCD Part contains pavement-marking provisions?</h2>
-<ul>
-<li>Part 1</li>
-<li>Part 2</li>
-<li><span class="correct">Part 3</span></li>
-<li>Part 4 <countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="bottom: 0;left: 0;">
- </countdown-timer></li>
-</ul>
-</section>
-<section id="in-the-mutcd-what-does-the-word-shall-mean" class="slide level2 quiz-question">
-<h2>7) In the MUTCD, what does the word “shall” mean?</h2>
-<ul>
-<li><span class="correct">Required</span></li>
-<li>Recommended</li>
-<li>Optional</li>
-<li>Informational only <countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="bottom: 0;left: 0;">
- </countdown-timer></li>
-</ul>
-</section>
-<section id="which-mutcd-part-should-an-engineer-consult-first-for-a-work-zone-traffic-control-question" class="slide level2 quiz-question">
-<h2>8) Which MUTCD Part should an engineer consult first for a work-zone traffic-control question?</h2>
-<ul>
-<li>Part 2 — Signs</li>
-<li>Part 3 — Markings</li>
-<li>Part 4 — Signals</li>
-<li><span class="correct">Part 6 — Temporary Traffic Control</span> <countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="bottom: 0;left: 0;">
- </countdown-timer></li>
-</ul>
-</section>
-<section id="what-type-of-sign-is-this" class="slide level2 quiz-question">
-<h2>9) What type of sign is this?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_stopSign.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
 </div>
-<ul>
-<li>Warning sign</li>
-<li><span class="correct">Regulatory sign</span></li>
-<li>Guide sign</li>
-<li>Service</li>
-</ul>
 </section>
-<section id="what-is-the-primary-purpose-of-this-sign" class="slide level2 quiz-question">
-<h2>10) What is the primary purpose of this sign?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_curveAheadSign.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
-</div>
-<ul>
-<li>Regulate a movement</li>
-<li><span class="correct">Warn of a condition ahead</span></li>
-<li>Provide route guidance</li>
-<li>Identify a parking area</li>
-</ul>
-</section>
-<section id="what-is-the-main-purpose-of-this-sign" class="slide level2 quiz-question">
-<h2>11) What is the main purpose of this sign?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_DestSign.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
-</div>
-<ul>
-<li>Require a driver action</li>
-<li>Warn of a hazard</li>
-<li><span class="correct">Guide road users to destinations or routes</span></li>
-<li>Mark a pedestrian crossing</li>
-</ul>
-</section>
-<section id="what-does-white-dashed-line-marking-generally-separate" class="slide level2 quiz-question">
-<h2>12) What does white dashed line marking generally separate?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_mutcdMarkLong.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
-</div>
-<ul>
-<li>Traffic moving in opposite directions</li>
-<li><span class="correct">Traffic moving in the same direction</span></li>
-<li>Vehicle traffic and a bicycle lane only</li>
-<li>The roadway from a sidewalk</li>
-</ul>
-</section>
-<section id="what-does-this-marking-generally-communicate" class="slide level2 quiz-question">
-<h2>13) What does this marking generally communicate?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_greenLTsignal.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
-</div>
-<ul>
-<li>Passing is permitted in both directions</li>
-<li><span class="correct">Passing is prohibited in both directions</span></li>
-<li>The lanes travel in the same direction</li>
-<li>Vehicles must turn left</li>
-</ul>
-</section>
-<section id="what-is-the-primary-purpose-of-the-stop-bar" class="slide level2 quiz-question">
-<h2>14) What is the primary purpose of the stop bar?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_stopBar.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
-</div>
-<ul>
-<li>Mark the preferred path for a pedestrian</li>
-<li><span class="correct">Show where a driver should stop before entering the intersection</span></li>
-<li>Separate opposing traffic</li>
-<li>Identify a parking restriction</li>
-</ul>
-</section>
-<section id="what-does-this-signal-on-the-right-indication-require-a-driver-to-do" class="slide level2 quiz-question">
-<h2>15) What does this (signal on the right) indication require a driver to do?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_greenLTsignal.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
-</div>
-<ul>
-<li>Proceed with caution</li>
-<li><span class="correct">Stop</span></li>
-<li>Yield only to pedestrians</li>
-<li>Turn left only</li>
-</ul>
-</section>
-<section id="what-does-green-arrow-signal-indication-communicate" class="slide level2 quiz-question">
-<h2>16) What does green arrow signal indication communicate?<countdown-timer id="timer_076a0acd05460237800a9af6f6a75d178dded204" minutes="00" seconds="30" class="countdown" warn-when="10" update-every="1" play-sound="true" blink-colon="false" start-immediately="false" tabindex="0" style="top: 10;right: 0;">
- </countdown-timer></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/chap4/ch4_greenLTsignal.png" class="quarto-figure quarto-figure-center" width="600" height="300"></p>
-</figure>
-</div>
-<ul>
-<li>The driver must stop before turning left</li>
-<li><span class="correct">The indicated left-turn movement is permitted</span></li>
-<li>Left turns are prohibited</li>
-<li>Drivers may proceed straight only</li>
-</ul>
+<section id="speed-data" class="slide level2">
+<h2>Speed Data</h2>
+
+<img data-src="images/chap11/ch11_spdDataFld.png" class="r-stretch"></section>
+<section id="frequency-distribution" class="slide level2">
+<h2>Frequency Distribution</h2>
+
+<img data-src="images/chap11/ch11_spdDistBlank.png" class="r-stretch"></section>
+<section id="frequency-distribution-1" class="slide level2">
+<h2>Frequency Distribution</h2>
+
+<img data-src="images/chap11/ch11_spdDistMidSpd.png" class="r-stretch"></section>
+<section id="frequency-distribution-2" class="slide level2">
+<h2>Frequency Distribution</h2>
+
+<img data-src="images/chap11/ch11_spdDistFreq.png" class="r-stretch"></section>
+<section id="frequency-distribution-3" class="slide level2">
+<h2>Frequency Distribution</h2>
+
+<img data-src="images/chap11/ch11_spdDistCurve.png" class="r-stretch"></section>
+<section id="frequency-distribution-4" class="slide level2">
+<h2>Frequency Distribution</h2>
 
 
-</section></section>
+
+<img data-src="images/chap11/ch11_spdCumulDistCurve.png" class="r-stretch"></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -727,7 +261,6 @@ ECIV 542 (Traffic Engineering), Fall 2026
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-quiz/quiz.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -751,7 +284,6 @@ ECIV 542 (Traffic Engineering), Fall 2026
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
-'quiz': {"checkKey":"c","resetKey":"q","shuffleKey":"t","allowNumberKeys":true,"disableOnCheck":false,"shuffleOptions":true,"defaultCorrect":"Correct! 🎉","defaultIncorrect":"Try again! ❌","includeScore":false,"disableReset":false},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -922,7 +454,7 @@ ECIV 542 (Traffic Engineering), Fall 2026
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealQuiz, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
