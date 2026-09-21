@@ -220,32 +220,704 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </ul>
 </div>
 </section>
-<section id="speed-data" class="slide level2">
+<section id="speed-data" class="slide level2 smaller">
 <h2>Speed Data</h2>
 
 <img data-src="images/chap11/ch11_spdDataFld.png" class="r-stretch"></section>
-<section id="frequency-distribution" class="slide level2">
-<h2>Frequency Distribution</h2>
-
-<img data-src="images/chap11/ch11_spdDistBlank.png" class="r-stretch"></section>
-<section id="frequency-distribution-1" class="slide level2">
-<h2>Frequency Distribution</h2>
+<section id="questions" class="slide level2">
+<h2>Questions</h2>
+<div class="hierarchy outline stretch">
+<div class="item">
+<p>Questions</p>
+<div class="item">
+<p>Observed Data (sample)</p>
+</div>
+<div class="item">
+<p>Future Events</p>
+</div>
+</div>
+</div>
+</section>
+<section id="questions---observed-data" class="slide level2 smaller">
+<h2>Questions - Observed Data</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What did our observed vehicles do?</td>
+<td>“What was their average speed?”</td>
+<td>Central Tendency (e.g., Mean)</td>
+</tr>
+<tr class="even">
+<td>How variable were the observed speeds?</td>
+<td>“Were vehicles traveling at similar speeds?”</td>
+<td>Dispersion (e.g., SD)</td>
+</tr>
+<tr class="odd">
+<td>What fraction of the sample was in a range?</td>
+<td>“What percentage of the 368 vehicles was 46–48 mph?”</td>
+<td>Relative frequency</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frequency-distribution-table" class="slide level2">
+<h2>Frequency Distribution Table</h2>
 
 <img data-src="images/chap11/ch11_spdDistMidSpd.png" class="r-stretch"></section>
-<section id="frequency-distribution-2" class="slide level2">
-<h2>Frequency Distribution</h2>
+<section id="central-tendency" class="slide level2 smaller">
+<h2>Central Tendency</h2>
+<h4 id="what-was-the-observed-average-speed">What was the observed average speed?</h4>
+<div class="columns">
+<div class="column" style="width:25%;">
+<ul>
+<li><strong>Mean</strong>: sum of observed values (speed) divided by number of obs
+<ul>
+<li>Mean, <span class="math inline">\(\bar{x} = \frac{\sum{n_iS_i}}{N}\)</span><br>
+</li>
+<li><span class="math inline">\(\bar{x} = \frac{17736}{368}\)</span></li>
+<li><span class="math inline">\(\bar{x} = 48.2 mph\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:75%;">
+<p><img data-src="images/chap11/ch11_spdTableFull.png"></p>
+</div></div>
+<ul>
+<li><mark><strong>On an average, the observed vehicles are traveling at 48.2 mph</strong></mark></li>
+</ul>
+</section>
+<section id="central-tendency-1" class="slide level2 smaller">
+<h2>Central Tendency</h2>
+<p><strong><u>What was the speed certain portion of veh travelling?</u></strong></p>
+<div class="columns">
+<div class="column" style="width:25%;">
+<ul>
+<li><strong>Median</strong>: 50%
+<ul>
+<li>Speed at <span class="math inline">\(N/2 = 184\)</span>th vehicle (ordered data)</li>
+<li>From Table, between <span class="math inline">\(45\)</span>mph and <span class="math inline">\(47\)</span>mph,</li>
+<li>Avg <span class="math inline">\(46\)</span>mph</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:75%;">
+<p><img data-src="images/chap11/ch11_spdDistFreq.png"></p>
+</div></div>
+<ul>
+<li><mark><strong>Half of the observed vehicles are traveling at 47 mph lower or higher.</strong></mark></li>
+</ul>
+</section>
+<section id="central-tendency-2" class="slide level2 smaller">
+<h2>Central Tendency</h2>
+<p><strong><u>What was the speed majority veh travelling?</u></strong></p>
+<div class="columns">
+<div class="column" style="width:25%;">
+<ul>
+<li><strong>Mode</strong>: Most frequent speed
+<ul>
+<li>From Table, highest freq(65) occurs at speed <span class="math inline">\(47\)</span>mph,</li>
+<li>Mode: <span class="math inline">\(46\)</span>mph</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:75%;">
+<p><img data-src="images/chap11/ch11_spdDistFreq.png"></p>
+</div></div>
+<ul>
+<li><mark><strong>Majority of observed vehicles are traveling at 47 mph.</strong></mark></li>
+</ul>
+</section>
+<section id="questions---answer" class="slide level2 smaller">
+<h2>Questions - Answer</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What did our observed vehicles do?</td>
+<td>“What was their average speed?”</td>
+<td><strong>Mean: 48.2 ; Median: 47 mph ; Mode: 47 mph</strong></td>
+</tr>
+<tr class="even">
+<td>How variable were the observed speeds?</td>
+<td>“Were vehicles traveling at similar speeds?”</td>
+<td>Dispersion (e.g., SD)</td>
+</tr>
+<tr class="odd">
+<td>What fraction of the sample was in a range?</td>
+<td>“What percentage of the 368 vehicles was 46–48 mph?”</td>
+<td>Relative frequency</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dispersion" class="slide level2 smaller">
+<h2>Dispersion</h2>
+<p><strong><u>Were observed vehicles traveling at similar speeds?</u></strong></p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li><strong>Range</strong>: Low to High values
+<ul>
+<li>From table, speed range is <span class="math inline">\(31\)</span>mph to <span class="math inline">\(67\)</span>mph</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="images/chap11/ch11_spdDistFreq.png"></p>
+</div></div>
+</section>
+<section id="dispersion-1" class="slide level2 smaller">
+<h2>Dispersion</h2>
+<p><strong><u>Were observed vehicles traveling at similar speeds?</u></strong></p>
+<ul>
+<li><strong>Standard Deviation (SD)</strong>:
+<ul>
+<li>how far data spread around the mean value</li>
+<li><span class="math inline">\(s = \sqrt{\frac{\sum_{i}(x_i - \bar{x})^2}{N-1}}\)</span></li>
+</ul></li>
+</ul>
 
-<img data-src="images/chap11/ch11_spdDistFreq.png" class="r-stretch"></section>
-<section id="frequency-distribution-3" class="slide level2">
-<h2>Frequency Distribution</h2>
+<img data-src="images/chap11/ch11_sdComp.png" class="r-stretch"></section>
+<section id="dispersion-2" class="slide level2 smaller">
+<h2>Dispersion</h2>
+<p><strong><u>Were observed vehicles traveling at similar speeds?</u></strong></p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li><strong>SD</strong> for grouped frequency
+<ul>
+<li><span class="math inline">\(sd = \sqrt{\frac{\sum_{i}n_iS_i^2 - N\bar{x}^2}{N-1}}\)</span><br>
+</li>
+<li><span class="math inline">\(sd = \sqrt{\frac{\sum_{i}868448 - 368 \times (48.2)^2}{368-1}}\)</span><br>
+</li>
+<li><span class="math inline">\(sd= 6.14\)</span> mph<br>
+</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="images/chap11/ch11_spdTableFull.png"></p>
+</div></div>
+</section>
+<section id="questions---answer-1" class="slide level2 smaller">
+<h2>Questions - Answer</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What did our observed vehicles do?</td>
+<td>“What was their average speed?”</td>
+<td><strong>Mean: 48.2 ; Median: 47 mph ; Mode: 47 mph</strong></td>
+</tr>
+<tr class="even">
+<td>How variable were the observed speeds?</td>
+<td>“Were vehicles traveling at similar speeds?”</td>
+<td><strong>range: (31 - 67)mph; sd = 6.14 mph</strong></td>
+</tr>
+<tr class="odd">
+<td>What fraction of the sample was in a range?</td>
+<td>“What percentage of the 368 vehicles was 46–48 mph?”</td>
+<td>Relative frequency</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="relative-frequency" class="slide level2 smaller">
+<h2>Relative Frequency</h2>
+<p><strong><u>What percentage of the 368 vehicles was 46–48 mph?</u></strong></p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>From Table, 65 out of 368 are in speed group (46-48] mph</li>
+<li>Relative frequency = <span class="math inline">\(\frac{65}{368} = 17.66\%\)</span></li>
+</ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="images/chap11/ch11_spdDistFreq.png"></p>
+</div></div>
+</section>
+<section id="relative-frequency-1" class="slide level2 smaller">
+<h2>Relative Frequency</h2>
+<p><strong><u>What percentage of the 368 vehicles speed was below 38 mph?</u></strong></p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>From Table, <span class="math inline">\(5+5+7 = 17\)</span> out of 368 are in below speed 38 mph</li>
+<li>Relative frequency = <span class="math inline">\(\frac{17}{368} = 4.62\%\)</span></li>
+<li>Alternatively see cumulative freq</li>
+</ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="images/chap11/ch11_spdDistFreq.png"></p>
+</div></div>
+</section>
+<section id="questions---answer-2" class="slide level2 smaller">
+<h2>Questions - Answer</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What did our observed vehicles do?</td>
+<td>“What was their average speed?”</td>
+<td><strong>Mean: 48.2 ; Median: 47 mph ; Mode: 47 mph</strong></td>
+</tr>
+<tr class="even">
+<td>How variable were the observed speeds?</td>
+<td>“Were vehicles traveling at similar speeds?”</td>
+<td><strong>range: (31 - 67)mph; sd = 6.14 mph</strong></td>
+</tr>
+<tr class="odd">
+<td>What fraction of the sample was in a range?</td>
+<td>“What percentage of the 368 vehicles was 46–48 mph?”</td>
+<td><strong><span class="math inline">\(17.66\%\)</span></strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="questions---prediction" class="slide level2">
+<h2>Questions - Prediction</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What may happen for a future vehicle?</td>
+<td>“What is the chance a vehicle exceeds 50 mph?”</td>
+<td>PDF/CDF or Normal distribution</td>
+</tr>
+<tr class="even">
+<td>What may happen in a future group?</td>
+<td>“How many of the next 10 vehicles may exceed 50 mph?”</td>
+<td>Binomial distribution</td>
+</tr>
+<tr class="odd">
+<td>How many vehicles may arrive in a time interval?</td>
+<td>“How many accidents in a given day?”</td>
+<td>Poisson distribution</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frequency-histogram" class="slide level2">
+<h2>Frequency Histogram</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="images/chap11/ch11_spdHist.png"></p>
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/chap11/ch11_spdDistFreq.png"></p>
+</div></div>
+</section>
+<section id="relative-frequency-histogram" class="slide level2">
+<h2>Relative Frequency Histogram</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="images/chap11/ch11_spdFreqPlot.png"></p>
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/chap11/ch11_spdHist.png"> <img data-src="images/chap11/ch11_spdDistFreq.png"></p>
+</div></div>
+</section>
+<section id="probability" class="slide level2 smaller">
+<h2>Probability</h2>
+<p><strong><u>What is the chance a vehicle exceeds 50 mph??</u></strong></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Observed Data
+<ul>
+<li>Number of veh exceed 50 mph is 133</li>
+<li>P(speed &gt; 50 mph) = <span class="math inline">\(133 / 165 = 0.361\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap11/ch11_spdHist.png"></p>
+</div></div>
+</section>
+<section id="probability-1" class="slide level2 smaller">
+<h2>Probability</h2>
+<p><strong><u>What is the chance a vehicle exceeds 50 mph??</u></strong></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Using Relative Freq.
+<ul>
+<li>Add relative freq above 50 mph</li>
+<li>P(speed &gt; 50 mph) = 0.361$</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap11/ch11_spdFreqPlot.png"></p>
+</div></div>
+</section>
+<section id="probability-distribution" class="slide level2 smaller scrollable">
+<h2>Probability Distribution</h2>
+<p><strong><u>What is the chance a vehicle exceeds 50 mph??</u></strong></p>
+<ul>
+<li>Assume that the speed data follows a Normal Distribution<sup>1</sup>
+<ul>
+<li>Let, <span class="math inline">\(X\)</span> = speed of randomly selected vehicle (<mark>Continuous RV</mark>)</li>
+<li><span class="math inline">\(\bar{x}=48.20 mph\)</span></li>
+<li><span class="math inline">\(s.d. = 6.10 mph\)</span></li>
+<li><span class="math inline">\(X \sim \mathcal{N}(\mu = 48.20, \sigma = 6.10)\)</span></li>
+<li><span class="math inline">\(X \sim \mathcal{N}(\mu = 48.20, \sigma^2 = 6.10^2)\)</span></li>
+</ul></li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://mabognar.github.io/apps/normal.html">Normal Distribution</a></p></li></ol></aside></section>
+<section id="probability-distribution-1" class="slide level2 smaller">
+<h2>Probability Distribution</h2>
+<p><strong><u>What is the chance a vehicle exceeds 50 mph??</u></strong></p>
+<aside class="notes">
+<p><a href="https://probabilityplayground.com/binomial.html">Probability Distribution</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<ul>
+<li>What is the chance a vehicle speed (<span class="math inline">\(\mathcal{X}\)</span>) exceeds 50 mph (<span class="math inline">\(x\)</span>)??</li>
+<li><span class="math inline">\(P(\mathcal{X}&gt;x) = P(\mathcal{X}&gt;50mph) = ?\)</span>
+<ul>
+<li>Using app, <span class="math inline">\(P(X&gt;50) = 0.384\)</span> very close to previous <span class="math inline">\(0.361\)</span></li>
+</ul></li>
+<li>Standard Normal Distribution: <span class="math inline">\(\sim \mathcal{N}(\mu = 0, \sigma = 1)\)</span></li>
+<li>How to convert?
+<ul>
+<li><span class="math inline">\(\mathcal{X} \sim \mathcal{N}(\mu = 48.20, \sigma = 6.10)\)</span> <span class="math inline">\(\to\)</span> <span class="math inline">\(\mathcal{Z} \sim \mathcal{N}(\mu = 0, \sigma = 1)\)</span></li>
+<li><span class="math inline">\(z= \frac{x- \mu}{\sigma}\)</span></li>
+<li><span class="math inline">\(z= \frac{50- 48.20}{6.10}\)</span></li>
+<li><span class="math inline">\(z= 0.295\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="probability-distribution-2" class="slide level2 smaller scrollable">
+<h2>Probability Distribution</h2>
+<p><strong><u>What is the chance a vehicle exceeds 50 mph??</u></strong></p>
+<aside class="notes">
+<p><a href="https://probabilityplayground.com/binomial.html">Probability Distribution</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<ul>
+<li>What is the chance a vehicle speed (<span class="math inline">\(\mathcal{X}\)</span>) exceeds 50 mph (<span class="math inline">\(x\)</span>)??</li>
+<li><span class="math inline">\(P(\mathcal{X}&gt;50) = P(\mathcal{Z}&gt;0.295) = ?\)</span>
+<ul>
+<li>From table<sup>1</sup>, <span class="math inline">\(P(\mathcal{Z}&lt;0.295) = 0.614\)</span></li>
+<li><span class="math inline">\(P(\mathcal{Z}&gt;0.295) = 1 - P(\mathcal{Z}&lt;0.295) = 0.386\)</span></li>
+<li>very close to previous <span class="math inline">\(0.361\)</span></li>
+</ul></li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn2"><p><a href="https://archive.math.arizona.edu/rsims/ma464/standardnormaltable.pdf">Normal Table</a></p></li></ol></aside></section>
+<section id="questions---prediction-answer" class="slide level2">
+<h2>Questions - Prediction Answer</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What may happen for a future vehicle?</td>
+<td>“What is the chance a vehicle exceeds 50 mph?”</td>
+<td><strong>0.386</strong></td>
+</tr>
+<tr class="even">
+<td>What may happen in a future group?</td>
+<td>“How many of the next 10 vehicles may exceed 50 mph?”</td>
+<td>Binomial distribution</td>
+</tr>
+<tr class="odd">
+<td>How many vehicles may arrive in a time interval?</td>
+<td>“How many accidents in a given day?”</td>
+<td>Poisson distribution</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="probability-distribution-3" class="slide level2 smaller">
+<h2>Probability Distribution</h2>
+<p><strong><u>what is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?</u></strong></p>
+<ul>
+<li><span class="math inline">\(\mathcal{X}\)</span> =number of vehicles, among the next 10, traveling at least 50 mph (<mark>Discrete RV</mark>)
+<ul>
+<li>Assume, <span class="math inline">\(\mathcal{X} \sim Binomial(n,p)\)</span></li>
+<li><span class="math inline">\(P(X) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\)</span>
+<ul>
+<li><span class="math inline">\(n\)</span> = total number observations</li>
+<li><span class="math inline">\(p\)</span> = probability of success on a single experiment</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="probability-distribution-4" class="slide level2 smaller">
+<h2>Probability Distribution</h2>
+<p><strong><u>what is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?</u></strong></p>
+<ul>
+<li><span class="math inline">\(\mathcal{X}\)</span> =number of vehicles (<span class="math inline">\(x\)</span>), among the next 10, traveling at least 50 mph (<mark>Discrete RV</mark>)</li>
+<li><span class="math inline">\(P(X=x) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\)</span>
+<ul>
+<li><span class="math inline">\(x = 4\)</span></li>
+<li><span class="math inline">\(n = 10\)</span></li>
+<li>From Observed data: <span class="math inline">\(P(speed &gt; 50mph) = p = 0.361\)</span></li>
+</ul></li>
+<li><span class="math inline">\(P(\mathcal{X}=4) = \frac{10!}{10!(10-4)!} 0.361^4 \times (1-0.361)^{10-4}\)</span></li>
+<li><span class="math inline">\(P(\mathcal{X}=4) = 0.243\)</span></li>
+</ul>
+</section>
+<section id="questions---prediction-answer-1" class="slide level2 smaller">
+<h2>Questions - Prediction Answer</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What may happen for a future vehicle?</td>
+<td>“What is the chance a vehicle exceeds 50 mph?”</td>
+<td><strong>0.386</strong></td>
+</tr>
+<tr class="even">
+<td>What may happen in a future group?</td>
+<td>“How many of the next 10 vehicles may exceed 50 mph?”</td>
+<td><strong>0.243</strong></td>
+</tr>
+<tr class="odd">
+<td>How many vehicles may arrive in a time interval?</td>
+<td>“How many accidents in a given day?”</td>
+<td>Poisson distribution</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="probability-distribution-5" class="slide level2 smaller">
+<h2>Probability Distribution</h2>
+<p><strong><u>At a particular interchange, the average number of accidents per day is 5. Assuming the number of accidents at this location is Poisson distributed, what is the probability that the number of accidents is less than 3 on a given day? </u></strong></p>
+<ul>
+<li>Assume, <span class="math inline">\(\mathcal{X} \sim Poisson(\lambda,x)\)</span>
+<ul>
+<li><span class="math inline">\(P(\mathcal{X}=x) = \frac{(\lambda t)^x e^{-\lambda t}}{x!}\)</span>
+<ul>
+<li><span class="math inline">\(P(\mathcal{X}=x)\)</span> = The probability of x successes.</li>
+<li><span class="math inline">\(\lambda\)</span>= The average or mean number of events in the given interval.</li>
+<li><span class="math inline">\(t\)</span> = given interval</li>
+<li><span class="math inline">\(e\)</span> = <span class="math inline">\(2.71828\)</span></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="probability-distribution-6" class="slide level2 smaller">
+<h2>Probability Distribution</h2>
+<p><strong><u>At a particular interchange, the average number of accidents per day is 5. Assuming the number of accidents at this location is Poisson distributed, what is the probability that the number of accidents is less than 3 on a given day? </u></strong></p>
+<ul>
+<li>Let, <span class="math inline">\(\mathcal{X}\)</span> = number of accidents
+<ul>
+<li><span class="math inline">\(P(\mathcal{X} &lt; x) = \frac{(\lambda t)^x e^{-\lambda t}}{x!}\)</span>
+<ul>
+<li><span class="math inline">\(P(\mathcal{X} &lt; 3)\)</span> = The probability of less than (x=) 3 accident.</li>
+<li><span class="math inline">\(\lambda= 5\)</span> accidents / day.</li>
+<li><span class="math inline">\(t = 1\)</span> day</li>
+<li><span class="math inline">\(\lambda t = 5\)</span></li>
+<li><span class="math inline">\(e\)</span> = <span class="math inline">\(2.71828\)</span></li>
+</ul></li>
+</ul></li>
+<li><span class="math inline">\(P(\mathcal{X} &lt; 3) = P(\mathcal{X} = 0) + P(\mathcal{X} = 1) +P(\mathcal{X} = 2)\)</span></li>
+<li><span class="math inline">\(P(\mathcal{X} &lt; 3) = \frac{(5)^0 e^{-5}}{0!} + \frac{(5)^1 e^{-5}}{1!}+ \frac{(5)^2 e^{-5}}{2!}\)</span></li>
+<li><span class="math inline">\(P(\mathcal{X} &lt; 3) = 0.12465\)</span></li>
+</ul>
+</section>
+<section id="questions---prediction-answer-2" class="slide level2 smaller">
+<h2>Questions - Prediction Answer</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 40%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of question</th>
+<th>Example</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What may happen for a future vehicle?</td>
+<td>“What is the chance a vehicle exceeds 50 mph?”</td>
+<td><strong>0.386</strong></td>
+</tr>
+<tr class="even">
+<td>What may happen in a future group?</td>
+<td>“How many of the next 10 vehicles may exceed 50 mph?”</td>
+<td><strong>0.243</strong></td>
+</tr>
+<tr class="odd">
+<td>How many vehicles may arrive in a time interval?</td>
+<td>“How many accidents in a given day?”</td>
+<td><strong>0.125</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="normal-distribution" class="slide level2 smaller">
+<h2>Normal Distribution</h2>
+<p><strong><u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u></strong></p>
+<ul>
+<li><a href="https://mabognar.github.io/apps/normal.html">Normal Distribution</a><br>
+</li>
+<li>PDF of <span class="math inline">\(\mathcal{N}\)</span>, <span class="math inline">\(f(x) = \frac{1}{\sigma \sqrt{2 \pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\)</span></li>
+<li>Let, <span class="math inline">\(\mathcal{X}\)</span> = Speed of the vehicle
+<ul>
+<li><span class="math inline">\(\mathcal{X} \sim \mathcal{N}(55,7^2)\)</span><br>
+</li>
+<li><span class="math inline">\(P(X \le 65) = \int_{\infty}^{65} f(x) \, dx\)</span><br>
+</li>
+<li><span class="math inline">\(P(X \le 65) = \int_{\infty}^{65} \frac{1}{7 \sqrt{2 \pi}}e^{\frac{-(x-55)^2}{2 \times 7^2}} \, dx\)</span></li>
+<li><span class="math inline">\(P(X \le 65)\)</span> = Area under the curve</li>
+<li><span class="math inline">\(P(X \le 65) = 0.9234\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="normal-distribution-1" class="slide level2 smaller">
+<h2>Normal Distribution</h2>
+<p><strong><u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u></strong></p>
+<ul>
+<li><a href="https://mabognar.github.io/apps/normal.html">Normal Distribution</a><br>
+</li>
+<li>PDF of <span class="math inline">\(\mathcal{N}\)</span>, <span class="math inline">\(f(x) = \frac{1}{\sigma \sqrt{2 \pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\)</span></li>
+<li>Let, <span class="math inline">\(\mathcal{X}\)</span> = Speed of the vehicle
+<ul>
+<li><span class="math inline">\(\mathcal{X} \sim \mathcal{N}(55,7^2)\)</span><br>
+</li>
+<li><span class="math inline">\(P(45 \le X \le 65) = \int_{45}^{65} f(x) \, dx\)</span><br>
+</li>
+<li><span class="math inline">\(P(45 \le X \le 65) = 0.9234 - 0.0765\)</span></li>
+<li><span class="math inline">\(P(X \le 65) = 0.8469\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="confidence-interval" class="slide level2">
+<h2>Confidence Interval</h2>
+<ul>
+<li>The confidence interval gives a range of values within which the true population value falls.</li>
+<li>A 95% interval means that we are 95% confident that the population mean is in the interval. <span class="math inline">\(\alpha = 0.95\)</span></li>
+<li>The confidence interval is computed as follows: <span class="math display">\[C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\]</span></li>
+</ul>
+</section>
+<section id="confidence-interval-1" class="slide level2 smaller scrollable">
+<h2>Confidence Interval</h2>
+<p><strong><u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u></strong></p>
+<ul>
+<li><span class="math inline">\(C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\)</span>
+<ul>
+<li><span class="math inline">\(\alpha\)</span> = area under the curve in standard normal dist.</li>
+<li><span class="math inline">\(\alpha / 2 = 0.95/2 = 0.975\)</span></li>
+<li>From Table<sup>1</sup> <span class="math inline">\(\mathcal{Z}_{\alpha/2}= 1.96\)</span></li>
+<li><span class="math inline">\(C.I. = 55 \pm 1.96 \frac{7}{\sqrt{100}}\)</span></li>
+<li><span class="math inline">\(C.I. = (53.628, 56.37)\)</span></li>
+</ul></li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn3"><p><a href="https://archive.math.arizona.edu/rsims/ma464/standardnormaltable.pdf">Normal Table</a></p></li></ol></aside></section>
+<section id="min-sample-size" class="slide level2">
+<h2>Min Sample Size</h2>
+<p><strong><u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u></strong></p>
+<ul>
+<li>If the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:</li>
+<li><span class="math inline">\(n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span>
+<ul>
+<li><span class="math inline">\(e\)</span> = error tolerance</li>
+</ul></li>
+</ul>
+</section>
+<section id="min-sample-size-1" class="slide level2">
+<h2>Min Sample Size</h2>
+<p><strong><u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7. , If the desired CI is 95% what is the sample size needed where the sample mean is within 1 mi/hr of the true population mean ?</u></strong></p>
+<ul>
+<li><span class="math inline">\(n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span></li>
+<li><span class="math inline">\(n \ge (\frac{1.96 \times 7}{1})^2\)</span></li>
+<li><span class="math inline">\(n \ge 188\)</span></li>
+</ul>
 
-<img data-src="images/chap11/ch11_spdDistCurve.png" class="r-stretch"></section>
-<section id="frequency-distribution-4" class="slide level2">
-<h2>Frequency Distribution</h2>
 
+</section></section>
 
-
-<img data-src="images/chap11/ch11_spdCumulDistCurve.png" class="r-stretch"></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

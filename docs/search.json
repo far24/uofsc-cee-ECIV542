@@ -400,111 +400,46 @@
     "text": "Team Scoreboard\n\n\n\n\n\n\n\nTeam Name\nTotal Points\n\n\n\n\nRow 1\n\n\n\nRow 2\n\n\n\nRow 3\n\n\n\nRow 4"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "What is Traffic Engineering?",
-    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Primary Objective: SAFETY",
-    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Mobility vs. Accessibility",
-    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
-    "href": "lecture/introTrafficEngr.html#transportation-modes",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Transportation Modes",
-    "text": "Transportation Modes"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#section",
-    "href": "lecture/introTrafficEngr.html#section",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "objectID": "lecture/ch11spdDataAnalysis.html",
+    "href": "lecture/ch11spdDataAnalysis.html",
+    "title": "Analysis of Spot Speed Data",
     "section": "",
-    "text": "What’s Missing?"
+    "text": "Central Tendency\n\nMean: sum of observed values (speed) divided by number of obs\nMedian: value (speed) that divides the data into equal parts\nMode: value at which most number of observations occur\nPace: a 10 mph block of max observation\n\nDispersion\n\nstandard deviation"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Elements of Traffic Engineering",
-    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+    "objectID": "lecture/ch11spdDataAnalysis.html#mean",
+    "href": "lecture/ch11spdDataAnalysis.html#mean",
+    "title": "Analysis of Spot Speed Data",
+    "section": "Mean",
+    "text": "Mean\n\nSum number of observation in groups, \\(\\sum{n_iS_i}\\)\nThe total number of vehicle, \\(N\\) *\nmean, \\(\\bar{x} = \\frac{\\sum{n_iS_i}}{N}\\)\n\n\\(N = 368\\)\n\\(\\sum{n_iS_i} = 1.7736\\times 10^{4}\\)\n\\(\\bar{x} = \\frac{1.7736\\times 10^{4}}{368} = 48.2\\) mph"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Modern Problems for the Traffic Engineer",
-    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
+    "objectID": "lecture/ch11spdDataAnalysis.html#meadian",
+    "href": "lecture/ch11spdDataAnalysis.html#meadian",
+    "title": "Analysis of Spot Speed Data",
+    "section": "Meadian",
+    "text": "Meadian\n\nspeed that divides the distribution into equal parts\n\nthere are as many observations of speeds higher than the median as there are lower than the median\n\n\\(N/2=368/2=184\\) th observation divides the data into equal parts\nor, the speed at which \\(50%\\) cumulative frequency is found\nFrom the table, \\(P_{50} = 47\\) mph"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Key Manuals and References",
-    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
+    "objectID": "lecture/ch11spdDataAnalysis.html#mode",
+    "href": "lecture/ch11spdDataAnalysis.html#mode",
+    "title": "Analysis of Spot Speed Data",
+    "section": "Mode",
+    "text": "Mode\n\nSpeed at which max observation occurs\nFrom Table: max observation is \\(65\\) at speed \\(47\\) mph\nMode: \\(47\\) mph"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
+    "objectID": "lecture/ch11spdDataAnalysis.html#low-speed-and-high-speed",
+    "href": "lecture/ch11spdDataAnalysis.html#low-speed-and-high-speed",
+    "title": "Analysis of Spot Speed Data",
+    "section": "Low Speed and High Speed",
+    "text": "Low Speed and High Speed\n\nSpeed at which 15% drivers are driving\nFrom Table: 15% occurs between speed \\(41\\) and \\(43\\) mph; mean \\(42\\) mph\nFrom the table, \\(P_{15} = 42\\) mph\nSpeed at which 85% drivers are driving\nFrom Table: 85% occurs between speed \\(53\\) and \\(55\\) mph; mean \\(54\\) mph\nFrom the table, \\(P_{85} = 54\\) mph"
   },
   {
-    "objectID": "index.html#updates",
-    "href": "index.html#updates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#due-dates",
-    "href": "index.html#due-dates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "Due Dates",
-    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 10:59AM\nHW\n#1\nSee BlackBoard\n\n\nSep 23, 2026 10:59AM\nProject\nTech Memo 1\nSee Blackboard\n\n\nOct 12, 2026 11:00AM\nExam\n#1\nIn-class\n\n\nDec 11, 2026 07:30PM\nExam\n#2\nIn-class",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#resources",
-    "href": "index.html#resources",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "Resources",
-    "text": "Resources\n\nHW Submisstion Template",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "lecture/ch11spdDataAnalysis.html#graphical-approach-median-mode-pace",
+    "href": "lecture/ch11spdDataAnalysis.html#graphical-approach-median-mode-pace",
+    "title": "Analysis of Spot Speed Data",
+    "section": "Graphical Approach: Median, Mode, Pace",
+    "text": "Graphical Approach: Median, Mode, Pace"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
@@ -736,6 +671,113 @@
     "title": "Ch 4. Traffic Control Devices",
     "section": "16) What does green arrow signal indication communicate?\n ",
     "text": "16) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#due-dates",
+    "href": "index.html#due-dates",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "Due Dates",
+    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 10:59AM\nHW\n#1\nSee BlackBoard\n\n\nSep 23, 2026 10:59AM\nProject\nTech Memo 1\nSee Blackboard\n\n\nOct 12, 2026 11:00AM\nExam\n#1\nIn-class\n\n\nDec 11, 2026 07:30PM\nExam\n#2\nIn-class",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "section": "Resources",
+    "text": "Resources\n\nHW Submisstion Template",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "What is Traffic Engineering?",
+    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Primary Objective: SAFETY",
+    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Mobility vs. Accessibility",
+    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
+    "href": "lecture/introTrafficEngr.html#transportation-modes",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Transportation Modes",
+    "text": "Transportation Modes"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#section",
+    "href": "lecture/introTrafficEngr.html#section",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "",
+    "text": "What’s Missing?"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Elements of Traffic Engineering",
+    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Modern Problems for the Traffic Engineer",
+    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Key Manuals and References",
+    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
   },
   {
     "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",
@@ -1529,39 +1571,249 @@
     "text": "Speed Data"
   },
   {
-    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution",
-    "href": "lecture/ch11StatsInTransp.html#frequency-distribution",
+    "objectID": "lecture/ch11StatsInTransp.html#questions",
+    "href": "lecture/ch11StatsInTransp.html#questions",
     "title": "Ch 11. Statistical Application in Transportation",
-    "section": "Frequency Distribution",
-    "text": "Frequency Distribution"
+    "section": "Questions",
+    "text": "Questions\n\n\nQuestions\n\nObserved Data (sample)\n\n\nFuture Events"
   },
   {
-    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-1",
-    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-1",
+    "objectID": "lecture/ch11StatsInTransp.html#questions---observed-data",
+    "href": "lecture/ch11StatsInTransp.html#questions---observed-data",
     "title": "Ch 11. Statistical Application in Transportation",
-    "section": "Frequency Distribution",
-    "text": "Frequency Distribution"
+    "section": "Questions - Observed Data",
+    "text": "Questions - Observed Data\n\n\n\n\n\n\n\n\nType of question\nExample\nTool\n\n\n\n\nWhat did our observed vehicles do?\n“What was their average speed?”\nCentral Tendency (e.g., Mean)\n\n\nHow variable were the observed speeds?\n“Were vehicles traveling at similar speeds?”\nDispersion (e.g., SD)\n\n\nWhat fraction of the sample was in a range?\n“What percentage of the 368 vehicles was 46–48 mph?”\nRelative frequency"
   },
   {
-    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-2",
-    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-2",
+    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-table",
+    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-table",
     "title": "Ch 11. Statistical Application in Transportation",
-    "section": "Frequency Distribution",
-    "text": "Frequency Distribution"
+    "section": "Frequency Distribution Table",
+    "text": "Frequency Distribution Table"
   },
   {
-    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-3",
-    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-3",
+    "objectID": "lecture/ch11StatsInTransp.html#central-tendency",
+    "href": "lecture/ch11StatsInTransp.html#central-tendency",
     "title": "Ch 11. Statistical Application in Transportation",
-    "section": "Frequency Distribution",
-    "text": "Frequency Distribution"
+    "section": "Central Tendency",
+    "text": "Central Tendency\nWhat was the observed average speed?\n\n\n\nMean: sum of observed values (speed) divided by number of obs\n\nMean, \\(\\bar{x} = \\frac{\\sum{n_iS_i}}{N}\\)\n\n\\(\\bar{x} = \\frac{17736}{368}\\)\n\\(\\bar{x} = 48.2 mph\\)\n\n\n\n\n\n\nOn an average, the observed vehicles are traveling at 48.2 mph"
   },
   {
-    "objectID": "lecture/ch11StatsInTransp.html#frequency-distribution-4",
-    "href": "lecture/ch11StatsInTransp.html#frequency-distribution-4",
+    "objectID": "lecture/ch11StatsInTransp.html#central-tendency-1",
+    "href": "lecture/ch11StatsInTransp.html#central-tendency-1",
     "title": "Ch 11. Statistical Application in Transportation",
-    "section": "Frequency Distribution",
-    "text": "Frequency Distribution"
+    "section": "Central Tendency",
+    "text": "Central Tendency\nWhat was the speed certain portion of veh travelling?\n\n\n\nMedian: 50%\n\nSpeed at \\(N/2 = 184\\)th vehicle (ordered data)\nFrom Table, between \\(45\\)mph and \\(47\\)mph,\nAvg \\(46\\)mph\n\n\n\n\n\n\nHalf of the observed vehicles are traveling at 47 mph lower or higher."
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#central-tendency-2",
+    "href": "lecture/ch11StatsInTransp.html#central-tendency-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Central Tendency",
+    "text": "Central Tendency\nWhat was the speed majority veh travelling?\n\n\n\nMode: Most frequent speed\n\nFrom Table, highest freq(65) occurs at speed \\(47\\)mph,\nMode: \\(46\\)mph\n\n\n\n\n\n\nMajority of observed vehicles are traveling at 47 mph."
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#questions---answer",
+    "href": "lecture/ch11StatsInTransp.html#questions---answer",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Questions - Answer",
+    "text": "Questions - Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nAnswer\n\n\n\n\nWhat did our observed vehicles do?\n“What was their average speed?”\nMean: 48.2 ; Median: 47 mph ; Mode: 47 mph\n\n\nHow variable were the observed speeds?\n“Were vehicles traveling at similar speeds?”\nDispersion (e.g., SD)\n\n\nWhat fraction of the sample was in a range?\n“What percentage of the 368 vehicles was 46–48 mph?”\nRelative frequency"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#dispersion",
+    "href": "lecture/ch11StatsInTransp.html#dispersion",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Dispersion",
+    "text": "Dispersion\nWere observed vehicles traveling at similar speeds?\n\n\n\nRange: Low to High values\n\nFrom table, speed range is \\(31\\)mph to \\(67\\)mph"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#dispersion-1",
+    "href": "lecture/ch11StatsInTransp.html#dispersion-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Dispersion",
+    "text": "Dispersion\nWere observed vehicles traveling at similar speeds?\n\nStandard Deviation (SD):\n\nhow far data spread around the mean value\n\\(s = \\sqrt{\\frac{\\sum_{i}(x_i - \\bar{x})^2}{N-1}}\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#dispersion-2",
+    "href": "lecture/ch11StatsInTransp.html#dispersion-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Dispersion",
+    "text": "Dispersion\nWere observed vehicles traveling at similar speeds?\n\n\n\nSD for grouped frequency\n\n\\(sd = \\sqrt{\\frac{\\sum_{i}n_iS_i^2 - N\\bar{x}^2}{N-1}}\\)\n\n\\(sd = \\sqrt{\\frac{\\sum_{i}868448 - 368 \\times (48.2)^2}{368-1}}\\)\n\n\\(sd= 6.14\\) mph"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#questions---answer-1",
+    "href": "lecture/ch11StatsInTransp.html#questions---answer-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Questions - Answer",
+    "text": "Questions - Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nAnswer\n\n\n\n\nWhat did our observed vehicles do?\n“What was their average speed?”\nMean: 48.2 ; Median: 47 mph ; Mode: 47 mph\n\n\nHow variable were the observed speeds?\n“Were vehicles traveling at similar speeds?”\nrange: (31 - 67)mph; sd = 6.14 mph\n\n\nWhat fraction of the sample was in a range?\n“What percentage of the 368 vehicles was 46–48 mph?”\nRelative frequency"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#relative-frequency",
+    "href": "lecture/ch11StatsInTransp.html#relative-frequency",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Relative Frequency",
+    "text": "Relative Frequency\nWhat percentage of the 368 vehicles was 46–48 mph?\n\n\n\nFrom Table, 65 out of 368 are in speed group (46-48] mph\nRelative frequency = \\(\\frac{65}{368} = 17.66\\%\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#relative-frequency-1",
+    "href": "lecture/ch11StatsInTransp.html#relative-frequency-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Relative Frequency",
+    "text": "Relative Frequency\nWhat percentage of the 368 vehicles speed was below 38 mph?\n\n\n\nFrom Table, \\(5+5+7 = 17\\) out of 368 are in below speed 38 mph\nRelative frequency = \\(\\frac{17}{368} = 4.62\\%\\)\nAlternatively see cumulative freq"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#questions---answer-2",
+    "href": "lecture/ch11StatsInTransp.html#questions---answer-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Questions - Answer",
+    "text": "Questions - Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nAnswer\n\n\n\n\nWhat did our observed vehicles do?\n“What was their average speed?”\nMean: 48.2 ; Median: 47 mph ; Mode: 47 mph\n\n\nHow variable were the observed speeds?\n“Were vehicles traveling at similar speeds?”\nrange: (31 - 67)mph; sd = 6.14 mph\n\n\nWhat fraction of the sample was in a range?\n“What percentage of the 368 vehicles was 46–48 mph?”\n\\(17.66\\%\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#questions---prediction",
+    "href": "lecture/ch11StatsInTransp.html#questions---prediction",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Questions - Prediction",
+    "text": "Questions - Prediction\n\n\n\n\n\n\n\n\nType of question\nExample\nTool\n\n\n\n\nWhat may happen for a future vehicle?\n“What is the chance a vehicle exceeds 50 mph?”\nPDF/CDF or Normal distribution\n\n\nWhat may happen in a future group?\n“How many of the next 10 vehicles may exceed 50 mph?”\nBinomial distribution\n\n\nHow many vehicles may arrive in a time interval?\n“How many accidents in a given day?”\nPoisson distribution"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#frequency-histogram",
+    "href": "lecture/ch11StatsInTransp.html#frequency-histogram",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Frequency Histogram",
+    "text": "Frequency Histogram"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#relative-frequency-histogram",
+    "href": "lecture/ch11StatsInTransp.html#relative-frequency-histogram",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Relative Frequency Histogram",
+    "text": "Relative Frequency Histogram"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability",
+    "href": "lecture/ch11StatsInTransp.html#probability",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability",
+    "text": "Probability\nWhat is the chance a vehicle exceeds 50 mph??\n\n\n\nObserved Data\n\nNumber of veh exceed 50 mph is 133\nP(speed &gt; 50 mph) = \\(133 / 165 = 0.361\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-1",
+    "href": "lecture/ch11StatsInTransp.html#probability-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability",
+    "text": "Probability\nWhat is the chance a vehicle exceeds 50 mph??\n\n\n\nUsing Relative Freq.\n\nAdd relative freq above 50 mph\nP(speed &gt; 50 mph) = 0.361$"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-distribution",
+    "href": "lecture/ch11StatsInTransp.html#probability-distribution",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability Distribution",
+    "text": "Probability Distribution\nWhat is the chance a vehicle exceeds 50 mph??\n\nAssume that the speed data follows a Normal Distribution1\n\nLet, \\(X\\) = speed of randomly selected vehicle (Continuous RV)\n\\(\\bar{x}=48.20 mph\\)\n\\(s.d. = 6.10 mph\\)\n\\(X \\sim \\mathcal{N}(\\mu = 48.20, \\sigma = 6.10)\\)\n\\(X \\sim \\mathcal{N}(\\mu = 48.20, \\sigma^2 = 6.10^2)\\)\n\n\nNormal Distribution"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-1",
+    "href": "lecture/ch11StatsInTransp.html#probability-distribution-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability Distribution",
+    "text": "Probability Distribution\nWhat is the chance a vehicle exceeds 50 mph??\n\nProbability Distribution\n\n\nWhat is the chance a vehicle speed (\\(\\mathcal{X}\\)) exceeds 50 mph (\\(x\\))??\n\\(P(\\mathcal{X}&gt;x) = P(\\mathcal{X}&gt;50mph) = ?\\)\n\nUsing app, \\(P(X&gt;50) = 0.384\\) very close to previous \\(0.361\\)\n\nStandard Normal Distribution: \\(\\sim \\mathcal{N}(\\mu = 0, \\sigma = 1)\\)\nHow to convert?\n\n\\(\\mathcal{X} \\sim \\mathcal{N}(\\mu = 48.20, \\sigma = 6.10)\\) \\(\\to\\) \\(\\mathcal{Z} \\sim \\mathcal{N}(\\mu = 0, \\sigma = 1)\\)\n\\(z= \\frac{x- \\mu}{\\sigma}\\)\n\\(z= \\frac{50- 48.20}{6.10}\\)\n\\(z= 0.295\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-2",
+    "href": "lecture/ch11StatsInTransp.html#probability-distribution-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability Distribution",
+    "text": "Probability Distribution\nWhat is the chance a vehicle exceeds 50 mph??\n\nProbability Distribution\n\n\nWhat is the chance a vehicle speed (\\(\\mathcal{X}\\)) exceeds 50 mph (\\(x\\))??\n\\(P(\\mathcal{X}&gt;50) = P(\\mathcal{Z}&gt;0.295) = ?\\)\n\nFrom table1, \\(P(\\mathcal{Z}&lt;0.295) = 0.614\\)\n\\(P(\\mathcal{Z}&gt;0.295) = 1 - P(\\mathcal{Z}&lt;0.295) = 0.386\\)\nvery close to previous \\(0.361\\)\n\n\nNormal Table"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#questions---prediction-answer",
+    "href": "lecture/ch11StatsInTransp.html#questions---prediction-answer",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Questions - Prediction Answer",
+    "text": "Questions - Prediction Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nTool\n\n\n\n\nWhat may happen for a future vehicle?\n“What is the chance a vehicle exceeds 50 mph?”\n0.386\n\n\nWhat may happen in a future group?\n“How many of the next 10 vehicles may exceed 50 mph?”\nBinomial distribution\n\n\nHow many vehicles may arrive in a time interval?\n“How many accidents in a given day?”\nPoisson distribution"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-3",
+    "href": "lecture/ch11StatsInTransp.html#probability-distribution-3",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability Distribution",
+    "text": "Probability Distribution\nwhat is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?\n\n\\(\\mathcal{X}\\) =number of vehicles, among the next 10, traveling at least 50 mph (Discrete RV)\n\nAssume, \\(\\mathcal{X} \\sim Binomial(n,p)\\)\n\\(P(X) = \\frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\\)\n\n\\(n\\) = total number observations\n\\(p\\) = probability of success on a single experiment"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-4",
+    "href": "lecture/ch11StatsInTransp.html#probability-distribution-4",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability Distribution",
+    "text": "Probability Distribution\nwhat is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?\n\n\\(\\mathcal{X}\\) =number of vehicles (\\(x\\)), among the next 10, traveling at least 50 mph (Discrete RV)\n\\(P(X=x) = \\frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\\)\n\n\\(x = 4\\)\n\\(n = 10\\)\nFrom Observed data: \\(P(speed &gt; 50mph) = p = 0.361\\)\n\n\\(P(\\mathcal{X}=4) = \\frac{10!}{10!(10-4)!} 0.361^4 \\times (1-0.361)^{10-4}\\)\n\\(P(\\mathcal{X}=4) = 0.243\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#questions---prediction-answer-1",
+    "href": "lecture/ch11StatsInTransp.html#questions---prediction-answer-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Questions - Prediction Answer",
+    "text": "Questions - Prediction Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nTool\n\n\n\n\nWhat may happen for a future vehicle?\n“What is the chance a vehicle exceeds 50 mph?”\n0.386\n\n\nWhat may happen in a future group?\n“How many of the next 10 vehicles may exceed 50 mph?”\n0.243\n\n\nHow many vehicles may arrive in a time interval?\n“How many accidents in a given day?”\nPoisson distribution"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-5",
+    "href": "lecture/ch11StatsInTransp.html#probability-distribution-5",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability Distribution",
+    "text": "Probability Distribution\nAt a particular interchange, the average number of accidents per day is 5. Assuming the number of accidents at this location is Poisson distributed, what is the probability that the number of accidents is less than 3 on a given day? \n\nAssume, \\(\\mathcal{X} \\sim Poisson(\\lambda,x)\\)\n\n\\(P(\\mathcal{X}=x) = \\frac{(\\lambda t)^x e^{-\\lambda t}}{x!}\\)\n\n\\(P(\\mathcal{X}=x)\\) = The probability of x successes.\n\\(\\lambda\\)= The average or mean number of events in the given interval.\n\\(t\\) = given interval\n\\(e\\) = \\(2.71828\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-6",
+    "href": "lecture/ch11StatsInTransp.html#probability-distribution-6",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Probability Distribution",
+    "text": "Probability Distribution\nAt a particular interchange, the average number of accidents per day is 5. Assuming the number of accidents at this location is Poisson distributed, what is the probability that the number of accidents is less than 3 on a given day? \n\nLet, \\(\\mathcal{X}\\) = number of accidents\n\n\\(P(\\mathcal{X} &lt; x) = \\frac{(\\lambda t)^x e^{-\\lambda t}}{x!}\\)\n\n\\(P(\\mathcal{X} &lt; 3)\\) = The probability of less than (x=) 3 accident.\n\\(\\lambda= 5\\) accidents / day.\n\\(t = 1\\) day\n\\(\\lambda t = 5\\)\n\\(e\\) = \\(2.71828\\)\n\n\n\\(P(\\mathcal{X} &lt; 3) = P(\\mathcal{X} = 0) + P(\\mathcal{X} = 1) +P(\\mathcal{X} = 2)\\)\n\\(P(\\mathcal{X} &lt; 3) = \\frac{(5)^0 e^{-5}}{0!} + \\frac{(5)^1 e^{-5}}{1!}+ \\frac{(5)^2 e^{-5}}{2!}\\)\n\\(P(\\mathcal{X} &lt; 3) = 0.12465\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#questions---prediction-answer-2",
+    "href": "lecture/ch11StatsInTransp.html#questions---prediction-answer-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Questions - Prediction Answer",
+    "text": "Questions - Prediction Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nTool\n\n\n\n\nWhat may happen for a future vehicle?\n“What is the chance a vehicle exceeds 50 mph?”\n0.386\n\n\nWhat may happen in a future group?\n“How many of the next 10 vehicles may exceed 50 mph?”\n0.243\n\n\nHow many vehicles may arrive in a time interval?\n“How many accidents in a given day?”\n0.125"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#normal-distribution",
+    "href": "lecture/ch11StatsInTransp.html#normal-distribution",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nSuppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?\n\nNormal Distribution\n\nPDF of \\(\\mathcal{N}\\), \\(f(x) = \\frac{1}{\\sigma \\sqrt{2 \\pi}}e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}}\\)\nLet, \\(\\mathcal{X}\\) = Speed of the vehicle\n\n\\(\\mathcal{X} \\sim \\mathcal{N}(55,7^2)\\)\n\n\\(P(X \\le 65) = \\int_{\\infty}^{65} f(x) \\, dx\\)\n\n\\(P(X \\le 65) = \\int_{\\infty}^{65} \\frac{1}{7 \\sqrt{2 \\pi}}e^{\\frac{-(x-55)^2}{2 \\times 7^2}} \\, dx\\)\n\\(P(X \\le 65)\\) = Area under the curve\n\\(P(X \\le 65) = 0.9234\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#normal-distribution-1",
+    "href": "lecture/ch11StatsInTransp.html#normal-distribution-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nSuppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?\n\nNormal Distribution\n\nPDF of \\(\\mathcal{N}\\), \\(f(x) = \\frac{1}{\\sigma \\sqrt{2 \\pi}}e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}}\\)\nLet, \\(\\mathcal{X}\\) = Speed of the vehicle\n\n\\(\\mathcal{X} \\sim \\mathcal{N}(55,7^2)\\)\n\n\\(P(45 \\le X \\le 65) = \\int_{45}^{65} f(x) \\, dx\\)\n\n\\(P(45 \\le X \\le 65) = 0.9234 - 0.0765\\)\n\\(P(X \\le 65) = 0.8469\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#confidence-interval",
+    "href": "lecture/ch11StatsInTransp.html#confidence-interval",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Confidence Interval",
+    "text": "Confidence Interval\n\nThe confidence interval gives a range of values within which the true population value falls.\nA 95% interval means that we are 95% confident that the population mean is in the interval. \\(\\alpha = 0.95\\)\nThe confidence interval is computed as follows: \\[C.I. = \\bar{x} \\pm \\mathcal{Z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\]"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#confidence-interval-1",
+    "href": "lecture/ch11StatsInTransp.html#confidence-interval-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Confidence Interval",
+    "text": "Confidence Interval\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\n\\(C.I. = \\bar{x} \\pm \\mathcal{Z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\)\n\n\\(\\alpha\\) = area under the curve in standard normal dist.\n\\(\\alpha / 2 = 0.95/2 = 0.975\\)\nFrom Table1 \\(\\mathcal{Z}_{\\alpha/2}= 1.96\\)\n\\(C.I. = 55 \\pm 1.96 \\frac{7}{\\sqrt{100}}\\)\n\\(C.I. = (53.628, 56.37)\\)\n\n\nNormal Table"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#min-sample-size",
+    "href": "lecture/ch11StatsInTransp.html#min-sample-size",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Min Sample Size",
+    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\nIf the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:\n\\(n \\ge (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)\n\n\\(e\\) = error tolerance"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#min-sample-size-1",
+    "href": "lecture/ch11StatsInTransp.html#min-sample-size-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Min Sample Size",
+    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7. , If the desired CI is 95% what is the sample size needed where the sample mean is within 1 mi/hr of the true population mean ?\n\n\\(n \\ge (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)\n\\(n \\ge (\\frac{1.96 \\times 7}{1})^2\\)\n\\(n \\ge 188\\)"
   },
   {
     "objectID": "course-schedule.html",

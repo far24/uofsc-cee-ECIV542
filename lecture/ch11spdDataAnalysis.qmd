@@ -1,0 +1,193 @@
+---
+title: "Analysis of Spot Speed Data"
+author: "ECIV 542"
+date: today
+format:
+  html:
+    toc: true            # Generates a clickable table of contents
+    code-fold: true      # Hides code chunks behind a clickable toggle
+    embed-resources: true # Compiles everything into a single, shareable HTML file
+execute:
+  echo: false
+  warning: false
+  error: false
+---
+
+```{r}
+#| label: load library
+
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(hrbrthemes)
+library(DT)
+
+```
+
+# Descriptive Statistics
+
+* Central Tendency
+  - **Mean**: sum of observed values (speed) divided by number of obs
+  - **Median**: value (speed) that divides the data into equal parts
+  - **Mode**: value at which most number of observations occur
+  - **Pace**: a 10 mph block of max observation
+* Dispersion
+  - standard deviation
+
+# Problem: 
+Figure 11.1 represents a typical set of field data from a spot speed study taken at a location of interest on a major arterial.
+
+# Speed Data 
+
+```{r}
+#| label: read data
+
+# Read the local data file
+# Assumes 'traffic_data.csv' is in the same folder as this .qmd file
+spdData <- read_csv("images/chap11/ch11spdData.csv")
+```
+
+# Frequency Distribution Table
+
+
+
+```{r}
+totVeh <- sum(spdData$numVeh)
+
+spdDataStat <- spdData |> 
+  mutate(freq = round(numVeh *100 / totVeh, 2),
+         cumulFreq = cumsum(freq),
+         nS = numVeh * spdMiddle,
+         nS2 = numVeh * spdMiddle^2) 
+
+sum_ns <- sum(spdDataStat$nS)
+
+spdDataStat |>
+  janitor::adorn_totals("row") |> 
+  datatable(
+  options = list(
+    searching = FALSE, # Disables global searching/filtering
+    pageLength = 25,   # Number of rows per page
+    dom = 'tp'         # Only displays the (t)able and (p)agination controls
+  ))
+ 
+  
+```
+# Summary Statistics: Central Tendency
+
+## Mean
+* Sum number of observation in groups, $\sum{n_iS_i}$
+* The total number of vehicle, $N$ *
+* mean, $\bar{x} = \frac{\sum{n_iS_i}}{N}$
+  - $N = `r totVeh`$
+  - $\sum{n_iS_i} = `r sum_ns`$
+  - $\bar{x} = \frac{`r sum_ns`}{`r totVeh`} = 48.2$ mph
+
+## Meadian
+
+* speed that divides the distribution into equal parts
+  - there are as many observations of speeds higher than the median as there are lower than the median
+* $N/2=368/2=184$ th observation divides the data into equal parts
+* or, the speed at which $50%$ cumulative frequency is found
+* From the table, $P_{50} = 47$ mph
+
+## Mode
+* Speed at which max observation occurs
+* From Table: max observation is $65$ at speed $47$ mph
+* Mode: $47$ mph
+
+## Low Speed and High Speed
+* Speed at which 15% drivers are driving 
+* From Table: 15% occurs between speed $41$ and $43$ mph; mean $42$ mph
+* From the table, $P_{15} = 42$ mph
+
+* Speed at which 85% drivers are driving 
+* From Table: 85% occurs between speed $53$ and $55$ mph; mean $54$ mph
+* From the table, $P_{85} = 54$ mph
+
+## Graphical Approach: Median, Mode, Pace
+
+```{r}
+#| label: hist graph
+
+
+p1 <- spdDataStat |> 
+  ggplot() +  theme_ipsum() +
+  geom_rect(aes(xmin = spdLmtLower + 0.15, xmax = spdLmtUpper, ymin = 0, ymax = numVeh), fill = "black")+
+  geom_text(aes(x=spdMiddle, y= numVeh, label = numVeh), vjust = 0.50, hjust = -0.50, size = 4, angle = 90) +
+  scale_x_continuous(limits = c(30, 70), breaks = seq(30, 70, by = 2)) +
+  scale_y_continuous(limits = c(0, 70), breaks = seq(0, 70, by = 10)) +
+  labs(x = "Middle Speed, mph",
+       y = "Number of Vehicle")
+p1
+# ggsave(
+#   filename = "images/chap11/ch11_spdHist.png",   plot = p1,   width = 6,   height = 4,   units = "in",   dpi = 300
+# )
+
+```
+
+
+```{r}
+#| label: freq dist graph
+
+
+p2<- spdDataStat |> 
+ggplot() +  theme_ipsum() +
+  geom_rect(aes(xmin = spdLmtLower + 0.15, xmax = spdLmtUpper, ymin = 0, ymax = freq), alpha = 0.2)+
+  geom_point(aes(x=spdMiddle, y= freq), color = "red") +
+  geom_line(aes(x=spdMiddle, y= freq), group =1, color = "blue") +
+  
+  scale_x_continuous(limits = c(25, 70), breaks = seq(30, 70, by = 2)) +
+  scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, by = 2)) +
+  labs(x = "Middle Speed, mph",
+       y = "Frequency (%)")
+
+p2
+
+# ggsave(
+#   filename = "images/chap11/ch11_spdFreqPlot.png",   plot = p2,   width = 6,   height = 4,   units = "in",   dpi = 300
+# )
+```
+
+```{r}
+#| label: pdf graph
+
+
+p2<- spdDataStat |>
+  mutate(prob = freq / 2) |> 
+ggplot() +  theme_ipsum() +
+  geom_rect(aes(xmin = spdLmtLower + 0.15, xmax = spdLmtUpper, ymin = 0, ymax = freq), alpha = 0.2)+
+  geom_point(aes(x=spdMiddle, y= freq), color = "red") +
+  geom_line(aes(x=spdMiddle, y= freq), group =1, color = "blue") +
+  geom_text(aes(x=spdMiddle, y= freq, label = freq), vjust = -0.5, hjust = -0.10, size = 4, angle = 90) +
+  scale_x_continuous(limits = c(25, 70), breaks = seq(31, 70, by = 2)) +
+  scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, by = 1)) +
+  labs(x = "Middle Speed, mph",
+       y = "Relative Frequency (%)")
+
+p2
+
+# ggsave(
+#   filename = "images/chap11/ch11_spdFreqPlot.png",   plot = p2,   width = 6,   height = 4,   units = "in",   dpi = 300
+# )
+```
+
+
+```{r}
+#| label: cumul freq dist graph
+
+spdDataStat |> 
+ggplot() + theme_linedraw() +
+  geom_point(aes(x=spdMiddle, y= cumulFreq)) +
+  geom_line(aes(x=spdMiddle, y= cumulFreq), group =1) +
+  scale_x_continuous(limits = c(25, 70), breaks = seq(25, 70, by = 5)) +
+  scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, by = 10)) +
+  labs(x = "Middle Speed, mph",
+       y = "Cumulative Frequency (%)")
+
+```
+
+
+
+# Summary Statistics: Dispersion
+

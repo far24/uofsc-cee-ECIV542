@@ -21,6 +21,8 @@ filters:
 ---
 
 
+
+
 # Statistics in Transportation
 
 ## Chapter 11
@@ -76,25 +78,455 @@ filters:
 
   - **Sample: Take random sample of students at Univ. of SC**
 
-
-## Speed Data
+## Speed Data {.smaller}
 ![](images/chap11/ch11_spdDataFld.png)
 
+## Questions
 
-## Frequency Distribution
-![](images/chap11/ch11_spdDistBlank.png)
+::::: {.hierarchy .outline .stretch}
+:::: item
+Questions
 
-## Frequency Distribution
+::: item
+Observed Data (sample)
+:::
+
+::: item
+Future Events
+:::
+::::
+:::::
+
+
+## Questions - Observed Data {.smaller}
+| Type of question                                 | Example                                               | Tool                           |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What did our observed vehicles do?               | “What was their average speed?”                       | Central Tendency (e.g., Mean)  |
+| How variable were the observed speeds?           | “Were vehicles traveling at similar speeds?”          | Dispersion (e.g., SD)          |
+| What fraction of the sample was in a range?      | “What percentage of the 368 vehicles was 46–48 mph?”  | Relative frequency             |
+
+
+
+
+## Frequency Distribution Table
 ![](images/chap11/ch11_spdDistMidSpd.png)
 
-## Frequency Distribution
+
+## Central Tendency {.smaller} 
+#### What was the observed average speed?
+
+::: {.columns}
+
+::: {.column width="25%"}
+* **Mean**: sum of observed values (speed) divided by number of obs
+  - Mean, $\bar{x} = \frac{\sum{n_iS_i}}{N}$  
+  - $\bar{x} = \frac{17736}{368}$
+  - $\bar{x} = 48.2 mph$
+:::
+
+::: {.column width="75%"}
+![](images/chap11/ch11_spdTableFull.png)
+:::
+
+:::
+
+* <mark>**On an average, the observed vehicles are traveling at 48.2 mph**</mark>
+
+## Central Tendency {.smaller} 
+**<u>What was the speed certain portion of veh travelling?</u>**
+
+::: {.columns}
+
+::: {.column width="25%"}
+* **Median**: 50%
+  - Speed at $N/2 = 184$th vehicle (ordered data)
+  - From Table, between $45$mph and $47$mph, 
+  - Avg $46$mph
+:::
+
+::: {.column width="75%"}
+![](images/chap11/ch11_spdDistFreq.png)
+:::
+
+:::
+
+* <mark>**Half of the observed vehicles are traveling at 47 mph lower or higher.**</mark>
+
+## Central Tendency {.smaller} 
+**<u>What was the speed majority veh travelling?</u>**
+
+::: {.columns}
+
+::: {.column width="25%"}
+* **Mode**: Most frequent speed 
+  - From Table, highest freq(65) occurs at speed $47$mph, 
+  - Mode: $46$mph
+:::
+
+::: {.column width="75%"}
+![](images/chap11/ch11_spdDistFreq.png)
+:::
+
+:::
+
+* <mark>**Majority of observed vehicles are traveling at 47 mph.**</mark>
+
+## Questions - Answer {.smaller} 
+| Type of question                                 | Example                                               | Answer                         |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What did our observed vehicles do?               | “What was their average speed?”                       | **Mean: 48.2 ; Median: 47 mph ; Mode: 47 mph**|
+| How variable were the observed speeds?           | “Were vehicles traveling at similar speeds?”          | Dispersion (e.g., SD)          |
+| What fraction of the sample was in a range?      | “What percentage of the 368 vehicles was 46–48 mph?”  | Relative frequency             |
+
+## Dispersion {.smaller}
+**<u>Were observed vehicles traveling at similar speeds?</u>**
+
+::: {.columns}
+
+::: {.column width="30%"}
+* **Range**: Low to High values
+  - From table, speed range is $31$mph to $67$mph
+:::
+
+::: {.column width="70%"}
 ![](images/chap11/ch11_spdDistFreq.png)
 
-## Frequency Distribution
-![](images/chap11/ch11_spdDistCurve.png)
+:::
 
-## Frequency Distribution
-![](images/chap11/ch11_spdCumulDistCurve.png)
+:::
+
+
+## Dispersion {.smaller}
+**<u>Were observed vehicles traveling at similar speeds?</u>**
+
+* **Standard Deviation (SD)**:
+  - how far data spread around the mean value
+  - $s = \sqrt{\frac{\sum_{i}(x_i - \bar{x})^2}{N-1}}$
+
+![](images/chap11/ch11_sdComp.png)
+
+## Dispersion {.smaller}
+**<u>Were observed vehicles traveling at similar speeds?</u>**
+
+::: {.columns}
+
+::: {.column width="30%"}
+* **SD** for grouped frequency  
+  - $sd = \sqrt{\frac{\sum_{i}n_iS_i^2 - N\bar{x}^2}{N-1}}$  
+  - $sd = \sqrt{\frac{\sum_{i}868448 - 368 \times (48.2)^2}{368-1}}$  
+  - $sd= 6.14$ mph  
+:::
+
+::: {.column width="70%"}
+![](images/chap11/ch11_spdTableFull.png)
+
+:::
+
+:::
+
+
+## Questions - Answer {.smaller} 
+| Type of question                                 | Example                                               | Answer                         |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What did our observed vehicles do?               | “What was their average speed?”                       | **Mean: 48.2 ; Median: 47 mph ; Mode: 47 mph**|
+| How variable were the observed speeds?           | “Were vehicles traveling at similar speeds?”          | **range: (31 - 67)mph; sd = 6.14 mph**        |
+| What fraction of the sample was in a range?      | “What percentage of the 368 vehicles was 46–48 mph?”  | Relative frequency             |
+
+## Relative Frequency {.smaller}
+**<u>What percentage of the 368 vehicles was 46–48 mph?</u>**
+
+::: {.columns}
+
+::: {.column width="30%"}
+* From Table, 65 out of 368 are in speed group (46-48] mph
+* Relative frequency = $\frac{65}{368} = 17.66\%$
+:::
+
+::: {.column width="70%"}
+![](images/chap11/ch11_spdDistFreq.png)
+
+:::
+
+:::
+
+## Relative Frequency {.smaller}
+**<u>What percentage of the 368 vehicles speed was below 38 mph?</u>**
+
+::: {.columns}
+
+::: {.column width="30%"}
+* From Table,  $5+5+7 = 17$ out of 368 are in below speed 38 mph
+* Relative frequency = $\frac{17}{368} = 4.62\%$
+* Alternatively see cumulative freq
+:::
+
+::: {.column width="70%"}
+![](images/chap11/ch11_spdDistFreq.png)
+
+:::
+
+:::
+
+
+## Questions - Answer {.smaller} 
+| Type of question                                 | Example                                               | Answer                         |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What did our observed vehicles do?               | “What was their average speed?”                       | **Mean: 48.2 ; Median: 47 mph ; Mode: 47 mph**|
+| How variable were the observed speeds?           | “Were vehicles traveling at similar speeds?”          | **range: (31 - 67)mph; sd = 6.14 mph**        |
+| What fraction of the sample was in a range?      | “What percentage of the 368 vehicles was 46–48 mph?”  | **$17.66\%$**         |
+
+
+## Questions - Prediction
+| Type of question                                 | Example                                               | Tool                           |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What may happen for a future vehicle?            | “What is the chance a vehicle exceeds 50 mph?”        | PDF/CDF or Normal distribution |
+| What may happen in a future group?               | “How many of the next 10 vehicles may exceed 50 mph?” | Binomial distribution          |
+| How many vehicles may arrive in a time interval? | “How many accidents in a given day?”           | Poisson distribution           |
+
+
+## Frequency Histogram
+
+::: {.columns}
+
+::: {.column width="70%"}
+![](images/chap11/ch11_spdHist.png)
+:::
+
+::: {.column width="30%"}
+![](images/chap11/ch11_spdDistFreq.png)
+
+:::
+
+:::
+## Relative Frequency Histogram
+::: {.columns}
+
+::: {.column width="70%"}
+![](images/chap11/ch11_spdFreqPlot.png)
+:::
+
+::: {.column width="30%"}
+![](images/chap11/ch11_spdHist.png)
+![](images/chap11/ch11_spdDistFreq.png)
+:::
+
+:::
+
+## Probability {.smaller}
+
+**<u>What is the chance a vehicle exceeds 50 mph??</u>**
+
+
+::: {.columns}
+
+::: {.column width="40%"}
+* Observed Data 
+  - Number of veh exceed 50 mph is 133
+  - P(speed > 50 mph) = $133 / 165 = 0.361$
+:::
+
+::: {.column width="60%"}
+![](images/chap11/ch11_spdHist.png)
+:::
+
+:::
+
+
+## Probability {.smaller}
+
+**<u>What is the chance a vehicle exceeds 50 mph??</u>**
+
+
+::: {.columns}
+
+::: {.column width="40%"}
+* Using Relative Freq. 
+  - Add relative freq above 50 mph
+  - P(speed > 50 mph) = 0.361$
+:::
+
+::: {.column width="60%"}
+![](images/chap11/ch11_spdFreqPlot.png)
+:::
+
+:::
+
+## Probability Distribution {.smaller}
+
+**<u>What is the chance a vehicle exceeds 50 mph??</u>**
+
+* Assume that the speed data follows a Normal Distribution^[[Normal Distribution](https://mabognar.github.io/apps/normal.html)] 
+  - Let, $X$ = speed of randomly selected vehicle (<mark>Continuous RV</mark>)
+  - $\bar{x}=48.20 mph$
+  - $s.d. = 6.10 mph$
+  - $X \sim \mathcal{N}(\mu = 48.20, \sigma = 6.10)$
+  - $X \sim \mathcal{N}(\mu = 48.20, \sigma^2 = 6.10^2)$
+
+## Probability Distribution {.smaller}
+
+**<u>What is the chance a vehicle exceeds 50 mph??</u>**
+
+
+::: {.notes}
+[Probability Distribution](https://probabilityplayground.com/binomial.html)
+:::
+* What is the chance a vehicle speed ($\mathcal{X}$) exceeds 50 mph ($x$)??
+* $P(\mathcal{X}>x) = P(\mathcal{X}>50mph) = ?$
+  - Using app, $P(X>50) = 0.384$ very close to previous $0.361$
+* Standard Normal Distribution: $\sim \mathcal{N}(\mu = 0, \sigma = 1)$
+* How to convert? 
+  - $\mathcal{X} \sim \mathcal{N}(\mu = 48.20, \sigma = 6.10)$ $\to$ $\mathcal{Z} \sim \mathcal{N}(\mu = 0, \sigma = 1)$
+  - $z= \frac{x- \mu}{\sigma}$
+  - $z= \frac{50- 48.20}{6.10}$
+  - $z= 0.295$
+  
+
+## Probability Distribution {.smaller}
+
+**<u>What is the chance a vehicle exceeds 50 mph??</u>**
+
+
+::: {.notes}
+[Probability Distribution](https://probabilityplayground.com/binomial.html)
+:::
+* What is the chance a vehicle speed ($\mathcal{X}$) exceeds 50 mph ($x$)??
+* $P(\mathcal{X}>50) = P(\mathcal{Z}>0.295) = ?$
+  - From table^[[Normal Table](https://archive.math.arizona.edu/rsims/ma464/standardnormaltable.pdf)], $P(\mathcal{Z}<0.295) = 0.614$
+  - $P(\mathcal{Z}>0.295) = 1 - P(\mathcal{Z}<0.295) = 0.386$
+  - very close to previous $0.361$
+
+## Questions - Prediction Answer
+| Type of question                                 | Example                                               | Tool                           |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What may happen for a future vehicle?            | “What is the chance a vehicle exceeds 50 mph?”        | **0.386** |
+| What may happen in a future group?               | “How many of the next 10 vehicles may exceed 50 mph?” | Binomial distribution          |
+| How many vehicles may arrive in a time interval? | “How many accidents in a given day?”          | Poisson distribution           |
+
+
+## Probability Distribution {.smaller}
+
+**<u>what is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?</u>**
+
+* $\mathcal{X}$ =number of vehicles, among the next 10, traveling at least 50 mph (<mark>Discrete RV</mark>)
+  - Assume, $\mathcal{X} \sim Binomial(n,p)$
+  - $P(X) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}$
+    - $n$ = total number observations 
+    - $p$ = probability of success on a single experiment  
+
+## Probability Distribution {.smaller}
+
+**<u>what is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?</u>**
+
+* $\mathcal{X}$ =number of vehicles ($x$), among the next 10, traveling at least 50 mph (<mark>Discrete RV</mark>)
+* $P(X=x) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}$
+  - $x = 4$
+  - $n = 10$
+  - From Observed data: $P(speed > 50mph) = p = 0.361$
+* $P(\mathcal{X}=4) = \frac{10!}{10!(10-4)!} 0.361^4 \times (1-0.361)^{10-4}$
+* $P(\mathcal{X}=4) = 0.243$
+    
+## Questions - Prediction Answer {.smaller}
+| Type of question                                 | Example                                               | Tool                           |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What may happen for a future vehicle?            | “What is the chance a vehicle exceeds 50 mph?”        | **0.386** |
+| What may happen in a future group?               | “How many of the next 10 vehicles may exceed 50 mph?” |  **0.243** |
+| How many vehicles may arrive in a time interval? | “How many accidents in a given day?”           | Poisson distribution           |
+
+## Probability Distribution {.smaller}
+**<u>At a particular interchange, the average number of accidents per day is 5.  Assuming the number of accidents at this location is Poisson distributed, what is the probability that the number of accidents is less than 3 on a given day?
+</u>**
+
+* Assume, $\mathcal{X} \sim Poisson(\lambda,x)$
+  - $P(\mathcal{X}=x) = \frac{(\lambda t)^x e^{-\lambda t}}{x!}$
+    - $P(\mathcal{X}=x)$ = The probability of x successes.
+    - $\lambda$= The average or mean number of events in the given interval.
+    - $t$ = given interval
+    - $e$ = $2.71828$
+
+
+## Probability Distribution {.smaller}
+**<u>At a particular interchange, the average number of accidents per day is 5.  Assuming the number of accidents at this location is Poisson distributed, what is the probability that the number of accidents is less than 3 on a given day?
+</u>**
+
+* Let, $\mathcal{X}$ = number of accidents
+  - $P(\mathcal{X} < x) = \frac{(\lambda t)^x e^{-\lambda t}}{x!}$
+    - $P(\mathcal{X} < 3)$ = The probability of less than (x=) 3 accident.
+    - $\lambda= 5$ accidents / day.
+    - $t = 1$ day
+    - $\lambda t = 5$
+    - $e$ = $2.71828$
+* $P(\mathcal{X} < 3) = P(\mathcal{X} = 0) + P(\mathcal{X} = 1) +P(\mathcal{X} = 2)$ 
+* $P(\mathcal{X} < 3) = \frac{(5)^0 e^{-5}}{0!} + \frac{(5)^1 e^{-5}}{1!}+ \frac{(5)^2 e^{-5}}{2!}$ 
+* $P(\mathcal{X} < 3) = 0.12465$
+
+
+## Questions - Prediction Answer {.smaller}
+| Type of question                                 | Example                                               | Tool                           |
+| ------------------------------------------------ | ----------------------------------------------------- | ------------------------------ |
+| What may happen for a future vehicle?            | “What is the chance a vehicle exceeds 50 mph?”        | **0.386** |
+| What may happen in a future group?               | “How many of the next 10 vehicles may exceed 50 mph?” |  **0.243** |
+| How many vehicles may arrive in a time interval? | “How many accidents in a given day?”           | **0.125**           |
+
+
+
+## Normal Distribution {.smaller}
+**<u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7.  What is the probability that the next observed vehicle will be 65 mi/hr or less?  What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u>**
+
+* [Normal Distribution](https://mabognar.github.io/apps/normal.html)  
+* PDF of $\mathcal{N}$, $f(x) = \frac{1}{\sigma \sqrt{2 \pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}$
+* Let, $\mathcal{X}$ = Speed of the vehicle  
+  - $\mathcal{X} \sim \mathcal{N}(55,7^2)$  
+  - $P(X \le 65) = \int_{\infty}^{65} f(x) \, dx$  
+  - $P(X \le 65) = \int_{\infty}^{65} \frac{1}{7 \sqrt{2 \pi}}e^{\frac{-(x-55)^2}{2 \times 7^2}} \, dx$
+  - $P(X \le 65)$ = Area under the curve
+  - $P(X \le 65) = 0.9234$
+
+
+## Normal Distribution {.smaller}
+**<u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7.  What is the probability that the next observed vehicle will be 65 mi/hr or less?  What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u>**
+
+* [Normal Distribution](https://mabognar.github.io/apps/normal.html)  
+* PDF of $\mathcal{N}$, $f(x) = \frac{1}{\sigma \sqrt{2 \pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}$
+* Let, $\mathcal{X}$ = Speed of the vehicle  
+  - $\mathcal{X} \sim \mathcal{N}(55,7^2)$  
+  - $P(45 \le X \le 65) = \int_{45}^{65} f(x) \, dx$  
+  - $P(45 \le X \le 65) = 0.9234 - 0.0765$
+  - $P(X \le 65) = 0.8469$
+
+
+
+## Confidence Interval
+* The confidence interval gives a range of values within which the true population value falls.
+* A 95% interval means that we are 95% confident that the population mean is in the interval. $\alpha = 0.95$
+* The confidence interval is computed as follows:
+$$C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}$$
+
+
+## Confidence Interval {.smaller}
+**<u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u>**
+
+* $C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}$
+  - $\alpha$ = area under the curve in standard normal dist.
+  - $\alpha / 2 = 0.95/2 = 0.975$
+  - From Table^[[Normal Table](https://archive.math.arizona.edu/rsims/ma464/standardnormaltable.pdf)]  $\mathcal{Z}_{\alpha/2}= 1.96$
+  - $C.I. = 55 \pm 1.96 \frac{7}{\sqrt{100}}$
+  - $C.I. = (53.628, 56.37)$
+
+## Min Sample Size
+**<u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u>**
+
+* If the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:
+* $n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2$
+  - $e$ = error tolerance
+
+## Min Sample Size
+**<u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7. , If the desired CI is 95% what is the sample size needed  where the sample mean is within 1 mi/hr of the true population mean ?</u>**
+
+* $n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2$
+* $n \ge (\frac{1.96 \times 7}{1})^2$
+* $n \ge 188$
+
+
 
 
 

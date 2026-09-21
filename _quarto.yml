@@ -60,7 +60,14 @@ website:
             text: "16SEP26-Class 09: Ch. 11 Statistical Application in Transportation"
           - href: lecture/ch4Quiz.qmd
             text: "Team Scorecard"
-
+      - text: "supplementary Docs"
+        menu:
+          - href: lecture/ch11spdDataAnalysis.qmd
+            text: Ch11 Spot Speed Analysis
+          - href: project-description.qmd
+            text: Tech Memo 1
+          - href: project-description.qmd
+            text: Tech Memo 1
 
       - text: "Homeworks"
         menu: 
