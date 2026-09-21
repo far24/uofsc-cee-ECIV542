@@ -873,12 +873,21 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </ul></li>
 </ul>
 </section>
-<section id="confidence-interval" class="slide level2">
+<section id="confidence-interval" class="slide level2 smaller">
 <h2>Confidence Interval</h2>
 <ul>
 <li>The confidence interval gives a range of values within which the true population value falls.</li>
 <li>A 95% interval means that we are 95% confident that the population mean is in the interval. <span class="math inline">\(\alpha = 0.95\)</span></li>
-<li>The confidence interval is computed as follows: <span class="math display">\[C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\]</span></li>
+<li>The confidence interval is computed as follows:</li>
+<li>sample estimate <span class="math inline">\(\pm\)</span> margin of error
+<ul>
+<li>margin of error = error tolerance, <span class="math inline">\(e\)</span></li>
+<li><span class="math inline">\(M = \mathcal{Z}_{\alpha/2} \times SE(estimate)\)</span></li>
+</ul></li>
+<li>If estimate ({x}) is normally distributed,
+<ul>
+<li><span class="math inline">\(SE(estimate) = \frac{\sigma}{\sqrt{n}}\)</span> <span class="math display">\[C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\]</span></li>
+</ul></li>
 </ul>
 </section>
 <section id="confidence-interval-1" class="slide level2 smaller scrollable">
@@ -900,10 +909,10 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <p><strong><u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u></strong></p>
 <ul>
 <li>If the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:</li>
-<li><span class="math inline">\(n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span>
-<ul>
-<li><span class="math inline">\(e\)</span> = error tolerance</li>
-</ul></li>
+<li><span class="math inline">\(e\)</span> = error tolerance = <span class="math inline">\(\mathcal{Z}_{\alpha/2} \times SE(estimate)\)</span></li>
+<li><span class="math inline">\(e = \mathcal{Z}_{\alpha/2} \times \frac{\sigma}{\sqrt{n}}\)</span></li>
+<li><span class="math inline">\(n = (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span></li>
+<li><span class="math inline">\(n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span></li>
 </ul>
 </section>
 <section id="min-sample-size-1" class="slide level2">

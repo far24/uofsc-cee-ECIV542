@@ -495,10 +495,15 @@ Future Events
 
 
 
-## Confidence Interval
+## Confidence Interval {.smaller}
 * The confidence interval gives a range of values within which the true population value falls.
 * A 95% interval means that we are 95% confident that the population mean is in the interval. $\alpha = 0.95$
 * The confidence interval is computed as follows:
+* sample estimate $\pm$ margin of error
+  - margin of error = error tolerance, $e$
+  - $M = \mathcal{Z}_{\alpha/2} \times SE(estimate)$
+* If estimate (\bar{x}) is normally distributed, 
+  - $SE(estimate) = \frac{\sigma}{\sqrt{n}}$
 $$C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}$$
 
 
@@ -516,8 +521,11 @@ $$C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}$$
 **<u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u>**
 
 * If the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:
+* $e$ = error tolerance = $\mathcal{Z}_{\alpha/2} \times SE(estimate)$
+* $e = \mathcal{Z}_{\alpha/2} \times \frac{\sigma}{\sqrt{n}}$
+* $n = (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2$
 * $n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2$
-  - $e$ = error tolerance
+
 
 ## Min Sample Size
 **<u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7. , If the desired CI is 95% what is the sample size needed  where the sample mean is within 1 mi/hr of the true population mean ?</u>**

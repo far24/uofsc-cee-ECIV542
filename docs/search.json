@@ -1792,7 +1792,7 @@
     "href": "lecture/ch11StatsInTransp.html#confidence-interval",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Confidence Interval",
-    "text": "Confidence Interval\n\nThe confidence interval gives a range of values within which the true population value falls.\nA 95% interval means that we are 95% confident that the population mean is in the interval. \\(\\alpha = 0.95\\)\nThe confidence interval is computed as follows: \\[C.I. = \\bar{x} \\pm \\mathcal{Z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\]"
+    "text": "Confidence Interval\n\nThe confidence interval gives a range of values within which the true population value falls.\nA 95% interval means that we are 95% confident that the population mean is in the interval. \\(\\alpha = 0.95\\)\nThe confidence interval is computed as follows:\nsample estimate \\(\\pm\\) margin of error\n\nmargin of error = error tolerance, \\(e\\)\n\\(M = \\mathcal{Z}_{\\alpha/2} \\times SE(estimate)\\)\n\nIf estimate ({x}) is normally distributed,\n\n\\(SE(estimate) = \\frac{\\sigma}{\\sqrt{n}}\\) \\[C.I. = \\bar{x} \\pm \\mathcal{Z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\]"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#confidence-interval-1",
@@ -1806,7 +1806,7 @@
     "href": "lecture/ch11StatsInTransp.html#min-sample-size",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Min Sample Size",
-    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\nIf the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:\n\\(n \\ge (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)\n\n\\(e\\) = error tolerance"
+    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\nIf the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:\n\\(e\\) = error tolerance = \\(\\mathcal{Z}_{\\alpha/2} \\times SE(estimate)\\)\n\\(e = \\mathcal{Z}_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}\\)\n\\(n = (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)\n\\(n \\ge (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#min-sample-size-1",
