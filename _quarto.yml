@@ -57,7 +57,17 @@ website:
           - href: lecture/ch4TrafficControlDevices.qmd
             text: "16SEP26-Class 08: Ch. 4 Traffic Control Devices (Cont.)"
           - href: lecture/ch11StatsInTransp.qmd
-            text: "16SEP26-Class 09: Ch. 11 Statistical Application in Transportation"
+            text: "21SEP26-Class 10: Ch. 11 Statistical Application in Transportation"
+          - href: lecture/ch11StatsInTransp.qmd
+            text: "23SEP26-Class 11: Ch. 11 Statistical Application in Transportation"
+          - href: lecture/ch11StatsInTransp.qmd
+            text: "28SEP26-Class 12: X"
+          - href: lecture/ch11StatsInTransp.qmd
+            text: "30SEP26-Class 13: X"
+          - href: lecture/ch11StatsInTransp.qmd
+            text: "05OCT26-Class 14: X"
+          - href: lecture/ch11StatsInTransp.qmd
+            text: "07OCT26-Class 15: X"
           - href: lecture/ch4Quiz.qmd
             text: "Team Scorecard"
       - text: "supplementary Docs"
