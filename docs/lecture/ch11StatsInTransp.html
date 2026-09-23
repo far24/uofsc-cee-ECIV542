@@ -11,7 +11,6 @@
   <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="ECIV 542 (Traffic Engineering), Fall 2026">
-  <meta name="dcterms.date" content="2026-09-21">
   <title>ECIV542: Traffic Engineering – Ch 11. Statistical Application in Transportation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -133,7 +132,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Ch 11. Statistical Application in Transportation</h1>
-  <p class="subtitle">Class 09</p>
+  <p class="subtitle">Class 09 (09/21/2026) &amp; Class 10 (09/23/2026)</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -146,7 +145,6 @@ ECIV 542 (Traffic Engineering), Fall 2026
     </div>
 </div>
 
-  <p class="date">2026-09-21</p>
 </section>
 <section>
 <section id="statistics-in-transportation" class="title-slide slide level1 center">
@@ -702,20 +700,73 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </tbody>
 </table>
 </section>
-<section id="probability-distribution-3" class="slide level2 smaller">
+<section id="probability-distribution-3" class="slide level2">
 <h2>Probability Distribution</h2>
-<p><strong><u>what is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?</u></strong></p>
 <ul>
-<li><span class="math inline">\(\mathcal{X}\)</span> =number of vehicles, among the next 10, traveling at least 50 mph (<mark>Discrete RV</mark>)
+<li>Random Variable: <em>A random variable is a variable that takes on different values determined by chance.</em>
 <ul>
-<li>Assume, <span class="math inline">\(\mathcal{X} \sim Binomial(n,p)\)</span></li>
-<li><span class="math inline">\(P(X) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\)</span>
-<ul>
-<li><span class="math inline">\(n\)</span> = total number observations</li>
-<li><span class="math inline">\(p\)</span> = probability of success on a single experiment</li>
-</ul></li>
+<li>Discrete</li>
+<li>Continuous</li>
 </ul></li>
 </ul>
+</section>
+<section id="discrete-probability-distribution" class="slide level2">
+<h2>Discrete Probability Distribution</h2>
+<ul>
+<li>Dataset: [0,1,2,3,4]</li>
+<li>R.V., <span class="math inline">\(\mathcal{X}\)</span> = a random draw from these values
+<ul>
+<li>what is the probability you select 2?</li>
+<li>what is the probability you select 3?</li>
+</ul></li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\)</span></th>
+<th><span class="math inline">\(P(X=x)\)</span></th>
+<th><span class="math inline">\(P(X \le x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>1/5</td>
+<td>1/5</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>1/5</td>
+<td>2/5</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>1/5</td>
+<td>3/5</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>1/5</td>
+<td>4/5</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>1/5</td>
+<td>5/5</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="discrete-probability-distribution-1" class="slide level2 scrollable">
+<h2>Discrete Probability Distribution</h2>
+<h4 id="binomial-distribution">Binomial Distribution</h4>
+<ol type="1">
+<li>The experiment consists of <span class="math inline">\(n\)</span> identical trials (is fixed).</li>
+<li>Each trial results in one of the two outcomes, called success and failure.</li>
+<li>The probability of success, denoted <span class="math inline">\(p\)</span>, remains the same from trial to trial.</li>
+<li>The trials are independent. That is, the outcome of any trial does not affect the outcome of the others.</li>
+</ol>
+<p><span class="math display">\[P(X) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\]</span></p>
 </section>
 <section id="probability-distribution-4" class="slide level2 smaller">
 <h2>Probability Distribution</h2>
@@ -765,6 +816,13 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </tr>
 </tbody>
 </table>
+</section>
+<section id="discrete-probability-distribution-2" class="slide level2">
+<h2>Discrete Probability Distribution</h2>
+<h4 id="poisson-distribution">Poisson Distribution</h4>
+<ul>
+<li>Discrete R.V. denote <span class="math inline">\(\mathcal{X\)</span> the number of times an event occurs in an interval of time (or space).</li>
+</ul>
 </section>
 <section id="probability-distribution-5" class="slide level2 smaller">
 <h2>Probability Distribution</h2>
@@ -836,6 +894,22 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </tbody>
 </table>
 </section>
+<section id="continuous-probability-dist" class="slide level2 smaller">
+<h2>Continuous Probability Dist</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li><p>The Normal Distribution is a family of continuous distributions that can model many histograms of real-life data which are mound-shaped (bell-shaped) and symmetric (for example, speed.).</p></li>
+<li><p>A normal curve has two parameters:</p>
+<ul>
+<li>mean <span class="math inline">\(\mu\)</span> (center of the curve)</li>
+<li>standard deviation <span class="math inline">\(\sigma\)</span> (spread about the center)</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap11/ch11_normalCurve.png"></p>
+</div></div>
+</section>
 <section id="normal-distribution" class="slide level2 smaller">
 <h2>Normal Distribution</h2>
 <p><strong><u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u></strong></p>
@@ -873,56 +947,631 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </ul></li>
 </ul>
 </section>
+<section id="normal-distribution-2" class="slide level2 smaller">
+<h2>Normal Distribution</h2>
+<h3 id="empirical-rule">Empirical Rule</h3>
+
+<img data-src="images/chap11/ch11_normalEmpRule.png" class="r-stretch"></section>
 <section id="confidence-interval" class="slide level2 smaller">
 <h2>Confidence Interval</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="population">Population</h3>
+<ul>
+<li><span class="math inline">\(\mu\)</span> = population mean</li>
+<li><span class="math inline">\(\sigma\)</span> = population standard deviation</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="sample">Sample</h3>
+<ul>
+<li><span class="math inline">\(\bar{x}\)</span> = sample mean</li>
+<li><span class="math inline">\(s\)</span> = sample standard deviation</li>
+</ul>
+</div></div>
+</section>
+<section id="confidence-interval-c.i." class="slide level2 smaller">
+<h2>Confidence Interval (C.I.)</h2>
 <ul>
 <li>The confidence interval gives a range of values within which the true population value falls.</li>
-<li>A 95% interval means that we are 95% confident that the population mean is in the interval. <span class="math inline">\(\alpha = 0.95\)</span></li>
+<li>A 95% interval means that we are 95% confident that the population mean is in the interval. <span class="math inline">\(\alpha = 0.05\)</span></li>
 <li>The confidence interval is computed as follows:</li>
-<li>sample estimate <span class="math inline">\(\pm\)</span> margin of error
+<li>C.I = sample estimate <span class="math inline">\(\pm\)</span> margin of error</li>
+<li>C.I = <span class="math inline">\(\bar{x}\)</span> <span class="math inline">\(\pm\)</span> margin of error
 <ul>
-<li>margin of error = error tolerance, <span class="math inline">\(e\)</span></li>
-<li><span class="math inline">\(M = \mathcal{Z}_{\alpha/2} \times SE(estimate)\)</span></li>
+<li>margin of error (M) = error tolerance, <span class="math inline">\(e\)</span>
+<ul>
+<li><span class="math inline">\(M = \mathcal{z}_{\alpha/2} \times SE(estimate)\)</span></li>
+<li>If sample estimate (<span class="math inline">\(\bar{x}\)</span>) is normally distributed, <span class="math inline">\(SE(estimate) = \frac{\sigma}{\sqrt{n}}\)</span></li>
 </ul></li>
-<li>If estimate ({x}) is normally distributed,
+</ul></li>
+<li>(1-<span class="math inline">\(\alpha\)</span>)% C.I. for <span class="math inline">\(\mu\)</span> when <span class="math inline">\(\sigma\)</span> is known:
 <ul>
-<li><span class="math inline">\(SE(estimate) = \frac{\sigma}{\sqrt{n}}\)</span> <span class="math display">\[C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\]</span></li>
+<li><span class="math inline">\(C.I. = \bar{x} \pm \mathcal{z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\)</span></li>
+</ul></li>
+<li>(1-<span class="math inline">\(\alpha\)</span>)% C.I. for <span class="math inline">\(\mu\)</span> when <span class="math inline">\(\sigma\)</span> is unknown:
+<ul>
+<li><span class="math inline">\(C.I. = \bar{x} \pm \mathcal{t}_{\alpha/2} \frac{s}{\sqrt{n}}\)</span></li>
 </ul></li>
 </ul>
 </section>
-<section id="confidence-interval-1" class="slide level2 smaller scrollable">
+<section id="confidence-interval-1" class="slide level2">
+<h2>Confidence Interval</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/chap11/ch11_CImultiplierVal.png"></p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap11/ch11_CIalpha.png"></p>
+</div></div>
+</section>
+<section id="confidence-interval-2" class="slide level2 smaller scrollable">
 <h2>Confidence Interval</h2>
 <p><strong><u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u></strong></p>
 <ul>
-<li><span class="math inline">\(C.I. = \bar{x} \pm \mathcal{Z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\)</span>
+<li><span class="math inline">\(C.I. = \bar{x} \pm \mathcal{z}_{\alpha/2} \frac{\sigma}{\sqrt{n}}\)</span>
 <ul>
-<li><span class="math inline">\(\alpha\)</span> = area under the curve in standard normal dist.</li>
-<li><span class="math inline">\(\alpha / 2 = 0.95/2 = 0.975\)</span></li>
+<li><span class="math inline">\(\alpha = 0.05\)</span></li>
+<li><span class="math inline">\(1 - (\alpha / 2) =  0.975\)</span></li>
 <li>From Table<sup>1</sup> <span class="math inline">\(\mathcal{Z}_{\alpha/2}= 1.96\)</span></li>
 <li><span class="math inline">\(C.I. = 55 \pm 1.96 \frac{7}{\sqrt{100}}\)</span></li>
 <li><span class="math inline">\(C.I. = (53.628, 56.37)\)</span></li>
 </ul></li>
 </ul>
 <aside><ol class="aside-footnotes"><li id="fn3"><p><a href="https://archive.math.arizona.edu/rsims/ma464/standardnormaltable.pdf">Normal Table</a></p></li></ol></aside></section>
-<section id="min-sample-size" class="slide level2">
+<section id="min-sample-size" class="slide level2 smaller">
 <h2>Min Sample Size</h2>
 <p><strong><u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?</u></strong></p>
 <ul>
 <li>If the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:</li>
-<li><span class="math inline">\(e\)</span> = error tolerance = <span class="math inline">\(\mathcal{Z}_{\alpha/2} \times SE(estimate)\)</span></li>
-<li><span class="math inline">\(e = \mathcal{Z}_{\alpha/2} \times \frac{\sigma}{\sqrt{n}}\)</span></li>
-<li><span class="math inline">\(n = (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span></li>
-<li><span class="math inline">\(n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span></li>
+<li><span class="math inline">\(e\)</span> = error tolerance = <span class="math inline">\(\mathcal{z}_{\alpha/2} \times SE(estimate)\)</span></li>
+<li><span class="math inline">\(e = \mathcal{z}_{\alpha/2} \times \frac{\sigma}{\sqrt{n}}\)</span></li>
+<li><span class="math inline">\(n = (\frac{\mathcal{z}_{\alpha/2} \sigma}{e})^2\)</span></li>
+<li><span class="math inline">\(n \ge (\frac{\mathcal{z}_{\alpha/2} \sigma}{e})^2\)</span></li>
 </ul>
 </section>
 <section id="min-sample-size-1" class="slide level2">
 <h2>Min Sample Size</h2>
 <p><strong><u>For a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7. , If the desired CI is 95% what is the sample size needed where the sample mean is within 1 mi/hr of the true population mean ?</u></strong></p>
 <ul>
-<li><span class="math inline">\(n \ge (\frac{\mathcal{Z}_{\alpha/2} \sigma}{e})^2\)</span></li>
+<li><span class="math inline">\(n \ge (\frac{\mathcal{z}_{\alpha/2} \sigma}{e})^2\)</span></li>
 <li><span class="math inline">\(n \ge (\frac{1.96 \times 7}{1})^2\)</span></li>
 <li><span class="math inline">\(n \ge 188\)</span></li>
 </ul>
+</section></section>
+<section>
+<section id="hypothesis-testing" class="title-slide slide level1 center">
+<h1>Hypothesis Testing</h1>
+
+</section>
+<section id="hypothesis-testing-purpose" class="slide level2">
+<h2>Hypothesis Testing: Purpose</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>To use sample data to decide whether there is enough evidence for a <strong>claim</strong> about a larger population.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="process vertical node-circle">
+<div class="item">
+<p>Population</p>
+</div>
+<div class="item">
+<p>Sample</p>
+</div>
+</div>
+</div></div>
+</section>
+<section id="hypothesis-testing-1" class="slide level2 smaller">
+<h2>Hypothesis Testing</h2>
+<h4 id="compare-two-population-mean">Compare Two Population Mean</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="population-1">Population 1</h4>
+<ul>
+<li><span class="math inline">\(\mu_1\)</span> = population mean</li>
+<li><span class="math inline">\(\sigma_1\)</span> = population standard deviation</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="population-2">Population 2</h4>
+<ul>
+<li><span class="math inline">\(\mu_2\)</span> = population mean</li>
+<li><span class="math inline">\(\sigma_2\)</span> = population standard deviation</li>
+</ul>
+</div></div>
+</section>
+<section id="hypothesis-testing-question" class="slide level2">
+<h2>Hypothesis Testing: Question</h2>
+<ul>
+<li>Is there significant difference in population means, <span class="math inline">\(\mu_1\)</span> and <span class="math inline">\(\mu_2\)</span>?</li>
+</ul>
+</section>
+<section id="hypothesis-testing-2" class="slide level2 smaller">
+<h2>Hypothesis Testing</h2>
+<h4 id="compare-two-population-mean-1">Compare Two Population Mean</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="population-1-1">Population 1</h4>
+<ul>
+<li><span class="math inline">\(\mu_1\)</span> = population mean</li>
+<li><span class="math inline">\(\sigma_1\)</span> = population standard deviation</li>
+</ul>
+<h4 id="sample-1">Sample 1</h4>
+<ul>
+<li><span class="math inline">\(\bar{x_1}\)</span> = sample mean</li>
+<li><span class="math inline">\(s_1\)</span> = sample standard deviation</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="population-2-1">Population 2</h4>
+<ul>
+<li><span class="math inline">\(\mu_2\)</span> = population mean</li>
+<li><span class="math inline">\(\sigma_2\)</span> = population standard deviation</li>
+</ul>
+<h4 id="sample-2">Sample 2</h4>
+<ul>
+<li><span class="math inline">\(\bar{x_2}\)</span> = sample mean</li>
+<li><span class="math inline">\(s_2\)</span> = sample standard deviation</li>
+</ul>
+</div></div>
+<ul>
+<li>Is there significant difference in population means, <span class="math inline">\(\mu_1\)</span> and <span class="math inline">\(\mu_2\)</span>?
+<ul>
+<li>different in population mean: <span class="math inline">\((\mu_1 - \mu_2)\)</span> –&gt; UNKNOWN</li>
+<li>Use different in sample mean <span class="math inline">\((\bar{x_1} - \bar{x_2})\)</span> to estimate <span class="math inline">\((\mu_1 - \mu_2)\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="hypothesis-testing-3" class="slide level2">
+<h2>Hypothesis testing</h2>
+<ul>
+<li>Large sample inferences for two means</li>
+<li>Small sample inferences for two means
+<ul>
+<li>Independent samples and equal variances</li>
+<li>Independent samples and unequal variances</li>
+<li>paired samples</li>
+</ul></li>
+<li>Inferences for two variances</li>
+<li>Using p-values to report test results</li>
+</ul>
+</section>
+<section id="hypothesis-testing-steps" class="slide level2 smaller scrollable">
+<h2>Hypothesis testing Steps</h2>
+<ol type="1">
+<li><strong>Formulate the null and alternative hypotheses.</strong></li>
+</ol>
+<ul>
+<li>Null hypothesis <span class="math inline">\(H_0\)</span> usually represents the status quo</li>
+<li>Alternative hypothesis <span class="math inline">\(H_a\)</span> is the hypothesis you will accept you reject H0.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Select the significance level</strong>: <span class="math inline">\(\alpha\)</span></li>
+<li><strong>Use the sample data to calculate the value of the test statistic (<span class="math inline">\(z^* or t^* or F*\)</span>).</strong></li>
+</ol>
+<ul>
+<li><span class="math inline">\(H_a\)</span>: <span class="math inline">\((\mu_1 \neq \mu_2)\)</span>; REJECT <span class="math inline">\(H_0\)</span> when <span class="math inline">\([ |test\ statistics|\ \ge\ |critical\ value_{\alpha/2}| ]\)</span></li>
+<li><span class="math inline">\(H_a\)</span>: <span class="math inline">\((\mu_1 &lt; \mu_2)\)</span>; REJECT <span class="math inline">\(H_0\)</span> when <span class="math inline">\([ test\ statistics\ &lt;\ - critical\ value_{\alpha} ]\)</span></li>
+<li><span class="math inline">\(H_a\)</span>: <span class="math inline">\((\mu_1 &gt; \mu_2)\)</span>; REJECT <span class="math inline">\(H_0\)</span> when <span class="math inline">\([ test\ statistics\ &gt;\ critical\ value_{\alpha} ]\)</span></li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Use Probability Distribution (<span class="math inline">\(Z\)</span> or <span class="math inline">\(t\)</span> or <span class="math inline">\(F\)</span>) to determine the rejection region of <span class="math inline">\(H_0\)</span>.</strong></li>
+<li><strong>State conclusion of the test.</strong></li>
+</ol>
+<aside class="notes">
+<p>If the value of the test statistic is in the rejection region, then reject H0 and accept HA. Otherwise, conclude that there is insufficient evidence to reject H0.</p>
+<p>(the probability of rejecting a hypothesis that should be accepted). For engineering applications, is usually 0.05 or 5%. This is the same as saying (1-)% confidence level.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ht-large-sample" class="slide level2 smaller">
+<h2>HT: Large sample</h2>
+<p><strong><u>Speed data were collected at a section of highway before and after lane widening. The speed characteristics are given below. <mark>Determine whether there was any significant difference between the average speed at the 95% confidence level.</mark></u></strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Before</th>
+<th style="text-align: center;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\bar{x_1} = 35.5 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x_2} = 38.7 mph\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(s_1 = 7.5 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(s_2 = 7.4 mph\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(n_1 = 250\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(n_2 = 280\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ht-large-sample-1" class="slide level2 smaller">
+<h2>HT: Large sample</h2>
+<p>Determine whether there was any significant difference between the average speed at the 95% confidence level.**</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Before</th>
+<th style="text-align: center;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\bar{x_1} = 35.5 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x_2} = 38.7 mph\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(s_1 = 7.5 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(s_2 = 7.4 mph\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(n_1 = 250\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(n_2 = 280\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Given, CI = <span class="math inline">\((1-\alpha) = 0.95\)</span></li>
+<li><strong><u>Step 0</u></strong>: Check for large Sample
+<ul>
+<li>If <span class="math inline">\(n_1 \ge 30\)</span> and <span class="math inline">\(n_2 \ge 30\)</span> larges sample and follows approx. Normal Dist. (CLT)</li>
+<li>Given, <span class="math inline">\(n_1= 280\)</span> and <span class="math inline">\(n_2 = 280\)</span>; So, large sample</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 1</u></strong>: Formulate Hypothesis
+<ul>
+<li><span class="math inline">\(H_0\)</span>: no difference in average speed <span class="math inline">\((\mu_1 = \mu_2)\)</span></li>
+<li><span class="math inline">\(H_0\)</span>: average speed after lane widening differs from previous <span class="math inline">\((\mu_1 \neq \mu_2)\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 2</u></strong>: significance level:
+<ul>
+<li><span class="math inline">\(\alpha\)</span> = <span class="math inline">\((1-CI)\)</span> = <span class="math inline">\(0.05\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 3</u></strong> Calculate test statistic (<span class="math inline">\(z^*\)</span>) using sample data
+<ul>
+<li><span class="math inline">\(z^* = \frac{\bar{x_1} - \bar{x_2}}{S_d}\)</span> ; <span class="math inline">\(S_d = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}\)</span>
+<ul>
+<li><span class="math inline">\(S_d = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}\)</span><br>
+</li>
+<li><span class="math inline">\(S_d = \sqrt{\frac{7.5^2}{250} + \frac{7.4^2}{280}}\)</span><br>
+</li>
+<li><span class="math inline">\(S_d = 0.648\)</span></li>
+</ul></li>
+<li><span class="math inline">\(z^* = \frac{\bar{x_1} - \bar{x_2}}{S_d}\)</span></li>
+<li><span class="math inline">\(z^* = \frac{35.5 - 38.7}{0.648}\)</span></li>
+<li><span class="math inline">\(z^* = -4.938\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 4</u></strong> Determine the rejection region of <span class="math inline">\(H_0\)</span>
+<ul>
+<li>Rejection Area Approach
+<ul>
+<li><span class="math inline">\(|z^*| = 4.938\)</span> := <span class="math inline">\(|test\ statistics|\)</span></li>
+<li><span class="math inline">\(|z_{\alpha/2}| = 1.96\)</span> := <span class="math inline">\(|critical\ value_{\alpha/2}|\)</span></li>
+<li>Reject <span class="math inline">\(H_0\)</span> if <span class="math inline">\(|z^*| \ge |z_{\alpha/2}|\)</span></li>
+<li>Since <span class="math inline">\(|z^*| = 4.938 &gt; |z_{\alpha/2} = 1.96|\)</span>, <mark>REJECT <span class="math inline">\(H_0\)</span></mark></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 5</u></strong> State conclusion of the test
+<ul>
+<li><mark>REJECT</mark> <span class="math inline">\(H_0\)</span>: no difference in average speed <span class="math inline">\((\mu_1 = \mu_2)\)</span></li>
+<li>We are 95% confident that the average speed after lane widening differs from average speed without lane widening</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="ht-small-sample" class="slide level2 smaller">
+<h2>HT: Small Sample</h2>
+<p><strong><u>Speed data were collected at a section of highway before and after a change in speed limit. The speed characteristics are given below. Determine whether there was any significant difference between the average speed at the 95% confidence level.</u></strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Before</th>
+<th style="text-align: center;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\bar{x_1} = 35 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x_2} = 32 mph\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(s_1 = 4 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(s_2 = 5 mph\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(n_1 = 10\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(n_2 = 10\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ht-small-sample-1" class="slide level2 smaller">
+<h2>HT: Small Sample</h2>
+<p><strong>Determine whether there was any significant difference between the average speed at the 95% confidence level.</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Before</th>
+<th style="text-align: center;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\bar{x_1} = 35 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x_2} = 32 mph\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(s_1 = 4 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(s_2 = 5 mph\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(n_1 = 10\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(n_2 = 10\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Given, CI = <span class="math inline">\((1-\alpha) = 0.95\)</span></li>
+<li><strong><u>Step 0</u></strong>: Check for large/small Sample size
+<ul>
+<li>If <span class="math inline">\(n_1 \ge 30\)</span> and <span class="math inline">\(n_2 \ge 30\)</span> larges sample and follows approx. Normal Dist. (CLT)</li>
+<li>Given, <span class="math inline">\(n_1= 10\)</span> and <span class="math inline">\(n_2 = 10\)</span>;</li>
+<li>Small sample size and use t-dist instead of Z-dist.
+<ul>
+<li>Assume, Equal Variance</li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 1</u></strong>: Formulate Hypothesis
+<ul>
+<li><span class="math inline">\(H_0\)</span>: no difference in average speed <span class="math inline">\((\mu_1 = \mu_2)\)</span></li>
+<li><span class="math inline">\(H_0\)</span>: average speed after speed limit change differs from previous <span class="math inline">\((\mu_1 \neq \mu_2)\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 2</u></strong>: significance level:
+<ul>
+<li><span class="math inline">\(\alpha\)</span> = <span class="math inline">\((1-CI)\)</span> = <span class="math inline">\(0.05\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 3</u></strong> Calculate test statistic ((<span class="math inline">\(t^*\)</span>)) using sample data
+<ul>
+<li><span class="math inline">\(t^* = \frac{\bar{x_1} - \bar{x_2}}{S_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}\)</span>
+<ul>
+<li><span class="math inline">\(S_p = \sqrt{\frac{(n_1-1)s_1^2+(n_2-1)s_2^2)}{n_1+n_2-2}}\)</span><br>
+</li>
+<li><span class="math inline">\(S_p = \sqrt{\frac{(10-1)4^2+(10-1)5^2)}{10+10-2}}\)</span><br>
+</li>
+<li><span class="math inline">\(S_p = 4.528\)</span><br>
+</li>
+</ul></li>
+<li><span class="math inline">\(t^* = \frac{\bar{x_1} - \bar{x_2}}{S_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}\)</span></li>
+<li><span class="math inline">\(t^* = \frac{35 - 32}{4.528 \sqrt{\frac{1}{10} + \frac{1}{10}}}\)</span></li>
+<li><span class="math inline">\(t^* = 1.48\)</span></li>
+<li>degrees of freedom<span class="math inline">\(= df = n_1+n_2-2\)</span> = <span class="math inline">\(18\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 4</u></strong> Determine the rejection region of <span class="math inline">\(H_0\)</span>
+<ul>
+<li>Rejection Area Approach
+<ul>
+<li><span class="math inline">\(|t^*| = 1.48\)</span></li>
+<li><span class="math inline">\(|t_{\alpha/2,df}|=|t_{0.05/2, 18}| = 2.101\)</span></li>
+<li>Reject <span class="math inline">\(H_0\)</span> if <span class="math inline">\(|t^*| \ge |t_{0.025, 18}|\)</span></li>
+<li>Since <span class="math inline">\(|t^*| = 1.48 &lt; |t_{0.025, 18}| = 2.101\)</span>, <mark>FAIL TO REJECT <span class="math inline">\(H_0\)</span></mark></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 5</u></strong> State conclusion of the test
+<ul>
+<li><mark>FAIL TO REJECT</mark> <span class="math inline">\(H_0\)</span>: no difference in average speed <span class="math inline">\((\mu_1 = \mu_2)\)</span></li>
+<li>We are 95% confident that the average speed did not change after speed limit change in the roadway section.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="ht-small-sample-unequal-variance" class="slide level2 smaller">
+<h2>HT: Small Sample (UNEQUAL VARIANCE)</h2>
+<p><strong>Determine whether there was any significant difference between the average speed at the 95% confidence level.</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Before</th>
+<th style="text-align: center;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\bar{x_1} = 35 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x_2} = 32 mph\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(s_1 = 4 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(s_2 = 5 mph\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(n_1 = 10\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(n_2 = 10\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>UNEQUAL VARIANCE
+<ul>
+<li><span class="math inline">\(t^* = \frac{\bar{x_1} - \bar{x_2}}{ \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\)</span></li>
+<li><span class="math inline">\(df = \frac{(\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2})^2}{\frac{(\frac{s_1^2}{n_1})^2}{n_1-1}+\frac{(\frac{s_2^2}{n_2})^2}{n_2-1}}\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="ht-population-variance" class="slide level2 smaller">
+<h2>HT: Population Variance</h2>
+<p><strong><u>Speed data were collected at a section of highway before and after a change in speed limit. The speed characteristics are given below. Determine whether the variances are equal at the 95% confidence level.</u></strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Before</th>
+<th style="text-align: center;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\bar{x_1} = 30 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x_2} = 35 mph\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(s_1 = 5 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(s_2 = 4 mph\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(n_1 = 11\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(n_2 = 21\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Given, CI = <span class="math inline">\((1-\alpha) = 0.95\)</span></li>
+<li><strong><u>Step 0</u></strong>: Check for large/small Sample size
+<ul>
+<li>If <span class="math inline">\(n_1 \ge 30\)</span> and <span class="math inline">\(n_2 \ge 30\)</span> larges sample and follows approx. Normal Dist. (CLT)</li>
+<li>Given, <span class="math inline">\(n_1= 11\)</span> and <span class="math inline">\(n_2 = 21\)</span>;</li>
+<li>Small sample size</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 1</u></strong>: Formulate Hypothesis
+<ul>
+<li><span class="math inline">\(H_0\)</span>: <span class="math inline">\((\sigma_1^2 = \sigma_2^2)\)</span></li>
+<li><span class="math inline">\(H_0\)</span>: <span class="math inline">\((\sigma_1^2 \neq \sigma_2^2)\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 2</u></strong>: significance level:
+<ul>
+<li><span class="math inline">\(\alpha\)</span> = <span class="math inline">\((1-CI)\)</span> = <span class="math inline">\(0.05\)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 3</u></strong> Calculate test statistic ((<span class="math inline">\(t^*\)</span>)) using sample data
+<ul>
+<li><span class="math inline">\(F^* = \frac{s_1^2}{s_2^2}\)</span> [<span class="math inline">\(s_1\)</span> is the larger s.d.]</li>
+<li><span class="math inline">\(F^* = \frac{5^2}{4^2}\)</span></li>
+<li><span class="math inline">\(F^* = 1.562\)</span></li>
+<li>degrees of freedom:
+<ul>
+<li><span class="math inline">\(f_1 = n_1 - 1 = 10\)</span></li>
+<li><span class="math inline">\(f_2 = n_2 - 1 = 20\)</span></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 4</u></strong> Determine the rejection region of <span class="math inline">\(H_0\)</span>
+<ul>
+<li>Rejection Area Approach
+<ul>
+<li><span class="math inline">\(|F^*| = 1.562\)</span></li>
+<li><span class="math inline">\(|F_{\alpha/2,df}|=|F_{0.05/2, (10,20)}| = 2.445\)</span></li>
+<li>Reject <span class="math inline">\(H_0\)</span> if <span class="math inline">\(|F^*| \ge |F_{0.025, (10,20)}|\)</span></li>
+<li>Since <span class="math inline">\(|t^*| = 1.48 &lt; |t_{0.025, 18}| = 2.445\)</span>, <mark>FAIL TO REJECT <span class="math inline">\(H_0\)</span></mark></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><u>Step 5</u></strong> State conclusion of the test
+<ul>
+<li><mark>FAIL TO REJECT</mark> <span class="math inline">\(H_0\)</span>: no difference in variance <span class="math inline">\((\sigma_1^2 = \sigma_2^2)\)</span></li>
+<li>We are 95% confident that variances are different (not equal).</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="ht-independent-vs.-paired-sample" class="slide level2">
+<h2>HT: Independent Vs. Paired Sample</h2>
+<ul>
+<li>The samples are dependent (also called paired data) if each measurement in one sample is matched or paired with a particular measurement in the other sample.</li>
+<li>Another way to consider this is how many measurements are taken off of each subject?
+<ul>
+<li>If only one measurement, then independent</li>
+<li>if two measurements, then paired.</li>
+</ul></li>
+</ul>
+</section>
+<section id="ht-paired-sample" class="slide level2">
+<h2>HT: Paired Sample</h2>
+<ul>
+<li><span class="math inline">\(t^* = \frac{\bar{D}}{\frac{s_D}{\sqrt{n}}}\)</span>
+<ul>
+<li><span class="math inline">\(\bar{D}\)</span> : difference in paired means</li>
+<li><span class="math inline">\(s_D = \sqrt{\frac{n\sum{D_i^2} - (\sum{D_i})^2}{n(n-1)}}\)</span></li>
+<li>When <span class="math inline">\(n\)</span> is large, follow normal dist (<span class="math inline">\(Z-dist\)</span>) otherwise follows <span class="math inline">\(t-dist\)</span> with <span class="math inline">\(df=n-1\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="ht-paired-sample-example" class="slide level2 smaller">
+<h2>HT: Paired Sample Example</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li><span class="math inline">\(t^* = \frac{\bar{D}}{\frac{s_D}{\sqrt{n}}}\)</span>
+<ul>
+<li><span class="math inline">\(\bar{D}\)</span> : difference in paired means</li>
+<li><span class="math inline">\(s_D = \sqrt{\frac{n\sum{D_i^2} - (\sum{D_i})^2}{n(n-1)}}\)</span></li>
+<li>When <span class="math inline">\(n\)</span> is large, follow normal dist (<span class="math inline">\(Z-dist\)</span>) otherwise follows <span class="math inline">\(t-dist\)</span> with <span class="math inline">\(df=n-1\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap11/ch11_pairedExample.png"></p>
+</div></div>
 
 
 </section></section>

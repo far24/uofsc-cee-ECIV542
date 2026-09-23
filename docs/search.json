@@ -682,42 +682,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
+    "title": "ECIV 542  Traffic Engineering (Fall 2026)",
     "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#updates",
-    "href": "index.html#updates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "08/18/2026: Class begin tomorrow\n08/19/2026: Class 01 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 02 Lectures/notes uploaded to Blackboard\n08/24/2026: Class 03 Lectures/notes and HW#1 uploaded to Blackboard\n09/02/2026: Class 04 and 05 Lectures/notes uploaded, Tech Memo #1 assigned",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#due-dates",
-    "href": "index.html#due-dates",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "Due Dates",
-    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 10:59AM\nHW\n#1\nSee BlackBoard\n\n\nSep 23, 2026 10:59AM\nProject\nTech Memo 1\nSee Blackboard\n\n\nOct 12, 2026 11:00AM\nExam\n#1\nIn-class\n\n\nDec 11, 2026 07:30PM\nExam\n#2\nIn-class",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "index.html#resources",
-    "href": "index.html#resources",
-    "title": "ECIV 542: Traffic Engineering (Fall 2026)",
-    "section": "Resources",
-    "text": "Resources\n\nHW Submisstion Template",
+    "text": "Updates: September, 2026\n\n\n\n\n\n\n\nDate\nActions\n\n\n\n\n09/16/2026\nLinks to Presentation slides updated on Blackboard\n\n\n09/21/2026\nHW 2 Posted on Blackboard, HW 1 grade posted\n\n\n\n\n\nDue Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 11:59PM\nHW\n#1\n☑ Grade Posted\n\n\nSep 23, 2026 11:59PM\nProject\nTech Memo 1\n☐ See Blackboard\n\n\nOct 05, 2026 11:59PM\nHW\n#2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\n#1\n☐ In-class\n\n\nDec 11, 2026 07:30PM\nExam\n#2\n☐ In-class\n\n\n\n\n\nResources\n\nHW Submisstion Template",
     "crumbs": [
       "Home",
       "Home/Announcement"
@@ -1736,7 +1703,21 @@
     "href": "lecture/ch11StatsInTransp.html#probability-distribution-3",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Probability Distribution",
-    "text": "Probability Distribution\nwhat is the probability that exactly 4 will travel at least 50 mph of the next 10 vehicles?\n\n\\(\\mathcal{X}\\) =number of vehicles, among the next 10, traveling at least 50 mph (Discrete RV)\n\nAssume, \\(\\mathcal{X} \\sim Binomial(n,p)\\)\n\\(P(X) = \\frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\\)\n\n\\(n\\) = total number observations\n\\(p\\) = probability of success on a single experiment"
+    "text": "Probability Distribution\n\nRandom Variable: A random variable is a variable that takes on different values determined by chance.\n\nDiscrete\nContinuous"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#discrete-probability-distribution",
+    "href": "lecture/ch11StatsInTransp.html#discrete-probability-distribution",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Discrete Probability Distribution",
+    "text": "Discrete Probability Distribution\n\nDataset: [0,1,2,3,4]\nR.V., \\(\\mathcal{X}\\) = a random draw from these values\n\nwhat is the probability you select 2?\nwhat is the probability you select 3?\n\n\n\n\n\n\\(x\\)\n\\(P(X=x)\\)\n\\(P(X \\le x)\\)\n\n\n\n\n0\n1/5\n1/5\n\n\n1\n1/5\n2/5\n\n\n2\n1/5\n3/5\n\n\n3\n1/5\n4/5\n\n\n4\n1/5\n5/5"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#discrete-probability-distribution-1",
+    "href": "lecture/ch11StatsInTransp.html#discrete-probability-distribution-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Discrete Probability Distribution",
+    "text": "Discrete Probability Distribution\nBinomial Distribution\n\nThe experiment consists of \\(n\\) identical trials (is fixed).\nEach trial results in one of the two outcomes, called success and failure.\nThe probability of success, denoted \\(p\\), remains the same from trial to trial.\nThe trials are independent. That is, the outcome of any trial does not affect the outcome of the others.\n\n\\[P(X) = \\frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}\\]"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-4",
@@ -1751,6 +1732,13 @@
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Questions - Prediction Answer",
     "text": "Questions - Prediction Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nTool\n\n\n\n\nWhat may happen for a future vehicle?\n“What is the chance a vehicle exceeds 50 mph?”\n0.386\n\n\nWhat may happen in a future group?\n“How many of the next 10 vehicles may exceed 50 mph?”\n0.243\n\n\nHow many vehicles may arrive in a time interval?\n“How many accidents in a given day?”\nPoisson distribution"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#discrete-probability-distribution-2",
+    "href": "lecture/ch11StatsInTransp.html#discrete-probability-distribution-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Discrete Probability Distribution",
+    "text": "Discrete Probability Distribution\nPoisson Distribution\n\nDiscrete R.V. denote \\(\\mathcal{X\\) the number of times an event occurs in an interval of time (or space)."
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#probability-distribution-5",
@@ -1774,6 +1762,13 @@
     "text": "Questions - Prediction Answer\n\n\n\n\n\n\n\n\nType of question\nExample\nTool\n\n\n\n\nWhat may happen for a future vehicle?\n“What is the chance a vehicle exceeds 50 mph?”\n0.386\n\n\nWhat may happen in a future group?\n“How many of the next 10 vehicles may exceed 50 mph?”\n0.243\n\n\nHow many vehicles may arrive in a time interval?\n“How many accidents in a given day?”\n0.125"
   },
   {
+    "objectID": "lecture/ch11StatsInTransp.html#continuous-probability-dist",
+    "href": "lecture/ch11StatsInTransp.html#continuous-probability-dist",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Continuous Probability Dist",
+    "text": "Continuous Probability Dist\n\n\n\nThe Normal Distribution is a family of continuous distributions that can model many histograms of real-life data which are mound-shaped (bell-shaped) and symmetric (for example, speed.).\nA normal curve has two parameters:\n\nmean \\(\\mu\\) (center of the curve)\nstandard deviation \\(\\sigma\\) (spread about the center)"
+  },
+  {
     "objectID": "lecture/ch11StatsInTransp.html#normal-distribution",
     "href": "lecture/ch11StatsInTransp.html#normal-distribution",
     "title": "Ch 11. Statistical Application in Transportation",
@@ -1788,32 +1783,158 @@
     "text": "Normal Distribution\nSuppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?\n\nNormal Distribution\n\nPDF of \\(\\mathcal{N}\\), \\(f(x) = \\frac{1}{\\sigma \\sqrt{2 \\pi}}e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}}\\)\nLet, \\(\\mathcal{X}\\) = Speed of the vehicle\n\n\\(\\mathcal{X} \\sim \\mathcal{N}(55,7^2)\\)\n\n\\(P(45 \\le X \\le 65) = \\int_{45}^{65} f(x) \\, dx\\)\n\n\\(P(45 \\le X \\le 65) = 0.9234 - 0.0765\\)\n\\(P(X \\le 65) = 0.8469\\)"
   },
   {
+    "objectID": "lecture/ch11StatsInTransp.html#normal-distribution-2",
+    "href": "lecture/ch11StatsInTransp.html#normal-distribution-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nEmpirical Rule"
+  },
+  {
     "objectID": "lecture/ch11StatsInTransp.html#confidence-interval",
     "href": "lecture/ch11StatsInTransp.html#confidence-interval",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Confidence Interval",
-    "text": "Confidence Interval\n\nThe confidence interval gives a range of values within which the true population value falls.\nA 95% interval means that we are 95% confident that the population mean is in the interval. \\(\\alpha = 0.95\\)\nThe confidence interval is computed as follows:\nsample estimate \\(\\pm\\) margin of error\n\nmargin of error = error tolerance, \\(e\\)\n\\(M = \\mathcal{Z}_{\\alpha/2} \\times SE(estimate)\\)\n\nIf estimate ({x}) is normally distributed,\n\n\\(SE(estimate) = \\frac{\\sigma}{\\sqrt{n}}\\) \\[C.I. = \\bar{x} \\pm \\mathcal{Z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\]"
+    "text": "Confidence Interval\n\n\nPopulation\n\n\\(\\mu\\) = population mean\n\\(\\sigma\\) = population standard deviation\n\n\nSample\n\n\\(\\bar{x}\\) = sample mean\n\\(s\\) = sample standard deviation"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#confidence-interval-c.i.",
+    "href": "lecture/ch11StatsInTransp.html#confidence-interval-c.i.",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Confidence Interval (C.I.)",
+    "text": "Confidence Interval (C.I.)\n\nThe confidence interval gives a range of values within which the true population value falls.\nA 95% interval means that we are 95% confident that the population mean is in the interval. \\(\\alpha = 0.05\\)\nThe confidence interval is computed as follows:\nC.I = sample estimate \\(\\pm\\) margin of error\nC.I = \\(\\bar{x}\\) \\(\\pm\\) margin of error\n\nmargin of error (M) = error tolerance, \\(e\\)\n\n\\(M = \\mathcal{z}_{\\alpha/2} \\times SE(estimate)\\)\nIf sample estimate (\\(\\bar{x}\\)) is normally distributed, \\(SE(estimate) = \\frac{\\sigma}{\\sqrt{n}}\\)\n\n\n(1-\\(\\alpha\\))% C.I. for \\(\\mu\\) when \\(\\sigma\\) is known:\n\n\\(C.I. = \\bar{x} \\pm \\mathcal{z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\)\n\n(1-\\(\\alpha\\))% C.I. for \\(\\mu\\) when \\(\\sigma\\) is unknown:\n\n\\(C.I. = \\bar{x} \\pm \\mathcal{t}_{\\alpha/2} \\frac{s}{\\sqrt{n}}\\)"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#confidence-interval-1",
     "href": "lecture/ch11StatsInTransp.html#confidence-interval-1",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Confidence Interval",
-    "text": "Confidence Interval\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\n\\(C.I. = \\bar{x} \\pm \\mathcal{Z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\)\n\n\\(\\alpha\\) = area under the curve in standard normal dist.\n\\(\\alpha / 2 = 0.95/2 = 0.975\\)\nFrom Table1 \\(\\mathcal{Z}_{\\alpha/2}= 1.96\\)\n\\(C.I. = 55 \\pm 1.96 \\frac{7}{\\sqrt{100}}\\)\n\\(C.I. = (53.628, 56.37)\\)\n\n\nNormal Table"
+    "text": "Confidence Interval"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#confidence-interval-2",
+    "href": "lecture/ch11StatsInTransp.html#confidence-interval-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Confidence Interval",
+    "text": "Confidence Interval\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\n\\(C.I. = \\bar{x} \\pm \\mathcal{z}_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\\)\n\n\\(\\alpha = 0.05\\)\n\\(1 - (\\alpha / 2) =  0.975\\)\nFrom Table1 \\(\\mathcal{Z}_{\\alpha/2}= 1.96\\)\n\\(C.I. = 55 \\pm 1.96 \\frac{7}{\\sqrt{100}}\\)\n\\(C.I. = (53.628, 56.37)\\)\n\n\nNormal Table"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#min-sample-size",
     "href": "lecture/ch11StatsInTransp.html#min-sample-size",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Min Sample Size",
-    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\nIf the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:\n\\(e\\) = error tolerance = \\(\\mathcal{Z}_{\\alpha/2} \\times SE(estimate)\\)\n\\(e = \\mathcal{Z}_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}\\)\n\\(n = (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)\n\\(n \\ge (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)"
+    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7, what is the 95% confidence interval?\n\nIf the mean of the data is Normally distributed, then the minimum number of measurements needed can be computed as follows:\n\\(e\\) = error tolerance = \\(\\mathcal{z}_{\\alpha/2} \\times SE(estimate)\\)\n\\(e = \\mathcal{z}_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}\\)\n\\(n = (\\frac{\\mathcal{z}_{\\alpha/2} \\sigma}{e})^2\\)\n\\(n \\ge (\\frac{\\mathcal{z}_{\\alpha/2} \\sigma}{e})^2\\)"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#min-sample-size-1",
     "href": "lecture/ch11StatsInTransp.html#min-sample-size-1",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Min Sample Size",
-    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7. , If the desired CI is 95% what is the sample size needed where the sample mean is within 1 mi/hr of the true population mean ?\n\n\\(n \\ge (\\frac{\\mathcal{Z}_{\\alpha/2} \\sigma}{e})^2\\)\n\\(n \\ge (\\frac{1.96 \\times 7}{1})^2\\)\n\\(n \\ge 188\\)"
+    "text": "Min Sample Size\nFor a vehicle speed dataset, sample size n = 100, mean speed is 55, standard deviation is 7. , If the desired CI is 95% what is the sample size needed where the sample mean is within 1 mi/hr of the true population mean ?\n\n\\(n \\ge (\\frac{\\mathcal{z}_{\\alpha/2} \\sigma}{e})^2\\)\n\\(n \\ge (\\frac{1.96 \\times 7}{1})^2\\)\n\\(n \\ge 188\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#hypothesis-testing-purpose",
+    "href": "lecture/ch11StatsInTransp.html#hypothesis-testing-purpose",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Hypothesis Testing: Purpose",
+    "text": "Hypothesis Testing: Purpose\n\n\n\nTo use sample data to decide whether there is enough evidence for a claim about a larger population.\n\n\n\n\nPopulation\n\n\nSample"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#hypothesis-testing-1",
+    "href": "lecture/ch11StatsInTransp.html#hypothesis-testing-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Hypothesis Testing",
+    "text": "Hypothesis Testing\nCompare Two Population Mean\n\n\nPopulation 1\n\n\\(\\mu_1\\) = population mean\n\\(\\sigma_1\\) = population standard deviation\n\n\nPopulation 2\n\n\\(\\mu_2\\) = population mean\n\\(\\sigma_2\\) = population standard deviation"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#hypothesis-testing-question",
+    "href": "lecture/ch11StatsInTransp.html#hypothesis-testing-question",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Hypothesis Testing: Question",
+    "text": "Hypothesis Testing: Question\n\nIs there significant difference in population means, \\(\\mu_1\\) and \\(\\mu_2\\)?"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#hypothesis-testing-2",
+    "href": "lecture/ch11StatsInTransp.html#hypothesis-testing-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Hypothesis Testing",
+    "text": "Hypothesis Testing\nCompare Two Population Mean\n\n\nPopulation 1\n\n\\(\\mu_1\\) = population mean\n\\(\\sigma_1\\) = population standard deviation\n\nSample 1\n\n\\(\\bar{x_1}\\) = sample mean\n\\(s_1\\) = sample standard deviation\n\n\nPopulation 2\n\n\\(\\mu_2\\) = population mean\n\\(\\sigma_2\\) = population standard deviation\n\nSample 2\n\n\\(\\bar{x_2}\\) = sample mean\n\\(s_2\\) = sample standard deviation\n\n\n\nIs there significant difference in population means, \\(\\mu_1\\) and \\(\\mu_2\\)?\n\ndifferent in population mean: \\((\\mu_1 - \\mu_2)\\) –&gt; UNKNOWN\nUse different in sample mean \\((\\bar{x_1} - \\bar{x_2})\\) to estimate \\((\\mu_1 - \\mu_2)\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#hypothesis-testing-3",
+    "href": "lecture/ch11StatsInTransp.html#hypothesis-testing-3",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Hypothesis testing",
+    "text": "Hypothesis testing\n\nLarge sample inferences for two means\nSmall sample inferences for two means\n\nIndependent samples and equal variances\nIndependent samples and unequal variances\npaired samples\n\nInferences for two variances\nUsing p-values to report test results"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#hypothesis-testing-steps",
+    "href": "lecture/ch11StatsInTransp.html#hypothesis-testing-steps",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Hypothesis testing Steps",
+    "text": "Hypothesis testing Steps\n\nFormulate the null and alternative hypotheses.\n\n\nNull hypothesis \\(H_0\\) usually represents the status quo\nAlternative hypothesis \\(H_a\\) is the hypothesis you will accept you reject H0.\n\n\nSelect the significance level: \\(\\alpha\\)\nUse the sample data to calculate the value of the test statistic (\\(z^* or t^* or F*\\)).\n\n\n\\(H_a\\): \\((\\mu_1 \\neq \\mu_2)\\); REJECT \\(H_0\\) when \\([ |test\\ statistics|\\ \\ge\\ |critical\\ value_{\\alpha/2}| ]\\)\n\\(H_a\\): \\((\\mu_1 &lt; \\mu_2)\\); REJECT \\(H_0\\) when \\([ test\\ statistics\\ &lt;\\ - critical\\ value_{\\alpha} ]\\)\n\\(H_a\\): \\((\\mu_1 &gt; \\mu_2)\\); REJECT \\(H_0\\) when \\([ test\\ statistics\\ &gt;\\ critical\\ value_{\\alpha} ]\\)\n\n\nUse Probability Distribution (\\(Z\\) or \\(t\\) or \\(F\\)) to determine the rejection region of \\(H_0\\).\nState conclusion of the test.\n\n\nIf the value of the test statistic is in the rejection region, then reject H0 and accept HA. Otherwise, conclude that there is insufficient evidence to reject H0.\n(the probability of rejecting a hypothesis that should be accepted). For engineering applications, is usually 0.05 or 5%. This is the same as saying (1-)% confidence level."
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-large-sample",
+    "href": "lecture/ch11StatsInTransp.html#ht-large-sample",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Large sample",
+    "text": "HT: Large sample\nSpeed data were collected at a section of highway before and after lane widening. The speed characteristics are given below. Determine whether there was any significant difference between the average speed at the 95% confidence level.\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35.5 mph\\)\n\\(\\bar{x_2} = 38.7 mph\\)\n\n\n\\(s_1 = 7.5 mph\\)\n\\(s_2 = 7.4 mph\\)\n\n\n\\(n_1 = 250\\)\n\\(n_2 = 280\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-large-sample-1",
+    "href": "lecture/ch11StatsInTransp.html#ht-large-sample-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Large sample",
+    "text": "HT: Large sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.**\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35.5 mph\\)\n\\(\\bar{x_2} = 38.7 mph\\)\n\n\n\\(s_1 = 7.5 mph\\)\n\\(s_2 = 7.4 mph\\)\n\n\n\\(n_1 = 250\\)\n\\(n_2 = 280\\)\n\n\n\n\nGiven, CI = \\((1-\\alpha) = 0.95\\)\nStep 0: Check for large Sample\n\nIf \\(n_1 \\ge 30\\) and \\(n_2 \\ge 30\\) larges sample and follows approx. Normal Dist. (CLT)\nGiven, \\(n_1= 280\\) and \\(n_2 = 280\\); So, large sample\n\n\n\n\nStep 1: Formulate Hypothesis\n\n\\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\n\\(H_0\\): average speed after lane widening differs from previous \\((\\mu_1 \\neq \\mu_2)\\)\n\n\n\n\n\nStep 2: significance level:\n\n\\(\\alpha\\) = \\((1-CI)\\) = \\(0.05\\)\n\n\n\n\n\nStep 3 Calculate test statistic (\\(z^*\\)) using sample data\n\n\\(z^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_d}\\) ; \\(S_d = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}\\)\n\n\\(S_d = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}\\)\n\n\\(S_d = \\sqrt{\\frac{7.5^2}{250} + \\frac{7.4^2}{280}}\\)\n\n\\(S_d = 0.648\\)\n\n\\(z^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_d}\\)\n\\(z^* = \\frac{35.5 - 38.7}{0.648}\\)\n\\(z^* = -4.938\\)\n\n\n\n\n\nStep 4 Determine the rejection region of \\(H_0\\)\n\nRejection Area Approach\n\n\\(|z^*| = 4.938\\) := \\(|test\\ statistics|\\)\n\\(|z_{\\alpha/2}| = 1.96\\) := \\(|critical\\ value_{\\alpha/2}|\\)\nReject \\(H_0\\) if \\(|z^*| \\ge |z_{\\alpha/2}|\\)\nSince \\(|z^*| = 4.938 &gt; |z_{\\alpha/2} = 1.96|\\), REJECT \\(H_0\\)\n\n\n\n\n\n\nStep 5 State conclusion of the test\n\nREJECT \\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\nWe are 95% confident that the average speed after lane widening differs from average speed without lane widening"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-small-sample",
+    "href": "lecture/ch11StatsInTransp.html#ht-small-sample",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Small Sample",
+    "text": "HT: Small Sample\nSpeed data were collected at a section of highway before and after a change in speed limit. The speed characteristics are given below. Determine whether there was any significant difference between the average speed at the 95% confidence level.\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35 mph\\)\n\\(\\bar{x_2} = 32 mph\\)\n\n\n\\(s_1 = 4 mph\\)\n\\(s_2 = 5 mph\\)\n\n\n\\(n_1 = 10\\)\n\\(n_2 = 10\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-small-sample-1",
+    "href": "lecture/ch11StatsInTransp.html#ht-small-sample-1",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Small Sample",
+    "text": "HT: Small Sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35 mph\\)\n\\(\\bar{x_2} = 32 mph\\)\n\n\n\\(s_1 = 4 mph\\)\n\\(s_2 = 5 mph\\)\n\n\n\\(n_1 = 10\\)\n\\(n_2 = 10\\)\n\n\n\n\nGiven, CI = \\((1-\\alpha) = 0.95\\)\nStep 0: Check for large/small Sample size\n\nIf \\(n_1 \\ge 30\\) and \\(n_2 \\ge 30\\) larges sample and follows approx. Normal Dist. (CLT)\nGiven, \\(n_1= 10\\) and \\(n_2 = 10\\);\nSmall sample size and use t-dist instead of Z-dist.\n\nAssume, Equal Variance\n\n\n\n\n\nStep 1: Formulate Hypothesis\n\n\\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\n\\(H_0\\): average speed after speed limit change differs from previous \\((\\mu_1 \\neq \\mu_2)\\)\n\n\n\n\n\nStep 2: significance level:\n\n\\(\\alpha\\) = \\((1-CI)\\) = \\(0.05\\)\n\n\n\n\n\nStep 3 Calculate test statistic ((\\(t^*\\))) using sample data\n\n\\(t^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_p \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}\\)\n\n\\(S_p = \\sqrt{\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2)}{n_1+n_2-2}}\\)\n\n\\(S_p = \\sqrt{\\frac{(10-1)4^2+(10-1)5^2)}{10+10-2}}\\)\n\n\\(S_p = 4.528\\)\n\n\n\\(t^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_p \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}\\)\n\\(t^* = \\frac{35 - 32}{4.528 \\sqrt{\\frac{1}{10} + \\frac{1}{10}}}\\)\n\\(t^* = 1.48\\)\ndegrees of freedom\\(= df = n_1+n_2-2\\) = \\(18\\)\n\n\n\n\n\nStep 4 Determine the rejection region of \\(H_0\\)\n\nRejection Area Approach\n\n\\(|t^*| = 1.48\\)\n\\(|t_{\\alpha/2,df}|=|t_{0.05/2, 18}| = 2.101\\)\nReject \\(H_0\\) if \\(|t^*| \\ge |t_{0.025, 18}|\\)\nSince \\(|t^*| = 1.48 &lt; |t_{0.025, 18}| = 2.101\\), FAIL TO REJECT \\(H_0\\)\n\n\n\n\n\n\nStep 5 State conclusion of the test\n\nFAIL TO REJECT \\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\nWe are 95% confident that the average speed did not change after speed limit change in the roadway section."
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-small-sample-unequal-variance",
+    "href": "lecture/ch11StatsInTransp.html#ht-small-sample-unequal-variance",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Small Sample (UNEQUAL VARIANCE)",
+    "text": "HT: Small Sample (UNEQUAL VARIANCE)\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35 mph\\)\n\\(\\bar{x_2} = 32 mph\\)\n\n\n\\(s_1 = 4 mph\\)\n\\(s_2 = 5 mph\\)\n\n\n\\(n_1 = 10\\)\n\\(n_2 = 10\\)\n\n\n\n\nUNEQUAL VARIANCE\n\n\\(t^* = \\frac{\\bar{x_1} - \\bar{x_2}}{ \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}}\\)\n\\(df = \\frac{(\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2})^2}{\\frac{(\\frac{s_1^2}{n_1})^2}{n_1-1}+\\frac{(\\frac{s_2^2}{n_2})^2}{n_2-1}}\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-population-variance",
+    "href": "lecture/ch11StatsInTransp.html#ht-population-variance",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Population Variance",
+    "text": "HT: Population Variance\nSpeed data were collected at a section of highway before and after a change in speed limit. The speed characteristics are given below. Determine whether the variances are equal at the 95% confidence level.\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 30 mph\\)\n\\(\\bar{x_2} = 35 mph\\)\n\n\n\\(s_1 = 5 mph\\)\n\\(s_2 = 4 mph\\)\n\n\n\\(n_1 = 11\\)\n\\(n_2 = 21\\)\n\n\n\n\nGiven, CI = \\((1-\\alpha) = 0.95\\)\nStep 0: Check for large/small Sample size\n\nIf \\(n_1 \\ge 30\\) and \\(n_2 \\ge 30\\) larges sample and follows approx. Normal Dist. (CLT)\nGiven, \\(n_1= 11\\) and \\(n_2 = 21\\);\nSmall sample size\n\n\n\n\nStep 1: Formulate Hypothesis\n\n\\(H_0\\): \\((\\sigma_1^2 = \\sigma_2^2)\\)\n\\(H_0\\): \\((\\sigma_1^2 \\neq \\sigma_2^2)\\)\n\n\n\n\n\nStep 2: significance level:\n\n\\(\\alpha\\) = \\((1-CI)\\) = \\(0.05\\)\n\n\n\n\n\nStep 3 Calculate test statistic ((\\(t^*\\))) using sample data\n\n\\(F^* = \\frac{s_1^2}{s_2^2}\\) [\\(s_1\\) is the larger s.d.]\n\\(F^* = \\frac{5^2}{4^2}\\)\n\\(F^* = 1.562\\)\ndegrees of freedom:\n\n\\(f_1 = n_1 - 1 = 10\\)\n\\(f_2 = n_2 - 1 = 20\\)\n\n\n\n\n\n\nStep 4 Determine the rejection region of \\(H_0\\)\n\nRejection Area Approach\n\n\\(|F^*| = 1.562\\)\n\\(|F_{\\alpha/2,df}|=|F_{0.05/2, (10,20)}| = 2.445\\)\nReject \\(H_0\\) if \\(|F^*| \\ge |F_{0.025, (10,20)}|\\)\nSince \\(|t^*| = 1.48 &lt; |t_{0.025, 18}| = 2.445\\), FAIL TO REJECT \\(H_0\\)\n\n\n\n\n\n\nStep 5 State conclusion of the test\n\nFAIL TO REJECT \\(H_0\\): no difference in variance \\((\\sigma_1^2 = \\sigma_2^2)\\)\nWe are 95% confident that variances are different (not equal)."
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-independent-vs.-paired-sample",
+    "href": "lecture/ch11StatsInTransp.html#ht-independent-vs.-paired-sample",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Independent Vs. Paired Sample",
+    "text": "HT: Independent Vs. Paired Sample\n\nThe samples are dependent (also called paired data) if each measurement in one sample is matched or paired with a particular measurement in the other sample.\nAnother way to consider this is how many measurements are taken off of each subject?\n\nIf only one measurement, then independent\nif two measurements, then paired."
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-paired-sample",
+    "href": "lecture/ch11StatsInTransp.html#ht-paired-sample",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Paired Sample",
+    "text": "HT: Paired Sample\n\n\\(t^* = \\frac{\\bar{D}}{\\frac{s_D}{\\sqrt{n}}}\\)\n\n\\(\\bar{D}\\) : difference in paired means\n\\(s_D = \\sqrt{\\frac{n\\sum{D_i^2} - (\\sum{D_i})^2}{n(n-1)}}\\)\nWhen \\(n\\) is large, follow normal dist (\\(Z-dist\\)) otherwise follows \\(t-dist\\) with \\(df=n-1\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-paired-sample-example",
+    "href": "lecture/ch11StatsInTransp.html#ht-paired-sample-example",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Paired Sample Example",
+    "text": "HT: Paired Sample Example\n\n\n\n\\(t^* = \\frac{\\bar{D}}{\\frac{s_D}{\\sqrt{n}}}\\)\n\n\\(\\bar{D}\\) : difference in paired means\n\\(s_D = \\sqrt{\\frac{n\\sum{D_i^2} - (\\sum{D_i})^2}{n(n-1)}}\\)\nWhen \\(n\\) is large, follow normal dist (\\(Z-dist\\)) otherwise follows \\(t-dist\\) with \\(df=n-1\\)"
   },
   {
     "objectID": "course-schedule.html",

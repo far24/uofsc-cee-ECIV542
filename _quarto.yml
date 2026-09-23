@@ -14,7 +14,7 @@ website:
 
   sidebar:
     background: "#D9E3E4"
-    logo: "images/traffic_light_006.jpg"
+    logo: "images/te.png"
     pinned: true
     align: center
     style: "docked"
@@ -57,9 +57,9 @@ website:
           - href: lecture/ch4TrafficControlDevices.qmd
             text: "16SEP26-Class 08: Ch. 4 Traffic Control Devices (Cont.)"
           - href: lecture/ch11StatsInTransp.qmd
-            text: "21SEP26-Class 10: Ch. 11 Statistical Application in Transportation"
+            text: "21SEP26-Class 09: Ch. 11 Statistical Application in Transportation"
           - href: lecture/ch11StatsInTransp.qmd
-            text: "23SEP26-Class 11: Ch. 11 Statistical Application in Transportation"
+            text: "23SEP26-Class 10: Ch. 11 Statistical Application in Transportation"
           - href: lecture/ch11StatsInTransp.qmd
             text: "28SEP26-Class 12: X"
           - href: lecture/ch11StatsInTransp.qmd
