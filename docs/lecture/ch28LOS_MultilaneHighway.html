@@ -145,141 +145,40 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </div>
 
 </section>
-<section>
-<section id="multilane-highways" class="title-slide slide level1 center">
-<h1>Multilane Highways</h1>
-
+<section id="multilane-highways" class="slide level2">
+<h2>Multilane Highways</h2>
+<ul>
+<li>classified by the number of lanes and the type of median treatment provided.
+<ul>
+<li>Surface multilane facilities generally consist of four- or six-lane alignments.</li>
+<li>Undivided (i.e., having no median but with a double-solid yellow marking separating the two directions of flow), or</li>
+<li>divided, with a physical median separating the two directions of flow.</li>
+</ul></li>
+</ul>
 </section>
 <section id="steps-for-los-for-multilane-highways" class="slide level2 scrollable">
 <h2>Steps for LOS for Multilane Highways</h2>
 <ol type="1">
-<li>Find <span class="math inline">\(FFS\)</span> and traffic stream speed <span class="math inline">\(S\)</span></li>
-<li>Find flow rate</li>
-<li>Find density using, <span class="math inline">\(q=ku\)</span></li>
-<li>Find LOS using Speed-Flow Curves for Multilane Highways</li>
+<li>Find flow (<span class="math inline">\(v_p\)</span>) of the traffic stream</li>
+<li>Find speed (<span class="math inline">\(S\)</span>) of the traffic Stream</li>
+<li>Find density of traffic stream (<span class="math inline">\(D\)</span>) using <span class="math inline">\(v_p = D \times s\)</span></li>
+<li>Check appropriate curve for <span class="math inline">\(LOS\)</span></li>
 </ol>
 </section>
-<section id="find-ffs-multilane-highways" class="slide level2">
-<h2>1. Find FFS (Multilane Highways)</h2>
-<p><span class="math display">\[FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\]</span> Where</p>
+<section id="problem" class="slide level2">
+<h2>Problem</h2>
+<p>A four-lane multilane highway segment with a full median carries a peak-hour volume of 2,600 veh/h in the heaviest direction. It has the following additional characteristics:</p>
 <ul>
-<li><span class="math inline">\(FFS\)</span> = free-flow spee of the freeway (mph)</li>
-<li><span class="math inline">\(f_{LW}\)</span> = adjustment for lane width (mph)</li>
-<li><span class="math inline">\(f_{LC}\)</span> = adjustment for right-side lateral clearance (mph)</li>
-<li><span class="math inline">\(f_{M}\)</span> = adjustment for type of median (mph)</li>
-<li><span class="math inline">\(f_{A}\)</span> = adjustment for access points (mpg)</li>
+<li>12 ft lanes</li>
+<li>4 ft clearance at the roadside and in the median</li>
+<li>10 access points/mile</li>
+<li>10% trucks, standard mix</li>
+<li>Peak-hour factor = 0.88</li>
 </ul>
-</section>
-<section id="problem-multilane-highway-los" class="slide level2 smaller">
-<h2>Problem: Multilane Highway LOS</h2>
-<p>A basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.</p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Parameter</th>
-<th style="text-align: center;">Values (Multilane Hwy)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Number of Lanes</strong></td>
-<td style="text-align: center;">4</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Lane Width</strong></td>
-<td style="text-align: center;">11 ft</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Lateral Clearance (Right Side)</strong></td>
-<td style="text-align: center;">2 ft</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Alignment</strong></td>
-<td style="text-align: center;">Undived</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Base Free-Flow Speed (BFFS)</strong></td>
-<td style="text-align: center;">65 mph</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Ramps per Mile</strong></td>
-<td style="text-align: center;">NA</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Access Points Per Mile</strong></td>
-<td style="text-align: center;">20</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="problem-multilane-highway-los-1" class="slide level2 smaller">
-<h2>Problem: Multilane Highway LOS</h2>
-<p>A basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.</p>
-<div class="columns">
-<div class="column" style="width:60%;">
-<div class="fragment" data-fragment-index="1">
-<ul>
-<li><span class="math inline">\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\)</span></li>
-</ul>
-</div>
-<div class="fragment" data-fragment-index="2">
-<ul>
-<li><span class="math inline">\(BFFS = 65 mph\)</span></li>
-<li><span class="math inline">\(f_{LW} = 1.9 mph\)</span></li>
-<li><span class="math inline">\(f_{LC} = 0.9 mph\)</span></li>
-<li><span class="math inline">\(f_{M} = 1.6 mph\)</span></li>
-<li><span class="math inline">\(f_{A} = 5 mph\)</span></li>
-</ul>
-</div>
-<div class="fragment" data-fragment-index="3">
-<ul>
-<li><span class="math inline">\(FFS = 65 - 1.9 - 0.9 - 1.6 - 5\)</span></li>
-<li><span class="math inline">\(FFS = 55.6\ mph\)</span></li>
-</ul>
-</div>
-</div><div class="column" style="width:40%;">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Parameter</th>
-<th style="text-align: center;">Values (Multilane Hwy)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Number of Lanes</strong></td>
-<td style="text-align: center;">4</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Lane Width</strong></td>
-<td style="text-align: center;">11 ft</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Lateral Clearance (Right Side)</strong></td>
-<td style="text-align: center;">2 ft</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Alignment</strong></td>
-<td style="text-align: center;">Undived</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Base Free-Flow Speed (BFFS)</strong></td>
-<td style="text-align: center;">65 mph</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Ramps per Mile</strong></td>
-<td style="text-align: center;">NA</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Access Points Per Mile</strong></td>
-<td style="text-align: center;">20</td>
-</tr>
-</tbody>
-</table>
-</div></div>
+<p>The segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?</p>
 
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

@@ -929,6 +929,20 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </ul></li>
 </ul>
 </section>
+<section id="normal-distribution---std.-normal" class="slide level2 smaller">
+<h2>Normal Distribution -&gt; Std. Normal</h2>
+<p><strong><u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u></strong></p>
+<ul>
+<li><a href="https://mabognar.github.io/apps/normal.html">Normal Distribution</a><br>
+</li>
+<li>Let, <span class="math inline">\(\mathcal{X}\)</span> = Speed of the vehicle
+<ul>
+<li><span class="math inline">\(P(X \le 65)\)</span> = Area under the curve <span class="math inline">\(\mathcal{N} \sim (mean = 55, var. =7^2)\)</span></li>
+<li><span class="math inline">\(P(X \le \frac{65-55}{7})\)</span> = Area under the curve <span class="math inline">\(\mathcal{N} \sim (0,1) -&gt;\)</span> Std. Normal Dist.</li>
+<li><span class="math inline">\(P(X \le 1.43)\)</span> = <span class="math inline">\(0.9234\)</span></li>
+</ul></li>
+</ul>
+</section>
 <section id="normal-distribution-1" class="slide level2 smaller">
 <h2>Normal Distribution</h2>
 <p><strong><u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u></strong></p>
@@ -943,7 +957,7 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <li><span class="math inline">\(P(45 \le X \le 65) = \int_{45}^{65} f(x) \, dx\)</span><br>
 </li>
 <li><span class="math inline">\(P(45 \le X \le 65) = 0.9234 - 0.0765\)</span></li>
-<li><span class="math inline">\(P(X \le 65) = 0.8469\)</span></li>
+<li><span class="math inline">\(P(45 \le X \le 65) = 0.8469\)</span></li>
 </ul></li>
 </ul>
 </section>
@@ -1155,6 +1169,15 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <li><strong>Use Probability Distribution (<span class="math inline">\(Z\)</span> or <span class="math inline">\(t\)</span> or <span class="math inline">\(F\)</span>) to determine the rejection region of <span class="math inline">\(H_0\)</span>.</strong></li>
 <li><strong>State conclusion of the test.</strong></li>
 </ol>
+</section>
+<section id="test-statistics-vs.-critical-value" class="slide level2">
+<h2>Test Statistics vs.&nbsp;critical value</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/chap11/ch11_CImultiplierVal.png"></p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="images/chap11/ch11_CIalpha.png"></p>
+</div></div>
 <aside class="notes">
 <p>If the value of the test statistic is in the rejection region, then reject H0 and accept HA. Otherwise, conclude that there is insufficient evidence to reject H0.</p>
 <p>(the probability of rejecting a hypothesis that should be accepted). For engineering applications, is usually 0.05 or 5%. This is the same as saying (1-)% confidence level.</p>
@@ -1229,25 +1252,91 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <li>Given, <span class="math inline">\(n_1= 280\)</span> and <span class="math inline">\(n_2 = 280\)</span>; So, large sample</li>
 </ul></li>
 </ul>
-<div class="fragment">
+</section>
+<section id="ht-large-sample-2" class="slide level2 smaller">
+<h2>HT: Large sample</h2>
+<p><strong><u>Determine whether there was any significant difference between the average speed at the 95% confidence level.</u></strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="population-3"><u>Population</u></h4>
+<p><strong><u>Step 1</u></strong>: Formulate Hypothesis</p>
 <ul>
+<li></li>
+<li></li>
+</ul>
+<p><strong><u>Step 2</u></strong>: significance level:</p>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</div><div class="column" style="text-align: right;">
+<h4 id="sample-3"><u>Sample</u></h4>
+<p><strong><u>Step 3</u></strong> Calculate test statistic (<span class="math inline">\(z^*\)</span>) * <span class="math inline">\(z^* = \frac{\bar{x_1} - \bar{x_2}}{S_d}\)</span> ; <span class="math inline">\(S_d = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}\)</span></p>
+</div></div>
+</section>
+<section id="ht-large-sample-3" class="slide level2 smaller">
+<h2>HT: Large sample</h2>
+<p><strong><u>Determine whether there was any significant difference between the average speed at the 95% confidence level.</u></strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong><u>Step 4</u></strong> Determine the rejection region of <span class="math inline">\(H_0\)</span></p>
+</div><div class="column" style="width:50%;">
+<h4 id="compare-test-statistics"><u>Compare test statistics</u></h4>
+<p><img data-src="images/chap11/ch11_CImultiplierVal.png"> <img data-src="images/chap11/ch11_CIalpha.png"></p>
+</div></div>
+</section>
+<section id="ht-large-sample-4" class="slide level2 smaller">
+<h2>HT: Large sample</h2>
+<p><strong><u>Determine whether there was any significant difference between the average speed at the 95% confidence level.</u></strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="population-4"><u>Population</u></h4>
+<p><strong><u>Step 5</u></strong> State conclusion of the test</p>
+</div><div class="column" style="width:50%;">
+<h4 id="sample-4"><u>Sample</u></h4>
+</div></div>
+</section>
+<section id="ht-large-sample-5" class="slide level2 smaller">
+<h2>HT: Large sample</h2>
+<p>Determine whether there was any significant difference between the average speed at the 95% confidence level.**</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Before</th>
+<th style="text-align: center;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(\bar{x_1} = 35.5 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\bar{x_2} = 38.7 mph\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(s_1 = 7.5 mph\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(s_2 = 7.4 mph\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(n_1 = 250\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(n_2 = 280\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Given, CI = <span class="math inline">\((1-\alpha) = 0.95\)</span></li>
+<li><strong><u>Step 0</u></strong>: Check for large Sample
+<ul>
+<li>If <span class="math inline">\(n_1 \ge 30\)</span> and <span class="math inline">\(n_2 \ge 30\)</span> larges sample and follows approx. Normal Dist. (CLT)</li>
+<li>Given, <span class="math inline">\(n_1= 280\)</span> and <span class="math inline">\(n_2 = 280\)</span>; So, large sample</li>
+</ul></li>
 <li><strong><u>Step 1</u></strong>: Formulate Hypothesis
 <ul>
 <li><span class="math inline">\(H_0\)</span>: no difference in average speed <span class="math inline">\((\mu_1 = \mu_2)\)</span></li>
 <li><span class="math inline">\(H_0\)</span>: average speed after lane widening differs from previous <span class="math inline">\((\mu_1 \neq \mu_2)\)</span></li>
 </ul></li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
 <li><strong><u>Step 2</u></strong>: significance level:
 <ul>
 <li><span class="math inline">\(\alpha\)</span> = <span class="math inline">\((1-CI)\)</span> = <span class="math inline">\(0.05\)</span></li>
 </ul></li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
 <li><strong><u>Step 3</u></strong> Calculate test statistic (<span class="math inline">\(z^*\)</span>) using sample data
 <ul>
 <li><span class="math inline">\(z^* = \frac{\bar{x_1} - \bar{x_2}}{S_d}\)</span> ; <span class="math inline">\(S_d = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}\)</span>
@@ -1262,10 +1351,6 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <li><span class="math inline">\(z^* = \frac{35.5 - 38.7}{0.648}\)</span></li>
 <li><span class="math inline">\(z^* = -4.938\)</span></li>
 </ul></li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
 <li><strong><u>Step 4</u></strong> Determine the rejection region of <span class="math inline">\(H_0\)</span>
 <ul>
 <li>Rejection Area Approach
@@ -1276,17 +1361,12 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <li>Since <span class="math inline">\(|z^*| = 4.938 &gt; |z_{\alpha/2} = 1.96|\)</span>, <mark>REJECT <span class="math inline">\(H_0\)</span></mark></li>
 </ul></li>
 </ul></li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
 <li><strong><u>Step 5</u></strong> State conclusion of the test
 <ul>
 <li><mark>REJECT</mark> <span class="math inline">\(H_0\)</span>: no difference in average speed <span class="math inline">\((\mu_1 = \mu_2)\)</span></li>
 <li>We are 95% confident that the average speed after lane widening differs from average speed without lane widening</li>
 </ul></li>
 </ul>
-</div>
 </section>
 <section id="ht-small-sample" class="slide level2 smaller">
 <h2>HT: Small Sample</h2>

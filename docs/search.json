@@ -421,11 +421,18 @@
     "text": "Normal Distribution\nSuppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?\n\nNormal Distribution\n\nPDF of \\(\\mathcal{N}\\), \\(f(x) = \\frac{1}{\\sigma \\sqrt{2 \\pi}}e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}}\\)\nLet, \\(\\mathcal{X}\\) = Speed of the vehicle\n\n\\(\\mathcal{X} \\sim \\mathcal{N}(55,7^2)\\)\n\n\\(P(X \\le 65) = \\int_{\\infty}^{65} f(x) \\, dx\\)\n\n\\(P(X \\le 65) = \\int_{\\infty}^{65} \\frac{1}{7 \\sqrt{2 \\pi}}e^{\\frac{-(x-55)^2}{2 \\times 7^2}} \\, dx\\)\n\\(P(X \\le 65)\\) = Area under the curve\n\\(P(X \\le 65) = 0.9234\\)"
   },
   {
+    "objectID": "lecture/ch11StatsInTransp.html#normal-distribution---std.-normal",
+    "href": "lecture/ch11StatsInTransp.html#normal-distribution---std.-normal",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Normal Distribution -> Std. Normal",
+    "text": "Normal Distribution -&gt; Std. Normal\nSuppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?\n\nNormal Distribution\n\nLet, \\(\\mathcal{X}\\) = Speed of the vehicle\n\n\\(P(X \\le 65)\\) = Area under the curve \\(\\mathcal{N} \\sim (mean = 55, var. =7^2)\\)\n\\(P(X \\le \\frac{65-55}{7})\\) = Area under the curve \\(\\mathcal{N} \\sim (0,1) -&gt;\\) Std. Normal Dist.\n\\(P(X \\le 1.43)\\) = \\(0.9234\\)"
+  },
+  {
     "objectID": "lecture/ch11StatsInTransp.html#normal-distribution-1",
     "href": "lecture/ch11StatsInTransp.html#normal-distribution-1",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Normal Distribution",
-    "text": "Normal Distribution\nSuppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?\n\nNormal Distribution\n\nPDF of \\(\\mathcal{N}\\), \\(f(x) = \\frac{1}{\\sigma \\sqrt{2 \\pi}}e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}}\\)\nLet, \\(\\mathcal{X}\\) = Speed of the vehicle\n\n\\(\\mathcal{X} \\sim \\mathcal{N}(55,7^2)\\)\n\n\\(P(45 \\le X \\le 65) = \\int_{45}^{65} f(x) \\, dx\\)\n\n\\(P(45 \\le X \\le 65) = 0.9234 - 0.0765\\)\n\\(P(X \\le 65) = 0.8469\\)"
+    "text": "Normal Distribution\nSuppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7. What is the probability that the next observed vehicle will be 65 mi/hr or less? What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?\n\nNormal Distribution\n\nPDF of \\(\\mathcal{N}\\), \\(f(x) = \\frac{1}{\\sigma \\sqrt{2 \\pi}}e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}}\\)\nLet, \\(\\mathcal{X}\\) = Speed of the vehicle\n\n\\(\\mathcal{X} \\sim \\mathcal{N}(55,7^2)\\)\n\n\\(P(45 \\le X \\le 65) = \\int_{45}^{65} f(x) \\, dx\\)\n\n\\(P(45 \\le X \\le 65) = 0.9234 - 0.0765\\)\n\\(P(45 \\le X \\le 65) = 0.8469\\)"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#normal-distribution-2",
@@ -516,7 +523,14 @@
     "href": "lecture/ch11StatsInTransp.html#hypothesis-testing-steps",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "Hypothesis testing Steps",
-    "text": "Hypothesis testing Steps\n\nFormulate the null and alternative hypotheses.\n\n\nNull hypothesis \\(H_0\\) usually represents the status quo\nAlternative hypothesis \\(H_a\\) is the hypothesis you will accept you reject H0.\n\n\nSelect the significance level: \\(\\alpha\\)\nUse the sample data to calculate the value of the test statistic (\\(z^* or t^* or F*\\)).\n\n\n\\(H_a\\): \\((\\mu_1 \\neq \\mu_2)\\); REJECT \\(H_0\\) when \\([ |test\\ statistics|\\ \\ge\\ |critical\\ value_{\\alpha/2}| ]\\)\n\\(H_a\\): \\((\\mu_1 &lt; \\mu_2)\\); REJECT \\(H_0\\) when \\([ test\\ statistics\\ &lt;\\ - critical\\ value_{\\alpha} ]\\)\n\\(H_a\\): \\((\\mu_1 &gt; \\mu_2)\\); REJECT \\(H_0\\) when \\([ test\\ statistics\\ &gt;\\ critical\\ value_{\\alpha} ]\\)\n\n\nUse Probability Distribution (\\(Z\\) or \\(t\\) or \\(F\\)) to determine the rejection region of \\(H_0\\).\nState conclusion of the test.\n\n\nIf the value of the test statistic is in the rejection region, then reject H0 and accept HA. Otherwise, conclude that there is insufficient evidence to reject H0.\n(the probability of rejecting a hypothesis that should be accepted). For engineering applications, is usually 0.05 or 5%. This is the same as saying (1-)% confidence level."
+    "text": "Hypothesis testing Steps\n\nFormulate the null and alternative hypotheses.\n\n\nNull hypothesis \\(H_0\\) usually represents the status quo\nAlternative hypothesis \\(H_a\\) is the hypothesis you will accept you reject H0.\n\n\nSelect the significance level: \\(\\alpha\\)\nUse the sample data to calculate the value of the test statistic (\\(z^* or t^* or F*\\)).\n\n\n\\(H_a\\): \\((\\mu_1 \\neq \\mu_2)\\); REJECT \\(H_0\\) when \\([ |test\\ statistics|\\ \\ge\\ |critical\\ value_{\\alpha/2}| ]\\)\n\\(H_a\\): \\((\\mu_1 &lt; \\mu_2)\\); REJECT \\(H_0\\) when \\([ test\\ statistics\\ &lt;\\ - critical\\ value_{\\alpha} ]\\)\n\\(H_a\\): \\((\\mu_1 &gt; \\mu_2)\\); REJECT \\(H_0\\) when \\([ test\\ statistics\\ &gt;\\ critical\\ value_{\\alpha} ]\\)\n\n\nUse Probability Distribution (\\(Z\\) or \\(t\\) or \\(F\\)) to determine the rejection region of \\(H_0\\).\nState conclusion of the test."
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#test-statistics-vs.-critical-value",
+    "href": "lecture/ch11StatsInTransp.html#test-statistics-vs.-critical-value",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "Test Statistics vs. critical value",
+    "text": "Test Statistics vs. critical value\n\n\n\n\n\n\n\nIf the value of the test statistic is in the rejection region, then reject H0 and accept HA. Otherwise, conclude that there is insufficient evidence to reject H0.\n(the probability of rejecting a hypothesis that should be accepted). For engineering applications, is usually 0.05 or 5%. This is the same as saying (1-)% confidence level."
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#ht-large-sample",
@@ -530,7 +544,35 @@
     "href": "lecture/ch11StatsInTransp.html#ht-large-sample-1",
     "title": "Ch 11. Statistical Application in Transportation",
     "section": "HT: Large sample",
-    "text": "HT: Large sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.**\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35.5 mph\\)\n\\(\\bar{x_2} = 38.7 mph\\)\n\n\n\\(s_1 = 7.5 mph\\)\n\\(s_2 = 7.4 mph\\)\n\n\n\\(n_1 = 250\\)\n\\(n_2 = 280\\)\n\n\n\n\nGiven, CI = \\((1-\\alpha) = 0.95\\)\nStep 0: Check for large Sample\n\nIf \\(n_1 \\ge 30\\) and \\(n_2 \\ge 30\\) larges sample and follows approx. Normal Dist. (CLT)\nGiven, \\(n_1= 280\\) and \\(n_2 = 280\\); So, large sample\n\n\n\n\nStep 1: Formulate Hypothesis\n\n\\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\n\\(H_0\\): average speed after lane widening differs from previous \\((\\mu_1 \\neq \\mu_2)\\)\n\n\n\n\n\nStep 2: significance level:\n\n\\(\\alpha\\) = \\((1-CI)\\) = \\(0.05\\)\n\n\n\n\n\nStep 3 Calculate test statistic (\\(z^*\\)) using sample data\n\n\\(z^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_d}\\) ; \\(S_d = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}\\)\n\n\\(S_d = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}\\)\n\n\\(S_d = \\sqrt{\\frac{7.5^2}{250} + \\frac{7.4^2}{280}}\\)\n\n\\(S_d = 0.648\\)\n\n\\(z^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_d}\\)\n\\(z^* = \\frac{35.5 - 38.7}{0.648}\\)\n\\(z^* = -4.938\\)\n\n\n\n\n\nStep 4 Determine the rejection region of \\(H_0\\)\n\nRejection Area Approach\n\n\\(|z^*| = 4.938\\) := \\(|test\\ statistics|\\)\n\\(|z_{\\alpha/2}| = 1.96\\) := \\(|critical\\ value_{\\alpha/2}|\\)\nReject \\(H_0\\) if \\(|z^*| \\ge |z_{\\alpha/2}|\\)\nSince \\(|z^*| = 4.938 &gt; |z_{\\alpha/2} = 1.96|\\), REJECT \\(H_0\\)\n\n\n\n\n\n\nStep 5 State conclusion of the test\n\nREJECT \\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\nWe are 95% confident that the average speed after lane widening differs from average speed without lane widening"
+    "text": "HT: Large sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.**\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35.5 mph\\)\n\\(\\bar{x_2} = 38.7 mph\\)\n\n\n\\(s_1 = 7.5 mph\\)\n\\(s_2 = 7.4 mph\\)\n\n\n\\(n_1 = 250\\)\n\\(n_2 = 280\\)\n\n\n\n\nGiven, CI = \\((1-\\alpha) = 0.95\\)\nStep 0: Check for large Sample\n\nIf \\(n_1 \\ge 30\\) and \\(n_2 \\ge 30\\) larges sample and follows approx. Normal Dist. (CLT)\nGiven, \\(n_1= 280\\) and \\(n_2 = 280\\); So, large sample"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-large-sample-2",
+    "href": "lecture/ch11StatsInTransp.html#ht-large-sample-2",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Large sample",
+    "text": "HT: Large sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.\n\n\nPopulation\nStep 1: Formulate Hypothesis\n\n\n\n\nStep 2: significance level:\n\n\n\n\n\nSample\nStep 3 Calculate test statistic (\\(z^*\\)) * \\(z^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_d}\\) ; \\(S_d = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}\\)"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-large-sample-3",
+    "href": "lecture/ch11StatsInTransp.html#ht-large-sample-3",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Large sample",
+    "text": "HT: Large sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.\n\n\nStep 4 Determine the rejection region of \\(H_0\\)\n\nCompare test statistics"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-large-sample-4",
+    "href": "lecture/ch11StatsInTransp.html#ht-large-sample-4",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Large sample",
+    "text": "HT: Large sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.\n\n\nPopulation\nStep 5 State conclusion of the test\n\nSample"
+  },
+  {
+    "objectID": "lecture/ch11StatsInTransp.html#ht-large-sample-5",
+    "href": "lecture/ch11StatsInTransp.html#ht-large-sample-5",
+    "title": "Ch 11. Statistical Application in Transportation",
+    "section": "HT: Large sample",
+    "text": "HT: Large sample\nDetermine whether there was any significant difference between the average speed at the 95% confidence level.**\n\n\n\nBefore\nAfter\n\n\n\n\n\\(\\bar{x_1} = 35.5 mph\\)\n\\(\\bar{x_2} = 38.7 mph\\)\n\n\n\\(s_1 = 7.5 mph\\)\n\\(s_2 = 7.4 mph\\)\n\n\n\\(n_1 = 250\\)\n\\(n_2 = 280\\)\n\n\n\n\nGiven, CI = \\((1-\\alpha) = 0.95\\)\nStep 0: Check for large Sample\n\nIf \\(n_1 \\ge 30\\) and \\(n_2 \\ge 30\\) larges sample and follows approx. Normal Dist. (CLT)\nGiven, \\(n_1= 280\\) and \\(n_2 = 280\\); So, large sample\n\nStep 1: Formulate Hypothesis\n\n\\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\n\\(H_0\\): average speed after lane widening differs from previous \\((\\mu_1 \\neq \\mu_2)\\)\n\nStep 2: significance level:\n\n\\(\\alpha\\) = \\((1-CI)\\) = \\(0.05\\)\n\nStep 3 Calculate test statistic (\\(z^*\\)) using sample data\n\n\\(z^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_d}\\) ; \\(S_d = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}\\)\n\n\\(S_d = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}\\)\n\n\\(S_d = \\sqrt{\\frac{7.5^2}{250} + \\frac{7.4^2}{280}}\\)\n\n\\(S_d = 0.648\\)\n\n\\(z^* = \\frac{\\bar{x_1} - \\bar{x_2}}{S_d}\\)\n\\(z^* = \\frac{35.5 - 38.7}{0.648}\\)\n\\(z^* = -4.938\\)\n\nStep 4 Determine the rejection region of \\(H_0\\)\n\nRejection Area Approach\n\n\\(|z^*| = 4.938\\) := \\(|test\\ statistics|\\)\n\\(|z_{\\alpha/2}| = 1.96\\) := \\(|critical\\ value_{\\alpha/2}|\\)\nReject \\(H_0\\) if \\(|z^*| \\ge |z_{\\alpha/2}|\\)\nSince \\(|z^*| = 4.938 &gt; |z_{\\alpha/2} = 1.96|\\), REJECT \\(H_0\\)\n\n\nStep 5 State conclusion of the test\n\nREJECT \\(H_0\\): no difference in average speed \\((\\mu_1 = \\mu_2)\\)\nWe are 95% confident that the average speed after lane widening differs from average speed without lane widening"
   },
   {
     "objectID": "lecture/ch11StatsInTransp.html#ht-small-sample",
@@ -2070,32 +2112,25 @@
     "text": "Traffic Stream Models: Solution\nGiven the following u-k relation, determine the q-k relation and flow capacity. What is the speed at maximum flow (\\(u_{cap}\\))?\n\nALL STEPS\n\\(u_s = u_f(1 - \\frac{k}{k_j})\\)\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(\\frac{q}{k} = 65(1 - \\frac{k}{110})\\)\n\\(q = 65k- 0.59091k^2\\)\n\n\n\n\\(u_s = 65(1 - \\frac{k}{110})\\)\n\\(u_s = 65(1 - \\frac{\\frac{q}{u_s}}{110})\\)\n\\(q = 110u_s-1.6923u_s^2\\)\n\n\n\n\\(q = 65k- 0.59091k^2\\)\n\\(\\frac{dq}{dk} = 65 -1.18182k\\)\n\\(65 -1.18182k_{cap} = 0\\)\n\\(k_{cap} = 55\\) veh/h\n\n\n\n\\(q = 110u_s-1.6923u_s^2\\)\n\\(\\frac{dq}{du_s} = 110-3.3846u_s\\)\n\\(110-3.3846u_s = 0\\)\n\\(u_{cap} = 32.5\\) mph\n\n\n\n\\(q_{cap} = k_{cap} \\times u_{cap}\\)\n\\(q_{cap} = 55 \\times 32.5\\)\n\\(q_{cap} = 1,788\\) veh/h"
   },
   {
+    "objectID": "lecture/ch28LOS_MultilaneHighway.html#multilane-highways",
+    "href": "lecture/ch28LOS_MultilaneHighway.html#multilane-highways",
+    "title": "LOS Analysis: Multilane Highways",
+    "section": "Multilane Highways",
+    "text": "Multilane Highways\n\nclassified by the number of lanes and the type of median treatment provided.\n\nSurface multilane facilities generally consist of four- or six-lane alignments.\nUndivided (i.e., having no median but with a double-solid yellow marking separating the two directions of flow), or\ndivided, with a physical median separating the two directions of flow."
+  },
+  {
     "objectID": "lecture/ch28LOS_MultilaneHighway.html#steps-for-los-for-multilane-highways",
     "href": "lecture/ch28LOS_MultilaneHighway.html#steps-for-los-for-multilane-highways",
     "title": "LOS Analysis: Multilane Highways",
     "section": "Steps for LOS for Multilane Highways",
-    "text": "Steps for LOS for Multilane Highways\n\nFind \\(FFS\\) and traffic stream speed \\(S\\)\nFind flow rate\nFind density using, \\(q=ku\\)\nFind LOS using Speed-Flow Curves for Multilane Highways"
+    "text": "Steps for LOS for Multilane Highways\n\nFind flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropriate curve for \\(LOS\\)"
   },
   {
-    "objectID": "lecture/ch28LOS_MultilaneHighway.html#find-ffs-multilane-highways",
-    "href": "lecture/ch28LOS_MultilaneHighway.html#find-ffs-multilane-highways",
+    "objectID": "lecture/ch28LOS_MultilaneHighway.html#problem",
+    "href": "lecture/ch28LOS_MultilaneHighway.html#problem",
     "title": "LOS Analysis: Multilane Highways",
-    "section": "1. Find FFS (Multilane Highways)",
-    "text": "1. Find FFS (Multilane Highways)\n\\[FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\\] Where\n\n\\(FFS\\) = free-flow spee of the freeway (mph)\n\\(f_{LW}\\) = adjustment for lane width (mph)\n\\(f_{LC}\\) = adjustment for right-side lateral clearance (mph)\n\\(f_{M}\\) = adjustment for type of median (mph)\n\\(f_{A}\\) = adjustment for access points (mpg)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_MultilaneHighway.html#problem-multilane-highway-los",
-    "href": "lecture/ch28LOS_MultilaneHighway.html#problem-multilane-highway-los",
-    "title": "LOS Analysis: Multilane Highways",
-    "section": "Problem: Multilane Highway LOS",
-    "text": "Problem: Multilane Highway LOS\nA basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.\n\n\n\nParameter\nValues (Multilane Hwy)\n\n\n\n\nNumber of Lanes\n4\n\n\nLane Width\n11 ft\n\n\nLateral Clearance (Right Side)\n2 ft\n\n\nAlignment\nUndived\n\n\nBase Free-Flow Speed (BFFS)\n65 mph\n\n\nRamps per Mile\nNA\n\n\nAccess Points Per Mile\n20"
-  },
-  {
-    "objectID": "lecture/ch28LOS_MultilaneHighway.html#problem-multilane-highway-los-1",
-    "href": "lecture/ch28LOS_MultilaneHighway.html#problem-multilane-highway-los-1",
-    "title": "LOS Analysis: Multilane Highways",
-    "section": "Problem: Multilane Highway LOS",
-    "text": "Problem: Multilane Highway LOS\nA basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.\n\n\n\n\n\\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\\)\n\n\n\n\n\\(BFFS = 65 mph\\)\n\\(f_{LW} = 1.9 mph\\)\n\\(f_{LC} = 0.9 mph\\)\n\\(f_{M} = 1.6 mph\\)\n\\(f_{A} = 5 mph\\)\n\n\n\n\n\\(FFS = 65 - 1.9 - 0.9 - 1.6 - 5\\)\n\\(FFS = 55.6\\ mph\\)\n\n\n\n\n\n\nParameter\nValues (Multilane Hwy)\n\n\n\n\nNumber of Lanes\n4\n\n\nLane Width\n11 ft\n\n\nLateral Clearance (Right Side)\n2 ft\n\n\nAlignment\nUndived\n\n\nBase Free-Flow Speed (BFFS)\n65 mph\n\n\nRamps per Mile\nNA\n\n\nAccess Points Per Mile\n20"
+    "section": "Problem",
+    "text": "Problem\nA four-lane multilane highway segment with a full median carries a peak-hour volume of 2,600 veh/h in the heaviest direction. It has the following additional characteristics:\n\n12 ft lanes\n4 ft clearance at the roadside and in the median\n10 access points/mile\n10% trucks, standard mix\nPeak-hour factor = 0.88\n\nThe segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?"
   },
   {
     "objectID": "course-schedule.html",

@@ -525,6 +525,17 @@ $$P(X) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}$$
   - $P(X \le 65) = 0.9234$
 
 
+## Normal Distribution -> Std. Normal {.smaller}
+**<u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7.  What is the probability that the next observed vehicle will be 65 mi/hr or less?  What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u>**
+
+
+* [Normal Distribution](https://mabognar.github.io/apps/normal.html)  
+* Let, $\mathcal{X}$ = Speed of the vehicle  
+  - $P(X \le 65)$ = Area under the curve $\mathcal{N} \sim (mean = 55, var. =7^2)$
+  - $P(X \le \frac{65-55}{7})$ = Area under the curve $\mathcal{N} \sim (0,1) ->$ Std. Normal Dist.
+  - $P(X \le 1.43)$ = $0.9234$
+
+
 ## Normal Distribution {.smaller}
 **<u>Suppose the speeds on a highway is normally distributed with 𝜇 = 55 and s = 7.  What is the probability that the next observed vehicle will be 65 mi/hr or less?  What is the probability that the speed of the next vehicle is between 45 and 65 mi/hr?</u>**
 
@@ -534,7 +545,7 @@ $$P(X) = \frac{n!}{n!(n-x)!} p^x (1-p)^{n-x}$$
   - $\mathcal{X} \sim \mathcal{N}(55,7^2)$  
   - $P(45 \le X \le 65) = \int_{45}^{65} f(x) \, dx$  
   - $P(45 \le X \le 65) = 0.9234 - 0.0765$
-  - $P(X \le 65) = 0.8469$
+  - $P(45 \le X \le 65) = 0.8469$
 
 ## Normal Distribution {.smaller}
 ### Empirical Rule
@@ -716,6 +727,20 @@ Sample
 5. **State conclusion of the test.** 
 
 
+## Test Statistics vs. critical value
+::: {.columns}
+
+::: {.column width="40%"}
+![](images/chap11/ch11_CImultiplierVal.png)
+
+:::
+
+::: {.column width="60%"}
+![](images/chap11/ch11_CIalpha.png)
+:::
+
+:::
+
 ::: {.notes}
 If the value of the test
 statistic is in the rejection region, then reject H0 and
@@ -738,6 +763,7 @@ the same as saying (1-)% confidence level.
 | $n_1 = 250$             | $n_2 = 280$           |
 
 
+
 ## HT: Large sample {.smaller}
 Determine whether there was any significant difference between the average speed at the 95% confidence level.</u>**
 
@@ -752,18 +778,95 @@ Determine whether there was any significant difference between the average speed
   - If $n_1 \ge 30$ and $n_2 \ge 30$ larges sample and follows approx. Normal Dist. (CLT) 
   - Given, $n_1= 280$ and $n_2 = 280$; So, large sample
 
-. . . 
+
+## HT: Large sample {.smaller}
+**<u>Determine whether there was any significant difference between the average speed at the 95% confidence level.</u>**
+
+::: {.columns}
+
+::: {.column width="50%"}
+#### <u>Population</u>
+**<u>Step 1</u>**: Formulate Hypothesis
+
+*
+*
+
+**<u>Step 2</u>**: significance level:
+
+*
+*
+:::
+
+::: {.column width="50%" style="text-align: right;"}
+#### <u>Sample</u>
+**<u>Step 3</u>** Calculate test statistic ($z^*$)
+* $z^* = \frac{\bar{x_1} - \bar{x_2}}{S_d}$ ; $S_d = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}$
+
+
+
+:::
+
+:::
+
+
+
+## HT: Large sample {.smaller}
+**<u>Determine whether there was any significant difference between the average speed at the 95% confidence level.</u>**
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+**<u>Step 4</u>** Determine the rejection region of $H_0$
+:::
+
+::: {.column width="50%"}
+#### <u>Compare test statistics</u>
+![](images/chap11/ch11_CImultiplierVal.png)
+![](images/chap11/ch11_CIalpha.png)
+:::
+
+:::
+
+
+## HT: Large sample {.smaller}
+**<u>Determine whether there was any significant difference between the average speed at the 95% confidence level.</u>**
+
+::: {.columns}
+
+::: {.column width="50%"}
+#### <u>Population</u>
+**<u>Step 5</u>** State conclusion of the test
+
+:::
+
+::: {.column width="50%"}
+#### <u>Sample</u>
+
+:::
+
+:::
+
+## HT: Large sample {.smaller}
+Determine whether there was any significant difference between the average speed at the 95% confidence level.</u>**
+
+|       Before            |   After               | 
+|:-----------------------:|:---------------------:|
+| $\bar{x_1} = 35.5 mph$  | $\bar{x_2} = 38.7 mph$|
+| $s_1 = 7.5 mph$   | $s_2 = 7.4 mph$ |
+| $n_1 = 250$             | $n_2 = 280$           |
+
+* Given, CI = $(1-\alpha) = 0.95$ 
+* **<u>Step 0</u>**: Check for large Sample 
+  - If $n_1 \ge 30$ and $n_2 \ge 30$ larges sample and follows approx. Normal Dist. (CLT) 
+  - Given, $n_1= 280$ and $n_2 = 280$; So, large sample
 
 * **<u>Step 1</u>**: Formulate Hypothesis
   - $H_0$: no difference in average speed $(\mu_1 = \mu_2)$ 
   - $H_0$: average speed after lane widening differs from previous $(\mu_1 \neq \mu_2)$ 
 
-. . . 
-
 * **<u>Step 2</u>**: significance level: 
   - $\alpha$ = $(1-CI)$ = $0.05$ 
-
-. . . 
 
 
 * **<u>Step 3</u>** Calculate test statistic ($z^*$) using sample data  
@@ -775,16 +878,12 @@ Determine whether there was any significant difference between the average speed
   - $z^* = \frac{35.5 - 38.7}{0.648}$
   - $z^* = -4.938$
 
-. . . 
-
 * **<u>Step 4</u>** Determine the rejection region of $H_0$
   * Rejection Area Approach
     - $|z^*| = 4.938$ := $|test\ statistics|$
     - $|z_{\alpha/2}| = 1.96$ := $|critical\ value_{\alpha/2}|$
     - Reject $H_0$ if $|z^*| \ge |z_{\alpha/2}|$
     - Since $|z^*| = 4.938 > |z_{\alpha/2} = 1.96|$, <mark>REJECT $H_0$</mark>
-
-. . . 
 
 * **<u>Step 5</u>** State conclusion of the test
   - <mark>REJECT</mark> $H_0$: no difference in average speed $(\mu_1 = \mu_2)$

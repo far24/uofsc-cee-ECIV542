@@ -1,6 +1,6 @@
 ---
 title: "LOS Analysis: Freeways"
-subtitle: "Class ??" 
+subtitle: "" 
 author: "ECIV 542 (Traffic Engineering), Fall 2026"
 institute: "Dept. of CE&E, Univ. of South Carolina"
 format: 

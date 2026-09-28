@@ -19,87 +19,27 @@ filters:
 - diagrams
 ---
 
-# Multilane Highways
+## Multilane Highways
 
-
+* classified by the number of lanes and the type of median treatment provided. 
+  * Surface multilane facilities generally consist of four- or six-lane alignments. 
+  * Undivided (i.e., having no median but with a double-solid yellow marking separating the two directions of flow), or
+  * divided, with a physical median separating the two directions of flow. 
 
 ## Steps for LOS for Multilane Highways
 
-1. Find $FFS$ and traffic stream speed $S$
-2. Find flow rate
-3. Find density using, $q=ku$
-4. Find LOS using Speed-Flow Curves for Multilane Highways
+1. Find flow ($v_p$) of the traffic stream
+2. Find speed ($S$) of the traffic Stream 
+3. Find density of traffic stream ($D$) using $v_p = D \times s$
+4. Check appropriate curve for $LOS$
 
-## 1. Find FFS (Multilane Highways)
+## Problem
+A four-lane multilane highway segment with a full median carries a peak-hour volume of 2,600 veh/h in the heaviest direction. It has the following additional characteristics:
 
-$$FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$$
-Where
+* 12 ft lanes
+* 4 ft clearance at the roadside and in the median
+* 10 access points/mile
+* 10% trucks, standard mix
+* Peak-hour factor = 0.88
 
-* $FFS$ = free-flow spee of the freeway (mph)
-* $f_{LW}$ = adjustment for lane width (mph)
-* $f_{LC}$ = adjustment for right-side lateral clearance (mph)
-* $f_{M}$ = adjustment for type of median (mph)
-* $f_{A}$ = adjustment for access points (mpg)
-
-
-## Problem: Multilane Highway LOS {.smaller}
-A basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.
-
-| Parameter                            | Values (Multilane Hwy)    |
-|:-------------------------------------|:-------------------:|
-| **Number of Lanes**                  | 4                   |
-| **Lane Width**                       | 11 ft               |
-| **Lateral Clearance (Right Side)**   | 2 ft                |
-| **Alignment**                        | Undived             |
-| **Base Free-Flow Speed (BFFS)**      | 65 mph              |
-| **Ramps per Mile**                   | NA                  |
-| **Access Points Per Mile**           | 20                  |
-
-
-## Problem: Multilane Highway LOS {.smaller}
-A basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
-::: {.fragment fragment-index=1}
-* $FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$
-:::
-
-::: {.fragment fragment-index=2}
-  - $BFFS = 65 mph$
-  - $f_{LW} = 1.9 mph$
-  - $f_{LC} = 0.9 mph$
-  - $f_{M} = 1.6 mph$
-  - $f_{A} = 5 mph$
-
-:::
-
-::: {.fragment fragment-index=3}
-* $FFS = 65 - 1.9 - 0.9 - 1.6 - 5$
-* $FFS = 55.6\ mph$  
-
-::: 
-
-
-
-:::
-
-::: {.column width="40%"}
-| Parameter                            | Values (Multilane Hwy)    |
-|:-------------------------------------|:-------------------:|
-| **Number of Lanes**                  | 4                   |
-| **Lane Width**                       | 11 ft               |
-| **Lateral Clearance (Right Side)**   | 2 ft                |
-| **Alignment**                        | Undived             |
-| **Base Free-Flow Speed (BFFS)**      | 65 mph              |
-| **Ramps per Mile**                   | NA                  |
-| **Access Points Per Mile**           | 20                  |
-
-:::
-
-::::
-
-
-
+The segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?
