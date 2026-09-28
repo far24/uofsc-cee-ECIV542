@@ -19,8 +19,11 @@ filters:
 - diagrams
 ---
 
+## Service 
+* Facilities provide service to road users
 
-## Type of Analysis
+
+## Type of Analysis {.smaller}
 
 1. Operational Analysis
   - Given, existing or forecast demand volume
@@ -30,6 +33,11 @@ filters:
   - Find number of lanesf for a specified LOS
 3. Service Flow Rate and Service Volume Analysis
 
+
+## Operational Analysis
+
+* $q=ku$
+* ![](images/chap28/LOSMulilaneHwyCurve.png)
 
 ## LOS Analysis by Facility Type
 

@@ -1282,11 +1282,25 @@
     "text": "Ch. 2: Road user and vehicle characteristics\nEND"
   },
   {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#service",
+    "href": "lecture/ch28_31_LOS_analysis.html#service",
+    "title": "LOS Analysis",
+    "section": "Service",
+    "text": "Service\n\nFacilities provide service to road users"
+  },
+  {
     "objectID": "lecture/ch28_31_LOS_analysis.html#type-of-analysis",
     "href": "lecture/ch28_31_LOS_analysis.html#type-of-analysis",
     "title": "LOS Analysis",
     "section": "Type of Analysis",
     "text": "Type of Analysis\n\nOperational Analysis\n\n\nGiven, existing or forecast demand volume\nFind expected LOS and operating parameters\n\n\nDesign Analysis\n\n\nGiven, all traffic, roadway, and control conditions for an existing or projected highway section\nFind number of lanesf for a specified LOS\n\n\nService Flow Rate and Service Volume Analysis"
+  },
+  {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#operational-analysis",
+    "href": "lecture/ch28_31_LOS_analysis.html#operational-analysis",
+    "title": "LOS Analysis",
+    "section": "Operational Analysis",
+    "text": "Operational Analysis\n\n\\(q=ku\\)"
   },
   {
     "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
