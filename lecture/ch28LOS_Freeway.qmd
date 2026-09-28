@@ -1,0 +1,225 @@
+---
+title: "LOS Analysis: Freeways"
+subtitle: "Class ??" 
+author: "ECIV 542 (Traffic Engineering), Fall 2026"
+institute: "Dept. of CE&E, Univ. of South Carolina"
+format: 
+  revealjs:
+    theme: white
+    transition: slide
+    # toc: true
+    # toc-title: "Today's Agenda"
+    # toc-depth: 1
+    chalkboard: true
+    slide-number: true
+    scrollable: true
+    progress: true
+    footer: "ECIV 542"
+filters:
+- diagrams
+---
+
+## Freeways
+
+* Fully Access-controlled
+  * NO intersection
+  * NO at-grade crossing
+* Directional flow separated by median
+* Entry/Exit to the facility provided by ramps
+
+## Steps for LOS for Freeways
+
+1. Find flow ($v_p$) of the traffic stream
+2. Find speed ($S$) of the traffic Stream 
+3. Find density of traffic stream ($D$) using $v_p = D \times s$
+4. Check appropriate curve for $LOS$
+
+
+## Problem: LOS Freeway {.smaller}
+
+A segment of an old freeway in a large urban area has the following characteristics:
+
+* Four lanes (two lanes in each direction)
+* 10 ft lane widths
+* Lateral obstructions at the roadside 0 feet from the pavement edge
+* Total ramp 5 ramps per mile 
+* Rolling terrain
+* Trucks (Typical Mix) = 2%
+* Peak-hour factor (PHF) = 0.95
+The current peak-hour demand in the peak direction is 3000 veh/h. At what level of service is the freeway expected to operate during peak periods?
+
+[Relevant Tables and Figures](images/chap28/chap28TablesFigures.pdf)
+
+## Solution: LOS Freeway {.smaller}
+
+* STEP 1: calculate $v_p$
+  - STEP 1.2 Adj. factor for presence of heavy vehicles (HV)
+* STEP 2: calculate $S$
+  - 2.1: calculate $FFS_{adj}$
+    - 2.1.1: calculate $FFS$
+    - 2.1.2: calculate $SAF$
+  - 2.2 Breakpoint value, $BP$
+    - 2.2.1 Calculate $CAF$
+* STEP 3. Find density of traffic stream ($D$)
+* STEP 4. Check appropriate curve for $LOS$
+
+## Solution: STEP 1: calculate $v_p$ {.smaller}
+
+
+$$v_p = \frac{V}{PHF \times f_{HV} \times N}$$
+
+* Given,
+  - $V$ = 3000 veh/h
+  - $PHF$ = 0.95
+  - $N$ = 2
+  - $f_{HV}$= ?
+
+
+## Solution: STEP 1: calculate $v_p$
+
+<u>STEP 1.2 Adj. factor for presence of heavy vehicles (HV)</u>
+
+- $f_{HV} = \frac{1}{1+P_{HV}(E_{HV}-1)}$
+  - $P_{HV}$ = 2% = 0.02
+  - $E_{HV}$ = $~f(rolling)$ = Table 28.17
+  - $E_{HV} = 3.0$
+- $f_{HV} = \frac{1}{1+0.02(3-1)}$
+- $f_{HV} = 0.962$
+
+## Solution: STEP 1: calculate $v_p$ {.smaller}
+
+$$v_p = \frac{V}{PHF \times f_{HV} \times N}$$
+$$v_p = \frac{3000}{0.95 \times 0.962 \times 2}$$
+$$v_p = 1,641\ pc/h/ln$$
+
+
+## Solution: LOS Freeway {.smaller}
+
+* STEP 2: calculate $S$
+  - STEP 2.1: calculate $FFS_{adj}$
+    - STEP 2.1.1: calculate $FFS$
+    - STEP 2.1.2: calculate $SAF$
+  - 2.2 Breakpoint value, $BP$
+
+
+## Solution: STEP 2: calculate $S$ {.smaller}
+
+<u>STEP 2.1: calculate $FFS_{adj}$</u>
+
+* For freeway:
+$$FFS_{adj} = FFS \times SAF$$
+
+
+## Solution: STEP 2: calculate $S$ {.smaller}
+
+<u>STEP 2.1.1: calculate $FFS$</u>
+
+* For freeway: $FFS = 75.4 - f_{LW} - f_{LC} -3.22 \times TRD^{0.84}$
+  - $f_{LW}$ = 6.6 mph 
+    - Table 28.3 for 10 feet lanes
+  - $f_{LC}$ = 3.6 mph
+    - Table 28.4 for 0 feet clearance and 2 lanes
+  - $TRD$ = 5 ramps / mile 
+
+
+$$FFS = 75.4 - 6.6 - 3.6 -3.22 \times 5^{0.84}$$
+$$FFS = 52.8\ mph$$
+<u>STEP 2.1.2: calculate $SAF$</u>
+
+* Since no adjustment neccessary, $SAF = 1$
+
+## Solution: STEP 2: calculate $S$ {.smaller}
+
+<u>STEP 2.1: calculate $FFS_{adj}$</u>
+
+* For freeway:
+$$FFS_{adj} = 52.8 \times 1$$
+$$FFS_{adj} = 52.8\ mph$$ 
+
+
+## Solution: STEP 2: calculate $S$ {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<u>2.2 Breakpoint value, $BP$</u>
+
+* $BP = 1000+ 40(75-FFS_{adj}) \times CAF^2$
+* $BP = 1000+ 40(75-FFS_{adj}) \times CAF^2$
+* $BP = 1000+ 40(75-52.8) \times 1^2$
+* $BP = 1,888\ pc/h/ln$ 
+
+:::
+
+::: {.column width="40%" style="text-align: right;"}
+
+* As,
+  - $FFS_{adj} = 52.8$
+  - $CAF = 1$
+:::
+
+::::
+
+## Solution: STEP 2: calculate $S$ {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<u>2.3 Adjusted Capacity, $c_{adj}$</u>
+
+* $c_{adj} = c \times CAF$
+* $c_{adj} = 2228 \times 1$
+* $c_{adj} = 2,228\ pc/hr/ln$
+:::
+
+::: {.column width="40%" style="text-align: right;"}
+* As,
+  - $FFS = 52.8$ mph
+  - $CAF = 1$
+* Then,
+  - $c = 2200 + 10 (FFS-50)$
+  - $c = 2200 + 10 (52.8-50)$
+  - $c = 2,228$ pc/h/ln
+:::
+
+::::
+
+## Solution: STEP 2: calculate $S$ {.smaller}
+
+<u>STEP 2.4 Calibration Constant, $a$</u>
+
+* For Freeway, $a = 2.00$
+
+## Solution: STEP 2: calculate $S$ {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+* $S = FFS_{adj}$
+* $S = 52.8$ mph
+:::
+
+::: {.column width="40%" style="text-align: right;"}
+* As,
+  - $v_p = 1, 641$ pc/h/ln
+  - $BP = 1,888$ pc/h/ln
+* Since $v_p < BP$ use:
+  - $S = FFS_{adj}$
+
+:::
+
+::::
+
+
+## Solution: STEP 3. Find density of traffic stream ($D$) {.smaller}
+
+* $v_p = D \times s$
+* $D = \frac{v_p}{S}$
+* $D = \frac{1641}{52.8}$
+* $D = 31.1$ pc/mi/ln
+
+## Solution: STEP 4. Check appropriate curve for $LOS$ {.smaller}
+

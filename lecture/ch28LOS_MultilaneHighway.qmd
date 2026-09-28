@@ -1,0 +1,105 @@
+---
+title: "LOS Analysis: Multilane Highways"
+subtitle: "" 
+author: "ECIV 542 (Traffic Engineering), Fall 2026"
+institute: "Dept. of CE&E, Univ. of South Carolina"
+format: 
+  revealjs:
+    theme: white
+    transition: slide
+    # toc: true
+    # toc-title: "Today's Agenda"
+    # toc-depth: 1
+    chalkboard: true
+    slide-number: true
+    scrollable: true
+    progress: true
+    footer: "ECIV 542"
+filters:
+- diagrams
+---
+
+# Multilane Highways
+
+
+
+## Steps for LOS for Multilane Highways
+
+1. Find $FFS$ and traffic stream speed $S$
+2. Find flow rate
+3. Find density using, $q=ku$
+4. Find LOS using Speed-Flow Curves for Multilane Highways
+
+## 1. Find FFS (Multilane Highways)
+
+$$FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$$
+Where
+
+* $FFS$ = free-flow spee of the freeway (mph)
+* $f_{LW}$ = adjustment for lane width (mph)
+* $f_{LC}$ = adjustment for right-side lateral clearance (mph)
+* $f_{M}$ = adjustment for type of median (mph)
+* $f_{A}$ = adjustment for access points (mpg)
+
+
+## Problem: Multilane Highway LOS {.smaller}
+A basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.
+
+| Parameter                            | Values (Multilane Hwy)    |
+|:-------------------------------------|:-------------------:|
+| **Number of Lanes**                  | 4                   |
+| **Lane Width**                       | 11 ft               |
+| **Lateral Clearance (Right Side)**   | 2 ft                |
+| **Alignment**                        | Undived             |
+| **Base Free-Flow Speed (BFFS)**      | 65 mph              |
+| **Ramps per Mile**                   | NA                  |
+| **Access Points Per Mile**           | 20                  |
+
+
+## Problem: Multilane Highway LOS {.smaller}
+A basic multilane highway segment is described here. From the information given, estimate the FFS for each segment.
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: {.fragment fragment-index=1}
+* $FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$
+:::
+
+::: {.fragment fragment-index=2}
+  - $BFFS = 65 mph$
+  - $f_{LW} = 1.9 mph$
+  - $f_{LC} = 0.9 mph$
+  - $f_{M} = 1.6 mph$
+  - $f_{A} = 5 mph$
+
+:::
+
+::: {.fragment fragment-index=3}
+* $FFS = 65 - 1.9 - 0.9 - 1.6 - 5$
+* $FFS = 55.6\ mph$  
+
+::: 
+
+
+
+:::
+
+::: {.column width="40%"}
+| Parameter                            | Values (Multilane Hwy)    |
+|:-------------------------------------|:-------------------:|
+| **Number of Lanes**                  | 4                   |
+| **Lane Width**                       | 11 ft               |
+| **Lateral Clearance (Right Side)**   | 2 ft                |
+| **Alignment**                        | Undived             |
+| **Base Free-Flow Speed (BFFS)**      | 65 mph              |
+| **Ramps per Mile**                   | NA                  |
+| **Access Points Per Mile**           | 20                  |
+
+:::
+
+::::
+
+
+

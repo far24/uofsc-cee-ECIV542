@@ -1,0 +1,37 @@
+---
+title: "LOS Analysis"
+subtitle: "Class ??" 
+author: "ECIV 542 (Traffic Engineering), Fall 2026"
+institute: "Dept. of CE&E, Univ. of South Carolina"
+format: 
+  revealjs:
+    theme: white
+    transition: slide
+    # toc: true
+    # toc-title: "Today's Agenda"
+    # toc-depth: 1
+    chalkboard: true
+    slide-number: true
+    scrollable: true
+    progress: true
+    footer: "ECIV 542"
+filters:
+- diagrams
+---
+
+
+## Type of Analysis
+
+1. Operational Analysis
+  - Given, existing or forecast demand volume
+  - Find expected LOS and operating parameters
+2. Design Analysis
+  - Given, all traffic, roadway, and control conditions for an existing or projected highway section
+  - Find number of lanesf for a specified LOS
+3. Service Flow Rate and Service Volume Analysis
+
+
+## LOS Analysis by Facility Type
+
+* [Freeway](ch28LOS_Freeway.qmd)
+* [Multilane Highways](ch28LOS_MultilaneHighway.qmd)

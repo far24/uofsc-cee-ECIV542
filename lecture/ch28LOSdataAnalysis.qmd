@@ -1,0 +1,238 @@
+---
+title: "Analysis of LOS"
+author: "ECIV 542"
+date: today
+format:
+  html:
+    toc: true            # Generates a clickable table of contents
+    toc-depth: 5
+    code-fold: true      # Hides code chunks behind a clickable toggle
+    embed-resources: true # Compiles everything into a single, shareable HTML file
+execute:
+  echo: false
+  warning: false
+  error: false
+---
+
+# Analysis of Traffic LOS by Facility Type
+
+
+## Steps
+1. Find flow ($v_p$) of the traffic stream
+2. Find speed ($S$) of the traffic Stream 
+3. Find density of traffic stream ($D$) using $v_p = D \times s$
+4. Check appropiate curve for $LOS$
+
+
+## 1. Find flow ($v_p$) of the traffic stream
+
+* $$v_p = \frac{V}{PHF \times f_{HV} \times N}$$
+  - $v_p$ = flow rate per lane under equivalent ideal condition (pc/hr/ln)
+  - $V$ = demand volume (veh/hr)
+  - $PHF$ = peak-hour factor
+  - $f_{HV}$ = adj. factor for presence of heavy vehicles (HV)
+  - $N$ = number of lanes in one direction
+  
+
+
+### **1.2 Adj. factor for presence of heavy vehicles (HV)**
+
+* $f_{HV} = \frac{1}{1+P_{HV}(E_{HV}-1)}$
+  - $f_{HV}$ = adj. factor for presence of heavy vehicles (HV)
+  - $P_{HV}$ = proportion of HV in traffic stream
+  - $E_{HV}$ = heavy vehicle equivalent
+    - $E_{HV} \sim f(Type\ of\ Terrain,\ Grade)$ 
+
+#### **1.2.1 Passenger Car Equivalents ($E_{HV}$)**
+
+* $V_{pc} = V \times P_{HV} \times E_{HV}$
+  - $V_{pc}$ = volume in traffic stream in (pc/hr)
+  - $V$ = volume in traffic stream (veh/hr)
+  - $P_{HV}$ = proportion of HV in traffic stream
+  - $E_{HV}$ = heavy vehicle equivalent
+   
+#### **1.2.2 $E_{HV}$ for Terrain and Grades**
+
+* General Terrain Segments: Table 28.17 
+  - Condition: 
+    - NO one grade $\ge 3%$ longer than $0.25\ mile$
+    - and NO one grad  $< 3%$ longer than $0.50\ mile$
+  - Level terrain
+  - Rolling terrain
+* Specific Grades:
+  - Typical Mix of HV:  Table 28.18
+  - Atypical Mix of HV: Table 28.19
+  - Composite Grade: 
+    - To find equivalent grade for a series of upgrades and/or downgrades of varying steepness.
+    - Average Grade, $G_{AV} = (\frac{total\ rise}{total\ length}) \times 100$     
+    - Use $G_{AV}$ in Tables 28.18 and 28.19
+    
+
+## 2. Find speed ($S$) of the traffic Stream 
+
+
+| $v_p \le BP$    | $v_p > BP$    |
+|:----------------|:-------------:|
+| $S = FFS_{adj}$ |$S = FFS_{adj}[\frac{(FFS_{adj}- \frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]$|
+
+where,
+
+* $FFS_{adj}$ = adjustment free-flow speed (mph)
+* $BP$ = Breakpoint flow rate (pc/h/ln)
+* $c_{adj}$ = adjusted capacity (pc/h/ln)
+* a = calibration constant
+
+### **2.1 Adjusted Free-Flow Speed $FFS_{adj}$**
+
+| Freeways    | Multilane Highway    |
+|:----------------|:-------------:|
+| $FFS_{adj} = FFS \times SAF$ |$$FFS_{adj} = FFS$$|
+
+where
+
+* $FFS_{adj}$ = Adjusted Free-Flow Speed 
+  * $FFS$ = Free-Flow Speed 
+  * $SAF$ = Speed Adjustement factor
+
+
+#### **2.1.1 Free-Flow Speed $FFS$**
+
+
+| Freeways    | Multilane Highway    |
+|:----------------|:-------------:|
+| $FFS = 75.4 - f_{LW} - f_{LC} -3.22 \times TRD^{0.84}$|$FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$|
+
+Where
+
+* $FFS$ = free-flow spee of the freeway (mph)
+* $f_{LW}$ = adjustment for lane width (mph) 
+* $f_{LC}$ = adjustment for right-side lateral clearance (mph)
+* $TRD$ = total ramp density (ramps / mile) 
+* $f_{M}$ = adjustment for type of median (mph) 
+* $f_{A}$ = adjustment for access points (mpg) 
+
+| Factor   | Freeways Table | Multilane Hwy Table    |
+|:---------|:--------------:|:----------------------:|
+|$f_{LW}$  |  Table 28.3    |  Table 28.3            |
+|$f_{LC}$  |  Table 28.4    |  Table 28.5            |
+|$f_{M}$   |       -        |  Table 28.6            |
+|$f_{A}$   |       -        |  Table 28.7            |
+
+
+#### **2.1.2 Speed Adjustment Factor $SAF$**
+$SAF = SAF_w \times SAF_{DP} \times SAF{wz}$
+
+where
+
+* $SAF$ = Speed adjustment factor
+  - $SAF_W$  = SAF for weather
+  - $SAF_{DP}$ = SAF for non-std driver poulation
+  - $SAF_{WZ}$ = SAF for work zone
+    - $SAF_{WZ} = \frac{FFS_{WZ}}{FFS}$
+
+| Factor    | Table          |
+|:----------|:--------------:|
+|$SAF_W$    |  Table 28.11   |
+|$SAF_{DP}$ |  Table 28.13   |
+|$SAF_{WZ}$  |       -        |
+
+
+* $SAF_{WZ} = \frac{FFS_{WZ}}{FFS}$
+  - $FFS_{WZ} = 9.95 + (33.49 \times f_SR) + (0.53 \times  SL_{WZ}) - (5.60 \times  LCSI) - (3.84 \times  f_{BR}) - (1.71 \times  f_{DN}) - (8.7 \times TRD)$
+      - $f_{SR}$ - speed limit ratio = $\frac{SL}{SL_{WZ}}$
+        - $SL$ = base speed limit of the freeway (mph)
+        - $SL_{WZ}$ = speed limit at work zone (mph)
+      - $LCSI$ = Lane closure severity index
+        - Table 28.14
+      - $f_{BR}$ = adj for barrier type; 
+        - 0: Concrete or other hard barrier
+        - 1: cones or soft barrier
+      - $f_{DN}$ = adj for day or night
+        - 0: day
+        - 1: night
+      - $TRD$ = total ramp density (ramps / mi)
+
+
+
+
+### **2.2 Breakpoint value, $BP$**
+* $BP$ Values for facilty type
+
+| Freeways                  | Multilane Highway     |
+|:--------------------------|:---------------------:|
+| $BP = [1000+ 40(75-FFS_{adj})] \times CAF^2$  | $BP = 1,400\ pc/h/ln$ |
+
+Where
+
+* $BP$ = Breakpoint flow 
+  * $FFS_{adj}$ = adjustment free-flow speed (mph)
+  * $CAF$ = Capcity adjustment factor
+
+### **2.1.1 Adjustment free-flow speed, $FFS_{adj}$**
+* Same as section 1.1
+### **2.1.2 Capacity Adjustment Factor $CAF$**
+
+$CAF = CAF_w \times CAF_I \times CAF_{DP} \times CAF{wz}$
+
+where
+
+* $CAF$ = Speed adjustment factor
+  - $CAF_W$  = CAF for weather
+  - $CAF_I$  = CAF for incidents
+  - $CAF_{DP}$ = CAF for non-std driver poulation
+  - $CAF{wz}$ = CAF for work zone
+    - $CAF{wz} = \frac{c_{WZ}}{c}$
+
+| Factor    | Table          |
+|:----------|:--------------:|
+|$CAF_W$    |  Table 28.10   |
+|$CAF_I$    |  Table 28.12   |
+|$CAF_{DP}$ |  Table 28.13   |
+|$CAF{wz}$  |       -        |
+
+
+
+* $CAF{wz} = \frac{c_{WZ}}{c}$
+
+* Capacity of work zone, $c_{WZ} = QDR_{WZ}\frac{100}{(100-\alpha_{WZ})}$
+  - $QDR_{WZ}$ = queue discharge rate from work zone 
+  - $QDR_{WZ} = 2,093 - (154 \times LCSI) - (194 \times  f_{BR}) - (179 \times  f_{AT}) + (9 \times  f_{LAT}) - (59 \times  f_{DN})$
+    - $LCSI$ = Lane closure severity index
+        - Table 28.14
+    - $f_{BR}$ = adj for barrier type; 
+        - 0: Concrete or other hard barrier
+        - 1: cones or soft barrier
+    - $f_{AT}$ = adj for area type
+      - 0: Urban
+      - 1: Rural
+    - $f_{LAT}$ = adj for lateral clearance to barrier
+      - (0 - 12)ft
+    - $f_{DN}$ = adj for day or night
+        - 0: day
+        - 1: night
+  - $\alpha_{WZ}$ = % reduction from capacity to QDR
+where
+ 
+ 
+ 
+### **2.3 Adjusted Capacity, $c_{adj}$**
+
+
+| Freeways    | Multilane Highway    |
+|:----------------|:-------------:|
+| $c_{adj} = c \times CAF$ |$c_{adj} = c$|
+| $c = 2200 + 10 (FFS-50)$ <br> $c \le 2,400\ pc/h/ln$ <br>and<br> $55 \le FFS \le 75$  |$c = 1900 + 20 (FFS-45)$ <br> $c \le 2,300\ pc/h/ln$ <br> and <br> $45 \le FFS \le 70$|
+
+
+### **2.4 Calibration Constant, $a$**
+| Freeways    | Multilane Highway    |
+|:----------------|:-------------:|
+| $a = 2.00$ |$a = 1.31$|
+
+
+## 3. Find density of traffic stream ($D$)
+$$v_p = D \times s$$
+
+## 4. Check appropriate curve for $LOS$
+* For Freeways: Figure 28.6
+* For Multilane Highways: Figure 28.7
