@@ -25,13 +25,13 @@ filters:
 
 ## Type of Analysis {.smaller}
 
-1. Operational Analysis
+* 1. Operational Analysis
   - Given, existing or forecast demand volume
   - Find expected LOS and operating parameters
-2. Design Analysis
+* 2. Design Analysis
   - Given, all traffic, roadway, and control conditions for an existing or projected highway section
   - Find number of lanesf for a specified LOS
-3. Service Flow Rate and Service Volume Analysis
+* 3. Service Flow Rate and Service Volume Analysis
 
 
 ## Operational Analysis

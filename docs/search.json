@@ -1293,7 +1293,7 @@
     "href": "lecture/ch28_31_LOS_analysis.html#type-of-analysis",
     "title": "LOS Analysis",
     "section": "Type of Analysis",
-    "text": "Type of Analysis\n\nOperational Analysis\n\n\nGiven, existing or forecast demand volume\nFind expected LOS and operating parameters\n\n\nDesign Analysis\n\n\nGiven, all traffic, roadway, and control conditions for an existing or projected highway section\nFind number of lanesf for a specified LOS\n\n\nService Flow Rate and Service Volume Analysis"
+    "text": "Type of Analysis\n\n\nOperational Analysis\n\n\nGiven, existing or forecast demand volume\nFind expected LOS and operating parameters\n\n\nDesign Analysis\n\n\nGiven, all traffic, roadway, and control conditions for an existing or projected highway section\nFind number of lanesf for a specified LOS\n\n\nService Flow Rate and Service Volume Analysis"
   },
   {
     "objectID": "lecture/ch28_31_LOS_analysis.html#operational-analysis",
