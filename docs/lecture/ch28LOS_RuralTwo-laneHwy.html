@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="ECIV 542 (Traffic Engineering), Fall 2026">
-  <title>ECIV542: Traffic Engineering – LOS Analysis</title>
+  <title>ECIV542: Traffic Engineering – LOS Analysis: Rural Two-lane Highway</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -131,8 +131,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">LOS Analysis</h1>
-  <p class="subtitle">Class 12</p>
+  <h1 class="title">LOS Analysis: Rural Two-lane Highway</h1>
+  <p class="subtitle">Class 12 (09/30/2026)</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -146,51 +146,436 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </div>
 
 </section>
-<section id="service" class="slide level2">
-<h2>Service</h2>
-<ul>
-<li>Facilities provide service to road users</li>
-</ul>
-</section>
-<section id="type-of-analysis" class="slide level2 smaller scrollable">
-<h2>Type of Analysis</h2>
-<ul>
-<li><ol type="1">
-<li>Operational Analysis</li>
-</ol>
-<ul>
-<li>Given, existing or forecast demand volume</li>
-<li>Find expected LOS and operating parameters</li>
-</ul></li>
-<li><ol start="2" type="1">
-<li>Design Analysis</li>
-</ol>
-<ul>
-<li>Given, all traffic, roadway, and control conditions for an existing or projected highway section</li>
-<li>Find number of lanesf for a specified LOS</li>
-</ul></li>
-<li><ol start="3" type="1">
-<li>Service Flow Rate and Service Volume Analysis</li>
-</ol></li>
-</ul>
-</section>
-<section id="operational-analysis" class="slide level2">
-<h2>Operational Analysis</h2>
-<ul>
-<li><span class="math inline">\(q=ku\)</span></li>
-<li><img data-src="images/chap28/LOSMulilaneHwyCurve.png"></li>
-</ul>
-</section>
-<section id="los-analysis-by-facility-type" class="slide level2">
-<h2>LOS Analysis by Facility Type</h2>
-<ul>
-<li><a href="../lecture/ch28LOS_Freeway.html">Freeway</a></li>
-<li><a href="../lecture/ch28LOS_MultilaneHighway.html">Multilane Highways</a></li>
-<li><a href="../lecture/ch28LOS_RuralTwo-laneHwy.html">Rural Two-lane Highways</a></li>
-</ul>
-
+<section>
+<section id="rural-two-lane-highway" class="title-slide slide level1 center">
+<h1>Rural Two-lane Highway</h1>
 
 </section>
+<section id="rural-2-lane-hwy-classes" class="slide level2 smaller">
+<h2>Rural 2-lane Hwy: Classes</h2>
+<ul>
+<li><strong>Class I</strong>
+<ul>
+<li>Motorists expect to travel at relatively high speeds</li>
+<li>Major intercity routes, primary arterials, and daily commuter routes.</li>
+</ul></li>
+<li><strong>Class II</strong>
+<ul>
+<li>Motorists do not necessarily expect to travel at high speeds</li>
+<li>Access routes, scenic and recreational routeis that are not primary arterials, and routes through rugged terrain.</li>
+</ul></li>
+</ul>
+</section>
+<section id="rural-2-lane-hwy-los-measurement" class="slide level2 smaller">
+<h2>Rural 2-lane Hwy: LOS Measurement</h2>
+<ul>
+<li><strong>Average Travel Speed (ATS)</strong>
+<ul>
+<li>Average speed of all vehicles traversing the defined analysis segment for the specified time period, which is usually the peak 15 minutes of a peak hour.</li>
+</ul></li>
+<li><strong>Percent Time Spent Following (PTSF)</strong>
+<ul>
+<li>Aggregate percentage of time that all drivers spend in queues, unable to pass, with the speed restricted by the queue leader.</li>
+<li>OR, percentage of vehicles following others at headways of 3.0 seconds or less.</li>
+</ul></li>
+<li><strong>Percent Free Flow Speed (PFFS)</strong>
+<ul>
+<li>Based on the comparison of the prevailing speed to the free-flow speed, expressed as a percentage.</li>
+</ul></li>
+</ul>
+</section>
+<section id="rural-2-lane-hwy-los-measurement-1" class="slide level2">
+<h2>Rural 2-lane Hwy: LOS Measurement</h2>
+
+<img data-src="images/chap28/ch28LOS_2laneHwy.png" class="r-stretch"></section>
+<section id="rural-2-lane-hwy-ats_d" class="slide level2 smaller">
+<h2>Rural 2-lane Hwy: <span class="math inline">\(ATS_d\)</span></h2>
+<p><span class="math display">\[ATS_d = FFS_d - 0.00776(\nu_d + \nu_o)-f_{npA}\]</span></p>
+<ul>
+<li><span class="math inline">\(ATS_d\)</span> = ATS for direction <span class="math inline">\(d\)</span>, mph</li>
+<li><span class="math inline">\(FFS_d\)</span> = FFS for direction <span class="math inline">\(d\)</span>, mph</li>
+<li><span class="math inline">\(\nu_d\)</span> = Demand Flow rate for direction <span class="math inline">\(d\)</span>, pc/h</li>
+<li><span class="math inline">\(\nu_o\)</span> = Demand FLow rate for direction <span class="math inline">\(o\)</span> opposite to direction <span class="math inline">\(d\)</span>, pc/h</li>
+<li><span class="math inline">\(f_{npA}\)</span> = adjustment for “No Passing” zones, <span class="math inline">\(\%\)</span></li>
+</ul>
+</section>
+<section id="rural-2-lane-hwy-ats_d-1" class="slide level2 smaller">
+<h2>Rural 2-lane Hwy: <span class="math inline">\(ATS_d\)</span></h2>
+<p><span class="math display">\[ATS_d = FFS_d - 0.00776(\nu_d + \nu_o)-f_{npA}\]</span></p>
+<ul>
+<li><span class="math inline">\(FFS_d = BFFS - f_{LS} - f_A\)</span>
+<ul>
+<li><span class="math inline">\(BFFS\)</span> = base FFS for the facility, mph</li>
+<li><span class="math inline">\(f_{LS}\)</span> = adj. for lane and shoulder width, mph</li>
+<li><span class="math inline">\(f_A\)</span> = adj for access point density, mi/h</li>
+</ul></li>
+</ul>
+</section>
+<section id="rural-2-lane-hwy-ats_d-2" class="slide level2 smaller">
+<h2>Rural 2-lane Hwy: <span class="math inline">\(ATS_d\)</span></h2>
+<ul>
+<li>For direction <span class="math inline">\(d\)</span>, <strong>Demand Flow Rate, <span class="math inline">\(\nu_d\)</span></strong> , pc/h
+<ul>
+<li><span class="math inline">\(\nu_d = \frac{V}{PHF \times f_{HV} \times f_G}\)</span>
+<ul>
+<li><span class="math inline">\(V\)</span> = hourly demand volume under prevailing conditions, veh/h</li>
+<li><span class="math inline">\(PHF\)</span>: peak hour factor</li>
+<li><span class="math inline">\(f_{HV}\)</span>: adjustment for heavy vehicle presence
+<ul>
+<li><span class="math inline">\(f_{HV} = \frac{1}{1+P_T(E_T-1)+P_R(E_R-1)}\)</span>
+<ul>
+<li><span class="math inline">\(P_T\)</span> = proportion of trucks and buses in the traffic stream</li>
+<li><span class="math inline">\(P_R\)</span> = proportion of recreational vehicles in the traffic stream</li>
+<li><span class="math inline">\(E_T\)</span> = passenger-car equivalent for trucks and buses</li>
+<li><span class="math inline">\(E_R\)</span> = passenger-car equivalent for recreational vehicles</li>
+</ul></li>
+</ul></li>
+<li><span class="math inline">\(f_G\)</span>: adjustment for grades</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="rural-2-lane-hwy-ptsf_d" class="slide level2 smaller">
+<h2>Rural 2-lane Hwy: <span class="math inline">\(PTSF_d\)</span></h2>
+<p><span class="math display">\[PTSF_d = BPTSF_d + f_{npA}(\frac{\nu_d}{\nu_d+\nu_o})\]</span></p>
+<ul>
+<li><span class="math inline">\(PTSF_d\)</span> = PTSF for direction <span class="math inline">\(d\)</span>, <span class="math inline">\(\%\)</span></li>
+<li><span class="math inline">\(BPTSF_d\)</span> = Base PTSF for direction <span class="math inline">\(d\)</span>, <span class="math inline">\(\%\)</span></li>
+<li><span class="math inline">\(\nu_d\)</span> = Demand Flow rate for direction <span class="math inline">\(d\)</span>, pc/h</li>
+<li><span class="math inline">\(\nu_o\)</span> = Demand FLow rate for direction <span class="math inline">\(o\)</span> opposite to direction <span class="math inline">\(d\)</span>, pc/h</li>
+<li><span class="math inline">\(f_{npA}\)</span> = adjustment for “No Passing” zones, <span class="math inline">\(\%\)</span></li>
+</ul>
+</section>
+<section id="rural-2-lane-hwy-ptsf_d-1" class="slide level2 smaller">
+<h2>Rural 2-lane Hwy: <span class="math inline">\(PTSF_d\)</span></h2>
+<p><span class="math display">\[PTSF_d = BPTSF_d + f_{npA}(\frac{\nu_d}{\nu_d+\nu_o})\]</span></p>
+<ul>
+<li><span class="math inline">\(BPTSF_d\)</span> = Base PTSF for direction <span class="math inline">\(d\)</span>, <span class="math inline">\(\%\)</span>
+<ul>
+<li><span class="math inline">\(BPTSF_d = 100[1- e^{a\nu_{d}^b}]\)</span>
+<ul>
+<li><span class="math inline">\(a,b\)</span> = calibration constants based on opposing flow rate (<span class="math inline">\(o\)</span>) in single-direction analysis</li>
+</ul></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="sample-problem-rural-two-lane-highway" class="title-slide slide level1 center">
+<h1>Sample Problem: Rural Two-lane Highway</h1>
+
+</section>
+<section id="example-problem" class="slide level2 smaller">
+<h2>Example Problem</h2>
+<p>A Class I two-lane highway in rolling terrain has a peak demand volume of 500 veh/h, with 15% trucks and 5% RVs. The highway serves as a main link to a popular recreation area. The directional split of traffic is 60-40 during peak periods, and the peak-hour factor is 0.88. The 10-mile section under study has 40% “No Passing” zones. The base free-flow speed of the facility may be taken to be 60 mi/h. Lane widths are 12 feet, and shoulder widths are 2 feet. There are 10 access points per mile along this 10-mile section.</p>
+<p><a href="images/chap28/chap16TablesFigures.pdf">Relevant Tables and Figures</a></p>
+</section>
+<section id="example-problem-1" class="slide level2 smaller">
+<h2>Example Problem</h2>
+<p>A Class I two-lane highway in rolling terrain has a peak demand volume of 500 veh/h, with 15% trucks and 5% RVs. The highway serves as a main link to a popular recreation area. The directional split of traffic is 60-40 during peak periods, and the peak-hour factor is 0.88. The 10-mile section under study has 40% “No Passing” zones. The base free-flow speed of the facility may be taken to be 60 mi/h. Lane widths are 12 feet, and shoulder widths are 2 feet. There are 10 access points per mile along this 10-mile section.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Given that,
+<ul>
+<li>Class I and Rolling terrain</li>
+<li>Peak demand vol, <span class="math inline">\(V = 500\ veh/h\)</span></li>
+<li>Truck %, <span class="math inline">\(P_T = 15%\)</span></li>
+<li>RV %, <span class="math inline">\(P_R = 5%\)</span></li>
+<li>PHF = <span class="math inline">\(0.88\)</span></li>
+<li>Segment length <span class="math inline">\(L = 10\ mile\)</span></li>
+<li>% “No Passing” zone = <span class="math inline">\(40\%\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>BFFS = <span class="math inline">\(60\ mph\)</span></li>
+<li>Dir. split = <span class="math inline">\(60-40\)</span> during peak period</li>
+<li>Lane width = <span class="math inline">\(12\ feet\)</span></li>
+<li>Shoulder width = <span class="math inline">\(2\ feet\)</span></li>
+<li>access/mile = <span class="math inline">\(10\)</span></li>
+</ul>
+</div></div>
+</section>
+<section id="solution" class="slide level2 smaller">
+<h2>Solution</h2>
+<p><span class="math display">\[ATS_d = FFS_d - 0.00776(\nu_d + \nu_o)-f_{npA}\]</span></p>
+<ul>
+<li><span class="math inline">\(ATS_1 = FFS_1 - 0.00776(\nu_1 + \nu_2)-f_{npA}\)</span></li>
+<li><span class="math inline">\(ATS_2 = FFS_2 - 0.00776(\nu_1 + \nu_2)-f_{npA}\)</span></li>
+</ul>
+</section>
+<section id="solution-1" class="slide level2 smaller">
+<h2>Solution</h2>
+<p><strong>Step 1:</strong> Calculate FFS</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><span class="math inline">\(FFS_d = BFFS - f_{LS} - f_A\)</span></li>
+<li><span class="math inline">\(FFS_d = 60 - 2.6 - 2.5\)</span>
+<ul>
+<li><span class="math inline">\(FFS_1 = 54.9\ mph\)</span></li>
+<li><span class="math inline">\(FFS_2 = 54.9\ mph\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><span class="math inline">\(f_{LS} = 2.6\)</span>
+<ul>
+<li>Table 16.5; 12-foot lane, 2-foot shoulder</li>
+</ul></li>
+<li><span class="math inline">\(f_{A} = 2.5\)</span>
+<ul>
+<li>Table 16.6; 10 access points per mile</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="solution-2" class="slide level2 smaller">
+<h2>Solution</h2>
+<p><strong>Step 2:</strong> Calculate the Dir. Demand Flow Rates</p>
+<ul>
+<li>Two lanes analyzed separately</li>
+<li>Demand volumes for 60-40 Split:
+<ul>
+<li><span class="math inline">\(V_1 = 500 \times 0.60 = 300\ veh/h\)</span></li>
+<li><span class="math inline">\(V_2 = 500 \times 0.40 = 200\ veh/h\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="solution-ats_d" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(ATS_d\)</span></h2>
+<p><strong>Step 2:</strong> Calculate the Dir. Demand Flow</p>
+<ul>
+<li>Volume:
+<ul>
+<li><span class="math inline">\(V_1 = 300 \times 0.88 = 341\ veh/h\)</span></li>
+<li><span class="math inline">\(V_2 = 200 \times 0.88 = 227\ veh/h\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="solution-ats_d-1" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(ATS_d\)</span></h2>
+<p><strong>Step 2:</strong> Calculate the Dir. Demand Flow Rates</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong><u>Dir. 1________________________</u></strong>
+<ul>
+<li><span class="math inline">\(\nu_d = \frac{V}{PHF \times f_{HV} \times f_G}\)</span></li>
+<li><span class="math inline">\(\nu_d = \frac{341}{0.88 \times 0.85 \times 0.86}\)</span></li>
+<li><span class="math inline">\(\nu_d = 530\ pc/h\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><strong><u>Find Values for <span class="math inline">\(f_{HV}\)</span> and <span class="math inline">\(f_G\)</span></u></strong></li>
+<li><span class="math inline">\(f_{HV} = \frac{1}{1+P_T(E_T-1)+P_R(E_R-1)}\)</span></li>
+<li><span class="math inline">\(f_{HV} = \frac{1}{1+0.15(2.1-1)+0.05(1.1-1)}\)</span></li>
+<li><span class="math inline">\(f_{HV} = 0.85\)</span></li>
+<li><span class="math inline">\(f_{G} = 0.86\)</span></li>
+</ul>
+</div></div>
+<ul>
+<li>Factors</li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Factor</th>
+<th>Dir 1</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(f_G\)</span></td>
+<td>0.86</td>
+<td>Table 16.7: (Rolling; Interpolation)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(E_T\)</span></td>
+<td>2.1</td>
+<td>Table 16.10: (Rolling; Interpolation)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(E_R\)</span></td>
+<td>1.1</td>
+<td>Table 16.10: (Rolling; Interpolation)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="solution-ats_d-2" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(ATS_d\)</span></h2>
+<p><strong>Step 2:</strong> Calculate the Dir. Demand Flow Rates</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong><u>Dir. 2________________________</u></strong>
+<ul>
+<li><span class="math inline">\(\nu_d = \frac{V}{PHF \times f_{HV} \times f_G}\)</span></li>
+<li><span class="math inline">\(\nu_d = \frac{227}{0.88 \times 0.83 \times 0.77}\)</span></li>
+<li><span class="math inline">\(\nu_d = 404\ pc/h\)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><strong><u>Find Values for <span class="math inline">\(f_{HV}\)</span> and <span class="math inline">\(f_G\)</span></u></strong></li>
+<li><span class="math inline">\(f_{HV} = \frac{1}{1+P_T(E_T-1)+P_R(E_R-1)}\)</span></li>
+<li><span class="math inline">\(f_{HV} = \frac{1}{1+0.15(2.3-1)+0.05(1.1-1)}\)</span></li>
+<li><span class="math inline">\(f_{HV} = 0.83\)</span></li>
+<li><span class="math inline">\(f_{G} = 0.77\)</span></li>
+</ul>
+</div></div>
+<ul>
+<li>Factors</li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Factor</th>
+<th>Dir 2</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(f_G\)</span></td>
+<td>0.77</td>
+<td>Table 16.7: (Rolling; Interpolation)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(E_T\)</span></td>
+<td>2.3</td>
+<td>Table 16.10: (Rolling; Interpolation)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(E_R\)</span></td>
+<td>1.1</td>
+<td>Table 16.10: (Rolling; Interpolation)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="solution-ats_d-3" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(ATS_d\)</span></h2>
+<ul>
+<li><strong>Find Values for <span class="math inline">\(f_{npA1}\)</span> and <span class="math inline">\(f_{npA2}\)</span></strong>
+<ul>
+<li><span class="math inline">\(f_{npA1} = 1.9\)</span>
+<ul>
+<li>Table 16.15; 40% No passing zone, <span class="math inline">\(\nu_o = 404\ pc/h\)</span></li>
+</ul></li>
+<li><span class="math inline">\(f_{npA2} = 1.4\)</span>
+<ul>
+<li>Table 16.15; 40% No passing zone, <span class="math inline">\(\nu_o = 530\ pc/h\)</span></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="solution-ats_d-4" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(ATS_d\)</span></h2>
+<p><strong>Step 3:</strong> Determine <span class="math inline">\(ATS_d\)</span></p>
+<ul>
+<li><p><strong>Dir. 1________________________</strong></p></li>
+<li><p><span class="math inline">\(ATS_1 = FFS_1 - 0.00776(\nu_1 + \nu_2)-f_{npA1}\)</span></p></li>
+<li><p><span class="math inline">\(ATS_1 = 54.9 - 0.00776(530 + 404)- 1.9\)</span></p></li>
+<li><p><span class="math inline">\(ATS_1 = 45.8\ pc/h\)</span></p></li>
+<li><p><strong>Dir. 2________________________</strong></p></li>
+<li><p><span class="math inline">\(ATS_1 = FFS_2 - 0.00776(\nu_1 + \nu_2)-f_{npA}\)</span></p></li>
+<li><p><span class="math inline">\(ATS_1 = 54.9 - 0.00776(530 + 404)- 1.4\)</span></p></li>
+<li><p><span class="math inline">\(ATS_1 = 46.3\ pc/h\)</span></p></li>
+</ul>
+</section>
+<section id="solution-ptsf_d" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(PTSF_d\)</span></h2>
+<p><span class="math display">\[PTSF_d = BPTSF_d + f_{npA}(\frac{\nu_d}{\nu_d+\nu_o})\]</span> <span class="math display">\[BPTSF_d = 100[1- e^{a\nu_{d}^b}]\]</span></p>
+</section>
+<section id="solution-ptsf_d-1" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(PTSF_d\)</span></h2>
+<ul>
+<li><span class="math inline">\(f_{HV1} = 0.90\)</span> (Table 16.10)</li>
+<li><span class="math inline">\(f_{HV2} = 0.89\)</span> (Table 16.10)</li>
+<li><span class="math inline">\(\nu_{1} = 495\ pc/h\)</span> (Table 16.10; Table 16.7)</li>
+<li><span class="math inline">\(\nu_{2} = 358\ pc/h\)</span> (Table 16.10; Table 16.7)</li>
+<li><span class="math inline">\(a_{1} = -0.0020\)</span> (Table 16.17; <span class="math inline">\(\nu_{2} = 358\ pc/h\)</span>)</li>
+<li><span class="math inline">\(a_{2} = -0.0027\)</span> (Table 16.17; <span class="math inline">\(\nu_{1} = 495\ pc/h\)</span>)</li>
+<li><span class="math inline">\(b_{1} = 0.934\)</span> (Table 16.17; <span class="math inline">\(\nu_{2} = 358\ pc/h\)</span>)</li>
+<li><span class="math inline">\(b_{2} = 0.920\)</span> (Table 16.17; <span class="math inline">\(\nu_{1} = 495\ pc/h\)</span>)</li>
+<li><span class="math inline">\(f_{npA1} = f_{npA2} = 32.4\%\)</span> (Table 16.16)</li>
+</ul>
+</section>
+<section id="solution-ptsf_d-2" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(PTSF_d\)</span></h2>
+<p><span class="math display">\[PTSF_d = BPTSF_d + f_{npA}(\frac{\nu_d}{\nu_d+\nu_o})\]</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><span class="math inline">\(BPTSF_d = 100[1- e^{a\nu_{d}^b}]\)</span></li>
+<li><span class="math inline">\(BPTSF_1 = 100[1- e^{a_{1} \nu_{1}^{b_1}}]\)</span></li>
+<li><span class="math inline">\(BPTSF_1 = 100[1- e^{-0.0020 \times 495^{0.934}}]\)</span></li>
+<li><span class="math inline">\(BPTSF_1 = 48.2\%\)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><span class="math inline">\(BPTSF_d = 100[1- e^{a\nu_{d}^b}]\)</span></li>
+<li><span class="math inline">\(BPTSF_2 = 100[1- e^{a_{2} \nu_{2}^{b_2}}]\)</span></li>
+<li><span class="math inline">\(BPTSF_2 = 100[1- e^{-0.0027 \times 358^{0.920}}]\)</span></li>
+<li><span class="math inline">\(BPTSF_2 = 45.3\%\)</span></li>
+</ul>
+</div></div>
+</section>
+<section id="solution-ptsf_d-3" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(PTSF_d\)</span></h2>
+<ul>
+<li>Direction 1
+<ul>
+<li><span class="math inline">\(PTSF_d = BPTSF_d + f_{npA}(\frac{\nu_d}{\nu_d+\nu_o})\)</span></li>
+<li><span class="math inline">\(PTSF_1 = BPTSF_1 + f_{npA1}(\frac{\nu_1}{\nu_1+\nu_2})\)</span></li>
+<li><span class="math inline">\(PTSF_1 = 48.2 + 32.4(\frac{495}{495+358})\)</span></li>
+<li><span class="math inline">\(PTSF_1 = 67\%\)</span></li>
+</ul></li>
+<li>Direction 2
+<ul>
+<li><span class="math inline">\(PTSF_d = BPTSF_d + f_{npA}(\frac{\nu_d}{\nu_d+\nu_o})\)</span></li>
+<li><span class="math inline">\(PTSF_2 = BPTSF_2 + f_{npA2}(\frac{\nu_2}{\nu_1+\nu_2})\)</span></li>
+<li><span class="math inline">\(PTSF_2 = 45.3 + 32.4(\frac{495}{495+358})\)</span></li>
+<li><span class="math inline">\(PTSF_2 = 58.9\%\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="solution-los" class="slide level2 smaller">
+<h2>Solution <span class="math inline">\(LOS\)</span></h2>
+<ul>
+<li>Table 16.4</li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Dir, <span class="math inline">\(d\)</span></th>
+<th><span class="math inline">\(ATS_d\)</span></th>
+<th><span class="math inline">\(PTSF_d\)</span></th>
+<th>LOS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(1\)</span></td>
+<td>45.8</td>
+<td>67.0%</td>
+<td>C</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(2\)</span></td>
+<td>46.3</td>
+<td>58.9%</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

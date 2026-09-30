@@ -34,6 +34,7 @@ filters:
 3. Find density of traffic stream ($D$) using $v_p = D \times s$
 4. Check appropriate curve for $LOS$
 
+# Example Operational Analysis Problem: Freeways
 
 ## Problem: LOS Freeway {.smaller}
 
@@ -213,7 +214,6 @@ $$FFS_{adj} = 52.8\ mph$$
 
 ::::
 
-
 ## Solution: STEP 3. Find density of traffic stream ($D$) {.smaller}
 
 * $v_p = D \times s$
@@ -222,4 +222,8 @@ $$FFS_{adj} = 52.8\ mph$$
 * $D = 31.1$ pc/mi/ln
 
 ## Solution: STEP 4. Check appropriate curve for $LOS$ {.smaller}
+
+
+
+
 

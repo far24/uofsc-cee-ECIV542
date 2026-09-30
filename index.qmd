@@ -34,6 +34,7 @@ about:
 | Sep 23, 2026 11:59PM | Project | Tech Memo 1 | ☐ See Blackboard |
 | Oct 05, 2026 11:59PM | HW      | #2          | ☐ See Blacboard  |
 | Oct 12, 2026 11:00AM | Exam    | #1          | ☐ In-class       |
+| Oct 26, 2026 11:00AM | Project | Tech Memo 2 | ☐ See Blackboard |
 | Dec 11, 2026 07:30PM | Exam    | #2          | ☐ In-class       |
 
 ### Resources  
