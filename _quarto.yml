@@ -36,6 +36,8 @@ website:
         text: Home
       - text: "Lectures"
         menu:
+          - href: lecture/00_classLogistics.qmd
+            text: "Class Logistics"
           - href: lecture/eciv542syllabusFall26.qmd
             text: "19AUG26-Class 01: Syllabus & Ch1- Intro to Traffic Engr."
           - href: lecture/rdUserVehCharacteristics.qmd
