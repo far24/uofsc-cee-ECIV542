@@ -97,3 +97,9 @@ All class documents will be made available on Blackboard. The instructor will pr
 
 ## Schedule
 [ECIV 542 Fall 2026 Schedule](https://far24.github.io/uofsc-cee-ECIV542/course-schedule.html)
+
+# Chapter 01
+
+## Ch. 1: Introduction to Traffic Engineering
+[Introduction to Traffic Engineering](introTrafficEngr.qmd)
+

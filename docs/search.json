@@ -722,6 +722,13 @@
     "text": "Schedule\nECIV 542 Fall 2026 Schedule"
   },
   {
+    "objectID": "lecture/eciv542syllabusFall26.html#ch.-1-introduction-to-traffic-engineering",
+    "href": "lecture/eciv542syllabusFall26.html#ch.-1-introduction-to-traffic-engineering",
+    "title": "Traffic Engineering  Fall 2026",
+    "section": "Ch. 1: Introduction to Traffic Engineering",
+    "text": "Ch. 1: Introduction to Traffic Engineering\nIntroduction to Traffic Engineering"
+  },
+  {
     "objectID": "lecture/ch3HorDgn.html#class-logistics",
     "href": "lecture/ch3HorDgn.html#class-logistics",
     "title": "Class 03 08/26/2026  Chapter 27 (Hor. Curve)",
@@ -1717,7 +1724,7 @@
     "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
     "title": "Ch. 1: Introduction to Traffic Engineering",
     "section": "Elements of Traffic Engineering",
-    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
   },
   {
     "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",

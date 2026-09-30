@@ -20,49 +20,48 @@ convenient, economical, and environmentally compatible movement of
 people and goods."
 
 ## Primary Objective: SAFETY
-- In recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year.
+
+- In recent years, fatalities on U.S. highways: between 40,000 and
+  43,000 per year.
 
 ![](images/trafficSafetyData.png)
 
 ## Mobility vs. Accessibility
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
-Mobility:    
-- Through movement of people and goods
-from point A to point B.    
+Mobility:\
+- Through movement of people and goods from point A to point B.
 
-Accessibility:   
--Direct connection to abutting lands and
-land uses provided by roadways.
+Accessibility:\
+-Direct connection to abutting lands and land uses provided by roadways.
 :::
 
 ::: {.column width="50%"}
 ![](images/mobilityVSaccess.png)
 :::
-
-::::
-
+:::::
 
 ## Transportation Modes
+
 ![](images/fhwa13vehClass.png)
 
-##
+## 
 
-::: {.r-fit-text}
+::: r-fit-text
 What's Missing?
 :::
 
-
 ## Elements of Traffic Engineering
+
 - Traffic studies and characteristics (e.g. volume)
 - Performance evaluation (e.g. LOS)
 - Facility design
 - Traffic control (e.g. signs)
 - Traffic operations (e.g. curb management)
 - Transportation systems management (e.g. HOV)
-- Integration of intelligent transportation system technologies (e.g. V2I communications)
+- Integration of intelligent transportation system technologies (e.g.
+  V2I communications)
 
 ## Modern Problems for the Traffic Engineer
 
