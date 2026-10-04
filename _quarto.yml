@@ -73,59 +73,22 @@ website:
       - text: "supplementary Docs"
         menu:
           - href: lecture/ch28LOSdataAnalysis.qmd
-            text: Ch28 LOS Analysis
-          - href: project-description.qmd
-            text: Tech Memo 1
-          - href: project-description.qmd
-            text: Tech Memo 1
+            text: Ch28 LOS Analysis for Freeways and Multilane
 
       - text: "Homeworks"
         menu: 
           - href: https://blackboard.sc.edu/webapps/login/
-            text: "HW #1"
+            text: "HW #1 Graded (See Blackboard)"
+          - href: https://blackboard.sc.edu/webapps/login/
+            text: "HW #2 Posted Due Oct 5 (See Blackboard)"
+          - href: https://blackboard.sc.edu/webapps/login/
+            text: "HW #3: Not Yet Posted"
+          - href: https://blackboard.sc.edu/webapps/login/
+            text: "HW #4: Not Yet Posted"
       - text: "Project"
         menu:
           - href: project-description.qmd
-            text: Equipment
-          - href: project-description.qmd
-            text: Tech Memo 1
-          - href: project-description.qmd
-            text: Tech Memo 1
-
-      
-      # - section: "Lectures"
-      #   contents:
-      #     - href: lecture/eciv542syllabusFall26.qmd
-      #       text: "Class 01: Intro & Syllabus"
-      #     - href: lecture/introTrafficEngr.qmd
-      #       text: "Class 01: Ch1- Intro to Traffic Engr."
-      #     - href: lecture/rdUserVehCharacteristics.qmd
-      #       text: "Class 02: Ch2 - Road User and Veh. Characteristics"
-      #     - href: lecture/ch3HorDgn.qmd
-      #       text: "Class 03: Ch3 - Horizontal Design"
-      #     - href: lecture/ch3VerDgn.qmd
-      #       text: "Class 03: Ch3 - Vertical Design"
-      # - section: "Homeworks (HW)"
-      #   contents:
-      #     - href: templates/hwTemplate.pdf
-      #       text: HW Submission Template
-      #     - href: supplemental/model-diagnostics-matrix.qmd
-      #       text: HW 1
-      # - section: "Project"
-      #   contents:
-      #     - href: project-description.qmd
-      #       text: Equipment
-      #     - href: project-description.qmd
-      #       text: Tech Memo 1
-      #     - href: project-description.qmd
-      #       text: Tech Memo 1
-      # - section: "Lab"
-      #   contents:
-      #     - href: project-description.qmd
-      #       text: Lab Loc B123 Main
-      #     - href: project-description.qmd
-      #       text: Tech Memo 1
-
+            text: Project Description
 
 
 format:

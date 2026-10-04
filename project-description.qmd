@@ -1,0 +1,20 @@
+---
+title: "ECIV 542 Project"
+---
+
+# Class Project
+
+## Objective
+The objective of class project is to teach students the following:    
+  
+- Collecting data from field (Geometric and Traffic)
+- Drawing intersection in CAD 
+- Analyzing the Capacity of a roadway intersection
+
+## Tech Memo
+The students are expected to complete four (tentative) tech memo with following contents:  
+
+* Tech Memo #1: Assessing the existing geometry of the intersection 
+* Tech Memo #2: Assesing the existing traffic of the intersection
+* Tech Memo #3: Analyzing the capacity of (LOS) intersection
+* Tech Memo #4: Recommendation for improving the intersection
