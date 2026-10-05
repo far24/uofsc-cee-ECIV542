@@ -1,11 +1,14 @@
 ---
 title: "Class Logistics"
-subtitle: "Class 12" 
-date: "09/30/2026"
+subtitle: "Class 13" 
+date: "10/05/2026"
 author: "ECIV 542 (Traffic Engineering), Fall 2026"
 institute: "Dept. of CE&E, Univ. of South Carolina"
 format: 
   revealjs:
+    toc: true
+    toc-depth: 2
+    toc-title: "ECIV 542: TE Fall 2026"
     theme: moon
     transition: slide
     chalkboard: true
@@ -18,9 +21,22 @@ filters:
 ---
 
 
-# ECIV 542 (Fall2026) <br> Class 12 <br> Date: Sep 30, 2026  
+# Classes
 
-## Class 12 <br>Sep 30, 2026 {.smaller}
+## Class 13: Oct 05, 2026 {.smaller}
+### Due Dates
+
+|       Due Date       |   Type  |     Desc    |       Ref         |
+|:--------------------:|:-------:|:-----------:|-------------------|
+| Oct 05, 2026 11:59PM | HW      | HW #2       | ☐ See Blacboard  |
+| Oct 12, 2026 11:00AM | Exam    | Exam #1     | ☐ In-class       |
+| Oct 26, 2026 11:00AM | Project | Tech Memo 2 | ☐ See Blackboard |
+
+### Agenda
+* LOS Freeways, Multilane Highway, and 2-lane highway
+
+
+## Class 12: Sep 30, 2026 {.smaller}
 
 
 |       Due Date       |   Type  |     Desc    |       Ref         |
@@ -28,3 +44,16 @@ filters:
 | Oct 05, 2026 11:59PM | HW      | HW #2       | ☐ See Blacboard  |
 | Oct 12, 2026 11:00AM | Exam    | Exam #1     | ☐ In-class       |
 | Oct 26, 2026 11:00AM | Project | Tech Memo 2 | ☐ See Blackboard |
+
+## Class 11: Sep 28, 2026 {.smaller}
+## Class 10: Sep 23, 2026 {.smaller}
+## Class 09: Sep 21, 2026 {.smaller}
+## Class 08: Sep 16, 2026 {.smaller}
+## Class 07: Sep 14, 2026 {.smaller}
+## Class 06: Sep 09, 2026 {.smaller}
+## Class 05: Sep 02, 2026 {.smaller}
+## Class 04: Aug 31, 2026 {.smaller}
+## Class 03: Aug 26, 2026 {.smaller}
+## Class 02: Aug 24, 2026 {.smaller}
+## Class 01: Aug 19, 2026 {.smaller}
+

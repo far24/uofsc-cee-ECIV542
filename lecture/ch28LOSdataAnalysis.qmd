@@ -170,6 +170,7 @@ Where
 
 ### **2.1.1 Adjustment free-flow speed, $FFS_{adj}$**
 * Same as section 1.1
+
 ### **2.1.2 Capacity Adjustment Factor $CAF$**
 
 $CAF = CAF_w \times CAF_I \times CAF_{DP} \times CAF{wz}$

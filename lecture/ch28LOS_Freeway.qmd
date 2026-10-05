@@ -36,7 +36,7 @@ filters:
 
 # Example Operational Analysis Problem: Freeways
 
-## Problem: LOS Freeway {.smaller}
+## Problem 01: LOS Freeway {.smaller}
 
 A segment of an old freeway in a large urban area has the following characteristics:
 
@@ -226,4 +226,18 @@ $$FFS_{adj} = 52.8\ mph$$
 
 
 
+## Problem 02: LOS Freeway {.smaller}
+A segment of an old freeway in a large urban area has the following characteristics:
+* Four lanes (two lanes in each direction)
+* 10 ft lane widths
+* Lateral obstructions at the roadside 0 feet from the pavement edge
+* Total ramp 5 ramps per mile 
+* Rolling terrain
+* Trucks (Typical Mix) = 2%
+* Peak-hour factor (PHF) = 0.95
+The current peak-hour demand in the peak direction is 3000 veh/h. The roadway facility is located in an area where moderate rainfall is a common occurrence. At what level of service is the freeway expected to operate during peak periods?
+
+* [LOS Steps](images/chap28/chap28LOSFreeMultiSteps.pdf)
+* [LOS Tables](images/chap28/chap28TablesFigures.pdf)
+* [Sample Problem with Steps PDF](images/chap28/chap28LOSFreeMultiStepsAndProblem.pdf)
 

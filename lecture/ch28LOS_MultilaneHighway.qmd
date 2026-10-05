@@ -102,6 +102,11 @@ A four-lane multilane highway segment with a full median carries a peak-hour vol
 
 The segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?
 
+* [LOS Steps](images/chap28/chap28LOSFreeMultiSteps.pdf)
+* [LOS Tables](images/chap28/chap28TablesFigures.pdf)
+* [Sample Problem with Steps PDF](images/chap28/chap28LOSFreeMultiStepsAndProblem.pdf)
+
+
 # Solution
 
 ## Solution: Step 1 {.smaller}

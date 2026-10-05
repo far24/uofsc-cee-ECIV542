@@ -194,7 +194,7 @@
     "href": "lecture/ch28LOS_MultilaneHighway.html#problem-statement",
     "title": "LOS Analysis: Multilane Highways",
     "section": "Problem Statement",
-    "text": "Problem Statement\nA four-lane multilane highway segment with a full median carries a peak-hour volume of 2,600 veh/h in the heaviest direction. It has the following additional characteristics:\n\n12 ft lanes\n4 ft clearance at the roadside and in the median\n10 access points/mile\n10% trucks, standard mix\nPeak-hour factor = 0.88\n\nThe segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?"
+    "text": "Problem Statement\nA four-lane multilane highway segment with a full median carries a peak-hour volume of 2,600 veh/h in the heaviest direction. It has the following additional characteristics:\n\n12 ft lanes\n4 ft clearance at the roadside and in the median\n10 access points/mile\n10% trucks, standard mix\nPeak-hour factor = 0.88\n\nThe segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?\n\nLOS Steps\nLOS Tables\nSample Problem with Steps PDF"
   },
   {
     "objectID": "lecture/ch28LOS_MultilaneHighway.html#solution-step-1",
@@ -897,6 +897,13 @@
     "text": "Ch. 2: Road user and vehicle characteristics\nEND"
   },
   {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
+    "href": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
+    "title": "LOS Analysis",
+    "section": "LOS Analysis by Facility Type",
+    "text": "LOS Analysis by Facility Type\n\nFreeway\nMultilane Highways\nRural Two-lane Highways"
+  },
+  {
     "objectID": "lecture/ch28_31_LOS_analysis.html#service",
     "href": "lecture/ch28_31_LOS_analysis.html#service",
     "title": "LOS Analysis",
@@ -918,8 +925,8 @@
     "text": "Operational Analysis\n\n\\(q=ku\\)"
   },
   {
-    "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
-    "href": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
+    "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type-1",
+    "href": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type-1",
     "title": "LOS Analysis",
     "section": "LOS Analysis by Facility Type",
     "text": "LOS Analysis by Facility Type\n\nFreeway\nMultilane Highways\nRural Two-lane Highways"
@@ -939,11 +946,11 @@
     "text": "Steps for LOS for Freeways\n\nFind flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropriate curve for \\(LOS\\)"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#problem-los-freeway",
-    "href": "lecture/ch28LOS_Freeway.html#problem-los-freeway",
+    "objectID": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
     "title": "LOS Analysis: Freeways",
-    "section": "Problem: LOS Freeway",
-    "text": "Problem: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics:\n\nFour lanes (two lanes in each direction)\n10 ft lane widths\nLateral obstructions at the roadside 0 feet from the pavement edge\nTotal ramp 5 ramps per mile\nRolling terrain\nTrucks (Typical Mix) = 2%\nPeak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. At what level of service is the freeway expected to operate during peak periods?\n\nRelevant Tables and Figures"
+    "section": "Problem 01: LOS Freeway",
+    "text": "Problem 01: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics:\n\nFour lanes (two lanes in each direction)\n10 ft lane widths\nLateral obstructions at the roadside 0 feet from the pavement edge\nTotal ramp 5 ramps per mile\nRolling terrain\nTrucks (Typical Mix) = 2%\nPeak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. At what level of service is the freeway expected to operate during peak periods?\n\nRelevant Tables and Figures"
   },
   {
     "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
@@ -1042,6 +1049,13 @@
     "title": "LOS Analysis: Freeways",
     "section": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)",
     "text": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
+    "title": "LOS Analysis: Freeways",
+    "section": "Problem 02: LOS Freeway",
+    "text": "Problem 02: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics: * Four lanes (two lanes in each direction) * 10 ft lane widths * Lateral obstructions at the roadside 0 feet from the pavement edge * Total ramp 5 ramps per mile * Rolling terrain * Trucks (Typical Mix) = 2% * Peak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. The roadway facility is located in an area where moderate rainfall is a common occurrence. At what level of service is the freeway expected to operate during peak periods?\n\nLOS Steps\nLOS Tables\nSample Problem with Steps PDF"
   },
   {
     "objectID": "index.html",
@@ -1293,11 +1307,95 @@
     "text": "16) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
   },
   {
+    "objectID": "lecture/00_classLogistics.html#class-13-oct-05-2026",
+    "href": "lecture/00_classLogistics.html#class-13-oct-05-2026",
+    "title": "Class Logistics",
+    "section": "Class 13: Oct 05, 2026",
+    "text": "Class 13: Oct 05, 2026\nDue Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nLOS Freeways, Multilane Highway, and 2-lane highway"
+  },
+  {
     "objectID": "lecture/00_classLogistics.html#class-12-sep-30-2026",
     "href": "lecture/00_classLogistics.html#class-12-sep-30-2026",
     "title": "Class Logistics",
-    "section": "Class 12 Sep 30, 2026",
-    "text": "Class 12 Sep 30, 2026\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard"
+    "section": "Class 12: Sep 30, 2026",
+    "text": "Class 12: Sep 30, 2026\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-11-sep-28-2026",
+    "href": "lecture/00_classLogistics.html#class-11-sep-28-2026",
+    "title": "Class Logistics",
+    "section": "Class 11: Sep 28, 2026",
+    "text": "Class 11: Sep 28, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-10-sep-23-2026",
+    "href": "lecture/00_classLogistics.html#class-10-sep-23-2026",
+    "title": "Class Logistics",
+    "section": "Class 10: Sep 23, 2026",
+    "text": "Class 10: Sep 23, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-09-sep-21-2026",
+    "href": "lecture/00_classLogistics.html#class-09-sep-21-2026",
+    "title": "Class Logistics",
+    "section": "Class 09: Sep 21, 2026",
+    "text": "Class 09: Sep 21, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-08-sep-16-2026",
+    "href": "lecture/00_classLogistics.html#class-08-sep-16-2026",
+    "title": "Class Logistics",
+    "section": "Class 08: Sep 16, 2026",
+    "text": "Class 08: Sep 16, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-07-sep-14-2026",
+    "href": "lecture/00_classLogistics.html#class-07-sep-14-2026",
+    "title": "Class Logistics",
+    "section": "Class 07: Sep 14, 2026",
+    "text": "Class 07: Sep 14, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-06-sep-09-2026",
+    "href": "lecture/00_classLogistics.html#class-06-sep-09-2026",
+    "title": "Class Logistics",
+    "section": "Class 06: Sep 09, 2026",
+    "text": "Class 06: Sep 09, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-05-sep-02-2026",
+    "href": "lecture/00_classLogistics.html#class-05-sep-02-2026",
+    "title": "Class Logistics",
+    "section": "Class 05: Sep 02, 2026",
+    "text": "Class 05: Sep 02, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-04-aug-31-2026",
+    "href": "lecture/00_classLogistics.html#class-04-aug-31-2026",
+    "title": "Class Logistics",
+    "section": "Class 04: Aug 31, 2026",
+    "text": "Class 04: Aug 31, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-03-aug-26-2026",
+    "href": "lecture/00_classLogistics.html#class-03-aug-26-2026",
+    "title": "Class Logistics",
+    "section": "Class 03: Aug 26, 2026",
+    "text": "Class 03: Aug 26, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-02-aug-24-2026",
+    "href": "lecture/00_classLogistics.html#class-02-aug-24-2026",
+    "title": "Class Logistics",
+    "section": "Class 02: Aug 24, 2026",
+    "text": "Class 02: Aug 24, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-01-aug-19-2026",
+    "href": "lecture/00_classLogistics.html#class-01-aug-19-2026",
+    "title": "Class Logistics",
+    "section": "Class 01: Aug 19, 2026",
+    "text": "Class 01: Aug 19, 2026"
   },
   {
     "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
@@ -1367,7 +1465,7 @@
     "href": "lecture/ch28LOSdataAnalysis.html",
     "title": "Analysis of LOS",
     "section": "",
-    "text": "Find flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropiate curve for \\(LOS\\)\n\n\n\n\n\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\]\n\n\\(v_p\\) = flow rate per lane under equivalent ideal condition (pc/hr/ln)\n\\(V\\) = demand volume (veh/hr)\n\\(PHF\\) = peak-hour factor\n\\(f_{HV}\\) = adj. factor for presence of heavy vehicles (HV)\n\\(N\\) = number of lanes in one direction\n\n\n\n\n\n\\(f_{HV} = \\frac{1}{1+P_{HV}(E_{HV}-1)}\\)\n\n\\(f_{HV}\\) = adj. factor for presence of heavy vehicles (HV)\n\\(P_{HV}\\) = proportion of HV in traffic stream\n\\(E_{HV}\\) = heavy vehicle equivalent\n\n\\(E_{HV} \\sim f(Type\\ of\\ Terrain,\\ Grade)\\)\n\n\n\n\n\n\n\\(V_{pc} = V \\times P_{HV} \\times E_{HV}\\)\n\n\\(V_{pc}\\) = volume in traffic stream in (pc/hr)\n\\(V\\) = volume in traffic stream (veh/hr)\n\\(P_{HV}\\) = proportion of HV in traffic stream\n\\(E_{HV}\\) = heavy vehicle equivalent\n\n\n\n\n\n\nGeneral Terrain Segments: Table 28.17\n\nCondition:\n\nNO one grade \\(\\ge 3%\\) longer than \\(0.25\\ mile\\)\nand NO one grad \\(&lt; 3%\\) longer than \\(0.50\\ mile\\)\n\nLevel terrain\nRolling terrain\n\nSpecific Grades:\n\nTypical Mix of HV: Table 28.18\nAtypical Mix of HV: Table 28.19\nComposite Grade:\n\nTo find equivalent grade for a series of upgrades and/or downgrades of varying steepness.\nAverage Grade, \\(G_{AV} = (\\frac{total\\ rise}{total\\ length}) \\times 100\\)\n\nUse \\(G_{AV}\\) in Tables 28.18 and 28.19\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(v_p \\le BP\\)\n\\(v_p &gt; BP\\)\n\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = FFS_{adj}-[\\frac{(FFS_{adj}- \\frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]\\)\n\n\n\nwhere,\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(BP\\) = Breakpoint flow rate (pc/h/ln)\n\\(c_{adj}\\) = adjusted capacity (pc/h/ln)\na = calibration constant\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS_{adj} = FFS \\times SAF\\)\n\\[FFS_{adj} = FFS\\]\n\n\n\nwhere\n\n\\(FFS_{adj}\\) = Adjusted Free-Flow Speed\n\n\\(FFS\\) = Free-Flow Speed\n\\(SAF\\) = Speed Adjustement factor\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\\)\n\n\n\nWhere\n\n\\(FFS\\) = free-flow spee of the freeway (mph)\n\\(f_{LW}\\) = adjustment for lane width (mph)\n\\(f_{LC}\\) = adjustment for right-side lateral clearance (mph)\n\\(TRD\\) = total ramp density (ramps / mile)\n\\(f_{M}\\) = adjustment for type of median (mph)\n\\(f_{A}\\) = adjustment for access points (mpg)\n\n\n\n\nFactor\nFreeways Table\nMultilane Hwy Table\n\n\n\n\n\\(f_{LW}\\)\nTable 28.3\nTable 28.3\n\n\n\\(f_{LC}\\)\nTable 28.4\nTable 28.5\n\n\n\\(f_{M}\\)\n-\nTable 28.6\n\n\n\\(f_{A}\\)\n-\nTable 28.7\n\n\n\n\n\n\n\\(SAF = SAF_w \\times SAF_{DP} \\times SAF{wz}\\)\nwhere\n\n\\(SAF\\) = Speed adjustment factor\n\n\\(SAF_W\\) = SAF for weather\n\\(SAF_{DP}\\) = SAF for non-std driver poulation\n\\(SAF_{WZ}\\) = SAF for work zone\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(SAF_W\\)\nTable 28.11\n\n\n\\(SAF_{DP}\\)\nTable 28.13\n\n\n\\(SAF_{WZ}\\)\n-\n\n\n\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\\(FFS_{WZ} = 9.95 + (33.49 \\times f_SR) + (0.53 \\times  SL_{WZ}) - (5.60 \\times  LCSI) - (3.84 \\times  f_{BR}) - (1.71 \\times  f_{DN}) - (8.7 \\times TRD)\\)\n\n\\(f_{SR}\\) - speed limit ratio = \\(\\frac{SL}{SL_{WZ}}\\)\n\n\\(SL\\) = base speed limit of the freeway (mph)\n\\(SL_{WZ}\\) = speed limit at work zone (mph)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\\(TRD\\) = total ramp density (ramps / mi)\n\n\n\n\n\n\n\n\n\\(BP\\) Values for facilty type\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(BP = [1000+ 40(75-FFS_{adj})] \\times CAF^2\\)\n\\(BP = 1,400\\ pc/h/ln\\)\n\n\n\nWhere\n\n\\(BP\\) = Breakpoint flow\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(CAF\\) = Capcity adjustment factor\n\n\n\n\n\n\nSame as section 1.1 ### 2.1.2 Capacity Adjustment Factor \\(CAF\\)\n\n\\(CAF = CAF_w \\times CAF_I \\times CAF_{DP} \\times CAF{wz}\\)\nwhere\n\n\\(CAF\\) = Speed adjustment factor\n\n\\(CAF_W\\) = CAF for weather\n\\(CAF_I\\) = CAF for incidents\n\\(CAF_{DP}\\) = CAF for non-std driver poulation\n\\(CAF{wz}\\) = CAF for work zone\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(CAF_W\\)\nTable 28.10\n\n\n\\(CAF_I\\)\nTable 28.12\n\n\n\\(CAF_{DP}\\)\nTable 28.13\n\n\n\\(CAF{wz}\\)\n-\n\n\n\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\nCapacity of work zone, \\(c_{WZ} = QDR_{WZ}\\frac{100}{(100-\\alpha_{WZ})}\\)\n\n\\(QDR_{WZ}\\) = queue discharge rate from work zone\n\\(QDR_{WZ} = 2,093 - (154 \\times LCSI) - (194 \\times  f_{BR}) - (179 \\times  f_{AT}) + (9 \\times  f_{LAT}) - (59 \\times  f_{DN})\\)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{AT}\\) = adj for area type\n\n0: Urban\n1: Rural\n\n\\(f_{LAT}\\) = adj for lateral clearance to barrier\n\n(0 - 12)ft\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\n\\(\\alpha_{WZ}\\) = % reduction from capacity to QDR where\n\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = c\\)\n\n\n\\(c = 2200 + 10 (FFS-50)\\)  \\(c \\le 2,400\\ pc/h/ln\\) and \\(55 \\le FFS \\le 75\\)\n\\(c = 1900 + 20 (FFS-45)\\)  \\(c \\le 2,300\\ pc/h/ln\\)  and  \\(45 \\le FFS \\le 70\\)\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(a = 2.00\\)\n\\(a = 1.31\\)\n\n\n\n\n\n\n\n\\[v_p = D \\times s\\]\n\n\n\n\nFor Freeways: Figure 28.6\nFor Multilane Highways: Figure 28.7"
+    "text": "Find flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropiate curve for \\(LOS\\)\n\n\n\n\n\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\]\n\n\\(v_p\\) = flow rate per lane under equivalent ideal condition (pc/hr/ln)\n\\(V\\) = demand volume (veh/hr)\n\\(PHF\\) = peak-hour factor\n\\(f_{HV}\\) = adj. factor for presence of heavy vehicles (HV)\n\\(N\\) = number of lanes in one direction\n\n\n\n\n\n\\(f_{HV} = \\frac{1}{1+P_{HV}(E_{HV}-1)}\\)\n\n\\(f_{HV}\\) = adj. factor for presence of heavy vehicles (HV)\n\\(P_{HV}\\) = proportion of HV in traffic stream\n\\(E_{HV}\\) = heavy vehicle equivalent\n\n\\(E_{HV} \\sim f(Type\\ of\\ Terrain,\\ Grade)\\)\n\n\n\n\n\n\n\\(V_{pc} = V \\times P_{HV} \\times E_{HV}\\)\n\n\\(V_{pc}\\) = volume in traffic stream in (pc/hr)\n\\(V\\) = volume in traffic stream (veh/hr)\n\\(P_{HV}\\) = proportion of HV in traffic stream\n\\(E_{HV}\\) = heavy vehicle equivalent\n\n\n\n\n\n\nGeneral Terrain Segments: Table 28.17\n\nCondition:\n\nNO one grade \\(\\ge 3%\\) longer than \\(0.25\\ mile\\)\nand NO one grad \\(&lt; 3%\\) longer than \\(0.50\\ mile\\)\n\nLevel terrain\nRolling terrain\n\nSpecific Grades:\n\nTypical Mix of HV: Table 28.18\nAtypical Mix of HV: Table 28.19\nComposite Grade:\n\nTo find equivalent grade for a series of upgrades and/or downgrades of varying steepness.\nAverage Grade, \\(G_{AV} = (\\frac{total\\ rise}{total\\ length}) \\times 100\\)\n\nUse \\(G_{AV}\\) in Tables 28.18 and 28.19\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(v_p \\le BP\\)\n\\(v_p &gt; BP\\)\n\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = FFS_{adj}-[\\frac{(FFS_{adj}- \\frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]\\)\n\n\n\nwhere,\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(BP\\) = Breakpoint flow rate (pc/h/ln)\n\\(c_{adj}\\) = adjusted capacity (pc/h/ln)\na = calibration constant\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS_{adj} = FFS \\times SAF\\)\n\\[FFS_{adj} = FFS\\]\n\n\n\nwhere\n\n\\(FFS_{adj}\\) = Adjusted Free-Flow Speed\n\n\\(FFS\\) = Free-Flow Speed\n\\(SAF\\) = Speed Adjustement factor\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\\)\n\n\n\nWhere\n\n\\(FFS\\) = free-flow spee of the freeway (mph)\n\\(f_{LW}\\) = adjustment for lane width (mph)\n\\(f_{LC}\\) = adjustment for right-side lateral clearance (mph)\n\\(TRD\\) = total ramp density (ramps / mile)\n\\(f_{M}\\) = adjustment for type of median (mph)\n\\(f_{A}\\) = adjustment for access points (mpg)\n\n\n\n\nFactor\nFreeways Table\nMultilane Hwy Table\n\n\n\n\n\\(f_{LW}\\)\nTable 28.3\nTable 28.3\n\n\n\\(f_{LC}\\)\nTable 28.4\nTable 28.5\n\n\n\\(f_{M}\\)\n-\nTable 28.6\n\n\n\\(f_{A}\\)\n-\nTable 28.7\n\n\n\n\n\n\n\\(SAF = SAF_w \\times SAF_{DP} \\times SAF{wz}\\)\nwhere\n\n\\(SAF\\) = Speed adjustment factor\n\n\\(SAF_W\\) = SAF for weather\n\\(SAF_{DP}\\) = SAF for non-std driver poulation\n\\(SAF_{WZ}\\) = SAF for work zone\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(SAF_W\\)\nTable 28.11\n\n\n\\(SAF_{DP}\\)\nTable 28.13\n\n\n\\(SAF_{WZ}\\)\n-\n\n\n\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\\(FFS_{WZ} = 9.95 + (33.49 \\times f_SR) + (0.53 \\times  SL_{WZ}) - (5.60 \\times  LCSI) - (3.84 \\times  f_{BR}) - (1.71 \\times  f_{DN}) - (8.7 \\times TRD)\\)\n\n\\(f_{SR}\\) - speed limit ratio = \\(\\frac{SL}{SL_{WZ}}\\)\n\n\\(SL\\) = base speed limit of the freeway (mph)\n\\(SL_{WZ}\\) = speed limit at work zone (mph)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\\(TRD\\) = total ramp density (ramps / mi)\n\n\n\n\n\n\n\n\n\\(BP\\) Values for facilty type\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(BP = [1000+ 40(75-FFS_{adj})] \\times CAF^2\\)\n\\(BP = 1,400\\ pc/h/ln\\)\n\n\n\nWhere\n\n\\(BP\\) = Breakpoint flow\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(CAF\\) = Capcity adjustment factor\n\n\n\n\n\n\nSame as section 1.1\n\n\n\n\n\\(CAF = CAF_w \\times CAF_I \\times CAF_{DP} \\times CAF{wz}\\)\nwhere\n\n\\(CAF\\) = Speed adjustment factor\n\n\\(CAF_W\\) = CAF for weather\n\\(CAF_I\\) = CAF for incidents\n\\(CAF_{DP}\\) = CAF for non-std driver poulation\n\\(CAF{wz}\\) = CAF for work zone\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(CAF_W\\)\nTable 28.10\n\n\n\\(CAF_I\\)\nTable 28.12\n\n\n\\(CAF_{DP}\\)\nTable 28.13\n\n\n\\(CAF{wz}\\)\n-\n\n\n\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\nCapacity of work zone, \\(c_{WZ} = QDR_{WZ}\\frac{100}{(100-\\alpha_{WZ})}\\)\n\n\\(QDR_{WZ}\\) = queue discharge rate from work zone\n\\(QDR_{WZ} = 2,093 - (154 \\times LCSI) - (194 \\times  f_{BR}) - (179 \\times  f_{AT}) + (9 \\times  f_{LAT}) - (59 \\times  f_{DN})\\)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{AT}\\) = adj for area type\n\n0: Urban\n1: Rural\n\n\\(f_{LAT}\\) = adj for lateral clearance to barrier\n\n(0 - 12)ft\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\n\\(\\alpha_{WZ}\\) = % reduction from capacity to QDR where\n\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = c\\)\n\n\n\\(c = 2200 + 10 (FFS-50)\\)  \\(c \\le 2,400\\ pc/h/ln\\) and \\(55 \\le FFS \\le 75\\)\n\\(c = 1900 + 20 (FFS-45)\\)  \\(c \\le 2,300\\ pc/h/ln\\)  and  \\(45 \\le FFS \\le 70\\)\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(a = 2.00\\)\n\\(a = 1.31\\)\n\n\n\n\n\n\n\n\\[v_p = D \\times s\\]\n\n\n\n\nFor Freeways: Figure 28.6\nFor Multilane Highways: Figure 28.7"
   },
   {
     "objectID": "lecture/ch28LOSdataAnalysis.html#steps",
@@ -1388,7 +1486,7 @@
     "href": "lecture/ch28LOSdataAnalysis.html#find-speed-s-of-the-traffic-stream",
     "title": "Analysis of LOS",
     "section": "",
-    "text": "\\(v_p \\le BP\\)\n\\(v_p &gt; BP\\)\n\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = FFS_{adj}-[\\frac{(FFS_{adj}- \\frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]\\)\n\n\n\nwhere,\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(BP\\) = Breakpoint flow rate (pc/h/ln)\n\\(c_{adj}\\) = adjusted capacity (pc/h/ln)\na = calibration constant\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS_{adj} = FFS \\times SAF\\)\n\\[FFS_{adj} = FFS\\]\n\n\n\nwhere\n\n\\(FFS_{adj}\\) = Adjusted Free-Flow Speed\n\n\\(FFS\\) = Free-Flow Speed\n\\(SAF\\) = Speed Adjustement factor\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\\)\n\n\n\nWhere\n\n\\(FFS\\) = free-flow spee of the freeway (mph)\n\\(f_{LW}\\) = adjustment for lane width (mph)\n\\(f_{LC}\\) = adjustment for right-side lateral clearance (mph)\n\\(TRD\\) = total ramp density (ramps / mile)\n\\(f_{M}\\) = adjustment for type of median (mph)\n\\(f_{A}\\) = adjustment for access points (mpg)\n\n\n\n\nFactor\nFreeways Table\nMultilane Hwy Table\n\n\n\n\n\\(f_{LW}\\)\nTable 28.3\nTable 28.3\n\n\n\\(f_{LC}\\)\nTable 28.4\nTable 28.5\n\n\n\\(f_{M}\\)\n-\nTable 28.6\n\n\n\\(f_{A}\\)\n-\nTable 28.7\n\n\n\n\n\n\n\\(SAF = SAF_w \\times SAF_{DP} \\times SAF{wz}\\)\nwhere\n\n\\(SAF\\) = Speed adjustment factor\n\n\\(SAF_W\\) = SAF for weather\n\\(SAF_{DP}\\) = SAF for non-std driver poulation\n\\(SAF_{WZ}\\) = SAF for work zone\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(SAF_W\\)\nTable 28.11\n\n\n\\(SAF_{DP}\\)\nTable 28.13\n\n\n\\(SAF_{WZ}\\)\n-\n\n\n\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\\(FFS_{WZ} = 9.95 + (33.49 \\times f_SR) + (0.53 \\times  SL_{WZ}) - (5.60 \\times  LCSI) - (3.84 \\times  f_{BR}) - (1.71 \\times  f_{DN}) - (8.7 \\times TRD)\\)\n\n\\(f_{SR}\\) - speed limit ratio = \\(\\frac{SL}{SL_{WZ}}\\)\n\n\\(SL\\) = base speed limit of the freeway (mph)\n\\(SL_{WZ}\\) = speed limit at work zone (mph)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\\(TRD\\) = total ramp density (ramps / mi)\n\n\n\n\n\n\n\n\n\\(BP\\) Values for facilty type\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(BP = [1000+ 40(75-FFS_{adj})] \\times CAF^2\\)\n\\(BP = 1,400\\ pc/h/ln\\)\n\n\n\nWhere\n\n\\(BP\\) = Breakpoint flow\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(CAF\\) = Capcity adjustment factor\n\n\n\n\n\n\nSame as section 1.1 ### 2.1.2 Capacity Adjustment Factor \\(CAF\\)\n\n\\(CAF = CAF_w \\times CAF_I \\times CAF_{DP} \\times CAF{wz}\\)\nwhere\n\n\\(CAF\\) = Speed adjustment factor\n\n\\(CAF_W\\) = CAF for weather\n\\(CAF_I\\) = CAF for incidents\n\\(CAF_{DP}\\) = CAF for non-std driver poulation\n\\(CAF{wz}\\) = CAF for work zone\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(CAF_W\\)\nTable 28.10\n\n\n\\(CAF_I\\)\nTable 28.12\n\n\n\\(CAF_{DP}\\)\nTable 28.13\n\n\n\\(CAF{wz}\\)\n-\n\n\n\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\nCapacity of work zone, \\(c_{WZ} = QDR_{WZ}\\frac{100}{(100-\\alpha_{WZ})}\\)\n\n\\(QDR_{WZ}\\) = queue discharge rate from work zone\n\\(QDR_{WZ} = 2,093 - (154 \\times LCSI) - (194 \\times  f_{BR}) - (179 \\times  f_{AT}) + (9 \\times  f_{LAT}) - (59 \\times  f_{DN})\\)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{AT}\\) = adj for area type\n\n0: Urban\n1: Rural\n\n\\(f_{LAT}\\) = adj for lateral clearance to barrier\n\n(0 - 12)ft\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\n\\(\\alpha_{WZ}\\) = % reduction from capacity to QDR where\n\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = c\\)\n\n\n\\(c = 2200 + 10 (FFS-50)\\)  \\(c \\le 2,400\\ pc/h/ln\\) and \\(55 \\le FFS \\le 75\\)\n\\(c = 1900 + 20 (FFS-45)\\)  \\(c \\le 2,300\\ pc/h/ln\\)  and  \\(45 \\le FFS \\le 70\\)\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(a = 2.00\\)\n\\(a = 1.31\\)"
+    "text": "\\(v_p \\le BP\\)\n\\(v_p &gt; BP\\)\n\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = FFS_{adj}-[\\frac{(FFS_{adj}- \\frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]\\)\n\n\n\nwhere,\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(BP\\) = Breakpoint flow rate (pc/h/ln)\n\\(c_{adj}\\) = adjusted capacity (pc/h/ln)\na = calibration constant\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS_{adj} = FFS \\times SAF\\)\n\\[FFS_{adj} = FFS\\]\n\n\n\nwhere\n\n\\(FFS_{adj}\\) = Adjusted Free-Flow Speed\n\n\\(FFS\\) = Free-Flow Speed\n\\(SAF\\) = Speed Adjustement factor\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\\)\n\n\n\nWhere\n\n\\(FFS\\) = free-flow spee of the freeway (mph)\n\\(f_{LW}\\) = adjustment for lane width (mph)\n\\(f_{LC}\\) = adjustment for right-side lateral clearance (mph)\n\\(TRD\\) = total ramp density (ramps / mile)\n\\(f_{M}\\) = adjustment for type of median (mph)\n\\(f_{A}\\) = adjustment for access points (mpg)\n\n\n\n\nFactor\nFreeways Table\nMultilane Hwy Table\n\n\n\n\n\\(f_{LW}\\)\nTable 28.3\nTable 28.3\n\n\n\\(f_{LC}\\)\nTable 28.4\nTable 28.5\n\n\n\\(f_{M}\\)\n-\nTable 28.6\n\n\n\\(f_{A}\\)\n-\nTable 28.7\n\n\n\n\n\n\n\\(SAF = SAF_w \\times SAF_{DP} \\times SAF{wz}\\)\nwhere\n\n\\(SAF\\) = Speed adjustment factor\n\n\\(SAF_W\\) = SAF for weather\n\\(SAF_{DP}\\) = SAF for non-std driver poulation\n\\(SAF_{WZ}\\) = SAF for work zone\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(SAF_W\\)\nTable 28.11\n\n\n\\(SAF_{DP}\\)\nTable 28.13\n\n\n\\(SAF_{WZ}\\)\n-\n\n\n\n\n\\(SAF_{WZ} = \\frac{FFS_{WZ}}{FFS}\\)\n\n\\(FFS_{WZ} = 9.95 + (33.49 \\times f_SR) + (0.53 \\times  SL_{WZ}) - (5.60 \\times  LCSI) - (3.84 \\times  f_{BR}) - (1.71 \\times  f_{DN}) - (8.7 \\times TRD)\\)\n\n\\(f_{SR}\\) - speed limit ratio = \\(\\frac{SL}{SL_{WZ}}\\)\n\n\\(SL\\) = base speed limit of the freeway (mph)\n\\(SL_{WZ}\\) = speed limit at work zone (mph)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\\(TRD\\) = total ramp density (ramps / mi)\n\n\n\n\n\n\n\n\n\\(BP\\) Values for facilty type\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(BP = [1000+ 40(75-FFS_{adj})] \\times CAF^2\\)\n\\(BP = 1,400\\ pc/h/ln\\)\n\n\n\nWhere\n\n\\(BP\\) = Breakpoint flow\n\n\\(FFS_{adj}\\) = adjustment free-flow speed (mph)\n\\(CAF\\) = Capcity adjustment factor\n\n\n\n\n\n\nSame as section 1.1\n\n\n\n\n\\(CAF = CAF_w \\times CAF_I \\times CAF_{DP} \\times CAF{wz}\\)\nwhere\n\n\\(CAF\\) = Speed adjustment factor\n\n\\(CAF_W\\) = CAF for weather\n\\(CAF_I\\) = CAF for incidents\n\\(CAF_{DP}\\) = CAF for non-std driver poulation\n\\(CAF{wz}\\) = CAF for work zone\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\n\n\n\n\n\n\nFactor\nTable\n\n\n\n\n\\(CAF_W\\)\nTable 28.10\n\n\n\\(CAF_I\\)\nTable 28.12\n\n\n\\(CAF_{DP}\\)\nTable 28.13\n\n\n\\(CAF{wz}\\)\n-\n\n\n\n\n\\(CAF{wz} = \\frac{c_{WZ}}{c}\\)\nCapacity of work zone, \\(c_{WZ} = QDR_{WZ}\\frac{100}{(100-\\alpha_{WZ})}\\)\n\n\\(QDR_{WZ}\\) = queue discharge rate from work zone\n\\(QDR_{WZ} = 2,093 - (154 \\times LCSI) - (194 \\times  f_{BR}) - (179 \\times  f_{AT}) + (9 \\times  f_{LAT}) - (59 \\times  f_{DN})\\)\n\n\\(LCSI\\) = Lane closure severity index\n\nTable 28.14\n\n\\(f_{BR}\\) = adj for barrier type;\n\n0: Concrete or other hard barrier\n1: cones or soft barrier\n\n\\(f_{AT}\\) = adj for area type\n\n0: Urban\n1: Rural\n\n\\(f_{LAT}\\) = adj for lateral clearance to barrier\n\n(0 - 12)ft\n\n\\(f_{DN}\\) = adj for day or night\n\n0: day\n1: night\n\n\n\\(\\alpha_{WZ}\\) = % reduction from capacity to QDR where\n\n\n\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = c\\)\n\n\n\\(c = 2200 + 10 (FFS-50)\\)  \\(c \\le 2,400\\ pc/h/ln\\) and \\(55 \\le FFS \\le 75\\)\n\\(c = 1900 + 20 (FFS-45)\\)  \\(c \\le 2,300\\ pc/h/ln\\)  and  \\(45 \\le FFS \\le 70\\)\n\n\n\n\n\n\n\n\n\nFreeways\nMultilane Highway\n\n\n\n\n\\(a = 2.00\\)\n\\(a = 1.31\\)"
   },
   {
     "objectID": "lecture/ch28LOSdataAnalysis.html#find-density-of-traffic-stream-d",
@@ -1815,7 +1913,7 @@
     "href": "lecture/ch28LOS_RuralTwo-laneHwy.html#example-problem-1",
     "title": "LOS Analysis: Rural Two-lane Highway",
     "section": "Example Problem",
-    "text": "Example Problem\nA Class I two-lane highway in rolling terrain has a peak demand volume of 500 veh/h, with 15% trucks and 5% RVs. The highway serves as a main link to a popular recreation area. The directional split of traffic is 60-40 during peak periods, and the peak-hour factor is 0.88. The 10-mile section under study has 40% “No Passing” zones. The base free-flow speed of the facility may be taken to be 60 mi/h. Lane widths are 12 feet, and shoulder widths are 2 feet. There are 10 access points per mile along this 10-mile section.\n\n\n\nGiven that,\n\nClass I and Rolling terrain\nPeak demand vol, \\(V = 500\\ veh/h\\)\nTruck %, \\(P_T = 15%\\)\nRV %, \\(P_R = 5%\\)\nPHF = \\(0.88\\)\nSegment length \\(L = 10\\ mile\\)\n% “No Passing” zone = \\(40\\%\\)\n\n\n\n\nBFFS = \\(60\\ mph\\)\nDir. split = \\(60-40\\) during peak period\nLane width = \\(12\\ feet\\)\nShoulder width = \\(2\\ feet\\)\naccess/mile = \\(10\\)"
+    "text": "Example Problem\nA Class I two-lane highway in rolling terrain has a peak demand volume of 568 veh/h, with 15% trucks and 5% RVs. The highway serves as a main link to a popular recreation area. The directional split of traffic is 60-40 during peak periods, and the peak-hour factor is 0.88. The 10-mile section under study has 40% “No Passing” zones. The base free-flow speed of the facility may be taken to be 60 mi/h. Lane widths are 12 feet, and shoulder widths are 2 feet. There are 10 access points per mile along this 10-mile section.\n\n\n\nGiven that,\n\nClass I and Rolling terrain\nPeak demand vol, \\(V = 500\\ veh/h\\)\nTruck %, \\(P_T = 15%\\)\nRV %, \\(P_R = 5%\\)\nPHF = \\(0.88\\)\nSegment length \\(L = 10\\ mile\\)\n% “No Passing” zone = \\(40\\%\\)\n\n\n\n\nBFFS = \\(60\\ mph\\)\nDir. split = \\(60-40\\) during peak period\nLane width = \\(12\\ feet\\)\nShoulder width = \\(2\\ feet\\)\naccess/mile = \\(10\\)"
   },
   {
     "objectID": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution",
@@ -1836,39 +1934,32 @@
     "href": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-2",
     "title": "LOS Analysis: Rural Two-lane Highway",
     "section": "Solution",
-    "text": "Solution\nStep 2: Calculate the Dir. Demand Flow Rates\n\nTwo lanes analyzed separately\nDemand volumes for 60-40 Split:\n\n\\(V_1 = 500 \\times 0.60 = 300\\ veh/h\\)\n\\(V_2 = 500 \\times 0.40 = 200\\ veh/h\\)"
+    "text": "Solution\nStep 2: Calculate the Dir. Demand Flow Rates\n\nTwo lanes analyzed separately\nDemand volumes for 60-40 Split:\n\n\\(V_1 = 568 \\times 0.60 = 341\\ veh/h\\)\n\\(V_2 = 568 \\times 0.40 = 227\\ veh/h\\)"
   },
   {
     "objectID": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d",
     "href": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d",
     "title": "LOS Analysis: Rural Two-lane Highway",
     "section": "Solution \\(ATS_d\\)",
-    "text": "Solution \\(ATS_d\\)\nStep 2: Calculate the Dir. Demand Flow\n\nVolume:\n\n\\(V_1 = 300 \\times 0.88 = 341\\ veh/h\\)\n\\(V_2 = 200 \\times 0.88 = 227\\ veh/h\\)"
+    "text": "Solution \\(ATS_d\\)\nStep 2: Calculate the Dir. Demand Flow Rates\n\n\n\nDir. 1________________________\n\n\\(\\nu_d = \\frac{V}{PHF \\times f_{HV} \\times f_G}\\)\n\\(\\nu_d = \\frac{341}{0.88 \\times 0.85 \\times 0.86}\\)\n\\(\\nu_d = 530\\ pc/h\\)\n\n\n\n\nFind Values for \\(f_{HV}\\) and \\(f_G\\)\n\\(f_{HV} = \\frac{1}{1+P_T(E_T-1)+P_R(E_R-1)}\\)\n\\(f_{HV} = \\frac{1}{1+0.15(2.1-1)+0.05(1.1-1)}\\)\n\\(f_{HV} = 0.85\\)\n\\(f_{G} = 0.86\\)\n\n\n\nFactors\n\n\n\n\nFactor\nDir 1\nSource\n\n\n\n\n\\(f_G\\)\n0.86\nTable 16.7: (Rolling; Interpolation)\n\n\n\\(E_T\\)\n2.1\nTable 16.10: (Rolling; Interpolation)\n\n\n\\(E_R\\)\n1.1\nTable 16.10: (Rolling; Interpolation)"
   },
   {
     "objectID": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-1",
     "href": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-1",
     "title": "LOS Analysis: Rural Two-lane Highway",
     "section": "Solution \\(ATS_d\\)",
-    "text": "Solution \\(ATS_d\\)\nStep 2: Calculate the Dir. Demand Flow Rates\n\n\n\nDir. 1________________________\n\n\\(\\nu_d = \\frac{V}{PHF \\times f_{HV} \\times f_G}\\)\n\\(\\nu_d = \\frac{341}{0.88 \\times 0.85 \\times 0.86}\\)\n\\(\\nu_d = 530\\ pc/h\\)\n\n\n\n\nFind Values for \\(f_{HV}\\) and \\(f_G\\)\n\\(f_{HV} = \\frac{1}{1+P_T(E_T-1)+P_R(E_R-1)}\\)\n\\(f_{HV} = \\frac{1}{1+0.15(2.1-1)+0.05(1.1-1)}\\)\n\\(f_{HV} = 0.85\\)\n\\(f_{G} = 0.86\\)\n\n\n\nFactors\n\n\n\n\nFactor\nDir 1\nSource\n\n\n\n\n\\(f_G\\)\n0.86\nTable 16.7: (Rolling; Interpolation)\n\n\n\\(E_T\\)\n2.1\nTable 16.10: (Rolling; Interpolation)\n\n\n\\(E_R\\)\n1.1\nTable 16.10: (Rolling; Interpolation)"
+    "text": "Solution \\(ATS_d\\)\nStep 2: Calculate the Dir. Demand Flow Rates\n\n\n\nDir. 2________________________\n\n\\(\\nu_d = \\frac{V}{PHF \\times f_{HV} \\times f_G}\\)\n\\(\\nu_d = \\frac{227}{0.88 \\times 0.83 \\times 0.77}\\)\n\\(\\nu_d = 404\\ pc/h\\)\n\n\n\n\nFind Values for \\(f_{HV}\\) and \\(f_G\\)\n\\(f_{HV} = \\frac{1}{1+P_T(E_T-1)+P_R(E_R-1)}\\)\n\\(f_{HV} = \\frac{1}{1+0.15(2.3-1)+0.05(1.1-1)}\\)\n\\(f_{HV} = 0.83\\)\n\\(f_{G} = 0.77\\)\n\n\n\nFactors\n\n\n\n\nFactor\nDir 2\nSource\n\n\n\n\n\\(f_G\\)\n0.77\nTable 16.7: (Rolling; Interpolation)\n\n\n\\(E_T\\)\n2.3\nTable 16.10: (Rolling; Interpolation)\n\n\n\\(E_R\\)\n1.1\nTable 16.10: (Rolling; Interpolation)"
   },
   {
     "objectID": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-2",
     "href": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-2",
     "title": "LOS Analysis: Rural Two-lane Highway",
     "section": "Solution \\(ATS_d\\)",
-    "text": "Solution \\(ATS_d\\)\nStep 2: Calculate the Dir. Demand Flow Rates\n\n\n\nDir. 2________________________\n\n\\(\\nu_d = \\frac{V}{PHF \\times f_{HV} \\times f_G}\\)\n\\(\\nu_d = \\frac{227}{0.88 \\times 0.83 \\times 0.77}\\)\n\\(\\nu_d = 404\\ pc/h\\)\n\n\n\n\nFind Values for \\(f_{HV}\\) and \\(f_G\\)\n\\(f_{HV} = \\frac{1}{1+P_T(E_T-1)+P_R(E_R-1)}\\)\n\\(f_{HV} = \\frac{1}{1+0.15(2.3-1)+0.05(1.1-1)}\\)\n\\(f_{HV} = 0.83\\)\n\\(f_{G} = 0.77\\)\n\n\n\nFactors\n\n\n\n\nFactor\nDir 2\nSource\n\n\n\n\n\\(f_G\\)\n0.77\nTable 16.7: (Rolling; Interpolation)\n\n\n\\(E_T\\)\n2.3\nTable 16.10: (Rolling; Interpolation)\n\n\n\\(E_R\\)\n1.1\nTable 16.10: (Rolling; Interpolation)"
+    "text": "Solution \\(ATS_d\\)\n\nFind Values for \\(f_{npA1}\\) and \\(f_{npA2}\\)\n\n\\(f_{npA1} = 1.9\\)\n\nTable 16.15; 40% No passing zone, \\(\\nu_o = 404\\ pc/h\\)\n\n\\(f_{npA2} = 1.4\\)\n\nTable 16.15; 40% No passing zone, \\(\\nu_o = 530\\ pc/h\\)"
   },
   {
     "objectID": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-3",
     "href": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-3",
-    "title": "LOS Analysis: Rural Two-lane Highway",
-    "section": "Solution \\(ATS_d\\)",
-    "text": "Solution \\(ATS_d\\)\n\nFind Values for \\(f_{npA1}\\) and \\(f_{npA2}\\)\n\n\\(f_{npA1} = 1.9\\)\n\nTable 16.15; 40% No passing zone, \\(\\nu_o = 404\\ pc/h\\)\n\n\\(f_{npA2} = 1.4\\)\n\nTable 16.15; 40% No passing zone, \\(\\nu_o = 530\\ pc/h\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-4",
-    "href": "lecture/ch28LOS_RuralTwo-laneHwy.html#solution-ats_d-4",
     "title": "LOS Analysis: Rural Two-lane Highway",
     "section": "Solution \\(ATS_d\\)",
     "text": "Solution \\(ATS_d\\)\nStep 3: Determine \\(ATS_d\\)\n\nDir. 1________________________\n\\(ATS_1 = FFS_1 - 0.00776(\\nu_1 + \\nu_2)-f_{npA1}\\)\n\\(ATS_1 = 54.9 - 0.00776(530 + 404)- 1.9\\)\n\\(ATS_1 = 45.8\\ pc/h\\)\nDir. 2________________________\n\\(ATS_1 = FFS_2 - 0.00776(\\nu_1 + \\nu_2)-f_{npA}\\)\n\\(ATS_1 = 54.9 - 0.00776(530 + 404)- 1.4\\)\n\\(ATS_1 = 46.3\\ pc/h\\)"
