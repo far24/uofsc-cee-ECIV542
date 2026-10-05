@@ -19,6 +19,8 @@ filters:
 - diagrams
 ---
 
+# Multilane Highways
+
 ## Multilane Highways
 
 * classified by the number of lanes and the type of median treatment provided. 
@@ -33,7 +35,63 @@ filters:
 3. Find density of traffic stream ($D$) using $v_p = D \times s$
 4. Check appropriate curve for $LOS$
 
-## Problem
+# Steps and LOS Equations: Multilane
+
+## Equations
+#### Step 1. Find flow ($v_p$) of the traffic stream
+* $v_p = \frac{V}{PHF \times f_{HV} \times N}$
+  - $f_{HV} = \frac{1}{1+P_{HV}(E_{HV}-1)}$
+    - $E_{HV}$ Check Section 1.2.2 for Terrain and Grades
+
+## Equations
+#### Step 2. Find speed ($S$) of the traffic Stream 
+
+| $v_p \le BP$    | $v_p > BP$    |
+|:----------------|:-------------:|
+| $S = FFS_{adj}$ |$S = FFS_{adj}-[\frac{(FFS_{adj}- \frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]$|
+
+* For Multilane Hwy
+  - $BP = 1,400\ pc/h/ln$
+
+--- 
+
+
+* For Multilane Hwy
+ - $FFS_{adj} = FFS$
+    - $FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$
+
+| Factor   | Multilane Hwy Table    |
+|:--------:|:----------------------:|
+|$f_{LW}$  |  Table 28.3            |
+|$f_{LC}$  |  Table 28.5            |
+|$f_{M}$   |  Table 28.6            |
+|$f_{A}$   |  Table 28.7            |
+
+---
+
+* For Multilane Hwy
+  - $c_{adj} = c$
+    - $c = 1900 + 20 (FFS-45)$ <br> for $c \le 2,300\ pc/h/ln$  and $45 \le FFS \le 70$
+
+--- 
+
+* For Multilane Hwy
+  - Calibration constant, $a = 1.31$
+
+## Equations
+#### Step 3. Find density of traffic stream ($D$) using
+
+$$v_p = D \times s$$
+
+
+## Equations
+#### Step 4. Check appropriate curve for $LOS$
+* For Multilane Highways: Figure 28.7
+
+
+# Sample Problem
+
+## Problem Statement {.smaller}
 A four-lane multilane highway segment with a full median carries a peak-hour volume of 2,600 veh/h in the heaviest direction. It has the following additional characteristics:
 
 * 12 ft lanes
@@ -43,3 +101,106 @@ A four-lane multilane highway segment with a full median carries a peak-hour vol
 * Peak-hour factor = 0.88
 
 The segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?
+
+# Solution
+
+## Solution: Step 1 {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+* $v_p = \frac{V}{PHF \times f_{HV} \times N}$
+* $v_p = \frac{V}{0.88 \times 0.836 \times 2}$
+* $v_p = 1767$ pc/h/ln
+
+:::
+
+::: {.column width="40%" style="text-align: right;"}
+
+* $E_{HV} = 2.96$ (Table 28.8, 3.5% grade, 1.25 miles, 10% trucks)
+
+
+* $f_{HV} = \frac{1}{1+P_{HV}(E_{HV}-1)}$
+* $f_{HV} = \frac{1}{1+0.10(2.96-1)}$
+* $f_{HV} = 0.836$
+:::
+
+::::
+
+## Solution: Step 2 {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+* $FFS_{adj} = FFS$
+* $FFS_{adj} = 61.6$ mph
+
+
+:::
+
+::: {.column width="40%" style="text-align: right;"}
+
+$BFFS = 65$ mph (Given)
+$f_{LW}= 0$ (Table 28.3)
+$f_{LC}= 0.9$ mph (Table 28.4)
+$f_{M}= 0$ (Table 28.6)
+$f_{A}=2.5$ mph (Table 28.7)
+
+* $FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$
+* $FFS = 65 - 0 - 0.9 - 0 - 2.5$
+* $FFS = 61.6$ mph
+
+
+:::
+
+::::
+
+
+## Solution: Step 2 {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Find which Eq. for S to use
+
+* $BP = 1,400\ pc/h/ln$
+* $v_p = 1,767$ pc/h/ln
+* <mark>$v_p > BP$</mark>
+
+
+* $S = FFS_{adj}-[\frac{(FFS_{adj}- \frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]$
+* $S = 61.6-[\frac{(61.6- \frac{2232}{45})(1767 - 1400)^{1.31}}{(2232-1400)^{1.31}}]$
+* $S = 57.5$mph
+
+
+
+:::
+
+::: {.column width="40%" style="text-align: right;"}
+
+* $c_{adj} = c$
+    - $c = 1900 + 20 (FFS-45)$ 
+    - $c = 1900 + 20 (61.6-45)$
+    - $c = 2232$ pc/h/ln
+* $c_{adj} = 2232$ pc/h/ln
+* $a$ = 1.31
+
+
+:::
+
+::::
+
+## Solution: Step 3 {.smaller}
+
+* $D = \frac{v_p}{S}$
+* $D = \frac{1767}{57.5}$
+* $D = 30.7$ pc/mi/ln
+
+
+## Solution: Step 4 {.smaller}
+
+* Check Curve/Table 28.1
+* <mark>LOS D (26-36 pc/mi/ln)</mark>

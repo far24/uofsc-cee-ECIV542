@@ -73,7 +73,7 @@ execute:
 
 | $v_p \le BP$    | $v_p > BP$    |
 |:----------------|:-------------:|
-| $S = FFS_{adj}$ |$S = FFS_{adj}[\frac{(FFS_{adj}- \frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]$|
+| $S = FFS_{adj}$ |$S = FFS_{adj}-[\frac{(FFS_{adj}- \frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]$|
 
 where,
 

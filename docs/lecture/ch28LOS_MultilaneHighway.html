@@ -145,7 +145,12 @@ ECIV 542 (Traffic Engineering), Fall 2026
 </div>
 
 </section>
-<section id="multilane-highways" class="slide level2">
+<section>
+<section id="multilane-highways" class="title-slide slide level1 center">
+<h1>Multilane Highways</h1>
+
+</section>
+<section id="multilane-highways-1" class="slide level2">
 <h2>Multilane Highways</h2>
 <ul>
 <li>classified by the number of lanes and the type of median treatment provided.
@@ -164,9 +169,129 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <li>Find density of traffic stream (<span class="math inline">\(D\)</span>) using <span class="math inline">\(v_p = D \times s\)</span></li>
 <li>Check appropriate curve for <span class="math inline">\(LOS\)</span></li>
 </ol>
+</section></section>
+<section>
+<section id="steps-and-los-equations-multilane" class="title-slide slide level1 center">
+<h1>Steps and LOS Equations: Multilane</h1>
+
 </section>
-<section id="problem" class="slide level2">
-<h2>Problem</h2>
+<section id="equations" class="slide level2">
+<h2>Equations</h2>
+<h4 id="step-1.-find-flow-v_p-of-the-traffic-stream">Step 1. Find flow (<span class="math inline">\(v_p\)</span>) of the traffic stream</h4>
+<ul>
+<li><span class="math inline">\(v_p = \frac{V}{PHF \times f_{HV} \times N}\)</span>
+<ul>
+<li><span class="math inline">\(f_{HV} = \frac{1}{1+P_{HV}(E_{HV}-1)}\)</span>
+<ul>
+<li><span class="math inline">\(E_{HV}\)</span> Check Section 1.2.2 for Terrain and Grades</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="equations-1" class="slide level2">
+<h2>Equations</h2>
+<h4 id="step-2.-find-speed-s-of-the-traffic-stream">Step 2. Find speed (<span class="math inline">\(S\)</span>) of the traffic Stream</h4>
+<table class="caption-top">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><span class="math inline">\(v_p \le BP\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(v_p &gt; BP\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="math inline">\(S = FFS_{adj}\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(S = FFS_{adj}-[\frac{(FFS_{adj}- \frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>For Multilane Hwy
+<ul>
+<li><span class="math inline">\(BP = 1,400\ pc/h/ln\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>For Multilane Hwy</li>
+<li><span class="math inline">\(FFS_{adj} = FFS\)</span>
+<ul>
+<li><span class="math inline">\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\)</span></li>
+</ul></li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Factor</th>
+<th style="text-align: center;">Multilane Hwy Table</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(f_{LW}\)</span></td>
+<td style="text-align: center;">Table 28.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(f_{LC}\)</span></td>
+<td style="text-align: center;">Table 28.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><span class="math inline">\(f_{M}\)</span></td>
+<td style="text-align: center;">Table 28.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span class="math inline">\(f_{A}\)</span></td>
+<td style="text-align: center;">Table 28.7</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>For Multilane Hwy
+<ul>
+<li><span class="math inline">\(c_{adj} = c\)</span>
+<ul>
+<li><span class="math inline">\(c = 1900 + 20 (FFS-45)\)</span> <br> for <span class="math inline">\(c \le 2,300\ pc/h/ln\)</span> and <span class="math inline">\(45 \le FFS \le 70\)</span></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>For Multilane Hwy
+<ul>
+<li>Calibration constant, <span class="math inline">\(a = 1.31\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="equations-2" class="slide level2">
+<h2>Equations</h2>
+<h4 id="step-3.-find-density-of-traffic-stream-d-using">Step 3. Find density of traffic stream (<span class="math inline">\(D\)</span>) using</h4>
+<p><span class="math display">\[v_p = D \times s\]</span></p>
+</section>
+<section id="equations-3" class="slide level2">
+<h2>Equations</h2>
+<h4 id="step-4.-check-appropriate-curve-for-los">Step 4. Check appropriate curve for <span class="math inline">\(LOS\)</span></h4>
+<ul>
+<li>For Multilane Highways: Figure 28.7</li>
+</ul>
+</section></section>
+<section>
+<section id="sample-problem" class="title-slide slide level1 center">
+<h1>Sample Problem</h1>
+
+</section>
+<section id="problem-statement" class="slide level2 smaller">
+<h2>Problem Statement</h2>
 <p>A four-lane multilane highway segment with a full median carries a peak-hour volume of 2,600 veh/h in the heaviest direction. It has the following additional characteristics:</p>
 <ul>
 <li>12 ft lanes</li>
@@ -176,9 +301,90 @@ ECIV 542 (Traffic Engineering), Fall 2026
 <li>Peak-hour factor = 0.88</li>
 </ul>
 <p>The segment in question is on a sustained 3.5% grade, 1.25 miles in length. The base FFS may be taken as 65 mph. What is the expected level of service on the upgrade, and on the downgrade?</p>
-
+</section></section>
+<section>
+<section id="solution" class="title-slide slide level1 center">
+<h1>Solution</h1>
 
 </section>
+<section id="solution-step-1" class="slide level2 smaller">
+<h2>Solution: Step 1</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><span class="math inline">\(v_p = \frac{V}{PHF \times f_{HV} \times N}\)</span></li>
+<li><span class="math inline">\(v_p = \frac{V}{0.88 \times 0.836 \times 2}\)</span></li>
+<li><span class="math inline">\(v_p = 1767\)</span> pc/h/ln</li>
+</ul>
+</div><div class="column" style="text-align: right;">
+<ul>
+<li><p><span class="math inline">\(E_{HV} = 2.96\)</span> (Table 28.8, 3.5% grade, 1.25 miles, 10% trucks)</p></li>
+<li><p><span class="math inline">\(f_{HV} = \frac{1}{1+P_{HV}(E_{HV}-1)}\)</span></p></li>
+<li><p><span class="math inline">\(f_{HV} = \frac{1}{1+0.10(2.96-1)}\)</span></p></li>
+<li><p><span class="math inline">\(f_{HV} = 0.836\)</span></p></li>
+</ul>
+</div></div>
+</section>
+<section id="solution-step-2" class="slide level2 smaller">
+<h2>Solution: Step 2</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><span class="math inline">\(FFS_{adj} = FFS\)</span></li>
+<li><span class="math inline">\(FFS_{adj} = 61.6\)</span> mph</li>
+</ul>
+</div><div class="column" style="text-align: right;">
+<p><span class="math inline">\(BFFS = 65\)</span> mph (Given) <span class="math inline">\(f_{LW}= 0\)</span> (Table 28.3) <span class="math inline">\(f_{LC}= 0.9\)</span> mph (Table 28.4) <span class="math inline">\(f_{M}= 0\)</span> (Table 28.6) <span class="math inline">\(f_{A}=2.5\)</span> mph (Table 28.7)</p>
+<ul>
+<li><span class="math inline">\(FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}\)</span></li>
+<li><span class="math inline">\(FFS = 65 - 0 - 0.9 - 0 - 2.5\)</span></li>
+<li><span class="math inline">\(FFS = 61.6\)</span> mph</li>
+</ul>
+</div></div>
+</section>
+<section id="solution-step-2-1" class="slide level2 smaller">
+<h2>Solution: Step 2</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="find-which-eq.-for-s-to-use">Find which Eq. for S to use</h4>
+<ul>
+<li><p><span class="math inline">\(BP = 1,400\ pc/h/ln\)</span></p></li>
+<li><p><span class="math inline">\(v_p = 1,767\)</span> pc/h/ln</p></li>
+<li><p><mark><span class="math inline">\(v_p &gt; BP\)</span></mark></p></li>
+<li><p><span class="math inline">\(S = FFS_{adj}-[\frac{(FFS_{adj}- \frac{c_{adj}}{45})(v_p - BP)^a}{(c_{adj}-BP)^a}]\)</span></p></li>
+<li><p><span class="math inline">\(S = 61.6-[\frac{(61.6- \frac{2232}{45})(1767 - 1400)^{1.31}}{(2232-1400)^{1.31}}]\)</span></p></li>
+<li><p><span class="math inline">\(S = 57.5\)</span>mph</p></li>
+</ul>
+</div><div class="column" style="text-align: right;">
+<ul>
+<li><span class="math inline">\(c_{adj} = c\)</span>
+<ul>
+<li><span class="math inline">\(c = 1900 + 20 (FFS-45)\)</span></li>
+<li><span class="math inline">\(c = 1900 + 20 (61.6-45)\)</span></li>
+<li><span class="math inline">\(c = 2232\)</span> pc/h/ln</li>
+</ul></li>
+<li><span class="math inline">\(c_{adj} = 2232\)</span> pc/h/ln</li>
+<li><span class="math inline">\(a\)</span> = 1.31</li>
+</ul>
+</div></div>
+</section>
+<section id="solution-step-3" class="slide level2 smaller">
+<h2>Solution: Step 3</h2>
+<ul>
+<li><span class="math inline">\(D = \frac{v_p}{S}\)</span></li>
+<li><span class="math inline">\(D = \frac{1767}{57.5}\)</span></li>
+<li><span class="math inline">\(D = 30.7\)</span> pc/mi/ln</li>
+</ul>
+</section>
+<section id="solution-step-4" class="slide level2 smaller">
+<h2>Solution: Step 4</h2>
+<ul>
+<li>Check Curve/Table 28.1</li>
+<li><mark>LOS D (26-36 pc/mi/ln)</mark></li>
+</ul>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
