@@ -9,7 +9,7 @@ format:
     toc: true
     toc-depth: 2
     toc-title: "ECIV 542: TE Fall 2026"
-    theme: moon
+    theme: league
     transition: slide
     chalkboard: true
     slide-number: true
@@ -28,6 +28,23 @@ filters:
 
 |       Due Date       |   Type  |     Desc    |       Ref         |
 |:--------------------:|:-------:|:-----------:|-------------------|
+| Oct 12, 2026 11:00AM | Exam    | Exam #1     | ☐ In-class/Remote/Testing Center |
+| Oct 26, 2026 11:00AM | Project | Tech Memo 2 | ☐ See Blackboard |
+
+
+
+### Agenda
+* HW#3 will be posted soon
+* Exam 1 Instructions and Topics
+* LOS Multilane Highway, and 2-lane highway
+
+
+
+## Class 12: Oct 05, 2026 {.smaller}
+### Due Dates
+
+|       Due Date       |   Type  |     Desc    |       Ref         |
+|:--------------------:|:-------:|:-----------:|-------------------|
 | Oct 05, 2026 11:59PM | HW      | HW #2       | ☐ See Blacboard  |
 | Oct 12, 2026 11:00AM | Exam    | Exam #1     | ☐ In-class       |
 | Oct 26, 2026 11:00AM | Project | Tech Memo 2 | ☐ See Blackboard |
@@ -37,14 +54,6 @@ filters:
 
 
 ## Class 12: Sep 30, 2026 {.smaller}
-
-
-|       Due Date       |   Type  |     Desc    |       Ref         |
-|:--------------------:|:-------:|:-----------:|-------------------|
-| Oct 05, 2026 11:59PM | HW      | HW #2       | ☐ See Blacboard  |
-| Oct 12, 2026 11:00AM | Exam    | Exam #1     | ☐ In-class       |
-| Oct 26, 2026 11:00AM | Project | Tech Memo 2 | ☐ See Blackboard |
-
 ## Class 11: Sep 28, 2026 {.smaller}
 ## Class 10: Sep 23, 2026 {.smaller}
 ## Class 09: Sep 21, 2026 {.smaller}

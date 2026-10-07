@@ -3,28 +3,7 @@ title: "Exam I: Topics and Guidelines"
 author: "ECIV 542"
 ---
 
-
-# 1. Exam I Guidelines
-
-* Exam questions are related to the topics covered in class (See Section 2)
-* The duration of the exam is 1 hour (15 mins are allotted for exam logistics)
-* The students are allowed only the following items during exam
-  - Exam questions provided to them
-  - Pen and/or Pencil to answer the questions
-  - One Scientific Calculator
-  - If student brings a backpack to the class, it MUST be kept away from the desk
-    - All electronic devices (mobile phones, headphones, smartwatches etc. should be in the backpack)
-    - Smart glasses are not allowed 
-* The testing centers for Exam 1 are as follows:
-  - In-class
-    - Location: SWNG 
-    - Time-slot: 11AM-12:15PM
-  - Alternate Testing
-    - IF REQUIRED, Students can take Exam 1 at the University Testing Center/SDRC/Remotely
-      - It is the students responsibility to make all the necessary arrangements (location and time) before the Exam and notify the instructor
-
-
-# 2. Exam I Topics
+# 1. Exam 1/MIDTERM TOPICS
 Students are expected to prepare for the following topics:
 
 * <u>1. Sight Distance (SD)</u>  
@@ -58,6 +37,29 @@ Students are expected to prepare for the following topics:
     - 6.3.2 Small sample inferences for two means
     - 6.3.3 Inferences for two variances
 
+# 2. Exam I INSTRUCTIONS & RULES
+
+
+* **Scope**: Exam questions cover all topics discussed in class as listed in the "Exam 1 Topics".
+* **Duration**: Exactly 60 minutes.  (Time slot of the class is 1 hour 15 min)
+* **Testing Locations & Logistics**:
+  - In-Person:
+    - Location: SWNG
+    - Time Window: 11:00 AM – 12:15 PM
+  - Alternate Testing (SDRC / Testing Center / Remote):
+    - If required, students may take Exam 1 at the University Testing Center, SDRC, or remotely.
+    - It is the student's responsibility to make all necessary time and location arrangements prior to the exam date and promptly notify the instructor.
+* **Provided Materials**: You will receive a Test Packet containing the exam questions and all necessary reference materials. 
+* **Approved Test Materials at Desk**:
+  - Exam packet and writing utensils (pens/pencils).
+  - One approved scientific calculator only.
+* **Seating Area Clean Desk Policy**:
+  - Desks must remain completely clear of personal belongings.
+  - Store all backpacks, coats, and bags along the front or side perimeter of the room.
+* **Academic Integrity & Electronics Policy**:
+  - Possessing unauthorized materials or electronic devices during the exam is strictly prohibited.
+  - All smartphones, smartwatches, tablets, laptops, and smart eyewear must be powered off and stowed inside your bag before testing begins.
+  - University of South Carolina Honor Code: Students are expected to uphold the University of South Carolina Honor Code ("It is the responsibility of every student at the University of South Carolina to adhere steadfastly to truthfulness and to avoid dishonesty, fraud, or deceit in the production of personal academic work"). Any violation will be reported immediately to the Office of Academic Integrity.
 
 
 

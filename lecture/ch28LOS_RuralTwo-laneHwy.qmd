@@ -109,6 +109,7 @@ $$PTSF_d = BPTSF_d + f_{npA}(\frac{\nu_d}{\nu_d+\nu_o})$$
 A Class I two-lane highway in rolling terrain has a peak demand volume of 500 veh/h, with 15% trucks and 5% RVs. The highway serves as a main link to a popular recreation area. The directional split of traffic is 60-40 during peak periods, and the peak-hour factor is 0.88. The 10-mile section under study has 40% "No Passing" zones. The base free-flow speed of the facility may be taken to be 60 mi/h. Lane widths are 12 feet, and shoulder widths are 2 feet. There are 10 access points per mile along this 10-mile section.
 
 [Relevant Tables and Figures](images/chap28/chap16TablesFigures.pdf)
+[Sample Problem with Steps](images/chap28/chap28LOSRural2laneStepsAndProblem.pdf)
 
 ## Example Problem {.smaller}
 A Class I two-lane highway in rolling terrain has a peak demand volume of 568 veh/h, with 15% trucks and 5% RVs. The highway serves as a main link to a popular recreation area. The directional split of traffic is 60-40 during peak periods, and the peak-hour factor is 0.88. The 10-mile section under study has 40% "No Passing" zones. The base free-flow speed of the facility may be taken to be 60 mi/h. Lane widths are 12 feet, and shoulder widths are 2 feet. There are 10 access points per mile along this 10-mile section.
