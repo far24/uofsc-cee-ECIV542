@@ -1,7 +1,7 @@
 ---
 title: "Class Logistics"
-subtitle: "Class 13" 
-date: "10/05/2026"
+subtitle: "Class 14" 
+date: "10/07/2026"
 author: "ECIV 542 (Traffic Engineering), Fall 2026"
 institute: "Dept. of CE&E, Univ. of South Carolina"
 format: 
@@ -23,7 +23,7 @@ filters:
 
 # Classes
 
-## Class 13: Oct 05, 2026 {.smaller}
+## Class 14: Oct 05, 2026 {.smaller}
 ### Due Dates
 
 |       Due Date       |   Type  |     Desc    |       Ref         |
@@ -40,7 +40,7 @@ filters:
 
 
 
-## Class 12: Oct 05, 2026 {.smaller}
+## Class 13: Oct 05, 2026 {.smaller}
 ### Due Dates
 
 |       Due Date       |   Type  |     Desc    |       Ref         |

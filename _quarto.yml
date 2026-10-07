@@ -60,14 +60,16 @@ website:
             text: "21SEP26-Class 09: Ch. 11 Statistical Application in Transportation"
           - href: lecture/ch11StatsInTransp.qmd
             text: "23SEP26-Class 10: Ch. 11 Statistical Application in Transportation"
-          - href: lecture/ch28_31_LOS_analysis.qmd
+          - href: lecture/ch11StatsInTransp.qmd
             text: "28SEP26-Class 11:Ch. 11 Statistical Application in Transportation"
           - href: lecture/ch28_31_LOS_analysis.qmd
-            text: "30SEP26-Class 12: Ch. 28-31 LOS Analysis: Freeways"
-          - href: lecture/ch28_31_LOS_analysis.qmd
-            text: "05OCT26-Class 13: Ch. 28-31 LOS Analysis: Multilane Highway, Rural Two-lane Highway"
-          - href: lecture/ch11StatsInTransp.qmd
-            text: "07OCT26-Class 14: Exam 1 Review Class"
+            text: "30SEP26-Class 12: Ch. 28-31 LOS Analysis"
+          - href: lecture/ch28LOS_Freeway.qmd
+            text: "30SEP26-Class 12: Ch. 28-31 LOS Analysis: Freeways"          
+          - href: lecture/ch28LOS_MultilaneHighway.qmd
+            text: "05OCT26-Class 13: Ch. 28-31 LOS Analysis: Multilane Highway"
+          - href: lecture/ch28LOS_RuralTwo-laneHwy.qmd
+            text: "07OCT26-Class 14: LOS Analysis: Rural Two-lane Highway & Exam 1 Review Class"
           # - href: lecture/ch4Quiz.qmd
           #   text: "Team Scorecard"
       - text: "supplementary Docs"
