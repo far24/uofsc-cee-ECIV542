@@ -13,7 +13,7 @@ format:
     transition: slide
     chalkboard: true
     slide-number: true
-    scrollable: true
+    scrollable: false
     progress: true
     footer: "ECIV 542"
 filters:
@@ -23,7 +23,40 @@ filters:
 
 # Classes
 
-## Class 14: Oct 05, 2026 {.smaller}
+## Class 15: Oct 05, 2026 Exam 1/Midterm
+
+* Only keep your <u>**pen/pencil**</u> and a <u>**calculator**</u>.
+* Clearly write your <u>**Name**</u> and <u>**Initials**</u> in the front page.
+* [**DO NOT**]{style="color: red;"} open the Exam 1 until the clock starts.
+* Store all backpacks and bags along the front or side perimeter of the room.
+* <mark>All smartphones, smartwatches, tablets, laptops, and smart eyewear must be powered off and stowed inside your bag before testing begins.</mark>
+
+
+
+
+## Exam 1/Midterm: Duration 60 mins {background-color="#111"}
+
+::: {style="font-size: 3em; display: flex; justify-content: center; align-items: center; height: 100%; margin-top: 2.5%;"}
+
+{{< countdown minutes=60 seconds=0 id="exam-timer" color_border="#ff3333" >}}
+
+:::
+
+<style>
+/* Make the countdown box fill a much larger area and boost the text size */
+.countdown {
+  font-size: 2.5em !important;
+  padding: 20px 50px !important;
+  border-width: 10px !important;
+  position: relative !important;
+  display: inline-block !important;
+}
+</style>
+
+
+
+
+## Class 14: Oct 07, 2026 {.smaller}
 ### Due Dates
 
 |       Due Date       |   Type  |     Desc    |       Ref         |
