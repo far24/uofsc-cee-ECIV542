@@ -23,7 +23,25 @@ filters:
 
 # Classes
 
-## Class 15: Oct 05, 2026 Exam 1/Midterm
+## Class 16: Oct 14, 2026 
+
+|       Due Date       |   Type  |     Desc    |       Ref         |
+|:--------------------:|:-------:|:-----------:|-------------------|
+| Oct 26, 2026 11:00AM | Project | Tech Memo 2 | ☐ See Blackboard |
+
+<br>
+
+
+### Agenda
+* HW#3 will be posted soon
+* LOS Analysis: 
+  - Rural 2-lane highway
+  - Freeway Weaving
+  - Freeway Merge/Diverge
+
+
+
+## Class 15: Oct 12, 2026 Exam 1/Midterm
 
 * Only keep your <u>**pen/pencil**</u> and a <u>**calculator**</u>.
 * Clearly write your <u>**Name**</u> and <u>**Initials**</u> in the front page.
@@ -34,24 +52,24 @@ filters:
 
 
 
-## Exam 1/Midterm: Duration 60 mins {background-color="#111"}
+<!-- ## Exam 1/Midterm: Duration 60 mins {background-color="#111"} -->
 
-::: {style="font-size: 3em; display: flex; justify-content: center; align-items: center; height: 100%; margin-top: 2.5%;"}
+<!-- ::: {style="font-size: 3em; display: flex; justify-content: center; align-items: center; height: 100%; margin-top: 2.5%;"} -->
 
-{{< countdown minutes=60 seconds=0 id="exam-timer" color_border="#ff3333" >}}
+<!-- {{< countdown minutes=60 seconds=0 id="exam-timer" color_border="#ff3333" >}} -->
 
-:::
+<!-- ::: -->
 
-<style>
-/* Make the countdown box fill a much larger area and boost the text size */
-.countdown {
-  font-size: 2.5em !important;
-  padding: 20px 50px !important;
-  border-width: 10px !important;
-  position: relative !important;
-  display: inline-block !important;
-}
-</style>
+<!-- <style> -->
+<!-- /* Make the countdown box fill a much larger area and boost the text size */ -->
+<!-- .countdown { -->
+<!--   font-size: 2.5em !important; -->
+<!--   padding: 20px 50px !important; -->
+<!--   border-width: 10px !important; -->
+<!--   position: relative !important; -->
+<!--   display: inline-block !important; -->
+<!-- } -->
+<!-- </style> -->
 
 
 
