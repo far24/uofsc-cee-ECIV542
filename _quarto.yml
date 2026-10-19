@@ -72,9 +72,9 @@ website:
             text: "07OCT26-Class 14: Ch. 16 (4th Ed) LOS Analysis: Rural Two-lane Highway"
           - href: lecture/ch29_30LOS_FreewayWeavingMerging.qmd
             text: "14OCT26-Class 16: Ch. 30 LOS Analysis: Freeways: Weaving & Merging/Diverging"
-          - href: lecture/ch15_trafficControl.qmd
+          - href: lecture/class17_ch15_trafficControl.qmd
             text: "19OCT26-Class 17: Ch. 15: Hierarchy of Intersection Control"
-          - href: lecture/ch15_trafficControl.qmd
+          - href: lecture/class17_ch15_trafficControl.qmd
             text: "21OCT26-Class 18: Ch. 15: Hierarchy of Intersection Control"
 
           # - href: lecture/ch4Quiz.qmd
