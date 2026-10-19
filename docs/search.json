@@ -939,183 +939,179 @@
     "text": "STEP 5. Determine the speed\n\n\n\\(M_S = 0.383\\)\n\n\\(S_R = 56.2\\) mph\n\\(S_o = 60.2\\) mph\n\\(S = 57.2\\) mph"
   },
   {
-    "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
-    "href": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
-    "title": "LOS Analysis",
-    "section": "LOS Analysis by Facility Type",
-    "text": "LOS Analysis by Facility Type\n\nFreeway\nMultilane Highways\nRural Two-lane Highways"
+    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "What is Traffic Engineering?",
+    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
   },
   {
-    "objectID": "lecture/ch28_31_LOS_analysis.html#service",
-    "href": "lecture/ch28_31_LOS_analysis.html#service",
-    "title": "LOS Analysis",
-    "section": "Service",
-    "text": "Service\n\nFacilities provide service to road users"
+    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Primary Objective: SAFETY",
+    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
   },
   {
-    "objectID": "lecture/ch28_31_LOS_analysis.html#type-of-analysis",
-    "href": "lecture/ch28_31_LOS_analysis.html#type-of-analysis",
-    "title": "LOS Analysis",
-    "section": "Type of Analysis",
-    "text": "Type of Analysis\n\n\nOperational Analysis\n\n\nGiven, existing or forecast demand volume\nFind expected LOS and operating parameters\n\n\nDesign Analysis\n\n\nGiven, all traffic, roadway, and control conditions for an existing or projected highway section\nFind number of lanesf for a specified LOS\n\n\nService Flow Rate and Service Volume Analysis"
+    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Mobility vs. Accessibility",
+    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
   },
   {
-    "objectID": "lecture/ch28_31_LOS_analysis.html#operational-analysis",
-    "href": "lecture/ch28_31_LOS_analysis.html#operational-analysis",
-    "title": "LOS Analysis",
-    "section": "Operational Analysis",
-    "text": "Operational Analysis\n\n\\(q=ku\\)"
+    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
+    "href": "lecture/introTrafficEngr.html#transportation-modes",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Transportation Modes",
+    "text": "Transportation Modes"
   },
   {
-    "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type-1",
-    "href": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type-1",
-    "title": "LOS Analysis",
-    "section": "LOS Analysis by Facility Type",
-    "text": "LOS Analysis by Facility Type\n\nFreeway\nMultilane Highways\nRural Two-lane Highways"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#freeways",
-    "href": "lecture/ch28LOS_Freeway.html#freeways",
-    "title": "LOS Analysis: Freeways",
-    "section": "Freeways",
-    "text": "Freeways\n\nFully Access-controlled\n\nNO intersection\nNO at-grade crossing\n\nDirectional flow separated by median\nEntry/Exit to the facility provided by ramps"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
-    "href": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
-    "title": "LOS Analysis: Freeways",
-    "section": "Steps for LOS for Freeways",
-    "text": "Steps for LOS for Freeways\n\nFind flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropriate curve for \\(LOS\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
-    "href": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
-    "title": "LOS Analysis: Freeways",
-    "section": "Problem 01: LOS Freeway",
-    "text": "Problem 01: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics:\n\nFour lanes (two lanes in each direction)\n10 ft lane widths\nLateral obstructions at the roadside 0 feet from the pavement edge\nTotal ramp 5 ramps per mile\nRolling terrain\nTrucks (Typical Mix) = 2%\nPeak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. At what level of service is the freeway expected to operate during peak periods?\n\nRelevant Tables and Figures"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
-    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: LOS Freeway",
-    "text": "Solution: LOS Freeway\n\nSTEP 1: calculate \\(v_p\\)\n\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\nSTEP 2: calculate \\(S\\)\n\n2.1: calculate \\(FFS_{adj}\\)\n\n2.1.1: calculate \\(FFS\\)\n2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)\n\n2.2.1 Calculate \\(CAF\\)\n\n\nSTEP 3. Find density of traffic stream (\\(D\\))\nSTEP 4. Check appropriate curve for \\(LOS\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 1: calculate \\(v_p\\)",
-    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\]\n\nGiven,\n\n\\(V\\) = 3000 veh/h\n\\(PHF\\) = 0.95\n\\(N\\) = 2\n\\(f_{HV}\\)= ?"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 1: calculate \\(v_p\\)",
-    "text": "Solution: STEP 1: calculate \\(v_p\\)\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\n\\(f_{HV} = \\frac{1}{1+P_{HV}(E_{HV}-1)}\\)\n\n\\(P_{HV}\\) = 2% = 0.02\n\\(E_{HV}\\) = \\(~f(rolling)\\) = Table 28.17\n\\(E_{HV} = 3.0\\)\n\n\\(f_{HV} = \\frac{1}{1+0.02(3-1)}\\)\n\\(f_{HV} = 0.962\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 1: calculate \\(v_p\\)",
-    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\] \\[v_p = \\frac{3000}{0.95 \\times 0.962 \\times 2}\\] \\[v_p = 1,641\\ pc/h/ln\\]"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
-    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: LOS Freeway",
-    "text": "Solution: LOS Freeway\n\nSTEP 2: calculate \\(S\\)\n\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nSTEP 2.1.1: calculate \\(FFS\\)\nSTEP 2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = FFS \\times SAF\\]"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1.1: calculate \\(FFS\\)\n\nFor freeway: \\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\n\\(f_{LW}\\) = 6.6 mph\n\nTable 28.3 for 10 feet lanes\n\n\\(f_{LC}\\) = 3.6 mph\n\nTable 28.4 for 0 feet clearance and 2 lanes\n\n\\(TRD\\) = 5 ramps / mile\n\n\n\\[FFS = 75.4 - 6.6 - 3.6 -3.22 \\times 5^{0.84}\\] \\[FFS = 52.8\\ mph\\] STEP 2.1.2: calculate \\(SAF\\)\n\nSince no adjustment neccessary, \\(SAF = 1\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = 52.8 \\times 1\\] \\[FFS_{adj} = 52.8\\ mph\\]"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.2 Breakpoint value, \\(BP\\)\n\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-52.8) \\times 1^2\\)\n\\(BP = 1,888\\ pc/h/ln\\)\n\n\n\nAs,\n\n\\(FFS_{adj} = 52.8\\)\n\\(CAF = 1\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.3 Adjusted Capacity, \\(c_{adj}\\)\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = 2228 \\times 1\\)\n\\(c_{adj} = 2,228\\ pc/hr/ln\\)\n\n\n\nAs,\n\n\\(FFS = 52.8\\) mph\n\\(CAF = 1\\)\n\nThen,\n\n\\(c = 2200 + 10 (FFS-50)\\)\n\\(c = 2200 + 10 (52.8-50)\\)\n\\(c = 2,228\\) pc/h/ln"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.4 Calibration Constant, \\(a\\)\n\nFor Freeway, \\(a = 2.00\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = 52.8\\) mph\n\n\n\nAs,\n\n\\(v_p = 1, 641\\) pc/h/ln\n\\(BP = 1,888\\) pc/h/ln\n\nSince \\(v_p &lt; BP\\) use:\n\n\\(S = FFS_{adj}\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 3. Find density of traffic stream (\\(D\\))",
-    "text": "Solution: STEP 3. Find density of traffic stream (\\(D\\))\n\n\\(v_p = D \\times s\\)\n\\(D = \\frac{v_p}{S}\\)\n\\(D = \\frac{1641}{52.8}\\)\n\\(D = 31.1\\) pc/mi/ln"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)",
-    "text": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)"
-  },
-  {
-    "objectID": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
-    "href": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
-    "title": "LOS Analysis: Freeways",
-    "section": "Problem 02: LOS Freeway",
-    "text": "Problem 02: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics: * Four lanes (two lanes in each direction) * 10 ft lane widths * Lateral obstructions at the roadside 0 feet from the pavement edge * Total ramp 5 ramps per mile * Rolling terrain * Trucks (Typical Mix) = 2% * Peak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. The roadway facility is located in an area where moderate rainfall is a common occurrence. At what level of service is the freeway expected to operate during peak periods?\n\nLOS Steps\nLOS Tables\nSample Problem with Steps PDF"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ECIV 542  Traffic Engineering (Fall 2026)",
+    "objectID": "lecture/introTrafficEngr.html#section",
+    "href": "lecture/introTrafficEngr.html#section",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
     "section": "",
-    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 11:59PM\nHW\nHW #1\n☑ Grade Posted\n\n\nSep 23, 2026 11:59PM\nProject\nTech Memo 1\n☐ See Blackboard\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:59PM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\nDec 11, 2026 07:30PM\nExam\nExam #2\n☐ In-class\n\n\n\n\n\nResources\n\nHW Submisstion Template\n\n\n\nUpdates: October, 2026\n\n\n\n\n\n\n\nDate\nActions\n\n\n\n\n10/05/2026\nComments provided to the Tech Memo #1",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
+    "text": "What’s Missing?"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Elements of Traffic Engineering",
+    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Modern Problems for the Traffic Engineer",
+    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
+  },
+  {
+    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
+    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "section": "Key Manuals and References",
+    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-17-oct-19-2026",
+    "href": "lecture/00_classLogistics.html#class-17-oct-19-2026",
+    "title": "Class Logistics",
+    "section": "Class 17: Oct 19, 2026",
+    "text": "Class 17: Oct 19, 2026\n\n\nAnnouncements\n\nHW#3 posted on Blackboard\n\nAgenda\n\nInterrupted Flow Facilities:\n\nCh. 15: Hierarchy of Intersection Control\nCh. 18: Principles of Intersection Signalization\nCh. 19: Fundamentals of Signal Timing and Design: Pre-timed Signals\n\n\n\nDue Dates\n\n\n\nDue Date\nDesc\n\n\n\n\nOct 26, 2026 11:00AM\nTech Memo 2\n\n\nNov 09, 2026 11:00AM\nHW #3"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-16-oct-14-2026",
+    "href": "lecture/00_classLogistics.html#class-16-oct-14-2026",
+    "title": "Class Logistics",
+    "section": "Class 16: Oct 14, 2026",
+    "text": "Class 16: Oct 14, 2026\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
+    "href": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
+    "title": "Class Logistics",
+    "section": "Class 15: Oct 12, 2026 Exam 1/Midterm",
+    "text": "Class 15: Oct 12, 2026 Exam 1/Midterm\n\nOnly keep your pen/pencil and a calculator.\nClearly write your Name and Initials in the front page.\nDO NOT open the Exam 1 until the clock starts.\nStore all backpacks and bags along the front or side perimeter of the room.\nAll smartphones, smartwatches, tablets, laptops, and smart eyewear must be powered off and stowed inside your bag before testing begins."
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-14-oct-07-2026",
+    "href": "lecture/00_classLogistics.html#class-14-oct-07-2026",
+    "title": "Class Logistics",
+    "section": "Class 14: Oct 07, 2026",
+    "text": "Class 14: Oct 07, 2026\nDue Dates\n\n\n\n\n\n\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class/Remote/Testing Center\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nHW#3 will be posted soon\nExam 1 Instructions and Topics\nLOS Multilane Highway, and 2-lane highway"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-13-oct-05-2026",
+    "href": "lecture/00_classLogistics.html#class-13-oct-05-2026",
+    "title": "Class Logistics",
+    "section": "Class 13: Oct 05, 2026",
+    "text": "Class 13: Oct 05, 2026\nDue Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nLOS Freeways, Multilane Highway, and 2-lane highway"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-12-sep-30-2026",
+    "href": "lecture/00_classLogistics.html#class-12-sep-30-2026",
+    "title": "Class Logistics",
+    "section": "Class 12: Sep 30, 2026",
+    "text": "Class 12: Sep 30, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-11-sep-28-2026",
+    "href": "lecture/00_classLogistics.html#class-11-sep-28-2026",
+    "title": "Class Logistics",
+    "section": "Class 11: Sep 28, 2026",
+    "text": "Class 11: Sep 28, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-10-sep-23-2026",
+    "href": "lecture/00_classLogistics.html#class-10-sep-23-2026",
+    "title": "Class Logistics",
+    "section": "Class 10: Sep 23, 2026",
+    "text": "Class 10: Sep 23, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-09-sep-21-2026",
+    "href": "lecture/00_classLogistics.html#class-09-sep-21-2026",
+    "title": "Class Logistics",
+    "section": "Class 09: Sep 21, 2026",
+    "text": "Class 09: Sep 21, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-08-sep-16-2026",
+    "href": "lecture/00_classLogistics.html#class-08-sep-16-2026",
+    "title": "Class Logistics",
+    "section": "Class 08: Sep 16, 2026",
+    "text": "Class 08: Sep 16, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-07-sep-14-2026",
+    "href": "lecture/00_classLogistics.html#class-07-sep-14-2026",
+    "title": "Class Logistics",
+    "section": "Class 07: Sep 14, 2026",
+    "text": "Class 07: Sep 14, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-06-sep-09-2026",
+    "href": "lecture/00_classLogistics.html#class-06-sep-09-2026",
+    "title": "Class Logistics",
+    "section": "Class 06: Sep 09, 2026",
+    "text": "Class 06: Sep 09, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-05-sep-02-2026",
+    "href": "lecture/00_classLogistics.html#class-05-sep-02-2026",
+    "title": "Class Logistics",
+    "section": "Class 05: Sep 02, 2026",
+    "text": "Class 05: Sep 02, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-04-aug-31-2026",
+    "href": "lecture/00_classLogistics.html#class-04-aug-31-2026",
+    "title": "Class Logistics",
+    "section": "Class 04: Aug 31, 2026",
+    "text": "Class 04: Aug 31, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-03-aug-26-2026",
+    "href": "lecture/00_classLogistics.html#class-03-aug-26-2026",
+    "title": "Class Logistics",
+    "section": "Class 03: Aug 26, 2026",
+    "text": "Class 03: Aug 26, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-02-aug-24-2026",
+    "href": "lecture/00_classLogistics.html#class-02-aug-24-2026",
+    "title": "Class Logistics",
+    "section": "Class 02: Aug 24, 2026",
+    "text": "Class 02: Aug 24, 2026"
+  },
+  {
+    "objectID": "lecture/00_classLogistics.html#class-01-aug-19-2026",
+    "href": "lecture/00_classLogistics.html#class-01-aug-19-2026",
+    "title": "Class Logistics",
+    "section": "Class 01: Aug 19, 2026",
+    "text": "Class 01: Aug 19, 2026"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
@@ -1349,172 +1345,197 @@
     "text": "16) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-16-oct-14-2026",
-    "href": "lecture/00_classLogistics.html#class-16-oct-14-2026",
-    "title": "Class Logistics",
-    "section": "Class 16: Oct 14, 2026",
-    "text": "Class 16: Oct 14, 2026\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\n\nAgenda\n\nHW#3 will be posted soon\nLOS Analysis:\n\nRural 2-lane highway\nFreeway Weaving\nFreeway Merge/Diverge"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
-    "href": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
-    "title": "Class Logistics",
-    "section": "Class 15: Oct 12, 2026 Exam 1/Midterm",
-    "text": "Class 15: Oct 12, 2026 Exam 1/Midterm\n\nOnly keep your pen/pencil and a calculator.\nClearly write your Name and Initials in the front page.\nDO NOT open the Exam 1 until the clock starts.\nStore all backpacks and bags along the front or side perimeter of the room.\nAll smartphones, smartwatches, tablets, laptops, and smart eyewear must be powered off and stowed inside your bag before testing begins."
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-14-oct-07-2026",
-    "href": "lecture/00_classLogistics.html#class-14-oct-07-2026",
-    "title": "Class Logistics",
-    "section": "Class 14: Oct 07, 2026",
-    "text": "Class 14: Oct 07, 2026\nDue Dates\n\n\n\n\n\n\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class/Remote/Testing Center\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nHW#3 will be posted soon\nExam 1 Instructions and Topics\nLOS Multilane Highway, and 2-lane highway"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-13-oct-05-2026",
-    "href": "lecture/00_classLogistics.html#class-13-oct-05-2026",
-    "title": "Class Logistics",
-    "section": "Class 13: Oct 05, 2026",
-    "text": "Class 13: Oct 05, 2026\nDue Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nLOS Freeways, Multilane Highway, and 2-lane highway"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-12-sep-30-2026",
-    "href": "lecture/00_classLogistics.html#class-12-sep-30-2026",
-    "title": "Class Logistics",
-    "section": "Class 12: Sep 30, 2026",
-    "text": "Class 12: Sep 30, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-11-sep-28-2026",
-    "href": "lecture/00_classLogistics.html#class-11-sep-28-2026",
-    "title": "Class Logistics",
-    "section": "Class 11: Sep 28, 2026",
-    "text": "Class 11: Sep 28, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-10-sep-23-2026",
-    "href": "lecture/00_classLogistics.html#class-10-sep-23-2026",
-    "title": "Class Logistics",
-    "section": "Class 10: Sep 23, 2026",
-    "text": "Class 10: Sep 23, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-09-sep-21-2026",
-    "href": "lecture/00_classLogistics.html#class-09-sep-21-2026",
-    "title": "Class Logistics",
-    "section": "Class 09: Sep 21, 2026",
-    "text": "Class 09: Sep 21, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-08-sep-16-2026",
-    "href": "lecture/00_classLogistics.html#class-08-sep-16-2026",
-    "title": "Class Logistics",
-    "section": "Class 08: Sep 16, 2026",
-    "text": "Class 08: Sep 16, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-07-sep-14-2026",
-    "href": "lecture/00_classLogistics.html#class-07-sep-14-2026",
-    "title": "Class Logistics",
-    "section": "Class 07: Sep 14, 2026",
-    "text": "Class 07: Sep 14, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-06-sep-09-2026",
-    "href": "lecture/00_classLogistics.html#class-06-sep-09-2026",
-    "title": "Class Logistics",
-    "section": "Class 06: Sep 09, 2026",
-    "text": "Class 06: Sep 09, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-05-sep-02-2026",
-    "href": "lecture/00_classLogistics.html#class-05-sep-02-2026",
-    "title": "Class Logistics",
-    "section": "Class 05: Sep 02, 2026",
-    "text": "Class 05: Sep 02, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-04-aug-31-2026",
-    "href": "lecture/00_classLogistics.html#class-04-aug-31-2026",
-    "title": "Class Logistics",
-    "section": "Class 04: Aug 31, 2026",
-    "text": "Class 04: Aug 31, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-03-aug-26-2026",
-    "href": "lecture/00_classLogistics.html#class-03-aug-26-2026",
-    "title": "Class Logistics",
-    "section": "Class 03: Aug 26, 2026",
-    "text": "Class 03: Aug 26, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-02-aug-24-2026",
-    "href": "lecture/00_classLogistics.html#class-02-aug-24-2026",
-    "title": "Class Logistics",
-    "section": "Class 02: Aug 24, 2026",
-    "text": "Class 02: Aug 24, 2026"
-  },
-  {
-    "objectID": "lecture/00_classLogistics.html#class-01-aug-19-2026",
-    "href": "lecture/00_classLogistics.html#class-01-aug-19-2026",
-    "title": "Class Logistics",
-    "section": "Class 01: Aug 19, 2026",
-    "text": "Class 01: Aug 19, 2026"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "What is Traffic Engineering?",
-    "text": "What is Traffic Engineering?\nITE defines traffic engineering as a subset of transportation engineering:\n“Application of technology and scientific principles to the planning, functional design, operation, and management of facilities for any mode of transportation in order to provide for the safe, rapid, comfortable, convenient, economical, and environmentally compatible movement of people and goods.”"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "href": "lecture/introTrafficEngr.html#primary-objective-safety",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Primary Objective: SAFETY",
-    "text": "Primary Objective: SAFETY\n\nIn recent years, fatalities on U.S. highways: between 40,000 and 43,000 per year."
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "href": "lecture/introTrafficEngr.html#mobility-vs.-accessibility",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Mobility vs. Accessibility",
-    "text": "Mobility vs. Accessibility\n\n\nMobility:\n- Through movement of people and goods from point A to point B.\nAccessibility:\n-Direct connection to abutting lands and land uses provided by roadways."
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#transportation-modes",
-    "href": "lecture/introTrafficEngr.html#transportation-modes",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Transportation Modes",
-    "text": "Transportation Modes"
-  },
-  {
-    "objectID": "lecture/introTrafficEngr.html#section",
-    "href": "lecture/introTrafficEngr.html#section",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "What’s Missing?"
+    "text": "About this site"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "href": "lecture/introTrafficEngr.html#elements-of-traffic-engineering",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Elements of Traffic Engineering",
-    "text": "Elements of Traffic Engineering\n\nTraffic studies and characteristics (e.g. volume)\nPerformance evaluation (e.g. LOS)\nFacility design\nTraffic control (e.g. signs)\nTraffic operations (e.g. curb management)\nTransportation systems management (e.g. HOV)\nIntegration of intelligent transportation system technologies (e.g. V2I communications)"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ECIV 542  Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 11:59PM\nHW\nHW #1\n☑ Grade Posted\n\n\nSep 23, 2026 11:59PM\nProject\nTech Memo 1\n☐ See Blackboard\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:59PM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\nDec 11, 2026 07:30PM\nExam\nExam #2\n☐ In-class\n\n\n\n\n\nResources\n\nHW Submisstion Template\n\n\n\nUpdates: October, 2026\n\n\n\n\n\n\n\nDate\nActions\n\n\n\n\n10/05/2026\nComments provided to the Tech Memo #1",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "href": "lecture/introTrafficEngr.html#modern-problems-for-the-traffic-engineer",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Modern Problems for the Traffic Engineer",
-    "text": "Modern Problems for the Traffic Engineer\n\nGrowth management\nReconstruction of existing highway facilities\nSecurity of transportation facilities\nShift in trade pattern and consumer demands\nEmerging technologies"
+    "objectID": "lecture/ch28LOS_Freeway.html#freeways",
+    "href": "lecture/ch28LOS_Freeway.html#freeways",
+    "title": "LOS Analysis: Freeways",
+    "section": "Freeways",
+    "text": "Freeways\n\nFully Access-controlled\n\nNO intersection\nNO at-grade crossing\n\nDirectional flow separated by median\nEntry/Exit to the facility provided by ramps"
   },
   {
-    "objectID": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "href": "lecture/introTrafficEngr.html#key-manuals-and-references",
-    "title": "Ch. 1: Introduction to Traffic Engineering",
-    "section": "Key Manuals and References",
-    "text": "Key Manuals and References\n\nITE Traffic Engineering Handbook (7th edition)\nManual on Uniform Traffic Control Devices (MUTCD)\nHighway Capacity Manual (HCM)\nITE Trip Generation Manual\nITE Traffic Control Devices Handbook\nITE Transportation Impact Analyses for Site Development"
+    "objectID": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
+    "href": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
+    "title": "LOS Analysis: Freeways",
+    "section": "Steps for LOS for Freeways",
+    "text": "Steps for LOS for Freeways\n\nFind flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropriate curve for \\(LOS\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
+    "title": "LOS Analysis: Freeways",
+    "section": "Problem 01: LOS Freeway",
+    "text": "Problem 01: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics:\n\nFour lanes (two lanes in each direction)\n10 ft lane widths\nLateral obstructions at the roadside 0 feet from the pavement edge\nTotal ramp 5 ramps per mile\nRolling terrain\nTrucks (Typical Mix) = 2%\nPeak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. At what level of service is the freeway expected to operate during peak periods?\n\nRelevant Tables and Figures"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: LOS Freeway",
+    "text": "Solution: LOS Freeway\n\nSTEP 1: calculate \\(v_p\\)\n\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\nSTEP 2: calculate \\(S\\)\n\n2.1: calculate \\(FFS_{adj}\\)\n\n2.1.1: calculate \\(FFS\\)\n2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)\n\n2.2.1 Calculate \\(CAF\\)\n\n\nSTEP 3. Find density of traffic stream (\\(D\\))\nSTEP 4. Check appropriate curve for \\(LOS\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 1: calculate \\(v_p\\)",
+    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\]\n\nGiven,\n\n\\(V\\) = 3000 veh/h\n\\(PHF\\) = 0.95\n\\(N\\) = 2\n\\(f_{HV}\\)= ?"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 1: calculate \\(v_p\\)",
+    "text": "Solution: STEP 1: calculate \\(v_p\\)\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\n\\(f_{HV} = \\frac{1}{1+P_{HV}(E_{HV}-1)}\\)\n\n\\(P_{HV}\\) = 2% = 0.02\n\\(E_{HV}\\) = \\(~f(rolling)\\) = Table 28.17\n\\(E_{HV} = 3.0\\)\n\n\\(f_{HV} = \\frac{1}{1+0.02(3-1)}\\)\n\\(f_{HV} = 0.962\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 1: calculate \\(v_p\\)",
+    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\] \\[v_p = \\frac{3000}{0.95 \\times 0.962 \\times 2}\\] \\[v_p = 1,641\\ pc/h/ln\\]"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
+    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: LOS Freeway",
+    "text": "Solution: LOS Freeway\n\nSTEP 2: calculate \\(S\\)\n\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nSTEP 2.1.1: calculate \\(FFS\\)\nSTEP 2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = FFS \\times SAF\\]"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1.1: calculate \\(FFS\\)\n\nFor freeway: \\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\n\\(f_{LW}\\) = 6.6 mph\n\nTable 28.3 for 10 feet lanes\n\n\\(f_{LC}\\) = 3.6 mph\n\nTable 28.4 for 0 feet clearance and 2 lanes\n\n\\(TRD\\) = 5 ramps / mile\n\n\n\\[FFS = 75.4 - 6.6 - 3.6 -3.22 \\times 5^{0.84}\\] \\[FFS = 52.8\\ mph\\] STEP 2.1.2: calculate \\(SAF\\)\n\nSince no adjustment neccessary, \\(SAF = 1\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = 52.8 \\times 1\\] \\[FFS_{adj} = 52.8\\ mph\\]"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.2 Breakpoint value, \\(BP\\)\n\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-52.8) \\times 1^2\\)\n\\(BP = 1,888\\ pc/h/ln\\)\n\n\n\nAs,\n\n\\(FFS_{adj} = 52.8\\)\n\\(CAF = 1\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.3 Adjusted Capacity, \\(c_{adj}\\)\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = 2228 \\times 1\\)\n\\(c_{adj} = 2,228\\ pc/hr/ln\\)\n\n\n\nAs,\n\n\\(FFS = 52.8\\) mph\n\\(CAF = 1\\)\n\nThen,\n\n\\(c = 2200 + 10 (FFS-50)\\)\n\\(c = 2200 + 10 (52.8-50)\\)\n\\(c = 2,228\\) pc/h/ln"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.4 Calibration Constant, \\(a\\)\n\nFor Freeway, \\(a = 2.00\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = 52.8\\) mph\n\n\n\nAs,\n\n\\(v_p = 1, 641\\) pc/h/ln\n\\(BP = 1,888\\) pc/h/ln\n\nSince \\(v_p &lt; BP\\) use:\n\n\\(S = FFS_{adj}\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 3. Find density of traffic stream (\\(D\\))",
+    "text": "Solution: STEP 3. Find density of traffic stream (\\(D\\))\n\n\\(v_p = D \\times s\\)\n\\(D = \\frac{v_p}{S}\\)\n\\(D = \\frac{1641}{52.8}\\)\n\\(D = 31.1\\) pc/mi/ln"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)",
+    "text": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
+    "title": "LOS Analysis: Freeways",
+    "section": "Problem 02: LOS Freeway",
+    "text": "Problem 02: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics: * Four lanes (two lanes in each direction) * 10 ft lane widths * Lateral obstructions at the roadside 0 feet from the pavement edge * Total ramp 5 ramps per mile * Rolling terrain * Trucks (Typical Mix) = 2% * Peak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. The roadway facility is located in an area where moderate rainfall is a common occurrence. At what level of service is the freeway expected to operate during peak periods?\n\nLOS Steps\nLOS Tables\nSample Problem with Steps PDF"
+  },
+  {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
+    "href": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type",
+    "title": "LOS Analysis",
+    "section": "LOS Analysis by Facility Type",
+    "text": "LOS Analysis by Facility Type\n\nFreeway\nMultilane Highways\nRural Two-lane Highways"
+  },
+  {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#service",
+    "href": "lecture/ch28_31_LOS_analysis.html#service",
+    "title": "LOS Analysis",
+    "section": "Service",
+    "text": "Service\n\nFacilities provide service to road users"
+  },
+  {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#type-of-analysis",
+    "href": "lecture/ch28_31_LOS_analysis.html#type-of-analysis",
+    "title": "LOS Analysis",
+    "section": "Type of Analysis",
+    "text": "Type of Analysis\n\n\nOperational Analysis\n\n\nGiven, existing or forecast demand volume\nFind expected LOS and operating parameters\n\n\nDesign Analysis\n\n\nGiven, all traffic, roadway, and control conditions for an existing or projected highway section\nFind number of lanesf for a specified LOS\n\n\nService Flow Rate and Service Volume Analysis"
+  },
+  {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#operational-analysis",
+    "href": "lecture/ch28_31_LOS_analysis.html#operational-analysis",
+    "title": "LOS Analysis",
+    "section": "Operational Analysis",
+    "text": "Operational Analysis\n\n\\(q=ku\\)"
+  },
+  {
+    "objectID": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type-1",
+    "href": "lecture/ch28_31_LOS_analysis.html#los-analysis-by-facility-type-1",
+    "title": "LOS Analysis",
+    "section": "LOS Analysis by Facility Type",
+    "text": "LOS Analysis by Facility Type\n\nFreeway\nMultilane Highways\nRural Two-lane Highways"
+  },
+  {
+    "objectID": "lecture/class17_ch15_trafficControl.html#interrupted-flow-facilities",
+    "href": "lecture/class17_ch15_trafficControl.html#interrupted-flow-facilities",
+    "title": "Hierarchy of Intersection Control",
+    "section": "Interrupted Flow Facilities",
+    "text": "Interrupted Flow Facilities\n\nIntersections\n\nUnsignalized:\n\nYield/Stop-controlled\nRounabout\n\nSignalized\n\nOther\n\nAccess points (driveways, side street Connections)"
+  },
+  {
+    "objectID": "lecture/class17_ch15_trafficControl.html#traffic-devices",
+    "href": "lecture/class17_ch15_trafficControl.html#traffic-devices",
+    "title": "Hierarchy of Intersection Control",
+    "section": "Traffic Devices",
+    "text": "Traffic Devices\nTraffic Devices"
   },
   {
     "objectID": "lecture/rdUserVehCharacteristics.html#problem-01",

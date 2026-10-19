@@ -21,9 +21,39 @@ filters:
 ---
 
 
-# Classes
+# CLASSES
 
-## Class 16: Oct 14, 2026 
+## Class 17: Oct 19, 2026 {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+### Announcements
+* HW#3 posted on Blackboard
+
+### Agenda
+* Interrupted Flow Facilities: 
+  - Ch. 15: Hierarchy of Intersection Control
+  - Ch. 18: Principles of Intersection Signalization
+  - Ch. 19: Fundamentals of Signal Timing and Design: Pre-timed Signals
+
+:::
+
+::: {.column width="60%"}
+### Due Dates
+
+|       Due Date       | Desc        |
+|:--------------------:|:-----------:|
+| Oct 26, 2026 11:00AM | Tech Memo 2 |  
+| Nov 09, 2026 11:00AM | HW #3       |
+
+:::
+
+::::
+
+
+
+## Class 16: Oct 14, 2026 {.smaller}
 
 |       Due Date       |   Type  |     Desc    |       Ref         |
 |:--------------------:|:-------:|:-----------:|-------------------|
@@ -32,12 +62,7 @@ filters:
 <br>
 
 
-### Agenda
-* HW#3 will be posted soon
-* LOS Analysis: 
-  - Rural 2-lane highway
-  - Freeway Weaving
-  - Freeway Merge/Diverge
+
 
 
 
