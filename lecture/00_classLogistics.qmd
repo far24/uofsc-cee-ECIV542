@@ -23,6 +23,31 @@ filters:
 
 # CLASSES
 
+## Class 18: Oct 21, 2026 {.smaller}
+
+### ANNOUNCEMENTS
+* Exam #1 scores are posted
+
+### TODAY'S AGENDA
+- Ch. 15: Hierarchy of Intersection Control
+
+### Due Dates
+
+* Oct 26, 2026 11:00AM ➡️ Tech Memo 2 
+* Nov 09, 2026 11:00AM ➡️ HW #3
+
+
+
+--- 
+
+### ANNOUNCEMENTS
+
+* **Exam #1 Retake (optional)** ➡️  Nov 18, 2026 (Wednesday)
+* **Exam #2** ➡️ Dec 02, 2026 (Wednesday)
+* **Project Submission** ➡️ Dec 02,2026 (Sunday)
+
+
+
 ## Class 17: Oct 19, 2026 {.smaller}
 
 :::: {.columns}

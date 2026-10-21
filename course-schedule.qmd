@@ -36,19 +36,19 @@ Publisher: Pearson
 | W8 | 13| 5-Oct-26  | M   | LOS Analysis: Multilane Hwy Intersection design and layout                         | Ch. 28-31     | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/ch28LOS_MultilaneHighway.html#/title-slide) |
 |    | 14| 7-Oct-26  | W   | LOS Analysis: Rural 2-lane Hwy Intersection design and layout (cont.)                 | Ch. 28-31     | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/ch28LOS_RuralTwo-laneHwy.html#/title-slide) |
 | W9 | 15| 12-Oct-26 | M   | **Exam 1**                                             |            |  |
-|    | 16| 14-Oct-26 | W   | LOS Analysis: Weaving; Merge/Diverge                   | Ch. 28-31 | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-| W10| 17| 19-Oct-26 | M   | Hierarchy of intersection control                      |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-|    | 18| 21-Oct-26 | W   | Intersection design and layout                         |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-| W11| 19| 26-Oct-26 | M   | Intersection design and layout                         |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-|    | 20| 28-Oct-26 | W   | Principles of Signal Timing and Design                 |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-| W12| 21| 2-Nov-26  | M   | Fundamentals of actuated signal design                 |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-|    | 22| 4-Nov-26  | W   | Signal coordination for Arterials and networks         |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-| W13| 23| 9-Nov-26  | M   | Analysis of Signalized Intersections & Analysis of Urban Streets |   | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-|    | 24| 11-Nov-26 | W   | Synchro 10 Workshop                                    | Lab        | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+|    | 16| 14-Oct-26 | W   | LOS Analysis: Weaving; Merge/Diverge                   | Ch. 28-31 | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/ch29_30LOS_FreewayWeavingMerging.html#/title-slide) |
+| W10| 17| 19-Oct-26 | M   | Hierarchy of intersection control                      |            | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/class17_ch15_trafficControl.html#/title-slide) |
+|    | 18| 21-Oct-26 | W   | Hierarchy of intersection control                      |            | [ [{{< fa file-powerpoint >}}]{style="color: green;"}  ](https://far24.github.io/uofsc-cee-ECIV542/lecture/class17_ch15_trafficControl.html#/title-slide) |
+| W11| 19| 26-Oct-26 | M   | Principles of Signal Timing and Design                 |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+|    | 20| 28-Oct-26 | W   | Fundamentals of actuated signal design                 |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| W12| 21| 2-Nov-26  | M   | Signal coordination for Arterials and networks         |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+|    | 22| 4-Nov-26  | W   | Analysis of Signalized Intersections & Analysis of Urban Streets    |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| W13| 23| 9-Nov-26  | M   | Synchro 10 Workshop                                    | Lab        | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+|    | 24| 11-Nov-26 | W   | Analysis of Unsignalized Intersections                 |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
 | W14| 25| 16-Nov-26 | M   | Analysis of Unsignalized Intersections                 |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-|    | 26| 18-Nov-26 | W   | Analysis of Unsignalized Intersections                 |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
-| W15| 27| 30-Nov-26 | M   | **Project Presentation**                               |            | |
-|    | 28| 2-Dec-26  | W   | **Exam 2 **                                            |            | |
+|    | 26| 18-Nov-26 | W   | **Exam 1 (Optional Retake)**                           |            | [ [{{< fa file-powerpoint >}}]{style="color: red;"}  ](https://example.com) |
+| W15| 27| 30-Nov-26 | M   | **Exam 2 Review / Prep**                               |            | |
+|    | 28| 2-Dec-26  | W   | **Exam 2**                                             |            | |
 
 
 
