@@ -1,7 +1,7 @@
 ---
 title: "Class Logistics"
-subtitle: "Class 14" 
-date: "10/07/2026"
+subtitle: "Class 19" 
+date: "10/26/2026"
 author: "ECIV 542 (Traffic Engineering), Fall 2026"
 institute: "Dept. of CE&E, Univ. of South Carolina"
 format: 
@@ -22,6 +22,21 @@ filters:
 
 
 # CLASSES
+
+## Class 19: Oct 26, 2026 {.smaller}
+
+### ANNOUNCEMENTS
+* 13 students signed up for optional Exam 1 (**Deadline: Oct 28, 2026**)
+* Scan back your original Exam 1
+
+### TODAY'S AGENDA
+- Ch 19: Fundamentals of Signal Timing and Design: Pre-timed Signals
+
+### Due Dates
+
+* Oct 26, 2026 11:00AM ➡️ Tech Memo 2 
+* Nov 09, 2026 11:00AM ➡️ HW #3
+
 
 ## Class 18: Oct 21, 2026 {.smaller}
 

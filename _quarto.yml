@@ -76,6 +76,8 @@ website:
             text: "19OCT26-Class 17: Ch. 15: Hierarchy of Intersection Control"
           - href: lecture/class17_ch15_trafficControl.qmd
             text: "21OCT26-Class 18: Ch. 15: Hierarchy of Intersection Control"
+          - href: lecture/class19_ch19_trafficSignalDgnPreTime.qmd
+            text: "26OCT26-Class 19: Ch. 19: Fundamentals of Signal Timing and Design: Pre-timed Signals"
 
           # - href: lecture/ch4Quiz.qmd
           #   text: "Team Scorecard"

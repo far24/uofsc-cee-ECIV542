@@ -1,0 +1,29 @@
+---
+title: "Hierarchy of Intersection Control"
+subtitle: "Class 19: Ch. 19" 
+author: "ECIV 542 (Traffic Engineering), Fall 2026"
+institute: "Dept. of CE&E, Univ. of South Carolina"
+format: 
+  revealjs:
+    theme: white
+    transition: slide
+    # toc: true
+    # toc-title: "Today's Agenda"
+    # toc-depth: 1
+    chalkboard: true
+    slide-number: true
+    scrollable: true
+    progress: true
+    footer: "ECIV 542"
+filters:
+- diagrams
+---
+
+
+
+
+## Fundamentals of Signal Timing and Design: Pre-timed Signals
+
+* [Signal Timing and Pre-timed Signals  Design](images/Lecture17_preTime.pdf)
+* [Saturation Flow Calculation](images/Chapter24_Saturation_Flow_Rate.pdf)
+
