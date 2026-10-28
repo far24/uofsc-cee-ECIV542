@@ -89,7 +89,11 @@ website:
             text: Ch29 LOS Analysis for Weaving Segments in Freeways
           - href: lecture/notes_ch30_Freeway_merging.qmd
             text: Ch28 LOS Analysis for Merging/Diverging Segments in Freeways
-
+          - href: lecture/ch28LOS_RuralTwo-laneHwy.qmd
+            text: LOS for Rural 2-lane Highways
+          - href: lecture/notes_ch19_SignalTimePretime.qmd
+            text: Pre-timed Signal Timing Design 
+            
       - text: "Homeworks"
         menu: 
           - href: https://blackboard.sc.edu/webapps/login/

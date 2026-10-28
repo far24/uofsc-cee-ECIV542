@@ -1,5 +1,5 @@
 ---
-title: "LOS Analysis: Merging Section in Freeways"
+title: "LOS Analysis: Merging/Diverging Section in Freeways"
 author: "ECIV 542"
 date: "10/14/2026"
 format:
