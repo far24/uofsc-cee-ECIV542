@@ -101,7 +101,7 @@ website:
           - href: https://blackboard.sc.edu/webapps/login/
             text: "HW #2 Posted Due Oct 5 (See Blackboard)"
           - href: https://blackboard.sc.edu/webapps/login/
-            text: "HW #3: Not Yet Posted"
+            text: "HW #3: Posted (See Blackboard)"
           - href: https://blackboard.sc.edu/webapps/login/
             text: "HW #4: Not Yet Posted"
       - text: "Project"
@@ -116,11 +116,9 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo]
-      # dark: [cosmo]
+    theme: [cosmo, customTheme.scss]
     mainfont: "Atkinson Hyperlegible"
-    code-copy: true
+    code-copy: false
     code-overflow: wrap
     toc: true
 
