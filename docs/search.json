@@ -1485,148 +1485,137 @@
     "text": "LOS Analysis by Facility Type\n\nFreeway\nMultilane Highways\nRural Two-lane Highways"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#freeways",
-    "href": "lecture/ch28LOS_Freeway.html#freeways",
-    "title": "LOS Analysis: Freeways",
-    "section": "Freeways",
-    "text": "Freeways\n\nFully Access-controlled\n\nNO intersection\nNO at-grade crossing\n\nDirectional flow separated by median\nEntry/Exit to the facility provided by ramps"
+    "objectID": "lecture/00_classLogistics.html#class-19-oct-26-2026",
+    "href": "lecture/00_classLogistics.html#class-19-oct-26-2026",
+    "title": "Class Logistics",
+    "section": "Class 19: Oct 26, 2026",
+    "text": "Class 19: Oct 26, 2026\nANNOUNCEMENTS\n\n13 students signed up for optional Exam 1 (Deadline: Oct 28, 2026)\nScan back your original Exam 1\n\nTODAY’S AGENDA\n\nCh 19: Fundamentals of Signal Timing and Design: Pre-timed Signals\n\nDue Dates\n\nOct 26, 2026 11:00AM ➡️ Tech Memo 2\nNov 09, 2026 11:00AM ➡️ HW #3"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
-    "href": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
-    "title": "LOS Analysis: Freeways",
-    "section": "Steps for LOS for Freeways",
-    "text": "Steps for LOS for Freeways\n\nFind flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropriate curve for \\(LOS\\)"
+    "objectID": "lecture/00_classLogistics.html#class-18-oct-21-2026",
+    "href": "lecture/00_classLogistics.html#class-18-oct-21-2026",
+    "title": "Class Logistics",
+    "section": "Class 18: Oct 21, 2026",
+    "text": "Class 18: Oct 21, 2026\nANNOUNCEMENTS\n\nExam #1 scores are posted\n\nTODAY’S AGENDA\n\nCh. 15: Hierarchy of Intersection Control\n\nDue Dates\n\nOct 26, 2026 11:00AM ➡️ Tech Memo 2\nNov 09, 2026 11:00AM ➡️ HW #3"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
-    "href": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
-    "title": "LOS Analysis: Freeways",
-    "section": "Problem 01: LOS Freeway",
-    "text": "Problem 01: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics:\n\nFour lanes (two lanes in each direction)\n10 ft lane widths\nLateral obstructions at the roadside 0 feet from the pavement edge\nTotal ramp 5 ramps per mile\nRolling terrain\nTrucks (Typical Mix) = 2%\nPeak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. At what level of service is the freeway expected to operate during peak periods?\n\nRelevant Tables and Figures"
+    "objectID": "lecture/00_classLogistics.html#class-17-oct-19-2026",
+    "href": "lecture/00_classLogistics.html#class-17-oct-19-2026",
+    "title": "Class Logistics",
+    "section": "Class 17: Oct 19, 2026",
+    "text": "Class 17: Oct 19, 2026\n\n\nAnnouncements\n\nHW#3 posted on Blackboard\n\nAgenda\n\nInterrupted Flow Facilities:\n\nCh. 15: Hierarchy of Intersection Control\nCh. 18: Principles of Intersection Signalization\nCh. 19: Fundamentals of Signal Timing and Design: Pre-timed Signals\n\n\n\nDue Dates\n\n\n\nDue Date\nDesc\n\n\n\n\nOct 26, 2026 11:00AM\nTech Memo 2\n\n\nNov 09, 2026 11:00AM\nHW #3"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
-    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: LOS Freeway",
-    "text": "Solution: LOS Freeway\n\nSTEP 1: calculate \\(v_p\\)\n\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\nSTEP 2: calculate \\(S\\)\n\n2.1: calculate \\(FFS_{adj}\\)\n\n2.1.1: calculate \\(FFS\\)\n2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)\n\n2.2.1 Calculate \\(CAF\\)\n\n\nSTEP 3. Find density of traffic stream (\\(D\\))\nSTEP 4. Check appropriate curve for \\(LOS\\)"
+    "objectID": "lecture/00_classLogistics.html#class-16-oct-14-2026",
+    "href": "lecture/00_classLogistics.html#class-16-oct-14-2026",
+    "title": "Class Logistics",
+    "section": "Class 16: Oct 14, 2026",
+    "text": "Class 16: Oct 14, 2026\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 1: calculate \\(v_p\\)",
-    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\]\n\nGiven,\n\n\\(V\\) = 3000 veh/h\n\\(PHF\\) = 0.95\n\\(N\\) = 2\n\\(f_{HV}\\)= ?"
+    "objectID": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
+    "href": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
+    "title": "Class Logistics",
+    "section": "Class 15: Oct 12, 2026 Exam 1/Midterm",
+    "text": "Class 15: Oct 12, 2026 Exam 1/Midterm\n\nOnly keep your pen/pencil and a calculator.\nClearly write your Name and Initials in the front page.\nDO NOT open the Exam 1 until the clock starts.\nStore all backpacks and bags along the front or side perimeter of the room.\nAll smartphones, smartwatches, tablets, laptops, and smart eyewear must be powered off and stowed inside your bag before testing begins."
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 1: calculate \\(v_p\\)",
-    "text": "Solution: STEP 1: calculate \\(v_p\\)\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\n\\(f_{HV} = \\frac{1}{1+P_{HV}(E_{HV}-1)}\\)\n\n\\(P_{HV}\\) = 2% = 0.02\n\\(E_{HV}\\) = \\(~f(rolling)\\) = Table 28.17\n\\(E_{HV} = 3.0\\)\n\n\\(f_{HV} = \\frac{1}{1+0.02(3-1)}\\)\n\\(f_{HV} = 0.962\\)"
+    "objectID": "lecture/00_classLogistics.html#class-14-oct-07-2026",
+    "href": "lecture/00_classLogistics.html#class-14-oct-07-2026",
+    "title": "Class Logistics",
+    "section": "Class 14: Oct 07, 2026",
+    "text": "Class 14: Oct 07, 2026\nDue Dates\n\n\n\n\n\n\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class/Remote/Testing Center\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nHW#3 will be posted soon\nExam 1 Instructions and Topics\nLOS Multilane Highway, and 2-lane highway"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 1: calculate \\(v_p\\)",
-    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\] \\[v_p = \\frac{3000}{0.95 \\times 0.962 \\times 2}\\] \\[v_p = 1,641\\ pc/h/ln\\]"
+    "objectID": "lecture/00_classLogistics.html#class-13-oct-05-2026",
+    "href": "lecture/00_classLogistics.html#class-13-oct-05-2026",
+    "title": "Class Logistics",
+    "section": "Class 13: Oct 05, 2026",
+    "text": "Class 13: Oct 05, 2026\nDue Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nLOS Freeways, Multilane Highway, and 2-lane highway"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
-    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: LOS Freeway",
-    "text": "Solution: LOS Freeway\n\nSTEP 2: calculate \\(S\\)\n\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nSTEP 2.1.1: calculate \\(FFS\\)\nSTEP 2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)"
+    "objectID": "lecture/00_classLogistics.html#class-12-sep-30-2026",
+    "href": "lecture/00_classLogistics.html#class-12-sep-30-2026",
+    "title": "Class Logistics",
+    "section": "Class 12: Sep 30, 2026",
+    "text": "Class 12: Sep 30, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = FFS \\times SAF\\]"
+    "objectID": "lecture/00_classLogistics.html#class-11-sep-28-2026",
+    "href": "lecture/00_classLogistics.html#class-11-sep-28-2026",
+    "title": "Class Logistics",
+    "section": "Class 11: Sep 28, 2026",
+    "text": "Class 11: Sep 28, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1.1: calculate \\(FFS\\)\n\nFor freeway: \\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\n\\(f_{LW}\\) = 6.6 mph\n\nTable 28.3 for 10 feet lanes\n\n\\(f_{LC}\\) = 3.6 mph\n\nTable 28.4 for 0 feet clearance and 2 lanes\n\n\\(TRD\\) = 5 ramps / mile\n\n\n\\[FFS = 75.4 - 6.6 - 3.6 -3.22 \\times 5^{0.84}\\] \\[FFS = 52.8\\ mph\\] STEP 2.1.2: calculate \\(SAF\\)\n\nSince no adjustment neccessary, \\(SAF = 1\\)"
+    "objectID": "lecture/00_classLogistics.html#class-10-sep-23-2026",
+    "href": "lecture/00_classLogistics.html#class-10-sep-23-2026",
+    "title": "Class Logistics",
+    "section": "Class 10: Sep 23, 2026",
+    "text": "Class 10: Sep 23, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = 52.8 \\times 1\\] \\[FFS_{adj} = 52.8\\ mph\\]"
+    "objectID": "lecture/00_classLogistics.html#class-09-sep-21-2026",
+    "href": "lecture/00_classLogistics.html#class-09-sep-21-2026",
+    "title": "Class Logistics",
+    "section": "Class 09: Sep 21, 2026",
+    "text": "Class 09: Sep 21, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.2 Breakpoint value, \\(BP\\)\n\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-52.8) \\times 1^2\\)\n\\(BP = 1,888\\ pc/h/ln\\)\n\n\n\nAs,\n\n\\(FFS_{adj} = 52.8\\)\n\\(CAF = 1\\)"
+    "objectID": "lecture/00_classLogistics.html#class-08-sep-16-2026",
+    "href": "lecture/00_classLogistics.html#class-08-sep-16-2026",
+    "title": "Class Logistics",
+    "section": "Class 08: Sep 16, 2026",
+    "text": "Class 08: Sep 16, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.3 Adjusted Capacity, \\(c_{adj}\\)\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = 2228 \\times 1\\)\n\\(c_{adj} = 2,228\\ pc/hr/ln\\)\n\n\n\nAs,\n\n\\(FFS = 52.8\\) mph\n\\(CAF = 1\\)\n\nThen,\n\n\\(c = 2200 + 10 (FFS-50)\\)\n\\(c = 2200 + 10 (52.8-50)\\)\n\\(c = 2,228\\) pc/h/ln"
+    "objectID": "lecture/00_classLogistics.html#class-07-sep-14-2026",
+    "href": "lecture/00_classLogistics.html#class-07-sep-14-2026",
+    "title": "Class Logistics",
+    "section": "Class 07: Sep 14, 2026",
+    "text": "Class 07: Sep 14, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.4 Calibration Constant, \\(a\\)\n\nFor Freeway, \\(a = 2.00\\)"
+    "objectID": "lecture/00_classLogistics.html#class-06-sep-09-2026",
+    "href": "lecture/00_classLogistics.html#class-06-sep-09-2026",
+    "title": "Class Logistics",
+    "section": "Class 06: Sep 09, 2026",
+    "text": "Class 06: Sep 09, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 2: calculate \\(S\\)",
-    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = 52.8\\) mph\n\n\n\nAs,\n\n\\(v_p = 1, 641\\) pc/h/ln\n\\(BP = 1,888\\) pc/h/ln\n\nSince \\(v_p &lt; BP\\) use:\n\n\\(S = FFS_{adj}\\)"
+    "objectID": "lecture/00_classLogistics.html#class-05-sep-02-2026",
+    "href": "lecture/00_classLogistics.html#class-05-sep-02-2026",
+    "title": "Class Logistics",
+    "section": "Class 05: Sep 02, 2026",
+    "text": "Class 05: Sep 02, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 3. Find density of traffic stream (\\(D\\))",
-    "text": "Solution: STEP 3. Find density of traffic stream (\\(D\\))\n\n\\(v_p = D \\times s\\)\n\\(D = \\frac{v_p}{S}\\)\n\\(D = \\frac{1641}{52.8}\\)\n\\(D = 31.1\\) pc/mi/ln"
+    "objectID": "lecture/00_classLogistics.html#class-04-aug-31-2026",
+    "href": "lecture/00_classLogistics.html#class-04-aug-31-2026",
+    "title": "Class Logistics",
+    "section": "Class 04: Aug 31, 2026",
+    "text": "Class 04: Aug 31, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
-    "href": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
-    "title": "LOS Analysis: Freeways",
-    "section": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)",
-    "text": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)"
+    "objectID": "lecture/00_classLogistics.html#class-03-aug-26-2026",
+    "href": "lecture/00_classLogistics.html#class-03-aug-26-2026",
+    "title": "Class Logistics",
+    "section": "Class 03: Aug 26, 2026",
+    "text": "Class 03: Aug 26, 2026"
   },
   {
-    "objectID": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
-    "href": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
-    "title": "LOS Analysis: Freeways",
-    "section": "Problem 02: LOS Freeway",
-    "text": "Problem 02: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics: * Four lanes (two lanes in each direction) * 10 ft lane widths * Lateral obstructions at the roadside 0 feet from the pavement edge * Total ramp 5 ramps per mile * Rolling terrain * Trucks (Typical Mix) = 2% * Peak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. The roadway facility is located in an area where moderate rainfall is a common occurrence. At what level of service is the freeway expected to operate during peak periods?\n\nLOS Steps\nLOS Tables\nSample Problem with Steps PDF"
+    "objectID": "lecture/00_classLogistics.html#class-02-aug-24-2026",
+    "href": "lecture/00_classLogistics.html#class-02-aug-24-2026",
+    "title": "Class Logistics",
+    "section": "Class 02: Aug 24, 2026",
+    "text": "Class 02: Aug 24, 2026"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ECIV 542  Traffic Engineering (Fall 2026)",
-    "section": "",
-    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 11:59PM\nHW\nHW #1\n☑ Grade Posted\n\n\nSep 23, 2026 11:59PM\nProject\nTech Memo 1\n☐ See Blackboard\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:59PM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\nDec 11, 2026 07:30PM\nExam\nExam #2\n☐ In-class\n\n\n\n\n\nResources\n\nHW Submisstion Template\n\n\n\nUpdates: October, 2026\n\n\n\n\n\n\n\nDate\nActions\n\n\n\n\n10/05/2026\nComments provided to the Tech Memo #1",
-    "crumbs": [
-      "Home",
-      "Home/Announcement"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "lecture/00_classLogistics.html#class-01-aug-19-2026",
+    "href": "lecture/00_classLogistics.html#class-01-aug-19-2026",
+    "title": "Class Logistics",
+    "section": "Class 01: Aug 19, 2026",
+    "text": "Class 01: Aug 19, 2026"
   },
   {
     "objectID": "lecture/ch4TrafficControlDevices.html#traffic-control-devices-1",
@@ -1860,137 +1849,246 @@
     "text": "16) What does green arrow signal indication communicate?\n \n\n\n\n\n\n\nThe driver must stop before turning left\nThe indicated left-turn movement is permitted\nLeft turns are prohibited\nDrivers may proceed straight only"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-19-oct-26-2026",
-    "href": "lecture/00_classLogistics.html#class-19-oct-26-2026",
-    "title": "Class Logistics",
-    "section": "Class 19: Oct 26, 2026",
-    "text": "Class 19: Oct 26, 2026\nANNOUNCEMENTS\n\n13 students signed up for optional Exam 1 (Deadline: Oct 28, 2026)\nScan back your original Exam 1\n\nTODAY’S AGENDA\n\nCh 19: Fundamentals of Signal Timing and Design: Pre-timed Signals\n\nDue Dates\n\nOct 26, 2026 11:00AM ➡️ Tech Memo 2\nNov 09, 2026 11:00AM ➡️ HW #3"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-18-oct-21-2026",
-    "href": "lecture/00_classLogistics.html#class-18-oct-21-2026",
-    "title": "Class Logistics",
-    "section": "Class 18: Oct 21, 2026",
-    "text": "Class 18: Oct 21, 2026\nANNOUNCEMENTS\n\nExam #1 scores are posted\n\nTODAY’S AGENDA\n\nCh. 15: Hierarchy of Intersection Control\n\nDue Dates\n\nOct 26, 2026 11:00AM ➡️ Tech Memo 2\nNov 09, 2026 11:00AM ➡️ HW #3"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ECIV 542  Traffic Engineering (Fall 2026)",
+    "section": "",
+    "text": "Due Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nSep 09, 2026 11:59PM\nHW\nHW #1\n☑ Grade Posted\n\n\nSep 23, 2026 11:59PM\nProject\nTech Memo 1\n☐ See Blackboard\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:59PM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\nDec 11, 2026 07:30PM\nExam\nExam #2\n☐ In-class\n\n\n\n\n\nResources\n\nHW Submisstion Template\n\n\n\nUpdates: October, 2026\n\n\n\n\n\n\n\nDate\nActions\n\n\n\n\n10/05/2026\nComments provided to the Tech Memo #1",
+    "crumbs": [
+      "Home",
+      "Home/Announcement"
+    ]
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-17-oct-19-2026",
-    "href": "lecture/00_classLogistics.html#class-17-oct-19-2026",
-    "title": "Class Logistics",
-    "section": "Class 17: Oct 19, 2026",
-    "text": "Class 17: Oct 19, 2026\n\n\nAnnouncements\n\nHW#3 posted on Blackboard\n\nAgenda\n\nInterrupted Flow Facilities:\n\nCh. 15: Hierarchy of Intersection Control\nCh. 18: Principles of Intersection Signalization\nCh. 19: Fundamentals of Signal Timing and Design: Pre-timed Signals\n\n\n\nDue Dates\n\n\n\nDue Date\nDesc\n\n\n\n\nOct 26, 2026 11:00AM\nTech Memo 2\n\n\nNov 09, 2026 11:00AM\nHW #3"
+    "objectID": "lecture/ch28LOS_Freeway.html#freeways",
+    "href": "lecture/ch28LOS_Freeway.html#freeways",
+    "title": "LOS Analysis: Freeways",
+    "section": "Freeways",
+    "text": "Freeways\n\nFully Access-controlled\n\nNO intersection\nNO at-grade crossing\n\nDirectional flow separated by median\nEntry/Exit to the facility provided by ramps"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-16-oct-14-2026",
-    "href": "lecture/00_classLogistics.html#class-16-oct-14-2026",
-    "title": "Class Logistics",
-    "section": "Class 16: Oct 14, 2026",
-    "text": "Class 16: Oct 14, 2026\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard"
+    "objectID": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
+    "href": "lecture/ch28LOS_Freeway.html#steps-for-los-for-freeways",
+    "title": "LOS Analysis: Freeways",
+    "section": "Steps for LOS for Freeways",
+    "text": "Steps for LOS for Freeways\n\nFind flow (\\(v_p\\)) of the traffic stream\nFind speed (\\(S\\)) of the traffic Stream\nFind density of traffic stream (\\(D\\)) using \\(v_p = D \\times s\\)\nCheck appropriate curve for \\(LOS\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
-    "href": "lecture/00_classLogistics.html#class-15-oct-12-2026-exam-1midterm",
-    "title": "Class Logistics",
-    "section": "Class 15: Oct 12, 2026 Exam 1/Midterm",
-    "text": "Class 15: Oct 12, 2026 Exam 1/Midterm\n\nOnly keep your pen/pencil and a calculator.\nClearly write your Name and Initials in the front page.\nDO NOT open the Exam 1 until the clock starts.\nStore all backpacks and bags along the front or side perimeter of the room.\nAll smartphones, smartwatches, tablets, laptops, and smart eyewear must be powered off and stowed inside your bag before testing begins."
+    "objectID": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#problem-01-los-freeway",
+    "title": "LOS Analysis: Freeways",
+    "section": "Problem 01: LOS Freeway",
+    "text": "Problem 01: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics:\n\nFour lanes (two lanes in each direction)\n10 ft lane widths\nLateral obstructions at the roadside 0 feet from the pavement edge\nTotal ramp 5 ramps per mile\nRolling terrain\nTrucks (Typical Mix) = 2%\nPeak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. At what level of service is the freeway expected to operate during peak periods?\n\nRelevant Tables and Figures"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-14-oct-07-2026",
-    "href": "lecture/00_classLogistics.html#class-14-oct-07-2026",
-    "title": "Class Logistics",
-    "section": "Class 14: Oct 07, 2026",
-    "text": "Class 14: Oct 07, 2026\nDue Dates\n\n\n\n\n\n\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class/Remote/Testing Center\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nHW#3 will be posted soon\nExam 1 Instructions and Topics\nLOS Multilane Highway, and 2-lane highway"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: LOS Freeway",
+    "text": "Solution: LOS Freeway\n\nSTEP 1: calculate \\(v_p\\)\n\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\nSTEP 2: calculate \\(S\\)\n\n2.1: calculate \\(FFS_{adj}\\)\n\n2.1.1: calculate \\(FFS\\)\n2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)\n\n2.2.1 Calculate \\(CAF\\)\n\n\nSTEP 3. Find density of traffic stream (\\(D\\))\nSTEP 4. Check appropriate curve for \\(LOS\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-13-oct-05-2026",
-    "href": "lecture/00_classLogistics.html#class-13-oct-05-2026",
-    "title": "Class Logistics",
-    "section": "Class 13: Oct 05, 2026",
-    "text": "Class 13: Oct 05, 2026\nDue Dates\n\n\n\nDue Date\nType\nDesc\nRef\n\n\n\n\nOct 05, 2026 11:59PM\nHW\nHW #2\n☐ See Blacboard\n\n\nOct 12, 2026 11:00AM\nExam\nExam #1\n☐ In-class\n\n\nOct 26, 2026 11:00AM\nProject\nTech Memo 2\n☐ See Blackboard\n\n\n\nAgenda\n\nLOS Freeways, Multilane Highway, and 2-lane highway"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 1: calculate \\(v_p\\)",
+    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\]\n\nGiven,\n\n\\(V\\) = 3000 veh/h\n\\(PHF\\) = 0.95\n\\(N\\) = 2\n\\(f_{HV}\\)= ?"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-12-sep-30-2026",
-    "href": "lecture/00_classLogistics.html#class-12-sep-30-2026",
-    "title": "Class Logistics",
-    "section": "Class 12: Sep 30, 2026",
-    "text": "Class 12: Sep 30, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-1",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 1: calculate \\(v_p\\)",
+    "text": "Solution: STEP 1: calculate \\(v_p\\)\nSTEP 1.2 Adj. factor for presence of heavy vehicles (HV)\n\n\\(f_{HV} = \\frac{1}{1+P_{HV}(E_{HV}-1)}\\)\n\n\\(P_{HV}\\) = 2% = 0.02\n\\(E_{HV}\\) = \\(~f(rolling)\\) = Table 28.17\n\\(E_{HV} = 3.0\\)\n\n\\(f_{HV} = \\frac{1}{1+0.02(3-1)}\\)\n\\(f_{HV} = 0.962\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-11-sep-28-2026",
-    "href": "lecture/00_classLogistics.html#class-11-sep-28-2026",
-    "title": "Class Logistics",
-    "section": "Class 11: Sep 28, 2026",
-    "text": "Class 11: Sep 28, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-1-calculate-v_p-2",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 1: calculate \\(v_p\\)",
+    "text": "Solution: STEP 1: calculate \\(v_p\\)\n\\[v_p = \\frac{V}{PHF \\times f_{HV} \\times N}\\] \\[v_p = \\frac{3000}{0.95 \\times 0.962 \\times 2}\\] \\[v_p = 1,641\\ pc/h/ln\\]"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-10-sep-23-2026",
-    "href": "lecture/00_classLogistics.html#class-10-sep-23-2026",
-    "title": "Class Logistics",
-    "section": "Class 10: Sep 23, 2026",
-    "text": "Class 10: Sep 23, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
+    "href": "lecture/ch28LOS_Freeway.html#solution-los-freeway-1",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: LOS Freeway",
+    "text": "Solution: LOS Freeway\n\nSTEP 2: calculate \\(S\\)\n\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nSTEP 2.1.1: calculate \\(FFS\\)\nSTEP 2.1.2: calculate \\(SAF\\)\n\n2.2 Breakpoint value, \\(BP\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-09-sep-21-2026",
-    "href": "lecture/00_classLogistics.html#class-09-sep-21-2026",
-    "title": "Class Logistics",
-    "section": "Class 09: Sep 21, 2026",
-    "text": "Class 09: Sep 21, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = FFS \\times SAF\\]"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-08-sep-16-2026",
-    "href": "lecture/00_classLogistics.html#class-08-sep-16-2026",
-    "title": "Class Logistics",
-    "section": "Class 08: Sep 16, 2026",
-    "text": "Class 08: Sep 16, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-1",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1.1: calculate \\(FFS\\)\n\nFor freeway: \\(FFS = 75.4 - f_{LW} - f_{LC} -3.22 \\times TRD^{0.84}\\)\n\n\\(f_{LW}\\) = 6.6 mph\n\nTable 28.3 for 10 feet lanes\n\n\\(f_{LC}\\) = 3.6 mph\n\nTable 28.4 for 0 feet clearance and 2 lanes\n\n\\(TRD\\) = 5 ramps / mile\n\n\n\\[FFS = 75.4 - 6.6 - 3.6 -3.22 \\times 5^{0.84}\\] \\[FFS = 52.8\\ mph\\] STEP 2.1.2: calculate \\(SAF\\)\n\nSince no adjustment neccessary, \\(SAF = 1\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-07-sep-14-2026",
-    "href": "lecture/00_classLogistics.html#class-07-sep-14-2026",
-    "title": "Class Logistics",
-    "section": "Class 07: Sep 14, 2026",
-    "text": "Class 07: Sep 14, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-2",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.1: calculate \\(FFS_{adj}\\)\n\nFor freeway: \\[FFS_{adj} = 52.8 \\times 1\\] \\[FFS_{adj} = 52.8\\ mph\\]"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-06-sep-09-2026",
-    "href": "lecture/00_classLogistics.html#class-06-sep-09-2026",
-    "title": "Class Logistics",
-    "section": "Class 06: Sep 09, 2026",
-    "text": "Class 06: Sep 09, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-3",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.2 Breakpoint value, \\(BP\\)\n\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-FFS_{adj}) \\times CAF^2\\)\n\\(BP = 1000+ 40(75-52.8) \\times 1^2\\)\n\\(BP = 1,888\\ pc/h/ln\\)\n\n\n\nAs,\n\n\\(FFS_{adj} = 52.8\\)\n\\(CAF = 1\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-05-sep-02-2026",
-    "href": "lecture/00_classLogistics.html#class-05-sep-02-2026",
-    "title": "Class Logistics",
-    "section": "Class 05: Sep 02, 2026",
-    "text": "Class 05: Sep 02, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-4",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n2.3 Adjusted Capacity, \\(c_{adj}\\)\n\n\\(c_{adj} = c \\times CAF\\)\n\\(c_{adj} = 2228 \\times 1\\)\n\\(c_{adj} = 2,228\\ pc/hr/ln\\)\n\n\n\nAs,\n\n\\(FFS = 52.8\\) mph\n\\(CAF = 1\\)\n\nThen,\n\n\\(c = 2200 + 10 (FFS-50)\\)\n\\(c = 2200 + 10 (52.8-50)\\)\n\\(c = 2,228\\) pc/h/ln"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-04-aug-31-2026",
-    "href": "lecture/00_classLogistics.html#class-04-aug-31-2026",
-    "title": "Class Logistics",
-    "section": "Class 04: Aug 31, 2026",
-    "text": "Class 04: Aug 31, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-5",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\nSTEP 2.4 Calibration Constant, \\(a\\)\n\nFor Freeway, \\(a = 2.00\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-03-aug-26-2026",
-    "href": "lecture/00_classLogistics.html#class-03-aug-26-2026",
-    "title": "Class Logistics",
-    "section": "Class 03: Aug 26, 2026",
-    "text": "Class 03: Aug 26, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-2-calculate-s-6",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 2: calculate \\(S\\)",
+    "text": "Solution: STEP 2: calculate \\(S\\)\n\n\n\n\\(S = FFS_{adj}\\)\n\\(S = 52.8\\) mph\n\n\n\nAs,\n\n\\(v_p = 1, 641\\) pc/h/ln\n\\(BP = 1,888\\) pc/h/ln\n\nSince \\(v_p &lt; BP\\) use:\n\n\\(S = FFS_{adj}\\)"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-02-aug-24-2026",
-    "href": "lecture/00_classLogistics.html#class-02-aug-24-2026",
-    "title": "Class Logistics",
-    "section": "Class 02: Aug 24, 2026",
-    "text": "Class 02: Aug 24, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-3.-find-density-of-traffic-stream-d",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 3. Find density of traffic stream (\\(D\\))",
+    "text": "Solution: STEP 3. Find density of traffic stream (\\(D\\))\n\n\\(v_p = D \\times s\\)\n\\(D = \\frac{v_p}{S}\\)\n\\(D = \\frac{1641}{52.8}\\)\n\\(D = 31.1\\) pc/mi/ln"
   },
   {
-    "objectID": "lecture/00_classLogistics.html#class-01-aug-19-2026",
-    "href": "lecture/00_classLogistics.html#class-01-aug-19-2026",
-    "title": "Class Logistics",
-    "section": "Class 01: Aug 19, 2026",
-    "text": "Class 01: Aug 19, 2026"
+    "objectID": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
+    "href": "lecture/ch28LOS_Freeway.html#solution-step-4.-check-appropriate-curve-for-los",
+    "title": "LOS Analysis: Freeways",
+    "section": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)",
+    "text": "Solution: STEP 4. Check appropriate curve for \\(LOS\\)"
+  },
+  {
+    "objectID": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
+    "href": "lecture/ch28LOS_Freeway.html#problem-02-los-freeway",
+    "title": "LOS Analysis: Freeways",
+    "section": "Problem 02: LOS Freeway",
+    "text": "Problem 02: LOS Freeway\nA segment of an old freeway in a large urban area has the following characteristics: * Four lanes (two lanes in each direction) * 10 ft lane widths * Lateral obstructions at the roadside 0 feet from the pavement edge * Total ramp 5 ramps per mile * Rolling terrain * Trucks (Typical Mix) = 2% * Peak-hour factor (PHF) = 0.95 The current peak-hour demand in the peak direction is 3000 veh/h. The roadway facility is located in an area where moderate rainfall is a common occurrence. At what level of service is the freeway expected to operate during peak periods?\n\nLOS Steps\nLOS Tables\nSample Problem with Steps PDF"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html",
+    "title": "Signal Timing Design: Actuated",
+    "section": "",
+    "text": "Pre-timed\n\nNon-flexible to accomade demand change\n\nSignal timing are constant from cycle to cycle\nUniform phase sequence, cycle length, and all interval times\n\n\nActuated\n\nflex to handle varying demand periods throughout the day, including peak and off-peak periods and changes in the balance of movements.\nsignal timing on a cycle-by-cycle basis\ninformation on current demands and operations, obtained from detectors"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#detection-types",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#detection-types",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Detection Types",
+    "text": "Detection Types\n\nPassage or Point Detection\n\nThe passage of a vehicle over a short detector creates a pulse.\npulse indicates that at least one vehicle (in the approach and lane of the detector) requires service.\nNo memory of number of such pulses\n\nPresence or Area Detection\n\nThe presence of a vehicle within a detection zone creates a continuous pulse.\npulse begins when the vehicle enters the detection zone and terminates when the vehicle leaves it.\ndetector(s) can discern the number of vehicles stored in the detection area."
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#detector-to-controller-connection",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#detector-to-controller-connection",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Detector to Controller Connection",
+    "text": "Detector to Controller Connection\n\nTwo modes:\n\nLocked\n\ndetector actuation creates a continuous call for service until the green is initiated for the subject lane(s)\nPassage or point detectors are always linked in the locked mode.\n\nUnlocked:\n\ncall for service is initiated when a vehicle enters the detection zone, and is terminated when it leaves the detection zone.\nPresence or area detectors are almost always linked in the unlocked mode, unless the front end of the detection zone is more than 2 to 3 ft from the STOP line."
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#detector-types",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#detector-types",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Detector Types",
+    "text": "Detector Types\n\nInductive Loop\nMicroloop\nMagnetic"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#philosophy",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#philosophy",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Philosophy",
+    "text": "Philosophy"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#terminologies",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#terminologies",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Terminologies",
+    "text": "Terminologies\n\nMinimum Green Time:\n\nEach actuated phase has a minimum green time, which serves as the smallest amount of green time that may be allocated to a phase when it is initiated\n\nPassage Time (PT):\n\nThis time actually serves three different purposes: (1) It represents the maximum gap between actuations at a single detector required to retain the green. (2) It is the amount of time added to the green phase when an additional actuation is received within the unit extension. (3) It must be of sufficient length to allow a vehicle to travel from the detector to the STOP line.\n\nMaximum Green Time:\n\nEach phase has a maximum green time that limits the length of a green phase, even if there are continued actuations that would normally retain the green. The “maximum green time” begins when there is a “call” (or detector actuation) on a competing phase.\n\nRecall Settings.\n\nEach actuated phase has a number of recall settings. The recall settings determine what happens to the signal when there is no demand or a system failure.\n\nYellow and All-Red Intervals.\n\nYellow and all-red intervals provide for safe transition from “green” to “red.” They are fixed times and are not subject to variation, even in an actuated controller. They are found in the same manner as for pre-timed signals (refer to Chapter 19).\n\nPedestrian WALK (“Walking Man”), Clearance (“Flashing Up-raised Hand”), and DON’T WALK (“Up-raised Hand”) intervals.\n\nPedestrian intervals must also be set. With actuated signals, however, the total length of the GREEN is not known. Thus, pedestrian intervals are set in accordance with the minimum green time for each phase. Pedestrian push buttons are often, but not always, needed to ensure adequate crossing times.\n\n\nThe “green” is terminated in one of two ways:\n\nA unit extension of PT seconds expires without an additional actuation. Such a termination is commonly referred as a “gap out.”\nThe maximum green is reached. Such a termination is referred to as a “max out.” The maximum green begins timing out when a “call” on a competing phase is noted. During the most congested periods of flow, however, it may be assumed that demand exists more or less continuously on all phases. The maximum green, therefore, begins timing out at the beginning of the green period in such a situation."
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#terminologies-1",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#terminologies-1",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Terminologies",
+    "text": "Terminologies"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#step1",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#step1",
+    "title": "Signal Timing Design: Actuated",
+    "section": "STEP 1. Check for LT treatment and Develop a Phase Plan",
+    "text": "STEP 1. Check for LT treatment and Develop a Phase Plan\n\n1A - Left-turn Signal: Protected or Permitted?\nIf either of the two criteria below are exceeded, it is common practice to implement some form of left-turn protection:\n\nCriteria 1: \\(\\nu_{LT} \\ge 200\\) veh/h\nCriteria 2 (Cross-product rule): \\(xprod =  \\nu_{LT} \\times \\frac{\\nu_0}{N_0} \\ge 50,000\\)\n\nwhere,\n\n\\(\\nu_{LT}\\) = left-turn flow rate, veh/h\n\\(\\nu_0\\) = opposing through movement flow rate, veh/h\n\\(N_0\\) = number of opposing through lanes\n\n\n\n1B - Develop Phasing Diagram\n\nPhase Diagram\nA phase diagram shows all movements being made in a given phase within a single block of the diagram.\n\n\nRing Diagram\nA ring diagram shows which movements are controlled by which “ring” on a signal controller. A “ring” of a controller generally controls one set of signal faces.\n\n\nDefinition of Phasing Symbols\n\nA solid arrow denotes a movement without opposition. All through movements are unopposed by definition. An unopposed left turn has no opposing through vehicular flow. An unopposed right turn has no opposing pedestrian movement in the crosswalk through which the right turn is made.\nOpposed left- and or right-turn movements are shown as a dashed line.\nTurning movements made from a shared lane(s) are shown as arrows connected to the through movement that shares the lane(s).\nTurning movements from an exclusive lane(s) are shown as separate arrows, not connected to any through movement."
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#step2",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#step2",
+    "title": "Signal Timing Design: Actuated",
+    "section": "STEP 2. Convert Volumes to Through Vehicle Equivalents",
+    "text": "STEP 2. Convert Volumes to Through Vehicle Equivalents\n\nEquivalent LT volume in through-vehicle equivalents, \\(V_{LTE} = V_{LT} \\times E_{LT}\\) tvu/h\nEquivalent RT volume in through-vehicle equivalents, \\(V_{RTE} = V_{RT} \\times E_{RT}\\) tvu/h\nTotal equivalent volume for a given approach or lane group, \\(V_{EQ} = V_{LTE} + V_{TH} + V_{RTE}\\) tvu/h\n\nPer lane: \\(V_{EQL} = V_{EQ} / N\\) tvu/h\n\n\n NOTE: Interpolation allowed"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#step3",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#step3",
+    "title": "Signal Timing Design: Actuated",
+    "section": "STEP 3. Determine Lane Groups and Critical Lane Volumes",
+    "text": "STEP 3. Determine Lane Groups and Critical Lane Volumes\ncritical-lane volume is the per-lane volume that controls the required length of a particular phase. To find the critical path, the controlling (maximum) equivalent volumes must be found for each portion of the cycle, working between full-phase transition boundaries. ## STEP 4. Determine Yellow and All-Red Intervals {#step4}\n\nYellow Interval\nThe ITE recommends the following methodology for determining the length of the yellow or change interval\n\\[y_i = t + \\frac{1.47 \\times S_{85i}}{2 \\times (a + 32.2 G_i)}\\] where:\n\n\\(y_i\\) = length of the yellow for phase \\(i\\), sec\n\\(t\\) = driver reaction time, sec (Default is 1 sec)\n\\(S_{85i}\\) = 85th percentile speed of approaching vehicle in phase \\(i\\) or Speed Limit (mph)\n\n\\(S_{85i} = S_{avg} + 5\\)\n\n\\(a\\) = Deceleration rate of vehicles, \\(ft/s^2\\)\n\\(G_i\\) = Approach grade for phase \\(i\\) in decimal\n\n\n\nAll-red Interval\nThe ITE also recommends the following policy for determining the length of all-red clearance intervals\n\n\n\nPedestrian Traffic\nAll-Red Interval Eqn\n\n\n\n\nNo or Little Ped\n\\(ar_i = \\frac{w+L}{1.47S_{15i}}\\)\n\n\nSomewhat Ped\n\n\n\nSignificant Ped \n\\(ar_i = \\frac{P+L}{1.47S_{15i}}\\)\n\n\n\nWhere:\n\n\\(ar_i\\) = length of the all-red phase for phase \\(i\\), sec\n\\(w\\) = width of the street being crossed, from curb to curb, ft\n\\(P\\) = distance from the near curb to the far side of the crosswalk on the departure leg, ft\n\\(L\\) = length of the standard vehicle (18-20 feet)\n\\(S_{15i}\\) = 15th percentile speed of approaching traffic in phase \\(i\\), mph\n\n\\(S_{15i} = S_{avg} - 5\\)\n\n\nNOTE: Use of these ITE policies to determine yellow and all-red intervals assures that drivers will not be presented with a “dilemma zone,” which occurs when the combined length of the change and clearance intervals is not sufficient to allow a motorist who cannot safely stop when the yellow is initiated to cross through the intersection and out of conflicting vehicular and/or pedestrian paths before those flows are released."
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#step5",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#step5",
+    "title": "Signal Timing Design: Actuated",
+    "section": "STEP 5. Determine the Lost time",
+    "text": "STEP 5. Determine the Lost time\nHCM recommends the following:\n\nStart-up lost time, \\(l_{1i} = 2\\) sec/phase\nMotorist use of yellow and all-red, \\(e= 2\\) sec/phase\nClearance lost time, \\(l_{2i} = y_i + ar_i - e\\) sec/phase\nTotal lost time, \\(t_{Li} = l_{1i} + l_{2i} = 2 + y_i + ar_i - e\\) sec/phase"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#step6",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#step6",
+    "title": "Signal Timing Design: Actuated",
+    "section": "STEP 6. Determine the Desireable Cycle Length",
+    "text": "STEP 6. Determine the Desireable Cycle Length\n\\[C_{des} = \\frac{L}{1 - \\frac{V_c}{1700 \\times PHF \\times (\\nu/c)}}\\] Where:\n\n\\(C_{des}\\) = Desireable cycle lenght, sec\n\\(L\\) = Total lost time per cycle, sec\n\\(PHF\\) = peak hour factor\n\\(\\nu/c\\) = targe volume-to-capacity ration for the critical movements in the intersections"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#step7",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#step7",
+    "title": "Signal Timing Design: Actuated",
+    "section": "STEP 7. Allocate Effective Green to Each Phase",
+    "text": "STEP 7. Allocate Effective Green to Each Phase\n\nTotal Effective green time in the cycle, \\(g_{TOT} = C - L\\)\n\\(g_i = g_{TOT} \\times (\\frac{V_{ci}}{V_c})\\)\n\nWhere: * \\(g_i\\) = effective green time for phase \\(i\\), sec * \\(V_{ci}\\) = critical lane volume for phase \\(i\\), tvu/h * \\(V_c\\) = sum of all the critical lane volumes, tvu/h"
+  },
+  {
+    "objectID": "lecture/notes_ch20_SignalTimeActuated.html#step8",
+    "href": "lecture/notes_ch20_SignalTimeActuated.html#step8",
+    "title": "Signal Timing Design: Actuated",
+    "section": "STEP 8. Check Pedestrian Requirements",
+    "text": "STEP 8. Check Pedestrian Requirements"
   },
   {
     "objectID": "lecture/introTrafficEngr.html#what-is-traffic-engineering",
@@ -2317,9 +2415,198 @@
   {
     "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#fundamentals-of-signal-timing-and-design-pre-timed-signals",
     "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#fundamentals-of-signal-timing-and-design-pre-timed-signals",
-    "title": "Hierarchy of Intersection Control",
+    "title": "Signal Timing Design: Pre-timed",
     "section": "Fundamentals of Signal Timing and Design: Pre-timed Signals",
     "text": "Fundamentals of Signal Timing and Design: Pre-timed Signals\n\nSignal Timing and Pre-timed Signals Design\nSaturation Flow Calculation"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Example Problem: 19-7",
+    "text": "Example Problem: 19-7\n\nFigure 19.14"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1",
+    "text": "STEP 1\nSTEP 1A: Left turn treatment\n\n\n\nApproach\nMovement\nvolume (veh/h)\n&lt;200 veh/h?\nMet?\n\n\n\n\nEB\nLT\n10\nyes\nNOT MET\n\n\nWB\nLT\n12\nyes\nNOT MET\n\n\nNB\nLT\n10\nyes\nNOT MET\n\n\nSB\nLT\n10\nyes\nNOT MET"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1",
+    "text": "STEP 1\nSTEP 1A: Left turn treatment\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproach\nMovement\nvolume (veh/h)\nOpposing Vol\nOpposing lane\nOpposing vol/lane\n&lt;50,000?\nMet?\n\n\n\n\nEB\nLT\n10\n315\n1\n315\nyes\nNOT MET\n\n\nWB\nLT\n12\n420\n1\n420\nyes\nNOT MET\n\n\nNB\nLT\n10\n400\n1\n400\nyes\nNOT MET\n\n\nSB\nLT\n10\n375\n1\n375\nyes\nNOT MET"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1: Phase Plan",
+    "text": "STEP 1: Phase Plan"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan-ring-diagram",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan-ring-diagram",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1: Phase Plan/ Ring Diagram",
+    "text": "STEP 1: Phase Plan/ Ring Diagram"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 2:Conversion of Volumes to tvu",
+    "text": "STEP 2:Conversion of Volumes to tvu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproach\nMvmt\nV (veh/h)\nEquiv.\nV (tvu/h)\nV-LG\nN - LG\nV/N - LG\ns\nv/s\n\n\n\n\nEB\nL\n10\n3.90\n39\n\n\n\n\n\n\n\n\nT\n420\n1\n420\n470\n1\n470\n-\n-\n\n\n\nR\n8\n1.32\n11\n\n\n\n\n\n\n\nWB\nL\n12\n5.50\n66\n\n\n\n\n\n\n\n\nT\n315\n1\n315\n397\n1\n397\n-\n-\n\n\n\nR\n12\n1.32\n16\n\n\n\n\n\n\n\nNB\nL\n10\n5\n50\n\n\n\n\n\n\n\n\nT\n375\n1\n375\n433\n1\n433\n-\n-\n\n\n\nR\n6\n4.70\n8\n\n\n\n\n\n\n\nSB\nL\n10\n1.32\n47\n\n\n\n\n\n\n\n\nT\n400\n1\n400\n454\n1\n454\n-\n-\n\n\n\nR\n5\n1.32\n7"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 2:Conversion of Volumes to tvu",
+    "text": "STEP 2:Conversion of Volumes to tvu"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 3: Determine Critical-Lane Volumes",
+    "text": "STEP 3: Determine Critical-Lane Volumes"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 3: Determine Critical-Lane Volumes",
+    "text": "STEP 3: Determine Critical-Lane Volumes"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
+    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red\n\n\\(y_{phase} = t + \\frac{1.47 \\times S_{85}}{2 \\times (a + 32.2 G)}\\)\n\\(y_A = 1 + \\frac{1.47 \\times 35}{2 \\times (10 + 32.2 \\times 0)}\\)\n\\(y_A = 3.6\\) sec\n\\(y_B = 1 + \\frac{1.47 \\times 35}{2 \\times (10 + 32.2 \\times 0)}\\)\n\\(y_B = 3.6\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
+    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red\n\n\\(ar_{phase} = \\frac{P+L}{1.47 \\times S_{15}}\\)\n\\(ar_{A} = \\frac{42+20}{1.47 \\times 25}\\)\n\\(ar_{A} = 1.7\\) sec\n\\(ar_{B} = \\frac{42+20}{1.47 \\times 25}\\)\n\\(ar_{B} = 1.7\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
+    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 5: Determination of Lost Times",
+    "text": "STEP 5: Determination of Lost Times\n\n\nPhase A\n\n\\(l_{1A} = 2\\) sec\n\\(e = 2\\) sec\n\\(l_2 = y_{phase} + ar_{phase} - e\\)\n\\(l_{2A} = 3.6 + 1.7 - 2 = 3.3\\) sec\n\\(t_{LA} = l_{2A} + l_{2B} = 2+3.3 = 5.3\\) sec\n\n\nPhase B\n\n\\(l_{1B} = 2\\) sec\n\\(e = 2\\) sec\n\\(l_2 = y_{phase} + ar_{phase} - e\\)\n\\(l_{2B} = 3.6 + 1.7 - 2 = 3.3\\) sec\n\\(t_{LB} = l_{2A} + l_{2B} = 2+3.3 = 5.3\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 5: Determination of Lost Times",
+    "text": "STEP 5: Determination of Lost Times\n\nTotal lost time per cycle\n\\(L = t_{LA} + t_{LB}\\)\n\\(L = 5.3 + 5.3\\)\n\\(L = 10.6\\)"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 5: Determination of Lost Times",
+    "text": "STEP 5: Determination of Lost Times"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 6: Determine the Desirable Cycle Length",
+    "text": "STEP 6: Determine the Desirable Cycle Length\n\n\\(C_{des} = \\frac{L}{1- [\\frac{V_c}{1700 \\times PHF \\times (v/c)}]}\\)\n\\(C_{des} = \\frac{10.6}{1- [\\frac{924}{1700 \\times 0.92 \\times (0.90)}]}\\)\n\\(C_{des} = 30.8\\)\n\\(C_{des} = 35\\) sec [upper to 35 or 40 sec]"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 6: Determine the Desirable Cycle Length",
+    "text": "STEP 6: Determine the Desirable Cycle Length"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 7:Allocate Effective Green to Each Phase",
+    "text": "STEP 7:Allocate Effective Green to Each Phase\nEffective green time/phase, \\[g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\]\n\n\nPhase A\n\n\\(g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{A} = (35 - 10.6) (\\frac{470}{924})\\)\n\\(g_{A} = 12.4\\) sec\n\n\nPhase B\n\n\\(g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{B} = (35 - 10.6) (\\frac{454}{924})\\)\n\\(g_{B} = 12.0\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 7:Allocate Effective Green to Each Phase",
+    "text": "STEP 7:Allocate Effective Green to Each Phase\nActual green time/phase, \\[G_{phase} = g_{phase} + l_{1-phase}-e\\]\n\n\nPhase A\n\n\\(G_{A} = g_{A} + l_{1-A}-e\\)\n\\(G_{A} = 12.4+2-2\\)\n\\(G_{A} = 12.4\\) sec\n\n\nPhase B\n\n\\(G_{B} = g_{B} + l_{1-A}-e\\)\n\\(G_{B} = 12.0+2-2\\)\n\\(G_{B} = 12.0\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 7:Allocate Effective Green to Each Phase",
+    "text": "STEP 7:Allocate Effective Green to Each Phase"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 8: Check Pedestrian Requirements",
+    "text": "STEP 8: Check Pedestrian Requirements\nminimum pedestrian green requirement, \\(G_{p} = PW_{min} + PC\\)\n\n\n\n\\(PW_{min}\\) = Table 19.6 for “typical” ped\n\\(PW_{min} = 7\\) sec\n\n\n\n\\(PC = \\frac{L}{S_p}\\)\n\\(PC = \\frac{30}{3.5}\\)\n\\(PC = 8.6\\) sec\n\n\neach phase must accommodate a minimum pedestrian time of 7+ 8.6 = 15.6 sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 8: Check Pedestrian Requirements",
+    "text": "STEP 8: Check Pedestrian Requirements\n\n\n\nphase\n\\(G\\)\n\\(y\\)\n\\(ar\\)\n\\(G_p^1\\)\n\\(G_p^2\\)\n\\(G_p^3\\)\n\n\n\n\nA\n12.4\n3.6\n1.7\n17.7\n16.0\n12.4\n\n\nB\n12.0\n3.6\n1.7\n17.3\n15.6\n12.0\n\n\n\n\n\\(G_p = PW_{phase} + PC\\)\nOption 1: \\(G_p^1 = PW_{phase} + PC \\le G_{phase} + y_{phase} + ar_{phase}\\)\nOption 2: \\(G_p^2 \\le G_{phase} + y_{phase}\\)\nOption 3: \\(G_p^3 \\le G_{phase}\\)"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 8: Check Pedestrian Requirements",
+    "text": "STEP 8: Check Pedestrian Requirements"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 9: Adjustment",
+    "text": "STEP 9: Adjustment\n\nFor option 3\ngreen times of both Phases A and B need to be increased to a minimum of 15.6 seconds.\nPhase B, which has the shorter green (12.0 sec), would control how much more time is needed.\nRatio \\(= \\frac{15.6}{12.0}= 1.3\\)\nIncrease cycle lenght = \\(35 \\times 1.3 = 45.5\\)sec\nCycle lenght, \\(C_{adj} = 50\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 9: Adjustment",
+    "text": "STEP 9: Adjustment\nEffective green time/phase, \\[g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\]\n\n\nPhase A\n\n\\(g_{phase} = (C_{adj} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{A} = (50 - 10.6) (\\frac{470}{924})\\)\n\\(g_{A} = 20\\) sec\n\n\nPhase B\n\n\\(g_{phase} = (C_{adj} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{B} = (35 - 10.6) (\\frac{454}{924})\\)\n\\(g_{B} = 19.4\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 9: Adjustment",
+    "text": "STEP 9: Adjustment\nminimum pedestrian green requirement, \\(G_{p} = PW_{min} + PC\\)\n\n\nPhase A\n\n\\(PW_{A} = g_A - PC\\) sec\n\\(PW_{A} = 20.0 - 8.6\\) sec\n\\(PW_{A} = 13.4\\) sec\n\n\nPhase B\n\n\\(PW_{B} = g_B - PC\\) sec\n\\(PW_{B} = 19.4 - 8.6\\) sec\n\\(PW_{B} = 12.8\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Example Problem: 19-7",
+    "text": "Example Problem: 19-7\n\n\n\nFigure 19.14"
   },
   {
     "objectID": "lecture/notes_ch19_SignalTimePretime.html",

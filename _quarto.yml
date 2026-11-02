@@ -73,11 +73,17 @@ website:
           - href: lecture/ch29_30LOS_FreewayWeavingMerging.qmd
             text: "14OCT26-Class 16: Ch. 30 LOS Analysis: Freeways: Weaving & Merging/Diverging"
           - href: lecture/class17_ch15_trafficControl.qmd
-            text: "19OCT26-Class 17: Ch. 15: Hierarchy of Intersection Control"
+            text: "19OCT26-Class 17: Ch. 15 Hierarchy of Intersection Control"
           - href: lecture/class17_ch15_trafficControl.qmd
-            text: "21OCT26-Class 18: Ch. 15: Hierarchy of Intersection Control"
+            text: "21OCT26-Class 18: Ch. 15 Hierarchy of Intersection Control"
           - href: lecture/class19_ch19_trafficSignalDgnPreTime.qmd
-            text: "26OCT26-Class 19: Ch. 19: Fundamentals of Signal Timing and Design: Pre-timed Signals"
+            text: "26OCT26-Class 19: Ch. 19 Fundamentals of Signal Timing and Design Pretimed Signals"
+          - href: lecture/class19_ch19_trafficSignalDgnPreTime.qmd
+            text: "28OCT26-Class 20: Ch. 19 Signal Timing and Design Pretimed Signals"
+          - href: lecture/class19_ch19_trafficSignalDgnPreTime.qmd
+            text: "02NOV26-Class 21: Ch. 19 Signal Timing and Design Pretimed Signals"
+
+
 
           # - href: lecture/ch4Quiz.qmd
           #   text: "Team Scorecard"
@@ -92,7 +98,11 @@ website:
           - href: lecture/ch28LOS_RuralTwo-laneHwy.qmd
             text: LOS for Rural 2-lane Highways
           - href: lecture/notes_ch19_SignalTimePretime.qmd
-            text: Pre-timed Signal Timing Design 
+            text: Signal Timing Design Pre-timed 
+          - href: lecture/notes_ch20_SignalTimeActuated.qmd
+            text: Signal Timing Desig Actuated
+            
+            
             
       - text: "Homeworks"
         menu: 
