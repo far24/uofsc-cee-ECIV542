@@ -60,12 +60,20 @@ filters:
  - $FFS_{adj} = FFS$
     - $FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$
 
+* For Multilane Hwy
+  - If field data not given, BFFS = $60$ mph
+  - If speed limit is $40$ mph or $45$ mph, $BFFS = speed\ limit + 7\ mph$
+  - If speed limit is $50$ mph or $55$ mph, $BFFS = speed\ limit + 5\ mph$
+
+---
+
 | Factor   | Multilane Hwy Table    |
 |:--------:|:----------------------:|
 |$f_{LW}$  |  Table 28.3            |
 |$f_{LC}$  |  Table 28.5            |
 |$f_{M}$   |  Table 28.6            |
 |$f_{A}$   |  Table 28.7            |
+
 
 ---
 
