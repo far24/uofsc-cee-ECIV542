@@ -4444,12 +4444,18 @@ window.Quarto = {
 </table>
 <p>Where</p>
 <ul>
-<li><span class="math inline">\(FFS\)</span> = free-flow spee of the freeway (mph)</li>
-<li><span class="math inline">\(f_{LW}\)</span> = adjustment for lane width (mph)</li>
-<li><span class="math inline">\(f_{LC}\)</span> = adjustment for right-side lateral clearance (mph)</li>
-<li><span class="math inline">\(TRD\)</span> = total ramp density (ramps / mile)</li>
-<li><span class="math inline">\(f_{M}\)</span> = adjustment for type of median (mph)</li>
-<li><span class="math inline">\(f_{A}\)</span> = adjustment for access points (mpg)</li>
+<li><p><span class="math inline">\(FFS\)</span> = free-flow spee of the freeway (mph)</p></li>
+<li><p><span class="math inline">\(f_{LW}\)</span> = adjustment for lane width (mph)</p></li>
+<li><p><span class="math inline">\(f_{LC}\)</span> = adjustment for right-side lateral clearance (mph)</p></li>
+<li><p><span class="math inline">\(TRD\)</span> = total ramp density (ramps / mile)</p></li>
+<li><p><span class="math inline">\(f_{M}\)</span> = adjustment for type of median (mph)</p></li>
+<li><p><span class="math inline">\(f_{A}\)</span> = adjustment for access points (mpg)</p></li>
+<li><p>For Multilane Hwy</p>
+<ul>
+<li>If field data not given, <span class="math inline">\(BFFS = 60\)</span> mph</li>
+<li>If speed limit is <span class="math inline">\(40\)</span> mph or <span class="math inline">\(45\)</span> mph, <span class="math inline">\(BFFS = speed\ limit + 7\ mph\)</span></li>
+<li>If speed limit is <span class="math inline">\(50\)</span> mph or <span class="math inline">\(55\)</span> mph, <span class="math inline">\(BFFS = speed\ limit + 5\ mph\)</span></li>
+</ul></li>
 </ul>
 <table class="caption-top table">
 <thead>

@@ -52,13 +52,10 @@ filters:
 
 * For Multilane Hwy
   - $BP = 1,400\ pc/h/ln$
+  - $FFS_{adj} = FFS$
+    - $FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$
 
 --- 
-
-
-* For Multilane Hwy
- - $FFS_{adj} = FFS$
-    - $FFS = BFFS - f_{LW} - f_{LC} - f_{M} - f_{A}$
 
 * For Multilane Hwy
   - If field data not given, BFFS = $60$ mph

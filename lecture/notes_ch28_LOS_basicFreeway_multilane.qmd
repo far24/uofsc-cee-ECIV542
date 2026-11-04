@@ -111,6 +111,12 @@ Where
 * $f_{M}$ = adjustment for type of median (mph) 
 * $f_{A}$ = adjustment for access points (mpg) 
 
+* For Multilane Hwy
+  - If field data not given, $BFFS = 60$ mph
+  - If speed limit is $40$ mph or $45$ mph, $BFFS = speed\ limit + 7\ mph$
+  - If speed limit is $50$ mph or $55$ mph, $BFFS = speed\ limit + 5\ mph$
+
+
 | Factor   | Freeways Table | Multilane Hwy Table    |
 |:---------|:--------------:|:----------------------:|
 |$f_{LW}$  |  Table 28.3    |  Table 28.3            |
