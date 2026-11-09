@@ -81,8 +81,9 @@ website:
           - href: lecture/class19_ch19_trafficSignalDgnPreTime.qmd
             text: "28OCT26-Class 20: Ch. 19 Signal Timing and Design Pretimed Signals"
           - href: lecture/class19_ch19_trafficSignalDgnPreTime.qmd
-            text: "02NOV26-Class 21: Ch. 19 Signal Timing and Design Pretimed Signals"
-
+            text: "02NOV26 & 04NOV26-Class 21 & 22: Ch. 19 Signal Timing and Design Pretimed Signals"
+          - href: lecture/class23_ch20_trafficSignalDgnActuated.qmd
+            text: "09NOV26-Class 23: Ch. 20 Signal Timing and Design Actuated Signals"
 
 
           # - href: lecture/ch4Quiz.qmd
