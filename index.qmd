@@ -20,14 +20,14 @@ about:
 
 ### Due Dates
 
-|       Due Date       |   Type  |     Desc    |       Ref         |
-|:--------------------:|:-------:|:-----------:|:-----------------:|
-| Sep 09, 2026 11:59PM | HW      | HW #1       | ☑ Grade Posted    |
-| Sep 23, 2026 11:59PM | Project | Tech Memo 1 | ☐ See Blackboard |
-| Oct 05, 2026 11:59PM | HW      | HW #2       | ☐ See Blacboard  |
-| Oct 12, 2026         | Exam    | Exam #1     | ☐ In-class       |
-| Oct 26, 2026 11:59PM | Project | Tech Memo 2 | ☐ See Blackboard |
-| Dec 11, 2026 07:30PM | Exam    | Exam #2     | ☐ In-class       |
+|       Due Date       |   Type           |     Desc    |       Ref          |
+|----------------------|------------------|-------------|--------------------|
+| Sep 09, 2026 11:59PM | HW               | HW #1       | ☑ Grade Posted    |
+| Sep 23, 2026 11:59PM | Project          | Tech Memo 1 | ☐ See Blackboard  |
+| Oct 05, 2026 11:59PM | HW               | HW #2       | ☐ See Blacboard   |
+| Oct 12, 2026         | Exam/Midterm     | Exam #1     | ☐ In-class        |
+| Oct 26, 2026 11:59PM | Project          | Tech Memo 2 | ☐ See Blackboard  |
+| Dec 02, 2026 11:00AM | Exam/Final       | Exam #2     | ☐ In-class        |
 
 ### Resources  
 - [HW Submisstion Template](templates/hwTemplate.pdf){.btn .btn-success download="hwTemplate.pdf"}
