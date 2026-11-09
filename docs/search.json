@@ -1618,200 +1618,18 @@
     "text": "Class 01: Aug 19, 2026"
   },
   {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#fundamentals-of-signal-timing-and-design-pre-timed-signals",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#fundamentals-of-signal-timing-and-design-pre-timed-signals",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "Fundamentals of Signal Timing and Design: Pre-timed Signals",
-    "text": "Fundamentals of Signal Timing and Design: Pre-timed Signals\n\nSignal Timing and Pre-timed Signals Design\nSaturation Flow Calculation"
+    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#fundamentals-of-signal-timing-and-design-actuated-signals",
+    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#fundamentals-of-signal-timing-and-design-actuated-signals",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Fundamentals of Signal Timing and Design: Actuated Signals",
+    "text": "Fundamentals of Signal Timing and Design: Actuated Signals\n\nSignal Timing and Pre-timed Signals Design"
   },
   {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#example-problem-19-7",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#example-problem-19-7",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "Example Problem: 19-7",
-    "text": "Example Problem: 19-7\n\nFigure 19.14"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 1",
-    "text": "STEP 1\nSTEP 1A: Left turn treatment\n\n\n\nApproach\nMovement\nvolume (veh/h)\n&lt;200 veh/h?\nMet?\n\n\n\n\nEB\nLT\n10\nyes\nNOT MET\n\n\nWB\nLT\n12\nyes\nNOT MET\n\n\nNB\nLT\n10\nyes\nNOT MET\n\n\nSB\nLT\n10\nyes\nNOT MET"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 1",
-    "text": "STEP 1\nSTEP 1A: Left turn treatment\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproach\nMovement\nvolume (veh/h)\nOpposing Vol\nOpposing lane\nOpposing vol/lane\n&lt;50,000?\nMet?\n\n\n\n\nEB\nLT\n10\n315\n1\n315\nyes\nNOT MET\n\n\nWB\nLT\n12\n420\n1\n420\nyes\nNOT MET\n\n\nNB\nLT\n10\n400\n1\n400\nyes\nNOT MET\n\n\nSB\nLT\n10\n375\n1\n375\nyes\nNOT MET"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1-phase-plan",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1-phase-plan",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 1: Phase Plan",
-    "text": "STEP 1: Phase Plan"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1-phase-plan-ring-diagram",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-1-phase-plan-ring-diagram",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 1: Phase Plan/ Ring Diagram",
-    "text": "STEP 1: Phase Plan/ Ring Diagram"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-2conversion-of-volumes-to-tvu",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-2conversion-of-volumes-to-tvu",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 2:Conversion of Volumes to tvu",
-    "text": "STEP 2:Conversion of Volumes to tvu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproach\nMvmt\nV (veh/h)\nEquiv.\nV (tvu/h)\nV-LG\nN - LG\nV/N - LG\ns\nv/s\n\n\n\n\nEB\nL\n10\n3.90\n39\n\n\n\n\n\n\n\n\nT\n420\n1\n420\n470\n1\n470\n-\n-\n\n\n\nR\n8\n1.32\n11\n\n\n\n\n\n\n\nWB\nL\n12\n5.50\n66\n\n\n\n\n\n\n\n\nT\n315\n1\n315\n397\n1\n397\n-\n-\n\n\n\nR\n12\n1.32\n16\n\n\n\n\n\n\n\nNB\nL\n10\n5\n50\n\n\n\n\n\n\n\n\nT\n375\n1\n375\n433\n1\n433\n-\n-\n\n\n\nR\n6\n4.70\n8\n\n\n\n\n\n\n\nSB\nL\n10\n1.32\n47\n\n\n\n\n\n\n\n\nT\n400\n1\n400\n454\n1\n454\n-\n-\n\n\n\nR\n5\n1.32\n7"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-2conversion-of-volumes-to-tvu-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-2conversion-of-volumes-to-tvu-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 2:Conversion of Volumes to tvu",
-    "text": "STEP 2:Conversion of Volumes to tvu"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-3-determine-critical-lane-volumes",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-3-determine-critical-lane-volumes",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 3: Determine Critical-Lane Volumes",
-    "text": "STEP 3: Determine Critical-Lane Volumes"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-3-determine-critical-lane-volumes-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-3-determine-critical-lane-volumes-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 3: Determine Critical-Lane Volumes",
-    "text": "STEP 3: Determine Critical-Lane Volumes"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
-    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red\n\n\\(y_{phase} = t + \\frac{1.47 \\times S_{85}}{2 \\times (a + 32.2 G)}\\)\n\\(y_A = 1 + \\frac{1.47 \\times 35}{2 \\times (10 + 32.2 \\times 0)}\\)\n\\(y_A = 3.6\\) sec\n\\(y_B = 1 + \\frac{1.47 \\times 35}{2 \\times (10 + 32.2 \\times 0)}\\)\n\\(y_B = 3.6\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
-    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red\n\n\\(ar_{phase} = \\frac{P+L}{1.47 \\times S_{15}}\\)\n\\(ar_{A} = \\frac{42+20}{1.47 \\times 25}\\)\n\\(ar_{A} = 1.7\\) sec\n\\(ar_{B} = \\frac{42+20}{1.47 \\times 25}\\)\n\\(ar_{B} = 1.7\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-2",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-2",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
-    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-5-determination-of-lost-times",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-5-determination-of-lost-times",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 5: Determination of Lost Times",
-    "text": "STEP 5: Determination of Lost Times\n\n\nPhase A\n\n\\(l_{1A} = 2\\) sec\n\\(e = 2\\) sec\n\\(l_2 = y_{phase} + ar_{phase} - e\\)\n\\(l_{2A} = 3.6 + 1.7 - 2 = 3.3\\) sec\n\\(t_{LA} = l_{2A} + l_{2B} = 2+3.3 = 5.3\\) sec\n\n\nPhase B\n\n\\(l_{1B} = 2\\) sec\n\\(e = 2\\) sec\n\\(l_2 = y_{phase} + ar_{phase} - e\\)\n\\(l_{2B} = 3.6 + 1.7 - 2 = 3.3\\) sec\n\\(t_{LB} = l_{2A} + l_{2B} = 2+3.3 = 5.3\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-5-determination-of-lost-times-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-5-determination-of-lost-times-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 5: Determination of Lost Times",
-    "text": "STEP 5: Determination of Lost Times\n\nTotal lost time per cycle\n\\(L = t_{LA} + t_{LB}\\)\n\\(L = 5.3 + 5.3\\)\n\\(L = 10.6\\)"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-5-determination-of-lost-times-2",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-5-determination-of-lost-times-2",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 5: Determination of Lost Times",
-    "text": "STEP 5: Determination of Lost Times"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-6-determine-the-desirable-cycle-length",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-6-determine-the-desirable-cycle-length",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 6: Determine the Desirable Cycle Length",
-    "text": "STEP 6: Determine the Desirable Cycle Length\n\n\\(C_{des} = \\frac{L}{1- [\\frac{V_c}{1700 \\times PHF \\times (v/c)}]}\\)\n\\(C_{des} = \\frac{10.6}{1- [\\frac{924}{1700 \\times 0.92 \\times (0.90)}]}\\)\n\\(C_{des} = 30.8\\)\n\\(C_{des} = 35\\) sec [upper to 35 or 40 sec]"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-6-determine-the-desirable-cycle-length-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-6-determine-the-desirable-cycle-length-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 6: Determine the Desirable Cycle Length",
-    "text": "STEP 6: Determine the Desirable Cycle Length"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-7allocate-effective-green-to-each-phase",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-7allocate-effective-green-to-each-phase",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 7:Allocate Effective Green to Each Phase",
-    "text": "STEP 7:Allocate Effective Green to Each Phase\nEffective green time/phase, \\[g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\]\n\n\nPhase A\n\n\\(g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{A} = (35 - 10.6) (\\frac{470}{924})\\)\n\\(g_{A} = 12.4\\) sec\n\n\nPhase B\n\n\\(g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{B} = (35 - 10.6) (\\frac{454}{924})\\)\n\\(g_{B} = 12.0\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-7allocate-effective-green-to-each-phase-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-7allocate-effective-green-to-each-phase-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 7:Allocate Effective Green to Each Phase",
-    "text": "STEP 7:Allocate Effective Green to Each Phase\nActual green time/phase, \\[G_{phase} = g_{phase} + l_{1-phase}-e\\]\n\n\nPhase A\n\n\\(G_{A} = g_{A} + l_{1-A}-e\\)\n\\(G_{A} = 12.4+2-2\\)\n\\(G_{A} = 12.4\\) sec\n\n\nPhase B\n\n\\(G_{B} = g_{B} + l_{1-A}-e\\)\n\\(G_{B} = 12.0+2-2\\)\n\\(G_{B} = 12.0\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-7allocate-effective-green-to-each-phase-2",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-7allocate-effective-green-to-each-phase-2",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 7:Allocate Effective Green to Each Phase",
-    "text": "STEP 7:Allocate Effective Green to Each Phase"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-8-check-pedestrian-requirements",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-8-check-pedestrian-requirements",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 8: Check Pedestrian Requirements",
-    "text": "STEP 8: Check Pedestrian Requirements\nminimum pedestrian green requirement, \\(G_{p} = PW_{min} + PC\\)\n\n\n\n\\(PW_{min}\\) = Table 19.6 for “typical” ped\n\\(PW_{min} = 7\\) sec\n\n\n\n\\(PC = \\frac{L}{S_p}\\)\n\\(PC = \\frac{30}{3.5}\\)\n\\(PC = 8.6\\) sec\n\n\neach phase must accommodate a minimum pedestrian time of 7+ 8.6 = 15.6 sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-8-check-pedestrian-requirements-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-8-check-pedestrian-requirements-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 8: Check Pedestrian Requirements",
-    "text": "STEP 8: Check Pedestrian Requirements\n\n\n\nphase\n\\(G\\)\n\\(y\\)\n\\(ar\\)\n\\(G_p^1\\)\n\\(G_p^2\\)\n\\(G_p^3\\)\n\n\n\n\nA\n12.4\n3.6\n1.7\n17.7\n16.0\n12.4\n\n\nB\n12.0\n3.6\n1.7\n17.3\n15.6\n12.0\n\n\n\n\n\\(G_p = PW_{phase} + PC\\)\nOption 1: \\(G_p^1 = PW_{phase} + PC \\le G_{phase} + y_{phase} + ar_{phase}\\)\nOption 2: \\(G_p^2 \\le G_{phase} + y_{phase}\\)\nOption 3: \\(G_p^3 \\le G_{phase}\\)"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-8-check-pedestrian-requirements-2",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-8-check-pedestrian-requirements-2",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 8: Check Pedestrian Requirements",
-    "text": "STEP 8: Check Pedestrian Requirements"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-9-adjustment",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-9-adjustment",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 9: Adjustment",
-    "text": "STEP 9: Adjustment\n\nFor option 3\ngreen times of both Phases A and B need to be increased to a minimum of 15.6 seconds.\nPhase B, which has the shorter green (12.0 sec), would control how much more time is needed.\nRatio \\(= \\frac{15.6}{12.0}= 1.3\\)\nIncrease cycle lenght = \\(35 \\times 1.3 = 45.5\\)sec\nCycle lenght, \\(C_{adj} = 50\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-9-adjustment-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-9-adjustment-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 9: Adjustment",
-    "text": "STEP 9: Adjustment\nEffective green time/phase, \\[g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\]\n\n\nPhase A\n\n\\(g_{phase} = (C_{adj} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{A} = (50 - 10.6) (\\frac{470}{924})\\)\n\\(g_{A} = 20\\) sec\n\n\nPhase B\n\n\\(g_{phase} = (C_{adj} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{B} = (35 - 10.6) (\\frac{454}{924})\\)\n\\(g_{B} = 19.4\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-9-adjustment-2",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#step-9-adjustment-2",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "STEP 9: Adjustment",
-    "text": "STEP 9: Adjustment\nminimum pedestrian green requirement, \\(G_{p} = PW_{min} + PC\\)\n\n\nPhase A\n\n\\(PW_{A} = g_A - PC\\) sec\n\\(PW_{A} = 20.0 - 8.6\\) sec\n\\(PW_{A} = 13.4\\) sec\n\n\nPhase B\n\n\\(PW_{B} = g_B - PC\\) sec\n\\(PW_{B} = 19.4 - 8.6\\) sec\n\\(PW_{B} = 12.8\\) sec"
-  },
-  {
-    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#example-problem-19-7-1",
-    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#example-problem-19-7-1",
-    "title": "Signal Timing Design: Pre-timed",
-    "section": "Example Problem: 19-7",
-    "text": "Example Problem: 19-7\n\n\n\nFigure 19.14"
+    "objectID": "lecture/class23_ch20_trafficSignalDgnActuated.html#actuated-signals-cycle",
+    "href": "lecture/class23_ch20_trafficSignalDgnActuated.html#actuated-signals-cycle",
+    "title": "Signal Timing Design: Actuated",
+    "section": "Actuated Signals: Cycle",
+    "text": "Actuated Signals: Cycle"
   },
   {
     "objectID": "index.html",
@@ -2609,18 +2427,221 @@
     "text": "STEP 5. Determine the speed\n\n\n\\(M_S = 0.383\\)\n\n\\(S_R = 56.2\\) mph\n\\(S_o = 60.2\\) mph\n\\(S = 57.2\\) mph"
   },
   {
-    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#fundamentals-of-signal-timing-and-design-actuated-signals",
-    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#fundamentals-of-signal-timing-and-design-actuated-signals",
-    "title": "Signal Timing Design: Actuated",
-    "section": "Fundamentals of Signal Timing and Design: Actuated Signals",
-    "text": "Fundamentals of Signal Timing and Design: Actuated Signals\n\nSignal Timing and Pre-timed Signals Design"
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#fundamentals-of-signal-timing-and-design-pre-timed-signals",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#fundamentals-of-signal-timing-and-design-pre-timed-signals",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Fundamentals of Signal Timing and Design: Pre-timed Signals",
+    "text": "Fundamentals of Signal Timing and Design: Pre-timed Signals\n\nSignal Timing and Pre-timed Signals Design\nSaturation Flow Calculation"
   },
   {
-    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#actuated-signals-cycle",
-    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#actuated-signals-cycle",
-    "title": "Signal Timing Design: Actuated",
-    "section": "Actuated Signals: Cycle",
-    "text": "Actuated Signals: Cycle"
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Example Problem: 19-7",
+    "text": "Example Problem: 19-7\n\nFigure 19.14"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1",
+    "text": "STEP 1\nSTEP 1A: Left turn treatment\n\n\n\nApproach\nMovement\nvolume (veh/h)\n&lt;200 veh/h?\nMet?\n\n\n\n\nEB\nLT\n10\nyes\nNOT MET\n\n\nWB\nLT\n12\nyes\nNOT MET\n\n\nNB\nLT\n10\nyes\nNOT MET\n\n\nSB\nLT\n10\nyes\nNOT MET"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1",
+    "text": "STEP 1\nSTEP 1A: Left turn treatment\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproach\nMovement\nvolume (veh/h)\nOpposing Vol\nOpposing lane\nOpposing vol/lane\n&lt;50,000?\nMet?\n\n\n\n\nEB\nLT\n10\n315\n1\n315\nyes\nNOT MET\n\n\nWB\nLT\n12\n420\n1\n420\nyes\nNOT MET\n\n\nNB\nLT\n10\n400\n1\n400\nyes\nNOT MET\n\n\nSB\nLT\n10\n375\n1\n375\nyes\nNOT MET"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1: Phase Plan",
+    "text": "STEP 1: Phase Plan"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan-ring-diagram",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-1-phase-plan-ring-diagram",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 1: Phase Plan/ Ring Diagram",
+    "text": "STEP 1: Phase Plan/ Ring Diagram"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 2:Conversion of Volumes to tvu",
+    "text": "STEP 2:Conversion of Volumes to tvu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApproach\nMvmt\nV (veh/h)\nEquiv.\nV (tvu/h)\nV-LG\nN - LG\nV/N - LG\ns\nv/s\n\n\n\n\nEB\nL\n10\n3.90\n39\n\n\n\n\n\n\n\n\nT\n420\n1\n420\n470\n1\n470\n-\n-\n\n\n\nR\n8\n1.32\n11\n\n\n\n\n\n\n\nWB\nL\n12\n5.50\n66\n\n\n\n\n\n\n\n\nT\n315\n1\n315\n397\n1\n397\n-\n-\n\n\n\nR\n12\n1.32\n16\n\n\n\n\n\n\n\nNB\nL\n10\n5\n50\n\n\n\n\n\n\n\n\nT\n375\n1\n375\n433\n1\n433\n-\n-\n\n\n\nR\n6\n4.70\n8\n\n\n\n\n\n\n\nSB\nL\n10\n1.32\n47\n\n\n\n\n\n\n\n\nT\n400\n1\n400\n454\n1\n454\n-\n-\n\n\n\nR\n5\n1.32\n7"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-2conversion-of-volumes-to-tvu-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 2:Conversion of Volumes to tvu",
+    "text": "STEP 2:Conversion of Volumes to tvu"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 3: Determine Critical-Lane Volumes",
+    "text": "STEP 3: Determine Critical-Lane Volumes"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-3-determine-critical-lane-volumes-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 3: Determine Critical-Lane Volumes",
+    "text": "STEP 3: Determine Critical-Lane Volumes"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
+    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red\n\n\\(y_{phase} = t + \\frac{1.47 \\times S_{85}}{2 \\times (a + 32.2 G)}\\)\n\\(y_A = 1 + \\frac{1.47 \\times 35}{2 \\times (10 + 32.2 \\times 0)}\\)\n\\(y_A = 3.6\\) sec\n\\(y_B = 1 + \\frac{1.47 \\times 35}{2 \\times (10 + 32.2 \\times 0)}\\)\n\\(y_B = 3.6\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
+    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red\n\n\\(ar_{phase} = \\frac{P+L}{1.47 \\times S_{15}}\\)\n\\(ar_{A} = \\frac{42+20}{1.47 \\times 25}\\)\n\\(ar_{A} = 1.7\\) sec\n\\(ar_{B} = \\frac{42+20}{1.47 \\times 25}\\)\n\\(ar_{B} = 1.7\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-4-determine-yellow-and-all-red-intervals-yellow-and-all-red-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red",
+    "text": "STEP 4: Determine Yellow and All-Red Intervals Yellow and all-red"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 5: Determination of Lost Times",
+    "text": "STEP 5: Determination of Lost Times\n\n\nPhase A\n\n\\(l_{1A} = 2\\) sec\n\\(e = 2\\) sec\n\\(l_2 = y_{phase} + ar_{phase} - e\\)\n\\(l_{2A} = 3.6 + 1.7 - 2 = 3.3\\) sec\n\\(t_{LA} = l_{2A} + l_{2B} = 2+3.3 = 5.3\\) sec\n\n\nPhase B\n\n\\(l_{1B} = 2\\) sec\n\\(e = 2\\) sec\n\\(l_2 = y_{phase} + ar_{phase} - e\\)\n\\(l_{2B} = 3.6 + 1.7 - 2 = 3.3\\) sec\n\\(t_{LB} = l_{2A} + l_{2B} = 2+3.3 = 5.3\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 5: Determination of Lost Times",
+    "text": "STEP 5: Determination of Lost Times\n\nTotal lost time per cycle\n\\(L = t_{LA} + t_{LB}\\)\n\\(L = 5.3 + 5.3\\)\n\\(L = 10.6\\)"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-5-determination-of-lost-times-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 5: Determination of Lost Times",
+    "text": "STEP 5: Determination of Lost Times"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 6: Determine the Desirable Cycle Length",
+    "text": "STEP 6: Determine the Desirable Cycle Length\n\n\\(C_{des} = \\frac{L}{1- [\\frac{V_c}{1700 \\times PHF \\times (v/c)}]}\\)\n\\(C_{des} = \\frac{10.6}{1- [\\frac{924}{1700 \\times 0.92 \\times (0.90)}]}\\)\n\\(C_{des} = 30.8\\)\n\\(C_{des} = 35\\) sec [upper to 35 or 40 sec]"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-6-determine-the-desirable-cycle-length-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 6: Determine the Desirable Cycle Length",
+    "text": "STEP 6: Determine the Desirable Cycle Length"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 7:Allocate Effective Green to Each Phase",
+    "text": "STEP 7:Allocate Effective Green to Each Phase\nEffective green time/phase, \\[g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\]\n\n\nPhase A\n\n\\(g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{A} = (35 - 10.6) (\\frac{470}{924})\\)\n\\(g_{A} = 12.4\\) sec\n\n\nPhase B\n\n\\(g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{B} = (35 - 10.6) (\\frac{454}{924})\\)\n\\(g_{B} = 12.0\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 7:Allocate Effective Green to Each Phase",
+    "text": "STEP 7:Allocate Effective Green to Each Phase\nActual green time/phase, \\[G_{phase} = g_{phase} + l_{1-phase}-e\\]\n\n\nPhase A\n\n\\(G_{A} = g_{A} + l_{1-A}-e\\)\n\\(G_{A} = 12.4+2-2\\)\n\\(G_{A} = 12.4\\) sec\n\n\nPhase B\n\n\\(G_{B} = g_{B} + l_{1-A}-e\\)\n\\(G_{B} = 12.0+2-2\\)\n\\(G_{B} = 12.0\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-7allocate-effective-green-to-each-phase-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 7:Allocate Effective Green to Each Phase",
+    "text": "STEP 7:Allocate Effective Green to Each Phase"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 8: Check Pedestrian Requirements",
+    "text": "STEP 8: Check Pedestrian Requirements\nminimum pedestrian green requirement, \\(G_{p} = PW_{min} + PC\\)\n\n\n\n\\(PW_{min}\\) = Table 19.6 for “typical” ped\n\\(PW_{min} = 7\\) sec\n\n\n\n\\(PC = \\frac{L}{S_p}\\)\n\\(PC = \\frac{30}{3.5}\\)\n\\(PC = 8.6\\) sec\n\n\neach phase must accommodate a minimum pedestrian time of 7+ 8.6 = 15.6 sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 8: Check Pedestrian Requirements",
+    "text": "STEP 8: Check Pedestrian Requirements\n\n\n\nphase\n\\(G\\)\n\\(y\\)\n\\(ar\\)\n\\(G_p^1\\)\n\\(G_p^2\\)\n\\(G_p^3\\)\n\n\n\n\nA\n12.4\n3.6\n1.7\n17.7\n16.0\n12.4\n\n\nB\n12.0\n3.6\n1.7\n17.3\n15.6\n12.0\n\n\n\n\n\\(G_p = PW_{phase} + PC\\)\nOption 1: \\(G_p^1 = PW_{phase} + PC \\le G_{phase} + y_{phase} + ar_{phase}\\)\nOption 2: \\(G_p^2 \\le G_{phase} + y_{phase}\\)\nOption 3: \\(G_p^3 \\le G_{phase}\\)"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-8-check-pedestrian-requirements-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 8: Check Pedestrian Requirements",
+    "text": "STEP 8: Check Pedestrian Requirements"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 9: Adjustment",
+    "text": "STEP 9: Adjustment\n\nFor option 3\ngreen times of both Phases A and B need to be increased to a minimum of 15.6 seconds.\nPhase B, which has the shorter green (12.0 sec), would control how much more time is needed.\nRatio \\(= \\frac{15.6}{12.0}= 1.3\\)\nIncrease cycle lenght = \\(35 \\times 1.3 = 45.5\\)sec\nCycle lenght, \\(C_{adj} = 50\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 9: Adjustment",
+    "text": "STEP 9: Adjustment\nEffective green time/phase, \\[g_{phase} = (C_{des} - L) (\\frac{V_{c-phase}}{V_c})\\]\n\n\nPhase A\n\n\\(g_{phase} = (C_{adj} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{A} = (50 - 10.6) (\\frac{470}{924})\\)\n\\(g_{A} = 20\\) sec\n\n\nPhase B\n\n\\(g_{phase} = (C_{adj} - L) (\\frac{V_{c-phase}}{V_c})\\)\n\\(g_{B} = (35 - 10.6) (\\frac{454}{924})\\)\n\\(g_{B} = 19.4\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-2",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#step-9-adjustment-2",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "STEP 9: Adjustment",
+    "text": "STEP 9: Adjustment\nminimum pedestrian green requirement, \\(G_{p} = PW_{min} + PC\\)\n\n\nPhase A\n\n\\(PW_{A} = g_A - PC\\) sec\n\\(PW_{A} = 20.0 - 8.6\\) sec\n\\(PW_{A} = 13.4\\) sec\n\n\nPhase B\n\n\\(PW_{B} = g_B - PC\\) sec\n\\(PW_{B} = 19.4 - 8.6\\) sec\n\\(PW_{B} = 12.8\\) sec"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-7-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Example Problem: 19-7",
+    "text": "Example Problem: 19-7\n\nFigure 19.14"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-9",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-9",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Example Problem: 19-9",
+    "text": "Example Problem: 19-9\n\nFigure 19.14"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-9-1",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-9-1",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Example Problem: 19-9",
+    "text": "Example Problem: 19-9\nOVERLAPPING\n\nFigure 19.14"
+  },
+  {
+    "objectID": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-9-phase",
+    "href": "lecture/class19_ch19_trafficSignalDgnPreTime.html#example-problem-19-9-phase",
+    "title": "Signal Timing Design: Pre-timed",
+    "section": "Example Problem: 19-9 | PHASE",
+    "text": "Example Problem: 19-9 | PHASE\n\n\nNON-OVERLAPPING\n\n\n\nFigure 19.14\n\n\n\nOVERLAPPING\n\n\n\nFigure 19.14"
   },
   {
     "objectID": "lecture/notes_ch19_SignalTimePretime.html",
