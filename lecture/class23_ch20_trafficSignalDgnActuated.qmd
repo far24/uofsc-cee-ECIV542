@@ -27,3 +27,44 @@ filters:
 ## Actuated Signals: Cycle
 
 ![](images/chap20/actuatedExample.gif)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide1.PNG)
+
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide2.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide3.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide4.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide5.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide6.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide7.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide8.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide9.PNG)
+
+## Actuated Signals: Sample Problem
+
+![](images/chap20/Slide10.PNG)

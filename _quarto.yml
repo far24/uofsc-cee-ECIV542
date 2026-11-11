@@ -84,6 +84,10 @@ website:
             text: "02NOV26 & 04NOV26-Class 21 & 22: Ch. 19 Signal Timing and Design Pretimed Signals"
           - href: lecture/class23_ch20_trafficSignalDgnActuated.qmd
             text: "09NOV26-Class 23: Ch. 20 Signal Timing and Design Actuated Signals"
+          - href: lecture/class24_ch21_signalCoord.qmd
+            text: "11NOV26-Class 24: Ch. 21 Signal Corrdination for Arterials and Networks"
+
+
 
 
           # - href: lecture/ch4Quiz.qmd
